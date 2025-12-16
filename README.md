@@ -21,10 +21,11 @@
 
 This repository contains the code and data for the paper `Vision Language Models Are Blind`.
 
-    @article{vlms2024blind,
+    @inproceedings{rahmanzadehgervi2024vision,
       title={Vision language models are blind},
       author={Rahmanzadehgervi, Pooyan and Bolton, Logan and Taesiri, Mohammad Reza and Nguyen, Anh Totti},
-      journal={arXiv preprint arXiv:2407.06581},
+      booktitle={Proceedings of the Asian Conference on Computer Vision},
+      pages={18--34},
       year={2024}
     }
 
