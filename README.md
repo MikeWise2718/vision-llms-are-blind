@@ -21,6 +21,8 @@
 
 Code and data for the paper `Vision Language Models Are Blind`. 🌟 **Oral** presentation 🌟 at ACCV 2024 [slides](https://docs.google.com/presentation/d/1t3EgK-fdLKs6m6n7ix7YBCLJmBkSr30Iv0DlszDQCdM/edit?usp=sharing).
 
+_(our journal ver. [here](https://arxiv.org/abs/2407.06581) attempts to explain the phenomenon)_
+
     @inproceedings{rahmanzadehgervi2024vision,
       title={Vision language models are blind},
       author={Rahmanzadehgervi, Pooyan and Bolton, Logan and Taesiri, Mohammad Reza and Nguyen, Anh Totti},
