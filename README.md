@@ -19,7 +19,7 @@
     
 </div>
 
-This repository contains the code and data for the paper `Vision Language Models Are Blind`.
+Code and data for the paper `Vision Language Models Are Blind`. 🌟 **Oral** presentation 🌟 at ACCV 2024 [slides](https://docs.google.com/presentation/d/1t3EgK-fdLKs6m6n7ix7YBCLJmBkSr30Iv0DlszDQCdM/edit?usp=sharing).
 
     @inproceedings{rahmanzadehgervi2024vision,
       title={Vision language models are blind},
