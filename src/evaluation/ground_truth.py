@@ -3,8 +3,14 @@
 import os
 import re
 from dataclasses import dataclass
+from itertools import combinations
 
 from .config import IMAGES_BASE, TASKS
+
+
+EVAL_DIR = os.path.dirname(os.path.abspath(__file__))
+
+STATION_PAIRS = list(combinations("ABCD", 2))  # AB, AC, AD, BC, BD, CD
 
 
 @dataclass
@@ -87,6 +93,43 @@ def _parse_counting_rows_cols(filename: str) -> dict | None:
     }
 
 
+def _parse_counting_shapes(filename: str) -> dict | None:
+    """Parse: gpt_count_pixels_{px}_linewidth_{lw}_diameter_{d}_numCircles_{N}_{color}_{id}.png
+
+    Works for both circles and pentagons (both use numCircles_ key).
+    """
+    m = re.search(r"numCircles_(\d+)", filename)
+    if not m:
+        return None
+    count = int(m.group(1))
+    return {
+        "answer": str(count),
+        "metadata": {
+            "count": count,
+            "linewidth": _extract_float(filename, r"linewidth_([\d.]+)"),
+        },
+    }
+
+
+def _parse_subway_map(filename: str, station_pair: tuple[str, str]) -> dict | None:
+    """Parse: subway_s{size}_lw{thickness}_{pair}{n}_..._seed{S}.png
+
+    Extracts path count for a specific station pair.
+    """
+    pair_key = f"{''.join(station_pair)}"
+    m = re.search(rf"{pair_key}_(\d+)", filename)
+    if not m:
+        return None
+    count = int(m.group(1))
+    return {
+        "answer": str(count),
+        "metadata": {
+            "count": count,
+            "station_pair": pair_key,
+        },
+    }
+
+
 def _extract_int(s: str, pattern: str) -> int | None:
     m = re.search(pattern, s)
     return int(m.group(1)) if m else None
@@ -102,27 +145,29 @@ PARSERS = {
     "TouchingCircle": _parse_touching_circle,
     "NestedSquares": lambda f, pk: _parse_nested_squares(f),
     "CountingRowsAndColumns": lambda f, pk: _parse_counting_rows_cols(f),
+    "CountingCircles": lambda f, pk: _parse_counting_shapes(f),
+    "CountingPentagons": lambda f, pk: _parse_counting_shapes(f),
+    # SubwayMap uses a special path in build_index (no entry needed here)
 }
 
 
-def build_index(task_name: str, prompt_key: str, limit: int = 0) -> list[TestImage]:
-    """Build a list of TestImage entries for a given task and prompt variant.
-
-    Collects images from the source model's correct/ and incorrect/ folders
-    (these contain the full test set that was evaluated).
-
-    Args:
-        task_name: Name of the task (e.g. "LineIntersection")
-        prompt_key: Prompt variant key (e.g. "Count-prompt")
-        limit: Max images to return (0 = all)
-    """
-    task_cfg = TASKS[task_name]
+def _build_index_standard(task_name: str, task_cfg: dict, prompt_key: str) -> list[TestImage]:
+    """Build index for tasks with standard correct/incorrect folder layout."""
     source_model = task_cfg["source_model"]
     parser = PARSERS[task_name]
 
-    task_dir = os.path.join(IMAGES_BASE, task_name, "images", prompt_key, source_model)
-    images = []
+    # Support dir_name override (e.g. CountingPentagons -> CountingCircles dir)
+    dir_name = task_cfg.get("dir_name", task_name)
+    image_subdir = task_cfg.get("image_subdir")
 
+    if image_subdir:
+        # Layout: src/{dir_name}/images/{subdir}/{prompt_key}/{model}/...
+        task_dir = os.path.join(IMAGES_BASE, dir_name, "images", image_subdir, prompt_key, source_model)
+    else:
+        # Layout: src/{dir_name}/images/{prompt_key}/{model}/...
+        task_dir = os.path.join(IMAGES_BASE, dir_name, "images", prompt_key, source_model)
+
+    images = []
     for subfolder in ["correct", "incorrect"]:
         folder = os.path.join(task_dir, subfolder)
         if not os.path.isdir(folder):
@@ -140,6 +185,60 @@ def build_index(task_name: str, prompt_key: str, limit: int = 0) -> list[TestIma
                 ground_truth=result["answer"],
                 metadata=result["metadata"],
             ))
+    return images
+
+
+def _build_index_subway(task_cfg: dict, prompt_key: str) -> list[TestImage]:
+    """Build index for SubwayMap — generated images, one TestImage per station pair per image."""
+    image_dir = os.path.join(EVAL_DIR, task_cfg["image_dir"])
+    prompt_template = task_cfg["prompts"][prompt_key]
+
+    if not os.path.isdir(image_dir):
+        return []
+
+    images = []
+    for fname in sorted(os.listdir(image_dir)):
+        if not fname.lower().endswith((".png", ".jpg", ".jpeg")):
+            continue
+        fpath = os.path.join(image_dir, fname)
+
+        for pair in STATION_PAIRS:
+            result = _parse_subway_map(fname, pair)
+            if result is None:
+                continue
+            # Instantiate prompt template with station names
+            prompt_text = prompt_template.format(station1=pair[0], station2=pair[1])
+            images.append(TestImage(
+                task="SubwayMap",
+                prompt_key=prompt_key,
+                image_path=fpath,
+                ground_truth=result["answer"],
+                metadata={
+                    **result["metadata"],
+                    "prompt_text": prompt_text,
+                },
+            ))
+    return images
+
+
+def build_index(task_name: str, prompt_key: str, limit: int = 0) -> list[TestImage]:
+    """Build a list of TestImage entries for a given task and prompt variant.
+
+    Collects images from the source model's correct/ and incorrect/ folders
+    (these contain the full test set that was evaluated).
+    For SubwayMap, uses generated images with station pair expansion.
+
+    Args:
+        task_name: Name of the task (e.g. "LineIntersection")
+        prompt_key: Prompt variant key (e.g. "Count-prompt")
+        limit: Max images to return (0 = all)
+    """
+    task_cfg = TASKS[task_name]
+
+    if task_name == "SubwayMap":
+        images = _build_index_subway(task_cfg, prompt_key)
+    else:
+        images = _build_index_standard(task_name, task_cfg, prompt_key)
 
     if limit > 0:
         images = images[:limit]

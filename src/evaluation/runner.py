@@ -43,23 +43,31 @@ def run_task(
         return []
 
     # Load existing results for resume
-    done_paths = set()
+    # Use compound key (path + station pair) so SubwayMap images with
+    # multiple station pairs per image are tracked independently
+    def _result_key(image_path, metadata):
+        pair = metadata.get("station_pair", "")
+        return f"{image_path}::{pair}"
+
+    done_keys = set()
     existing_results = []
     if resume_from and os.path.exists(resume_from):
         with open(resume_from) as f:
             existing_results = json.load(f)
-        done_paths = {r["image_path"] for r in existing_results}
-        print(f"  Resuming: {len(done_paths)} already evaluated")
+        done_keys = {_result_key(r["image_path"], r.get("metadata", {})) for r in existing_results}
+        print(f"  Resuming: {len(done_keys)} already evaluated")
 
     results = list(existing_results)
-    remaining = [img for img in images if img.image_path not in done_paths]
+    remaining = [img for img in images if _result_key(img.image_path, img.metadata) not in done_keys]
 
     print(f"  {task_name}/{prompt_key}: {len(remaining)} images to evaluate "
-          f"({len(images)} total, {len(done_paths)} done)")
+          f"({len(images)} total, {len(done_keys)} done)")
 
     for i, img in enumerate(remaining):
+        # SubwayMap carries per-image prompts (station pair instantiated)
+        effective_prompt = img.metadata.get("prompt_text", prompt_text)
         t0 = time.monotonic()
-        response = client.query(model, prompt_text, img.image_path)
+        response = client.query(model, effective_prompt, img.image_path)
         elapsed = time.monotonic() - t0
 
         if response["error"]:

@@ -18,6 +18,10 @@ Replicate the BlindTest benchmark evaluation from the paper "Vision Language Mod
 | 8 | Add run archiving (results.json, summary, report) | Done |
 | 9 | Run more models via OpenRouter | Pending |
 | 10 | Run Ollama models | Pending |
+| 11 | Add CountingCircles task (parser + config) | Done |
+| 12 | Add CountingPentagons task (parser + config) | Done |
+| 13 | Add SubwayMap task (generator + parser + config) | Done |
+| 14 | Add CircledWord task | Blocked (missing fonts/) |
 
 ---
 

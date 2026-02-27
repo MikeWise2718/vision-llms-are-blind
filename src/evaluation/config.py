@@ -51,6 +51,35 @@ TASKS = {
         "answer_type": "rows_cols",
         "source_model": "gpt-4o",
     },
+    "CountingCircles": {
+        "prompts": {
+            "Count-prompt": "How many circles are in the image? Answer with only the number in numerical format.",
+            "HowMany-prompt": "Count the circles in the image. Answer with a number in curly brackets e.g. {3}.",
+        },
+        "answer_type": "integer",
+        "source_model": "gpt-4o",
+        "dir_name": "CountingCircles",      # actual directory under src/
+        "image_subdir": "circles",           # subfolder inside images/
+    },
+    "CountingPentagons": {
+        "prompts": {
+            "Count-prompt": "How many pentagons are in the image? Answer with only the number in numerical format.",
+            "HowMany-prompt": "Count the pentagons in the image. Answer with a number in curly brackets e.g. {3}.",
+        },
+        "answer_type": "integer",
+        "source_model": "gpt-4o",
+        "dir_name": "CountingCircles",      # shares directory with CountingCircles
+        "image_subdir": "pentagons",
+    },
+    "SubwayMap": {
+        "prompts": {
+            "Count-prompt": "How many single-colored paths go from {station1} to {station2}? Answer with a number in curly brackets, e.g., {{3}}",
+            "HowMany-prompt": "Count the one-colored routes that go from {station1} to {station2}. Answer with a number in curly brackets, e.g., {{3}}",
+        },
+        "answer_type": "integer",
+        "source_model": None,               # uses generated images, not original eval folders
+        "image_dir": "generated_images/SubwayMap",  # relative to evaluation dir
+    },
 }
 
 # Models to evaluate (Phase 1: OpenRouter)
