@@ -13,8 +13,11 @@ Replicate the BlindTest benchmark evaluation from the paper "Vision Language Mod
 | 3 | Create answer parser & scorer | Done |
 | 4 | Create results aggregator & reporter | Done |
 | 5 | Add Ollama backend | Pending |
-| 6 | Test end-to-end on a small subset | Pending |
-| 7 | Run full benchmark | Pending |
+| 6 | Test end-to-end on a small subset | Done |
+| 7 | Run benchmark (100/task, Claude 3.5 Sonnet) | Done |
+| 8 | Add run archiving (results.json, summary, report) | Done |
+| 9 | Run more models via OpenRouter | Pending |
+| 10 | Run Ollama models | Pending |
 
 ---
 
