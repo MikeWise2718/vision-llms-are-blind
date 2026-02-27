@@ -1,0 +1,1902 @@
+[
+  {
+    "task": "NestedSquares",
+    "prompt_key": "how-many-prompt",
+    "model": "anthropic/claude-3.5-sonnet",
+    "image_path": "D:\\python\\vision-llms-are-blind\\src\\NestedSquares\\images\\how-many-prompt\\gpt-4o\\correct\\nested_squares_depth_2_image_10_thickness_2.png",
+    "ground_truth": "2",
+    "raw_response": "{2} - The image shows two squares, one larger square containing a smaller square inside it.",
+    "parsed_answer": "2",
+    "correct": true,
+    "error": null,
+    "input_tokens": 1331,
+    "output_tokens": 23,
+    "tokens_used": 1354,
+    "latency_s": 2.88,
+    "metadata": {
+      "depth": 2,
+      "thickness": 2
+    }
+  },
+  {
+    "task": "NestedSquares",
+    "prompt_key": "how-many-prompt",
+    "model": "anthropic/claude-3.5-sonnet",
+    "image_path": "D:\\python\\vision-llms-are-blind\\src\\NestedSquares\\images\\how-many-prompt\\gpt-4o\\correct\\nested_squares_depth_2_image_10_thickness_3.png",
+    "ground_truth": "2",
+    "raw_response": "{2} - The image shows two squares, one larger square with a smaller square inside it.",
+    "parsed_answer": "2",
+    "correct": true,
+    "error": null,
+    "input_tokens": 1331,
+    "output_tokens": 23,
+    "tokens_used": 1354,
+    "latency_s": 3.24,
+    "metadata": {
+      "depth": 2,
+      "thickness": 3
+    }
+  },
+  {
+    "task": "NestedSquares",
+    "prompt_key": "how-many-prompt",
+    "model": "anthropic/claude-3.5-sonnet",
+    "image_path": "D:\\python\\vision-llms-are-blind\\src\\NestedSquares\\images\\how-many-prompt\\gpt-4o\\correct\\nested_squares_depth_2_image_10_thickness_4.png",
+    "ground_truth": "2",
+    "raw_response": "{3} - There are three squares in this image, with two larger squares and one smaller square nested or overlapping with each other.",
+    "parsed_answer": "3",
+    "correct": false,
+    "error": null,
+    "input_tokens": 1331,
+    "output_tokens": 31,
+    "tokens_used": 1362,
+    "latency_s": 3.0,
+    "metadata": {
+      "depth": 2,
+      "thickness": 4
+    }
+  },
+  {
+    "task": "NestedSquares",
+    "prompt_key": "how-many-prompt",
+    "model": "anthropic/claude-3.5-sonnet",
+    "image_path": "D:\\python\\vision-llms-are-blind\\src\\NestedSquares\\images\\how-many-prompt\\gpt-4o\\correct\\nested_squares_depth_2_image_1_thickness_2.png",
+    "ground_truth": "2",
+    "raw_response": "{2}",
+    "parsed_answer": "2",
+    "correct": true,
+    "error": null,
+    "input_tokens": 1331,
+    "output_tokens": 6,
+    "tokens_used": 1337,
+    "latency_s": 5.45,
+    "metadata": {
+      "depth": 2,
+      "thickness": 2
+    }
+  },
+  {
+    "task": "NestedSquares",
+    "prompt_key": "how-many-prompt",
+    "model": "anthropic/claude-3.5-sonnet",
+    "image_path": "D:\\python\\vision-llms-are-blind\\src\\NestedSquares\\images\\how-many-prompt\\gpt-4o\\correct\\nested_squares_depth_2_image_1_thickness_3.png",
+    "ground_truth": "2",
+    "raw_response": "{2}",
+    "parsed_answer": "2",
+    "correct": true,
+    "error": null,
+    "input_tokens": 1331,
+    "output_tokens": 6,
+    "tokens_used": 1337,
+    "latency_s": 5.4,
+    "metadata": {
+      "depth": 2,
+      "thickness": 3
+    }
+  },
+  {
+    "task": "NestedSquares",
+    "prompt_key": "how-many-prompt",
+    "model": "anthropic/claude-3.5-sonnet",
+    "image_path": "D:\\python\\vision-llms-are-blind\\src\\NestedSquares\\images\\how-many-prompt\\gpt-4o\\correct\\nested_squares_depth_2_image_2_thickness_2.png",
+    "ground_truth": "2",
+    "raw_response": "{2}",
+    "parsed_answer": "2",
+    "correct": true,
+    "error": null,
+    "input_tokens": 1331,
+    "output_tokens": 6,
+    "tokens_used": 1337,
+    "latency_s": 3.77,
+    "metadata": {
+      "depth": 2,
+      "thickness": 2
+    }
+  },
+  {
+    "task": "NestedSquares",
+    "prompt_key": "how-many-prompt",
+    "model": "anthropic/claude-3.5-sonnet",
+    "image_path": "D:\\python\\vision-llms-are-blind\\src\\NestedSquares\\images\\how-many-prompt\\gpt-4o\\correct\\nested_squares_depth_2_image_2_thickness_4.png",
+    "ground_truth": "2",
+    "raw_response": "{2} - The image shows two squares, one larger square containing a smaller square inside it.",
+    "parsed_answer": "2",
+    "correct": true,
+    "error": null,
+    "input_tokens": 1331,
+    "output_tokens": 23,
+    "tokens_used": 1354,
+    "latency_s": 2.25,
+    "metadata": {
+      "depth": 2,
+      "thickness": 4
+    }
+  },
+  {
+    "task": "NestedSquares",
+    "prompt_key": "how-many-prompt",
+    "model": "anthropic/claude-3.5-sonnet",
+    "image_path": "D:\\python\\vision-llms-are-blind\\src\\NestedSquares\\images\\how-many-prompt\\gpt-4o\\correct\\nested_squares_depth_2_image_3_thickness_2.png",
+    "ground_truth": "2",
+    "raw_response": "{2}",
+    "parsed_answer": "2",
+    "correct": true,
+    "error": null,
+    "input_tokens": 1331,
+    "output_tokens": 6,
+    "tokens_used": 1337,
+    "latency_s": 2.44,
+    "metadata": {
+      "depth": 2,
+      "thickness": 2
+    }
+  },
+  {
+    "task": "NestedSquares",
+    "prompt_key": "how-many-prompt",
+    "model": "anthropic/claude-3.5-sonnet",
+    "image_path": "D:\\python\\vision-llms-are-blind\\src\\NestedSquares\\images\\how-many-prompt\\gpt-4o\\correct\\nested_squares_depth_2_image_3_thickness_3.png",
+    "ground_truth": "2",
+    "raw_response": "{2}",
+    "parsed_answer": "2",
+    "correct": true,
+    "error": null,
+    "input_tokens": 1331,
+    "output_tokens": 6,
+    "tokens_used": 1337,
+    "latency_s": 4.25,
+    "metadata": {
+      "depth": 2,
+      "thickness": 3
+    }
+  },
+  {
+    "task": "NestedSquares",
+    "prompt_key": "how-many-prompt",
+    "model": "anthropic/claude-3.5-sonnet",
+    "image_path": "D:\\python\\vision-llms-are-blind\\src\\NestedSquares\\images\\how-many-prompt\\gpt-4o\\correct\\nested_squares_depth_2_image_3_thickness_4.png",
+    "ground_truth": "2",
+    "raw_response": "{2}",
+    "parsed_answer": "2",
+    "correct": true,
+    "error": null,
+    "input_tokens": 1331,
+    "output_tokens": 6,
+    "tokens_used": 1337,
+    "latency_s": 4.61,
+    "metadata": {
+      "depth": 2,
+      "thickness": 4
+    }
+  },
+  {
+    "task": "NestedSquares",
+    "prompt_key": "how-many-prompt",
+    "model": "anthropic/claude-3.5-sonnet",
+    "image_path": "D:\\python\\vision-llms-are-blind\\src\\NestedSquares\\images\\how-many-prompt\\gpt-4o\\correct\\nested_squares_depth_2_image_4_thickness_2.png",
+    "ground_truth": "2",
+    "raw_response": "{2} - The image shows two squares, one larger square with a smaller square nested inside it.",
+    "parsed_answer": "2",
+    "correct": true,
+    "error": null,
+    "input_tokens": 1331,
+    "output_tokens": 24,
+    "tokens_used": 1355,
+    "latency_s": 5.65,
+    "metadata": {
+      "depth": 2,
+      "thickness": 2
+    }
+  },
+  {
+    "task": "NestedSquares",
+    "prompt_key": "how-many-prompt",
+    "model": "anthropic/claude-3.5-sonnet",
+    "image_path": "D:\\python\\vision-llms-are-blind\\src\\NestedSquares\\images\\how-many-prompt\\gpt-4o\\correct\\nested_squares_depth_2_image_4_thickness_3.png",
+    "ground_truth": "2",
+    "raw_response": "{2} - The image shows two squares, one larger square with a smaller square nested inside it.",
+    "parsed_answer": "2",
+    "correct": true,
+    "error": null,
+    "input_tokens": 1331,
+    "output_tokens": 24,
+    "tokens_used": 1355,
+    "latency_s": 2.65,
+    "metadata": {
+      "depth": 2,
+      "thickness": 3
+    }
+  },
+  {
+    "task": "NestedSquares",
+    "prompt_key": "how-many-prompt",
+    "model": "anthropic/claude-3.5-sonnet",
+    "image_path": "D:\\python\\vision-llms-are-blind\\src\\NestedSquares\\images\\how-many-prompt\\gpt-4o\\correct\\nested_squares_depth_2_image_4_thickness_4.png",
+    "ground_truth": "2",
+    "raw_response": "{2} - There are 2 squares in the image: one smaller square inside a larger square.",
+    "parsed_answer": "2",
+    "correct": true,
+    "error": null,
+    "input_tokens": 1331,
+    "output_tokens": 25,
+    "tokens_used": 1356,
+    "latency_s": 5.53,
+    "metadata": {
+      "depth": 2,
+      "thickness": 4
+    }
+  },
+  {
+    "task": "NestedSquares",
+    "prompt_key": "how-many-prompt",
+    "model": "anthropic/claude-3.5-sonnet",
+    "image_path": "D:\\python\\vision-llms-are-blind\\src\\NestedSquares\\images\\how-many-prompt\\gpt-4o\\correct\\nested_squares_depth_2_image_5_thickness_2.png",
+    "ground_truth": "2",
+    "raw_response": "{2}",
+    "parsed_answer": "2",
+    "correct": true,
+    "error": null,
+    "input_tokens": 1331,
+    "output_tokens": 6,
+    "tokens_used": 1337,
+    "latency_s": 1.91,
+    "metadata": {
+      "depth": 2,
+      "thickness": 2
+    }
+  },
+  {
+    "task": "NestedSquares",
+    "prompt_key": "how-many-prompt",
+    "model": "anthropic/claude-3.5-sonnet",
+    "image_path": "D:\\python\\vision-llms-are-blind\\src\\NestedSquares\\images\\how-many-prompt\\gpt-4o\\correct\\nested_squares_depth_2_image_5_thickness_3.png",
+    "ground_truth": "2",
+    "raw_response": "{2} squares are shown in the image - one larger outer square and one smaller inner square.",
+    "parsed_answer": "2",
+    "correct": true,
+    "error": null,
+    "input_tokens": 1331,
+    "output_tokens": 23,
+    "tokens_used": 1354,
+    "latency_s": 2.7,
+    "metadata": {
+      "depth": 2,
+      "thickness": 3
+    }
+  },
+  {
+    "task": "NestedSquares",
+    "prompt_key": "how-many-prompt",
+    "model": "anthropic/claude-3.5-sonnet",
+    "image_path": "D:\\python\\vision-llms-are-blind\\src\\NestedSquares\\images\\how-many-prompt\\gpt-4o\\correct\\nested_squares_depth_2_image_6_thickness_2.png",
+    "ground_truth": "2",
+    "raw_response": "{2} - There are 2 squares in the image, one larger outer square and one smaller inner square.",
+    "parsed_answer": "2",
+    "correct": true,
+    "error": null,
+    "input_tokens": 1331,
+    "output_tokens": 27,
+    "tokens_used": 1358,
+    "latency_s": 2.68,
+    "metadata": {
+      "depth": 2,
+      "thickness": 2
+    }
+  },
+  {
+    "task": "NestedSquares",
+    "prompt_key": "how-many-prompt",
+    "model": "anthropic/claude-3.5-sonnet",
+    "image_path": "D:\\python\\vision-llms-are-blind\\src\\NestedSquares\\images\\how-many-prompt\\gpt-4o\\correct\\nested_squares_depth_2_image_6_thickness_4.png",
+    "ground_truth": "2",
+    "raw_response": "{2} - There are two squares in the image, one larger square containing a smaller square inside it.",
+    "parsed_answer": "2",
+    "correct": true,
+    "error": null,
+    "input_tokens": 1331,
+    "output_tokens": 25,
+    "tokens_used": 1356,
+    "latency_s": 4.88,
+    "metadata": {
+      "depth": 2,
+      "thickness": 4
+    }
+  },
+  {
+    "task": "NestedSquares",
+    "prompt_key": "how-many-prompt",
+    "model": "anthropic/claude-3.5-sonnet",
+    "image_path": "D:\\python\\vision-llms-are-blind\\src\\NestedSquares\\images\\how-many-prompt\\gpt-4o\\correct\\nested_squares_depth_2_image_7_thickness_2.png",
+    "ground_truth": "2",
+    "raw_response": "{3} - The image shows three squares: two overlapping squares forming an L-shape, and one smaller square inside the top square.",
+    "parsed_answer": "3",
+    "correct": false,
+    "error": null,
+    "input_tokens": 1331,
+    "output_tokens": 32,
+    "tokens_used": 1363,
+    "latency_s": 5.38,
+    "metadata": {
+      "depth": 2,
+      "thickness": 2
+    }
+  },
+  {
+    "task": "NestedSquares",
+    "prompt_key": "how-many-prompt",
+    "model": "anthropic/claude-3.5-sonnet",
+    "image_path": "D:\\python\\vision-llms-are-blind\\src\\NestedSquares\\images\\how-many-prompt\\gpt-4o\\correct\\nested_squares_depth_2_image_7_thickness_3.png",
+    "ground_truth": "2",
+    "raw_response": "{2}\n\nThe image shows two squares - one larger square with a smaller square inside it.",
+    "parsed_answer": "2",
+    "correct": true,
+    "error": null,
+    "input_tokens": 1331,
+    "output_tokens": 23,
+    "tokens_used": 1354,
+    "latency_s": 2.61,
+    "metadata": {
+      "depth": 2,
+      "thickness": 3
+    }
+  },
+  {
+    "task": "NestedSquares",
+    "prompt_key": "how-many-prompt",
+    "model": "anthropic/claude-3.5-sonnet",
+    "image_path": "D:\\python\\vision-llms-are-blind\\src\\NestedSquares\\images\\how-many-prompt\\gpt-4o\\correct\\nested_squares_depth_2_image_8_thickness_2.png",
+    "ground_truth": "2",
+    "raw_response": "{2} The image shows two squares, with one smaller square nested inside a larger square.",
+    "parsed_answer": "2",
+    "correct": true,
+    "error": null,
+    "input_tokens": 1331,
+    "output_tokens": 22,
+    "tokens_used": 1353,
+    "latency_s": 2.5,
+    "metadata": {
+      "depth": 2,
+      "thickness": 2
+    }
+  },
+  {
+    "task": "NestedSquares",
+    "prompt_key": "how-many-prompt",
+    "model": "anthropic/claude-3.5-sonnet",
+    "image_path": "D:\\python\\vision-llms-are-blind\\src\\NestedSquares\\images\\how-many-prompt\\gpt-4o\\correct\\nested_squares_depth_2_image_8_thickness_3.png",
+    "ground_truth": "2",
+    "raw_response": "{2} The image shows two squares - one larger square with a smaller square nested inside it.",
+    "parsed_answer": "2",
+    "correct": true,
+    "error": null,
+    "input_tokens": 1331,
+    "output_tokens": 23,
+    "tokens_used": 1354,
+    "latency_s": 2.46,
+    "metadata": {
+      "depth": 2,
+      "thickness": 3
+    }
+  },
+  {
+    "task": "NestedSquares",
+    "prompt_key": "how-many-prompt",
+    "model": "anthropic/claude-3.5-sonnet",
+    "image_path": "D:\\python\\vision-llms-are-blind\\src\\NestedSquares\\images\\how-many-prompt\\gpt-4o\\correct\\nested_squares_depth_2_image_8_thickness_4.png",
+    "ground_truth": "2",
+    "raw_response": "{2} - There are 2 squares in the image, one smaller square inside a larger square.",
+    "parsed_answer": "2",
+    "correct": true,
+    "error": null,
+    "input_tokens": 1331,
+    "output_tokens": 25,
+    "tokens_used": 1356,
+    "latency_s": 2.76,
+    "metadata": {
+      "depth": 2,
+      "thickness": 4
+    }
+  },
+  {
+    "task": "NestedSquares",
+    "prompt_key": "how-many-prompt",
+    "model": "anthropic/claude-3.5-sonnet",
+    "image_path": "D:\\python\\vision-llms-are-blind\\src\\NestedSquares\\images\\how-many-prompt\\gpt-4o\\correct\\nested_squares_depth_2_image_9_thickness_3.png",
+    "ground_truth": "2",
+    "raw_response": "{2} - The image shows two squares, one larger square containing a smaller square inside it.",
+    "parsed_answer": "2",
+    "correct": true,
+    "error": null,
+    "input_tokens": 1331,
+    "output_tokens": 23,
+    "tokens_used": 1354,
+    "latency_s": 2.69,
+    "metadata": {
+      "depth": 2,
+      "thickness": 3
+    }
+  },
+  {
+    "task": "NestedSquares",
+    "prompt_key": "how-many-prompt",
+    "model": "anthropic/claude-3.5-sonnet",
+    "image_path": "D:\\python\\vision-llms-are-blind\\src\\NestedSquares\\images\\how-many-prompt\\gpt-4o\\correct\\nested_squares_depth_2_image_9_thickness_4.png",
+    "ground_truth": "2",
+    "raw_response": "{2}",
+    "parsed_answer": "2",
+    "correct": true,
+    "error": null,
+    "input_tokens": 1331,
+    "output_tokens": 6,
+    "tokens_used": 1337,
+    "latency_s": 2.88,
+    "metadata": {
+      "depth": 2,
+      "thickness": 4
+    }
+  },
+  {
+    "task": "NestedSquares",
+    "prompt_key": "how-many-prompt",
+    "model": "anthropic/claude-3.5-sonnet",
+    "image_path": "D:\\python\\vision-llms-are-blind\\src\\NestedSquares\\images\\how-many-prompt\\gpt-4o\\correct\\nested_squares_depth_3_image_10_thickness_4.png",
+    "ground_truth": "3",
+    "raw_response": "{4} - There are 4 squares in the image, nested within each other in a concentric pattern.",
+    "parsed_answer": "4",
+    "correct": false,
+    "error": null,
+    "input_tokens": 1331,
+    "output_tokens": 27,
+    "tokens_used": 1358,
+    "latency_s": 4.88,
+    "metadata": {
+      "depth": 3,
+      "thickness": 4
+    }
+  },
+  {
+    "task": "NestedSquares",
+    "prompt_key": "how-many-prompt",
+    "model": "anthropic/claude-3.5-sonnet",
+    "image_path": "D:\\python\\vision-llms-are-blind\\src\\NestedSquares\\images\\how-many-prompt\\gpt-4o\\correct\\nested_squares_depth_3_image_1_thickness_2.png",
+    "ground_truth": "3",
+    "raw_response": "In this image, there are {4} squares. The image shows a series of concentric squares, with each square being smaller than the one that contains it, creating a nested pattern.",
+    "parsed_answer": "4",
+    "correct": false,
+    "error": null,
+    "input_tokens": 1331,
+    "output_tokens": 41,
+    "tokens_used": 1372,
+    "latency_s": 11.64,
+    "metadata": {
+      "depth": 3,
+      "thickness": 2
+    }
+  },
+  {
+    "task": "NestedSquares",
+    "prompt_key": "how-many-prompt",
+    "model": "anthropic/claude-3.5-sonnet",
+    "image_path": "D:\\python\\vision-llms-are-blind\\src\\NestedSquares\\images\\how-many-prompt\\gpt-4o\\correct\\nested_squares_depth_3_image_1_thickness_3.png",
+    "ground_truth": "3",
+    "raw_response": "{3} - There are 3 squares nested within each other in the image.",
+    "parsed_answer": "3",
+    "correct": true,
+    "error": null,
+    "input_tokens": 1331,
+    "output_tokens": 21,
+    "tokens_used": 1352,
+    "latency_s": 2.6,
+    "metadata": {
+      "depth": 3,
+      "thickness": 3
+    }
+  },
+  {
+    "task": "NestedSquares",
+    "prompt_key": "how-many-prompt",
+    "model": "anthropic/claude-3.5-sonnet",
+    "image_path": "D:\\python\\vision-llms-are-blind\\src\\NestedSquares\\images\\how-many-prompt\\gpt-4o\\correct\\nested_squares_depth_3_image_1_thickness_4.png",
+    "ground_truth": "3",
+    "raw_response": "In this image, there are {3} squares - one small square in the center, a medium-sized square around it, and a larger square on the outside, all arranged concentrically.",
+    "parsed_answer": "3",
+    "correct": true,
+    "error": null,
+    "input_tokens": 1331,
+    "output_tokens": 43,
+    "tokens_used": 1374,
+    "latency_s": 3.03,
+    "metadata": {
+      "depth": 3,
+      "thickness": 4
+    }
+  },
+  {
+    "task": "NestedSquares",
+    "prompt_key": "how-many-prompt",
+    "model": "anthropic/claude-3.5-sonnet",
+    "image_path": "D:\\python\\vision-llms-are-blind\\src\\NestedSquares\\images\\how-many-prompt\\gpt-4o\\correct\\nested_squares_depth_3_image_2_thickness_3.png",
+    "ground_truth": "3",
+    "raw_response": "{3}",
+    "parsed_answer": "3",
+    "correct": true,
+    "error": null,
+    "input_tokens": 1331,
+    "output_tokens": 6,
+    "tokens_used": 1337,
+    "latency_s": 2.0,
+    "metadata": {
+      "depth": 3,
+      "thickness": 3
+    }
+  },
+  {
+    "task": "NestedSquares",
+    "prompt_key": "how-many-prompt",
+    "model": "anthropic/claude-3.5-sonnet",
+    "image_path": "D:\\python\\vision-llms-are-blind\\src\\NestedSquares\\images\\how-many-prompt\\gpt-4o\\correct\\nested_squares_depth_3_image_2_thickness_4.png",
+    "ground_truth": "3",
+    "raw_response": "In this image, there are {3} squares nested within each other - a small square in the middle, a medium square around it, and a large square on the outside.",
+    "parsed_answer": "3",
+    "correct": true,
+    "error": null,
+    "input_tokens": 1331,
+    "output_tokens": 39,
+    "tokens_used": 1370,
+    "latency_s": 2.79,
+    "metadata": {
+      "depth": 3,
+      "thickness": 4
+    }
+  },
+  {
+    "task": "NestedSquares",
+    "prompt_key": "how-many-prompt",
+    "model": "anthropic/claude-3.5-sonnet",
+    "image_path": "D:\\python\\vision-llms-are-blind\\src\\NestedSquares\\images\\how-many-prompt\\gpt-4o\\correct\\nested_squares_depth_3_image_3_thickness_2.png",
+    "ground_truth": "3",
+    "raw_response": "{3} - The image shows three nested squares of different sizes, with each square being slightly offset from the others.",
+    "parsed_answer": "3",
+    "correct": true,
+    "error": null,
+    "input_tokens": 1331,
+    "output_tokens": 27,
+    "tokens_used": 1358,
+    "latency_s": 5.14,
+    "metadata": {
+      "depth": 3,
+      "thickness": 2
+    }
+  },
+  {
+    "task": "NestedSquares",
+    "prompt_key": "how-many-prompt",
+    "model": "anthropic/claude-3.5-sonnet",
+    "image_path": "D:\\python\\vision-llms-are-blind\\src\\NestedSquares\\images\\how-many-prompt\\gpt-4o\\correct\\nested_squares_depth_3_image_5_thickness_2.png",
+    "ground_truth": "3",
+    "raw_response": "{3} - The image shows three nested squares of different sizes.",
+    "parsed_answer": "3",
+    "correct": true,
+    "error": null,
+    "input_tokens": 1331,
+    "output_tokens": 17,
+    "tokens_used": 1348,
+    "latency_s": 6.12,
+    "metadata": {
+      "depth": 3,
+      "thickness": 2
+    }
+  },
+  {
+    "task": "NestedSquares",
+    "prompt_key": "how-many-prompt",
+    "model": "anthropic/claude-3.5-sonnet",
+    "image_path": "D:\\python\\vision-llms-are-blind\\src\\NestedSquares\\images\\how-many-prompt\\gpt-4o\\correct\\nested_squares_depth_3_image_6_thickness_3.png",
+    "ground_truth": "3",
+    "raw_response": "In this image, there are {3} squares of different sizes, nested inside each other in a concentric pattern.",
+    "parsed_answer": "3",
+    "correct": true,
+    "error": null,
+    "input_tokens": 1331,
+    "output_tokens": 27,
+    "tokens_used": 1358,
+    "latency_s": 4.77,
+    "metadata": {
+      "depth": 3,
+      "thickness": 3
+    }
+  },
+  {
+    "task": "NestedSquares",
+    "prompt_key": "how-many-prompt",
+    "model": "anthropic/claude-3.5-sonnet",
+    "image_path": "D:\\python\\vision-llms-are-blind\\src\\NestedSquares\\images\\how-many-prompt\\gpt-4o\\correct\\nested_squares_depth_3_image_7_thickness_2.png",
+    "ground_truth": "3",
+    "raw_response": "{3} - There are 3 squares shown in the image, arranged in a nested pattern with each square being larger than the one inside it.",
+    "parsed_answer": "3",
+    "correct": true,
+    "error": null,
+    "input_tokens": 1331,
+    "output_tokens": 34,
+    "tokens_used": 1365,
+    "latency_s": 4.58,
+    "metadata": {
+      "depth": 3,
+      "thickness": 2
+    }
+  },
+  {
+    "task": "NestedSquares",
+    "prompt_key": "how-many-prompt",
+    "model": "anthropic/claude-3.5-sonnet",
+    "image_path": "D:\\python\\vision-llms-are-blind\\src\\NestedSquares\\images\\how-many-prompt\\gpt-4o\\correct\\nested_squares_depth_3_image_7_thickness_4.png",
+    "ground_truth": "3",
+    "raw_response": "In this image, there are 4 nested squares of different sizes. Therefore, {4} is the total number of squares.",
+    "parsed_answer": "4",
+    "correct": false,
+    "error": null,
+    "input_tokens": 1331,
+    "output_tokens": 30,
+    "tokens_used": 1361,
+    "latency_s": 2.92,
+    "metadata": {
+      "depth": 3,
+      "thickness": 4
+    }
+  },
+  {
+    "task": "NestedSquares",
+    "prompt_key": "how-many-prompt",
+    "model": "anthropic/claude-3.5-sonnet",
+    "image_path": "D:\\python\\vision-llms-are-blind\\src\\NestedSquares\\images\\how-many-prompt\\gpt-4o\\correct\\nested_squares_depth_3_image_8_thickness_4.png",
+    "ground_truth": "3",
+    "raw_response": "In this image, I can see {3} nested rectangles/squares. The image shows three geometric shapes arranged concentrically, with each rectangle/square getting smaller as they go inward.",
+    "parsed_answer": "3",
+    "correct": true,
+    "error": null,
+    "input_tokens": 1331,
+    "output_tokens": 43,
+    "tokens_used": 1374,
+    "latency_s": 4.73,
+    "metadata": {
+      "depth": 3,
+      "thickness": 4
+    }
+  },
+  {
+    "task": "NestedSquares",
+    "prompt_key": "how-many-prompt",
+    "model": "anthropic/claude-3.5-sonnet",
+    "image_path": "D:\\python\\vision-llms-are-blind\\src\\NestedSquares\\images\\how-many-prompt\\gpt-4o\\correct\\nested_squares_depth_4_image_10_thickness_2.png",
+    "ground_truth": "4",
+    "raw_response": "{4}",
+    "parsed_answer": "4",
+    "correct": true,
+    "error": null,
+    "input_tokens": 1331,
+    "output_tokens": 6,
+    "tokens_used": 1337,
+    "latency_s": 1.89,
+    "metadata": {
+      "depth": 4,
+      "thickness": 2
+    }
+  },
+  {
+    "task": "NestedSquares",
+    "prompt_key": "how-many-prompt",
+    "model": "anthropic/claude-3.5-sonnet",
+    "image_path": "D:\\python\\vision-llms-are-blind\\src\\NestedSquares\\images\\how-many-prompt\\gpt-4o\\correct\\nested_squares_depth_4_image_1_thickness_3.png",
+    "ground_truth": "4",
+    "raw_response": "In this image, there are 4 concentric squares nested within each other, so the answer is {4}.",
+    "parsed_answer": "4",
+    "correct": true,
+    "error": null,
+    "input_tokens": 1331,
+    "output_tokens": 27,
+    "tokens_used": 1358,
+    "latency_s": 2.17,
+    "metadata": {
+      "depth": 4,
+      "thickness": 3
+    }
+  },
+  {
+    "task": "NestedSquares",
+    "prompt_key": "how-many-prompt",
+    "model": "anthropic/claude-3.5-sonnet",
+    "image_path": "D:\\python\\vision-llms-are-blind\\src\\NestedSquares\\images\\how-many-prompt\\gpt-4o\\correct\\nested_squares_depth_4_image_1_thickness_4.png",
+    "ground_truth": "4",
+    "raw_response": "{4} There are 4 concentric squares in the image, nested inside each other from largest to smallest.",
+    "parsed_answer": "4",
+    "correct": true,
+    "error": null,
+    "input_tokens": 1331,
+    "output_tokens": 27,
+    "tokens_used": 1358,
+    "latency_s": 2.76,
+    "metadata": {
+      "depth": 4,
+      "thickness": 4
+    }
+  },
+  {
+    "task": "NestedSquares",
+    "prompt_key": "how-many-prompt",
+    "model": "anthropic/claude-3.5-sonnet",
+    "image_path": "D:\\python\\vision-llms-are-blind\\src\\NestedSquares\\images\\how-many-prompt\\gpt-4o\\correct\\nested_squares_depth_4_image_3_thickness_2.png",
+    "ground_truth": "4",
+    "raw_response": "In this image, there are {4} concentric squares nested inside each other, with the smallest square in the center and each subsequent square getting larger as they move outward.",
+    "parsed_answer": "4",
+    "correct": true,
+    "error": null,
+    "input_tokens": 1331,
+    "output_tokens": 39,
+    "tokens_used": 1370,
+    "latency_s": 2.95,
+    "metadata": {
+      "depth": 4,
+      "thickness": 2
+    }
+  },
+  {
+    "task": "NestedSquares",
+    "prompt_key": "how-many-prompt",
+    "model": "anthropic/claude-3.5-sonnet",
+    "image_path": "D:\\python\\vision-llms-are-blind\\src\\NestedSquares\\images\\how-many-prompt\\gpt-4o\\correct\\nested_squares_depth_4_image_3_thickness_3.png",
+    "ground_truth": "4",
+    "raw_response": "{4} - There are 4 nested squares in the image, with each square being smaller than the previous one and positioned in an offset manner.",
+    "parsed_answer": "4",
+    "correct": true,
+    "error": null,
+    "input_tokens": 1331,
+    "output_tokens": 34,
+    "tokens_used": 1365,
+    "latency_s": 2.76,
+    "metadata": {
+      "depth": 4,
+      "thickness": 3
+    }
+  },
+  {
+    "task": "NestedSquares",
+    "prompt_key": "how-many-prompt",
+    "model": "anthropic/claude-3.5-sonnet",
+    "image_path": "D:\\python\\vision-llms-are-blind\\src\\NestedSquares\\images\\how-many-prompt\\gpt-4o\\correct\\nested_squares_depth_4_image_3_thickness_4.png",
+    "ground_truth": "4",
+    "raw_response": "{4} - The image shows 4 concentric squares of different sizes, with the smallest square in the center and each subsequent square getting larger as they move outward.",
+    "parsed_answer": "4",
+    "correct": true,
+    "error": null,
+    "input_tokens": 1331,
+    "output_tokens": 39,
+    "tokens_used": 1370,
+    "latency_s": 7.43,
+    "metadata": {
+      "depth": 4,
+      "thickness": 4
+    }
+  },
+  {
+    "task": "NestedSquares",
+    "prompt_key": "how-many-prompt",
+    "model": "anthropic/claude-3.5-sonnet",
+    "image_path": "D:\\python\\vision-llms-are-blind\\src\\NestedSquares\\images\\how-many-prompt\\gpt-4o\\correct\\nested_squares_depth_5_image_10_thickness_3.png",
+    "ground_truth": "5",
+    "raw_response": "{5} - The image shows 5 concentric squares nested within each other, starting from a small square in the center and progressively getting larger.",
+    "parsed_answer": "5",
+    "correct": true,
+    "error": null,
+    "input_tokens": 1331,
+    "output_tokens": 35,
+    "tokens_used": 1366,
+    "latency_s": 2.8,
+    "metadata": {
+      "depth": 5,
+      "thickness": 3
+    }
+  },
+  {
+    "task": "NestedSquares",
+    "prompt_key": "how-many-prompt",
+    "model": "anthropic/claude-3.5-sonnet",
+    "image_path": "D:\\python\\vision-llms-are-blind\\src\\NestedSquares\\images\\how-many-prompt\\gpt-4o\\correct\\nested_squares_depth_5_image_10_thickness_4.png",
+    "ground_truth": "5",
+    "raw_response": "In this image, there are {5} squares nested within each other, starting from a small square in the center and progressively getting larger towards the outside.",
+    "parsed_answer": "5",
+    "correct": true,
+    "error": null,
+    "input_tokens": 1331,
+    "output_tokens": 35,
+    "tokens_used": 1366,
+    "latency_s": 3.65,
+    "metadata": {
+      "depth": 5,
+      "thickness": 4
+    }
+  },
+  {
+    "task": "NestedSquares",
+    "prompt_key": "how-many-prompt",
+    "model": "anthropic/claude-3.5-sonnet",
+    "image_path": "D:\\python\\vision-llms-are-blind\\src\\NestedSquares\\images\\how-many-prompt\\gpt-4o\\correct\\nested_squares_depth_5_image_1_thickness_2.png",
+    "ground_truth": "5",
+    "raw_response": "In this image, there are 5 concentric squares, with each square being nested inside a larger one. Therefore, the answer is {5}.",
+    "parsed_answer": "5",
+    "correct": true,
+    "error": null,
+    "input_tokens": 1331,
+    "output_tokens": 34,
+    "tokens_used": 1365,
+    "latency_s": 6.55,
+    "metadata": {
+      "depth": 5,
+      "thickness": 2
+    }
+  },
+  {
+    "task": "NestedSquares",
+    "prompt_key": "how-many-prompt",
+    "model": "anthropic/claude-3.5-sonnet",
+    "image_path": "D:\\python\\vision-llms-are-blind\\src\\NestedSquares\\images\\how-many-prompt\\gpt-4o\\correct\\nested_squares_depth_5_image_1_thickness_3.png",
+    "ground_truth": "5",
+    "raw_response": "{8}\n\nThis image shows 8 squares in total, arranged in a nested pattern where each square is contained within a larger square, creating a spiral-like effect from the smallest square in the center to the largest square on the outside.",
+    "parsed_answer": "8",
+    "correct": false,
+    "error": null,
+    "input_tokens": 1331,
+    "output_tokens": 53,
+    "tokens_used": 1384,
+    "latency_s": 5.05,
+    "metadata": {
+      "depth": 5,
+      "thickness": 3
+    }
+  },
+  {
+    "task": "NestedSquares",
+    "prompt_key": "how-many-prompt",
+    "model": "anthropic/claude-3.5-sonnet",
+    "image_path": "D:\\python\\vision-llms-are-blind\\src\\NestedSquares\\images\\how-many-prompt\\gpt-4o\\correct\\nested_squares_depth_5_image_1_thickness_4.png",
+    "ground_truth": "5",
+    "raw_response": "In this image, there are {5} concentric squares of different sizes, nested within each other, creating a spiral-like pattern.",
+    "parsed_answer": "5",
+    "correct": true,
+    "error": null,
+    "input_tokens": 1331,
+    "output_tokens": 31,
+    "tokens_used": 1362,
+    "latency_s": 2.48,
+    "metadata": {
+      "depth": 5,
+      "thickness": 4
+    }
+  },
+  {
+    "task": "NestedSquares",
+    "prompt_key": "how-many-prompt",
+    "model": "anthropic/claude-3.5-sonnet",
+    "image_path": "D:\\python\\vision-llms-are-blind\\src\\NestedSquares\\images\\how-many-prompt\\gpt-4o\\correct\\nested_squares_depth_5_image_2_thickness_2.png",
+    "ground_truth": "5",
+    "raw_response": "In this image, there are {4} concentric squares nested within each other, decreasing in size from the outer square to the innermost square.",
+    "parsed_answer": "4",
+    "correct": false,
+    "error": null,
+    "input_tokens": 1331,
+    "output_tokens": 34,
+    "tokens_used": 1365,
+    "latency_s": 3.22,
+    "metadata": {
+      "depth": 5,
+      "thickness": 2
+    }
+  },
+  {
+    "task": "NestedSquares",
+    "prompt_key": "how-many-prompt",
+    "model": "anthropic/claude-3.5-sonnet",
+    "image_path": "D:\\python\\vision-llms-are-blind\\src\\NestedSquares\\images\\how-many-prompt\\gpt-4o\\correct\\nested_squares_depth_5_image_2_thickness_3.png",
+    "ground_truth": "5",
+    "raw_response": "In this image, there are {5} concentric squares nested within each other, starting from a small square in the center and getting progressively larger towards the outside.",
+    "parsed_answer": "5",
+    "correct": true,
+    "error": null,
+    "input_tokens": 1331,
+    "output_tokens": 37,
+    "tokens_used": 1368,
+    "latency_s": 2.71,
+    "metadata": {
+      "depth": 5,
+      "thickness": 3
+    }
+  },
+  {
+    "task": "NestedSquares",
+    "prompt_key": "how-many-prompt",
+    "model": "anthropic/claude-3.5-sonnet",
+    "image_path": "D:\\python\\vision-llms-are-blind\\src\\NestedSquares\\images\\how-many-prompt\\gpt-4o\\correct\\nested_squares_depth_5_image_2_thickness_4.png",
+    "ground_truth": "5",
+    "raw_response": "Looking at the nested square pattern in the image, I can count {5} squares in total, ranging from the smallest square in the center to the largest square on the outside.",
+    "parsed_answer": "5",
+    "correct": true,
+    "error": null,
+    "input_tokens": 1331,
+    "output_tokens": 39,
+    "tokens_used": 1370,
+    "latency_s": 2.78,
+    "metadata": {
+      "depth": 5,
+      "thickness": 4
+    }
+  },
+  {
+    "task": "NestedSquares",
+    "prompt_key": "how-many-prompt",
+    "model": "anthropic/claude-3.5-sonnet",
+    "image_path": "D:\\python\\vision-llms-are-blind\\src\\NestedSquares\\images\\how-many-prompt\\gpt-4o\\correct\\nested_squares_depth_5_image_3_thickness_3.png",
+    "ground_truth": "5",
+    "raw_response": "In this image, there are 4 concentric squares nested within each other, so the answer is {4}.",
+    "parsed_answer": "4",
+    "correct": false,
+    "error": null,
+    "input_tokens": 1331,
+    "output_tokens": 27,
+    "tokens_used": 1358,
+    "latency_s": 6.66,
+    "metadata": {
+      "depth": 5,
+      "thickness": 3
+    }
+  },
+  {
+    "task": "NestedSquares",
+    "prompt_key": "how-many-prompt",
+    "model": "anthropic/claude-3.5-sonnet",
+    "image_path": "D:\\python\\vision-llms-are-blind\\src\\NestedSquares\\images\\how-many-prompt\\gpt-4o\\correct\\nested_squares_depth_5_image_3_thickness_4.png",
+    "ground_truth": "5",
+    "raw_response": "In this image, there are 4 concentric squares, nested within each other, getting progressively smaller towards the center. Therefore, the total number of squares is {4}.",
+    "parsed_answer": "4",
+    "correct": false,
+    "error": null,
+    "input_tokens": 1331,
+    "output_tokens": 40,
+    "tokens_used": 1371,
+    "latency_s": 2.66,
+    "metadata": {
+      "depth": 5,
+      "thickness": 4
+    }
+  },
+  {
+    "task": "NestedSquares",
+    "prompt_key": "how-many-prompt",
+    "model": "anthropic/claude-3.5-sonnet",
+    "image_path": "D:\\python\\vision-llms-are-blind\\src\\NestedSquares\\images\\how-many-prompt\\gpt-4o\\correct\\nested_squares_depth_5_image_4_thickness_2.png",
+    "ground_truth": "5",
+    "raw_response": "In this image, there are 4 concentric squares nested within each other, starting from a small square in the center and getting progressively larger towards the outside. So the total number of squares is {4}.",
+    "parsed_answer": "4",
+    "correct": false,
+    "error": null,
+    "input_tokens": 1331,
+    "output_tokens": 47,
+    "tokens_used": 1378,
+    "latency_s": 6.52,
+    "metadata": {
+      "depth": 5,
+      "thickness": 2
+    }
+  },
+  {
+    "task": "NestedSquares",
+    "prompt_key": "how-many-prompt",
+    "model": "anthropic/claude-3.5-sonnet",
+    "image_path": "D:\\python\\vision-llms-are-blind\\src\\NestedSquares\\images\\how-many-prompt\\gpt-4o\\correct\\nested_squares_depth_5_image_4_thickness_3.png",
+    "ground_truth": "5",
+    "raw_response": "In this image, there are {5} squares - one large outer square and 4 progressively smaller squares nested inside it, forming a concentric pattern.",
+    "parsed_answer": "5",
+    "correct": true,
+    "error": null,
+    "input_tokens": 1331,
+    "output_tokens": 36,
+    "tokens_used": 1367,
+    "latency_s": 2.67,
+    "metadata": {
+      "depth": 5,
+      "thickness": 3
+    }
+  },
+  {
+    "task": "NestedSquares",
+    "prompt_key": "how-many-prompt",
+    "model": "anthropic/claude-3.5-sonnet",
+    "image_path": "D:\\python\\vision-llms-are-blind\\src\\NestedSquares\\images\\how-many-prompt\\gpt-4o\\correct\\nested_squares_depth_5_image_4_thickness_4.png",
+    "ground_truth": "5",
+    "raw_response": "{5}",
+    "parsed_answer": "5",
+    "correct": true,
+    "error": null,
+    "input_tokens": 1331,
+    "output_tokens": 6,
+    "tokens_used": 1337,
+    "latency_s": 2.56,
+    "metadata": {
+      "depth": 5,
+      "thickness": 4
+    }
+  },
+  {
+    "task": "NestedSquares",
+    "prompt_key": "how-many-prompt",
+    "model": "anthropic/claude-3.5-sonnet",
+    "image_path": "D:\\python\\vision-llms-are-blind\\src\\NestedSquares\\images\\how-many-prompt\\gpt-4o\\correct\\nested_squares_depth_5_image_5_thickness_2.png",
+    "ground_truth": "5",
+    "raw_response": "In this image, there are 6 concentric squares of different sizes, getting smaller as they go towards the center. So the answer is {6}.",
+    "parsed_answer": "6",
+    "correct": false,
+    "error": null,
+    "input_tokens": 1331,
+    "output_tokens": 35,
+    "tokens_used": 1366,
+    "latency_s": 10.14,
+    "metadata": {
+      "depth": 5,
+      "thickness": 2
+    }
+  },
+  {
+    "task": "NestedSquares",
+    "prompt_key": "how-many-prompt",
+    "model": "anthropic/claude-3.5-sonnet",
+    "image_path": "D:\\python\\vision-llms-are-blind\\src\\NestedSquares\\images\\how-many-prompt\\gpt-4o\\correct\\nested_squares_depth_5_image_5_thickness_3.png",
+    "ground_truth": "5",
+    "raw_response": "Looking at this spiral-like pattern of nested squares, I can count {5} distinct squares of different sizes.",
+    "parsed_answer": "5",
+    "correct": true,
+    "error": null,
+    "input_tokens": 1331,
+    "output_tokens": 26,
+    "tokens_used": 1357,
+    "latency_s": 3.2,
+    "metadata": {
+      "depth": 5,
+      "thickness": 3
+    }
+  },
+  {
+    "task": "NestedSquares",
+    "prompt_key": "how-many-prompt",
+    "model": "anthropic/claude-3.5-sonnet",
+    "image_path": "D:\\python\\vision-llms-are-blind\\src\\NestedSquares\\images\\how-many-prompt\\gpt-4o\\correct\\nested_squares_depth_5_image_5_thickness_4.png",
+    "ground_truth": "5",
+    "raw_response": "Looking at this geometric pattern of nested squares, there are {4} squares in total, each decreasing in size and positioned in a spiral-like arrangement.",
+    "parsed_answer": "4",
+    "correct": false,
+    "error": null,
+    "input_tokens": 1331,
+    "output_tokens": 35,
+    "tokens_used": 1366,
+    "latency_s": 3.38,
+    "metadata": {
+      "depth": 5,
+      "thickness": 4
+    }
+  },
+  {
+    "task": "NestedSquares",
+    "prompt_key": "how-many-prompt",
+    "model": "anthropic/claude-3.5-sonnet",
+    "image_path": "D:\\python\\vision-llms-are-blind\\src\\NestedSquares\\images\\how-many-prompt\\gpt-4o\\correct\\nested_squares_depth_5_image_6_thickness_2.png",
+    "ground_truth": "5",
+    "raw_response": "{4}\n\nThe image shows 4 concentric squares of different sizes, with the smallest square in the center and each subsequent square getting larger as they move outward.",
+    "parsed_answer": "4",
+    "correct": false,
+    "error": null,
+    "input_tokens": 1331,
+    "output_tokens": 39,
+    "tokens_used": 1370,
+    "latency_s": 2.53,
+    "metadata": {
+      "depth": 5,
+      "thickness": 2
+    }
+  },
+  {
+    "task": "NestedSquares",
+    "prompt_key": "how-many-prompt",
+    "model": "anthropic/claude-3.5-sonnet",
+    "image_path": "D:\\python\\vision-llms-are-blind\\src\\NestedSquares\\images\\how-many-prompt\\gpt-4o\\correct\\nested_squares_depth_5_image_6_thickness_3.png",
+    "ground_truth": "5",
+    "raw_response": "{8}",
+    "parsed_answer": "8",
+    "correct": false,
+    "error": null,
+    "input_tokens": 1331,
+    "output_tokens": 6,
+    "tokens_used": 1337,
+    "latency_s": 2.06,
+    "metadata": {
+      "depth": 5,
+      "thickness": 3
+    }
+  },
+  {
+    "task": "NestedSquares",
+    "prompt_key": "how-many-prompt",
+    "model": "anthropic/claude-3.5-sonnet",
+    "image_path": "D:\\python\\vision-llms-are-blind\\src\\NestedSquares\\images\\how-many-prompt\\gpt-4o\\correct\\nested_squares_depth_5_image_6_thickness_4.png",
+    "ground_truth": "5",
+    "raw_response": "In this image, there are {5} squares. The image shows nested squares of different sizes arranged in a spiral-like pattern, with each square rotated slightly from the previous one.",
+    "parsed_answer": "5",
+    "correct": true,
+    "error": null,
+    "input_tokens": 1331,
+    "output_tokens": 41,
+    "tokens_used": 1372,
+    "latency_s": 5.32,
+    "metadata": {
+      "depth": 5,
+      "thickness": 4
+    }
+  },
+  {
+    "task": "NestedSquares",
+    "prompt_key": "how-many-prompt",
+    "model": "anthropic/claude-3.5-sonnet",
+    "image_path": "D:\\python\\vision-llms-are-blind\\src\\NestedSquares\\images\\how-many-prompt\\gpt-4o\\correct\\nested_squares_depth_5_image_7_thickness_2.png",
+    "ground_truth": "5",
+    "raw_response": "{5}\n\nThe image shows a series of concentric squares, with 5 squares in total - one small square in the center, surrounded by three increasingly larger squares, and one large outer square.",
+    "parsed_answer": "5",
+    "correct": true,
+    "error": null,
+    "input_tokens": 1331,
+    "output_tokens": 45,
+    "tokens_used": 1376,
+    "latency_s": 6.35,
+    "metadata": {
+      "depth": 5,
+      "thickness": 2
+    }
+  },
+  {
+    "task": "NestedSquares",
+    "prompt_key": "how-many-prompt",
+    "model": "anthropic/claude-3.5-sonnet",
+    "image_path": "D:\\python\\vision-llms-are-blind\\src\\NestedSquares\\images\\how-many-prompt\\gpt-4o\\correct\\nested_squares_depth_5_image_7_thickness_4.png",
+    "ground_truth": "5",
+    "raw_response": "In this image, counting all the nested squares in the spiral pattern, there are {5} squares.",
+    "parsed_answer": "5",
+    "correct": true,
+    "error": null,
+    "input_tokens": 1331,
+    "output_tokens": 24,
+    "tokens_used": 1355,
+    "latency_s": 4.44,
+    "metadata": {
+      "depth": 5,
+      "thickness": 4
+    }
+  },
+  {
+    "task": "NestedSquares",
+    "prompt_key": "how-many-prompt",
+    "model": "anthropic/claude-3.5-sonnet",
+    "image_path": "D:\\python\\vision-llms-are-blind\\src\\NestedSquares\\images\\how-many-prompt\\gpt-4o\\correct\\nested_squares_depth_5_image_8_thickness_2.png",
+    "ground_truth": "5",
+    "raw_response": "{5}",
+    "parsed_answer": "5",
+    "correct": true,
+    "error": null,
+    "input_tokens": 1331,
+    "output_tokens": 6,
+    "tokens_used": 1337,
+    "latency_s": 8.59,
+    "metadata": {
+      "depth": 5,
+      "thickness": 2
+    }
+  },
+  {
+    "task": "NestedSquares",
+    "prompt_key": "how-many-prompt",
+    "model": "anthropic/claude-3.5-sonnet",
+    "image_path": "D:\\python\\vision-llms-are-blind\\src\\NestedSquares\\images\\how-many-prompt\\gpt-4o\\correct\\nested_squares_depth_5_image_8_thickness_3.png",
+    "ground_truth": "5",
+    "raw_response": "{6}",
+    "parsed_answer": "6",
+    "correct": false,
+    "error": null,
+    "input_tokens": 1331,
+    "output_tokens": 6,
+    "tokens_used": 1337,
+    "latency_s": 1.87,
+    "metadata": {
+      "depth": 5,
+      "thickness": 3
+    }
+  },
+  {
+    "task": "NestedSquares",
+    "prompt_key": "how-many-prompt",
+    "model": "anthropic/claude-3.5-sonnet",
+    "image_path": "D:\\python\\vision-llms-are-blind\\src\\NestedSquares\\images\\how-many-prompt\\gpt-4o\\correct\\nested_squares_depth_5_image_8_thickness_4.png",
+    "ground_truth": "5",
+    "raw_response": "In this image, there are concentric squares, with each square nested inside a larger one. Counting from the smallest square in the center to the largest outer square, there are {5} squares in total.",
+    "parsed_answer": "5",
+    "correct": true,
+    "error": null,
+    "input_tokens": 1331,
+    "output_tokens": 46,
+    "tokens_used": 1377,
+    "latency_s": 3.35,
+    "metadata": {
+      "depth": 5,
+      "thickness": 4
+    }
+  },
+  {
+    "task": "NestedSquares",
+    "prompt_key": "how-many-prompt",
+    "model": "anthropic/claude-3.5-sonnet",
+    "image_path": "D:\\python\\vision-llms-are-blind\\src\\NestedSquares\\images\\how-many-prompt\\gpt-4o\\incorrect\\nested_squares_depth_2_image_1_thickness_4.png",
+    "ground_truth": "2",
+    "raw_response": "In this image, I can count {4} squares of different sizes: 3 smaller squares within the geometric pattern and 1 larger square that encompasses them.",
+    "parsed_answer": "4",
+    "correct": false,
+    "error": null,
+    "input_tokens": 1331,
+    "output_tokens": 37,
+    "tokens_used": 1368,
+    "latency_s": 5.74,
+    "metadata": {
+      "depth": 2,
+      "thickness": 4
+    }
+  },
+  {
+    "task": "NestedSquares",
+    "prompt_key": "how-many-prompt",
+    "model": "anthropic/claude-3.5-sonnet",
+    "image_path": "D:\\python\\vision-llms-are-blind\\src\\NestedSquares\\images\\how-many-prompt\\gpt-4o\\incorrect\\nested_squares_depth_2_image_2_thickness_3.png",
+    "ground_truth": "2",
+    "raw_response": "{2}. The image shows two squares, one larger square containing a smaller square inside it.",
+    "parsed_answer": "2",
+    "correct": true,
+    "error": null,
+    "input_tokens": 1331,
+    "output_tokens": 23,
+    "tokens_used": 1354,
+    "latency_s": 2.43,
+    "metadata": {
+      "depth": 2,
+      "thickness": 3
+    }
+  },
+  {
+    "task": "NestedSquares",
+    "prompt_key": "how-many-prompt",
+    "model": "anthropic/claude-3.5-sonnet",
+    "image_path": "D:\\python\\vision-llms-are-blind\\src\\NestedSquares\\images\\how-many-prompt\\gpt-4o\\incorrect\\nested_squares_depth_2_image_5_thickness_4.png",
+    "ground_truth": "2",
+    "raw_response": "{2} - There are two squares in the image, one larger square with a smaller square nested inside it.",
+    "parsed_answer": "2",
+    "correct": true,
+    "error": null,
+    "input_tokens": 1331,
+    "output_tokens": 26,
+    "tokens_used": 1357,
+    "latency_s": 2.79,
+    "metadata": {
+      "depth": 2,
+      "thickness": 4
+    }
+  },
+  {
+    "task": "NestedSquares",
+    "prompt_key": "how-many-prompt",
+    "model": "anthropic/claude-3.5-sonnet",
+    "image_path": "D:\\python\\vision-llms-are-blind\\src\\NestedSquares\\images\\how-many-prompt\\gpt-4o\\incorrect\\nested_squares_depth_2_image_6_thickness_3.png",
+    "ground_truth": "2",
+    "raw_response": "{2} - There are two squares in the image, one larger square containing a smaller square inside it.",
+    "parsed_answer": "2",
+    "correct": true,
+    "error": null,
+    "input_tokens": 1331,
+    "output_tokens": 25,
+    "tokens_used": 1356,
+    "latency_s": 3.23,
+    "metadata": {
+      "depth": 2,
+      "thickness": 3
+    }
+  },
+  {
+    "task": "NestedSquares",
+    "prompt_key": "how-many-prompt",
+    "model": "anthropic/claude-3.5-sonnet",
+    "image_path": "D:\\python\\vision-llms-are-blind\\src\\NestedSquares\\images\\how-many-prompt\\gpt-4o\\incorrect\\nested_squares_depth_2_image_7_thickness_4.png",
+    "ground_truth": "2",
+    "raw_response": "{2} squares are visible in the image - there are two nested squares of different sizes.",
+    "parsed_answer": "2",
+    "correct": true,
+    "error": null,
+    "input_tokens": 1331,
+    "output_tokens": 22,
+    "tokens_used": 1353,
+    "latency_s": 4.54,
+    "metadata": {
+      "depth": 2,
+      "thickness": 4
+    }
+  },
+  {
+    "task": "NestedSquares",
+    "prompt_key": "how-many-prompt",
+    "model": "anthropic/claude-3.5-sonnet",
+    "image_path": "D:\\python\\vision-llms-are-blind\\src\\NestedSquares\\images\\how-many-prompt\\gpt-4o\\incorrect\\nested_squares_depth_2_image_9_thickness_2.png",
+    "ground_truth": "2",
+    "raw_response": "{2} - The image shows two squares, one inside the other, creating a concentric pattern.",
+    "parsed_answer": "2",
+    "correct": true,
+    "error": null,
+    "input_tokens": 1331,
+    "output_tokens": 24,
+    "tokens_used": 1355,
+    "latency_s": 7.1,
+    "metadata": {
+      "depth": 2,
+      "thickness": 2
+    }
+  },
+  {
+    "task": "NestedSquares",
+    "prompt_key": "how-many-prompt",
+    "model": "anthropic/claude-3.5-sonnet",
+    "image_path": "D:\\python\\vision-llms-are-blind\\src\\NestedSquares\\images\\how-many-prompt\\gpt-4o\\incorrect\\nested_squares_depth_3_image_10_thickness_2.png",
+    "ground_truth": "3",
+    "raw_response": "{3}",
+    "parsed_answer": "3",
+    "correct": true,
+    "error": null,
+    "input_tokens": 1331,
+    "output_tokens": 6,
+    "tokens_used": 1337,
+    "latency_s": 2.68,
+    "metadata": {
+      "depth": 3,
+      "thickness": 2
+    }
+  },
+  {
+    "task": "NestedSquares",
+    "prompt_key": "how-many-prompt",
+    "model": "anthropic/claude-3.5-sonnet",
+    "image_path": "D:\\python\\vision-llms-are-blind\\src\\NestedSquares\\images\\how-many-prompt\\gpt-4o\\incorrect\\nested_squares_depth_3_image_10_thickness_3.png",
+    "ground_truth": "3",
+    "raw_response": "In this image, there are {4} squares of different sizes, nested within each other in a concentric pattern.",
+    "parsed_answer": "4",
+    "correct": false,
+    "error": null,
+    "input_tokens": 1331,
+    "output_tokens": 27,
+    "tokens_used": 1358,
+    "latency_s": 2.63,
+    "metadata": {
+      "depth": 3,
+      "thickness": 3
+    }
+  },
+  {
+    "task": "NestedSquares",
+    "prompt_key": "how-many-prompt",
+    "model": "anthropic/claude-3.5-sonnet",
+    "image_path": "D:\\python\\vision-llms-are-blind\\src\\NestedSquares\\images\\how-many-prompt\\gpt-4o\\incorrect\\nested_squares_depth_3_image_2_thickness_2.png",
+    "ground_truth": "3",
+    "raw_response": "{3} - The image shows three nested squares of different sizes, with each square centered within the larger one.",
+    "parsed_answer": "3",
+    "correct": true,
+    "error": null,
+    "input_tokens": 1331,
+    "output_tokens": 26,
+    "tokens_used": 1357,
+    "latency_s": 3.2,
+    "metadata": {
+      "depth": 3,
+      "thickness": 2
+    }
+  },
+  {
+    "task": "NestedSquares",
+    "prompt_key": "how-many-prompt",
+    "model": "anthropic/claude-3.5-sonnet",
+    "image_path": "D:\\python\\vision-llms-are-blind\\src\\NestedSquares\\images\\how-many-prompt\\gpt-4o\\incorrect\\nested_squares_depth_3_image_3_thickness_3.png",
+    "ground_truth": "3",
+    "raw_response": "{3} - There are 3 squares nested within each other in the image.",
+    "parsed_answer": "3",
+    "correct": true,
+    "error": null,
+    "input_tokens": 1331,
+    "output_tokens": 21,
+    "tokens_used": 1352,
+    "latency_s": 2.21,
+    "metadata": {
+      "depth": 3,
+      "thickness": 3
+    }
+  },
+  {
+    "task": "NestedSquares",
+    "prompt_key": "how-many-prompt",
+    "model": "anthropic/claude-3.5-sonnet",
+    "image_path": "D:\\python\\vision-llms-are-blind\\src\\NestedSquares\\images\\how-many-prompt\\gpt-4o\\incorrect\\nested_squares_depth_3_image_3_thickness_4.png",
+    "ground_truth": "3",
+    "raw_response": "In this image, there are {3} squares - one large outer square, a medium-sized square inside it, and a smaller square inside that one. They are arranged concentrically, meaning they share the same center point.",
+    "parsed_answer": "3",
+    "correct": true,
+    "error": null,
+    "input_tokens": 1331,
+    "output_tokens": 50,
+    "tokens_used": 1381,
+    "latency_s": 4.37,
+    "metadata": {
+      "depth": 3,
+      "thickness": 4
+    }
+  },
+  {
+    "task": "NestedSquares",
+    "prompt_key": "how-many-prompt",
+    "model": "anthropic/claude-3.5-sonnet",
+    "image_path": "D:\\python\\vision-llms-are-blind\\src\\NestedSquares\\images\\how-many-prompt\\gpt-4o\\incorrect\\nested_squares_depth_3_image_4_thickness_2.png",
+    "ground_truth": "3",
+    "raw_response": "{3} - The image shows three concentric squares, with each square nested inside the larger one.",
+    "parsed_answer": "3",
+    "correct": true,
+    "error": null,
+    "input_tokens": 1331,
+    "output_tokens": 24,
+    "tokens_used": 1355,
+    "latency_s": 2.35,
+    "metadata": {
+      "depth": 3,
+      "thickness": 2
+    }
+  },
+  {
+    "task": "NestedSquares",
+    "prompt_key": "how-many-prompt",
+    "model": "anthropic/claude-3.5-sonnet",
+    "image_path": "D:\\python\\vision-llms-are-blind\\src\\NestedSquares\\images\\how-many-prompt\\gpt-4o\\incorrect\\nested_squares_depth_3_image_4_thickness_3.png",
+    "ground_truth": "3",
+    "raw_response": "{3} - The image shows three nested squares of different sizes arranged in a concentric pattern.",
+    "parsed_answer": "3",
+    "correct": true,
+    "error": null,
+    "input_tokens": 1331,
+    "output_tokens": 23,
+    "tokens_used": 1354,
+    "latency_s": 2.74,
+    "metadata": {
+      "depth": 3,
+      "thickness": 3
+    }
+  },
+  {
+    "task": "NestedSquares",
+    "prompt_key": "how-many-prompt",
+    "model": "anthropic/claude-3.5-sonnet",
+    "image_path": "D:\\python\\vision-llms-are-blind\\src\\NestedSquares\\images\\how-many-prompt\\gpt-4o\\incorrect\\nested_squares_depth_3_image_4_thickness_4.png",
+    "ground_truth": "3",
+    "raw_response": "{3} - The image shows three squares of different sizes nested within each other.",
+    "parsed_answer": "3",
+    "correct": true,
+    "error": null,
+    "input_tokens": 1331,
+    "output_tokens": 20,
+    "tokens_used": 1351,
+    "latency_s": 2.33,
+    "metadata": {
+      "depth": 3,
+      "thickness": 4
+    }
+  },
+  {
+    "task": "NestedSquares",
+    "prompt_key": "how-many-prompt",
+    "model": "anthropic/claude-3.5-sonnet",
+    "image_path": "D:\\python\\vision-llms-are-blind\\src\\NestedSquares\\images\\how-many-prompt\\gpt-4o\\incorrect\\nested_squares_depth_3_image_5_thickness_3.png",
+    "ground_truth": "3",
+    "raw_response": "{3} - There are three squares of different sizes nested within each other in the image.",
+    "parsed_answer": "3",
+    "correct": true,
+    "error": null,
+    "input_tokens": 1331,
+    "output_tokens": 22,
+    "tokens_used": 1353,
+    "latency_s": 5.63,
+    "metadata": {
+      "depth": 3,
+      "thickness": 3
+    }
+  },
+  {
+    "task": "NestedSquares",
+    "prompt_key": "how-many-prompt",
+    "model": "anthropic/claude-3.5-sonnet",
+    "image_path": "D:\\python\\vision-llms-are-blind\\src\\NestedSquares\\images\\how-many-prompt\\gpt-4o\\incorrect\\nested_squares_depth_3_image_5_thickness_4.png",
+    "ground_truth": "3",
+    "raw_response": "In this image, there are {3} squares nested within each other, with each square being slightly smaller than the one containing it.",
+    "parsed_answer": "3",
+    "correct": true,
+    "error": null,
+    "input_tokens": 1331,
+    "output_tokens": 30,
+    "tokens_used": 1361,
+    "latency_s": 2.95,
+    "metadata": {
+      "depth": 3,
+      "thickness": 4
+    }
+  },
+  {
+    "task": "NestedSquares",
+    "prompt_key": "how-many-prompt",
+    "model": "anthropic/claude-3.5-sonnet",
+    "image_path": "D:\\python\\vision-llms-are-blind\\src\\NestedSquares\\images\\how-many-prompt\\gpt-4o\\incorrect\\nested_squares_depth_3_image_6_thickness_2.png",
+    "ground_truth": "3",
+    "raw_response": "{3} - The image shows 3 concentric squares of different sizes nested within each other.",
+    "parsed_answer": "3",
+    "correct": true,
+    "error": null,
+    "input_tokens": 1331,
+    "output_tokens": 24,
+    "tokens_used": 1355,
+    "latency_s": 3.03,
+    "metadata": {
+      "depth": 3,
+      "thickness": 2
+    }
+  },
+  {
+    "task": "NestedSquares",
+    "prompt_key": "how-many-prompt",
+    "model": "anthropic/claude-3.5-sonnet",
+    "image_path": "D:\\python\\vision-llms-are-blind\\src\\NestedSquares\\images\\how-many-prompt\\gpt-4o\\incorrect\\nested_squares_depth_3_image_6_thickness_4.png",
+    "ground_truth": "3",
+    "raw_response": "In this image, there are 3 nested squares arranged concentrically. The answer is {3}.",
+    "parsed_answer": "3",
+    "correct": true,
+    "error": null,
+    "input_tokens": 1331,
+    "output_tokens": 25,
+    "tokens_used": 1356,
+    "latency_s": 2.63,
+    "metadata": {
+      "depth": 3,
+      "thickness": 4
+    }
+  },
+  {
+    "task": "NestedSquares",
+    "prompt_key": "how-many-prompt",
+    "model": "anthropic/claude-3.5-sonnet",
+    "image_path": "D:\\python\\vision-llms-are-blind\\src\\NestedSquares\\images\\how-many-prompt\\gpt-4o\\incorrect\\nested_squares_depth_3_image_7_thickness_3.png",
+    "ground_truth": "3",
+    "raw_response": "In this image, there are {4} squares nested inside each other, creating a concentric pattern where each square is slightly smaller than the one surrounding it.",
+    "parsed_answer": "4",
+    "correct": false,
+    "error": null,
+    "input_tokens": 1331,
+    "output_tokens": 35,
+    "tokens_used": 1366,
+    "latency_s": 2.99,
+    "metadata": {
+      "depth": 3,
+      "thickness": 3
+    }
+  },
+  {
+    "task": "NestedSquares",
+    "prompt_key": "how-many-prompt",
+    "model": "anthropic/claude-3.5-sonnet",
+    "image_path": "D:\\python\\vision-llms-are-blind\\src\\NestedSquares\\images\\how-many-prompt\\gpt-4o\\incorrect\\nested_squares_depth_3_image_8_thickness_2.png",
+    "ground_truth": "3",
+    "raw_response": "{3} - There are three squares of different sizes nested within each other in the image.",
+    "parsed_answer": "3",
+    "correct": true,
+    "error": null,
+    "input_tokens": 1331,
+    "output_tokens": 22,
+    "tokens_used": 1353,
+    "latency_s": 2.45,
+    "metadata": {
+      "depth": 3,
+      "thickness": 2
+    }
+  },
+  {
+    "task": "NestedSquares",
+    "prompt_key": "how-many-prompt",
+    "model": "anthropic/claude-3.5-sonnet",
+    "image_path": "D:\\python\\vision-llms-are-blind\\src\\NestedSquares\\images\\how-many-prompt\\gpt-4o\\incorrect\\nested_squares_depth_3_image_8_thickness_3.png",
+    "ground_truth": "3",
+    "raw_response": "In this image, there are {3} squares - one small square in the center, surrounded by a medium-sized square, which is in turn surrounded by a larger square.",
+    "parsed_answer": "3",
+    "correct": true,
+    "error": null,
+    "input_tokens": 1331,
+    "output_tokens": 39,
+    "tokens_used": 1370,
+    "latency_s": 3.1,
+    "metadata": {
+      "depth": 3,
+      "thickness": 3
+    }
+  },
+  {
+    "task": "NestedSquares",
+    "prompt_key": "how-many-prompt",
+    "model": "anthropic/claude-3.5-sonnet",
+    "image_path": "D:\\python\\vision-llms-are-blind\\src\\NestedSquares\\images\\how-many-prompt\\gpt-4o\\incorrect\\nested_squares_depth_3_image_9_thickness_2.png",
+    "ground_truth": "3",
+    "raw_response": "In this image, I can see {3} squares of different sizes, nested within each other, creating a concentric pattern.",
+    "parsed_answer": "3",
+    "correct": true,
+    "error": null,
+    "input_tokens": 1331,
+    "output_tokens": 29,
+    "tokens_used": 1360,
+    "latency_s": 5.73,
+    "metadata": {
+      "depth": 3,
+      "thickness": 2
+    }
+  },
+  {
+    "task": "NestedSquares",
+    "prompt_key": "how-many-prompt",
+    "model": "anthropic/claude-3.5-sonnet",
+    "image_path": "D:\\python\\vision-llms-are-blind\\src\\NestedSquares\\images\\how-many-prompt\\gpt-4o\\incorrect\\nested_squares_depth_3_image_9_thickness_3.png",
+    "ground_truth": "3",
+    "raw_response": "In this image, there are {4} squares - one small square in the center, surrounded by three progressively larger squares, all nested within each other.",
+    "parsed_answer": "4",
+    "correct": false,
+    "error": null,
+    "input_tokens": 1331,
+    "output_tokens": 35,
+    "tokens_used": 1366,
+    "latency_s": 3.05,
+    "metadata": {
+      "depth": 3,
+      "thickness": 3
+    }
+  },
+  {
+    "task": "NestedSquares",
+    "prompt_key": "how-many-prompt",
+    "model": "anthropic/claude-3.5-sonnet",
+    "image_path": "D:\\python\\vision-llms-are-blind\\src\\NestedSquares\\images\\how-many-prompt\\gpt-4o\\incorrect\\nested_squares_depth_3_image_9_thickness_4.png",
+    "ground_truth": "3",
+    "raw_response": "{3} - The image shows three concentric squares, one inside another, forming a nested square pattern.",
+    "parsed_answer": "3",
+    "correct": true,
+    "error": null,
+    "input_tokens": 1331,
+    "output_tokens": 25,
+    "tokens_used": 1356,
+    "latency_s": 2.45,
+    "metadata": {
+      "depth": 3,
+      "thickness": 4
+    }
+  },
+  {
+    "task": "NestedSquares",
+    "prompt_key": "how-many-prompt",
+    "model": "anthropic/claude-3.5-sonnet",
+    "image_path": "D:\\python\\vision-llms-are-blind\\src\\NestedSquares\\images\\how-many-prompt\\gpt-4o\\incorrect\\nested_squares_depth_4_image_10_thickness_3.png",
+    "ground_truth": "4",
+    "raw_response": "{5} - The image shows 5 concentric squares of different sizes nested within each other.",
+    "parsed_answer": "5",
+    "correct": false,
+    "error": null,
+    "input_tokens": 1331,
+    "output_tokens": 24,
+    "tokens_used": 1355,
+    "latency_s": 2.16,
+    "metadata": {
+      "depth": 4,
+      "thickness": 3
+    }
+  },
+  {
+    "task": "NestedSquares",
+    "prompt_key": "how-many-prompt",
+    "model": "anthropic/claude-3.5-sonnet",
+    "image_path": "D:\\python\\vision-llms-are-blind\\src\\NestedSquares\\images\\how-many-prompt\\gpt-4o\\incorrect\\nested_squares_depth_4_image_10_thickness_4.png",
+    "ground_truth": "4",
+    "raw_response": "{4} - The image shows 4 concentric squares, with each square being smaller than the one surrounding it.",
+    "parsed_answer": "4",
+    "correct": true,
+    "error": null,
+    "input_tokens": 1331,
+    "output_tokens": 28,
+    "tokens_used": 1359,
+    "latency_s": 2.26,
+    "metadata": {
+      "depth": 4,
+      "thickness": 4
+    }
+  },
+  {
+    "task": "NestedSquares",
+    "prompt_key": "how-many-prompt",
+    "model": "anthropic/claude-3.5-sonnet",
+    "image_path": "D:\\python\\vision-llms-are-blind\\src\\NestedSquares\\images\\how-many-prompt\\gpt-4o\\incorrect\\nested_squares_depth_4_image_1_thickness_2.png",
+    "ground_truth": "4",
+    "raw_response": "In this image, there are {4} squares nested inside each other, starting from a small square in the center and expanding outward to progressively larger squares.",
+    "parsed_answer": "4",
+    "correct": true,
+    "error": null,
+    "input_tokens": 1331,
+    "output_tokens": 36,
+    "tokens_used": 1367,
+    "latency_s": 2.86,
+    "metadata": {
+      "depth": 4,
+      "thickness": 2
+    }
+  },
+  {
+    "task": "NestedSquares",
+    "prompt_key": "how-many-prompt",
+    "model": "anthropic/claude-3.5-sonnet",
+    "image_path": "D:\\python\\vision-llms-are-blind\\src\\NestedSquares\\images\\how-many-prompt\\gpt-4o\\incorrect\\nested_squares_depth_4_image_2_thickness_2.png",
+    "ground_truth": "4",
+    "raw_response": "{4} - The image shows 4 concentric squares of different sizes, nested within each other.",
+    "parsed_answer": "4",
+    "correct": true,
+    "error": null,
+    "input_tokens": 1331,
+    "output_tokens": 25,
+    "tokens_used": 1356,
+    "latency_s": 2.24,
+    "metadata": {
+      "depth": 4,
+      "thickness": 2
+    }
+  },
+  {
+    "task": "NestedSquares",
+    "prompt_key": "how-many-prompt",
+    "model": "anthropic/claude-3.5-sonnet",
+    "image_path": "D:\\python\\vision-llms-are-blind\\src\\NestedSquares\\images\\how-many-prompt\\gpt-4o\\incorrect\\nested_squares_depth_4_image_2_thickness_3.png",
+    "ground_truth": "4",
+    "raw_response": "In this image, there are 4 concentric squares nested within each other, so the answer is {4}.",
+    "parsed_answer": "4",
+    "correct": true,
+    "error": null,
+    "input_tokens": 1331,
+    "output_tokens": 27,
+    "tokens_used": 1358,
+    "latency_s": 2.46,
+    "metadata": {
+      "depth": 4,
+      "thickness": 3
+    }
+  },
+  {
+    "task": "NestedSquares",
+    "prompt_key": "how-many-prompt",
+    "model": "anthropic/claude-3.5-sonnet",
+    "image_path": "D:\\python\\vision-llms-are-blind\\src\\NestedSquares\\images\\how-many-prompt\\gpt-4o\\incorrect\\nested_squares_depth_4_image_2_thickness_4.png",
+    "ground_truth": "4",
+    "raw_response": "In this image, there are 4 concentric squares arranged in a nested pattern from smallest to largest. Therefore, the total number of squares is {4}.",
+    "parsed_answer": "4",
+    "correct": true,
+    "error": null,
+    "input_tokens": 1331,
+    "output_tokens": 36,
+    "tokens_used": 1367,
+    "latency_s": 3.18,
+    "metadata": {
+      "depth": 4,
+      "thickness": 4
+    }
+  },
+  {
+    "task": "NestedSquares",
+    "prompt_key": "how-many-prompt",
+    "model": "anthropic/claude-3.5-sonnet",
+    "image_path": "D:\\python\\vision-llms-are-blind\\src\\NestedSquares\\images\\how-many-prompt\\gpt-4o\\incorrect\\nested_squares_depth_4_image_4_thickness_2.png",
+    "ground_truth": "4",
+    "raw_response": "In this image, there are 4 nested squares of different sizes. {4}",
+    "parsed_answer": "4",
+    "correct": true,
+    "error": null,
+    "input_tokens": 1331,
+    "output_tokens": 21,
+    "tokens_used": 1352,
+    "latency_s": 2.06,
+    "metadata": {
+      "depth": 4,
+      "thickness": 2
+    }
+  },
+  {
+    "task": "NestedSquares",
+    "prompt_key": "how-many-prompt",
+    "model": "anthropic/claude-3.5-sonnet",
+    "image_path": "D:\\python\\vision-llms-are-blind\\src\\NestedSquares\\images\\how-many-prompt\\gpt-4o\\incorrect\\nested_squares_depth_4_image_4_thickness_3.png",
+    "ground_truth": "4",
+    "raw_response": "In this image, I can see {4} squares arranged in a nested pattern, with each square being smaller than the one containing it.",
+    "parsed_answer": "4",
+    "correct": true,
+    "error": null,
+    "input_tokens": 1331,
+    "output_tokens": 31,
+    "tokens_used": 1362,
+    "latency_s": 2.25,
+    "metadata": {
+      "depth": 4,
+      "thickness": 3
+    }
+  },
+  {
+    "task": "NestedSquares",
+    "prompt_key": "how-many-prompt",
+    "model": "anthropic/claude-3.5-sonnet",
+    "image_path": "D:\\python\\vision-llms-are-blind\\src\\NestedSquares\\images\\how-many-prompt\\gpt-4o\\incorrect\\nested_squares_depth_4_image_4_thickness_4.png",
+    "ground_truth": "4",
+    "raw_response": "In this image, there are {4} squares of different sizes, nested within each other in a concentric pattern.",
+    "parsed_answer": "4",
+    "correct": true,
+    "error": null,
+    "input_tokens": 1331,
+    "output_tokens": 27,
+    "tokens_used": 1358,
+    "latency_s": 2.34,
+    "metadata": {
+      "depth": 4,
+      "thickness": 4
+    }
+  },
+  {
+    "task": "NestedSquares",
+    "prompt_key": "how-many-prompt",
+    "model": "anthropic/claude-3.5-sonnet",
+    "image_path": "D:\\python\\vision-llms-are-blind\\src\\NestedSquares\\images\\how-many-prompt\\gpt-4o\\incorrect\\nested_squares_depth_4_image_5_thickness_2.png",
+    "ground_truth": "4",
+    "raw_response": "{4}",
+    "parsed_answer": "4",
+    "correct": true,
+    "error": null,
+    "input_tokens": 1331,
+    "output_tokens": 6,
+    "tokens_used": 1337,
+    "latency_s": 1.92,
+    "metadata": {
+      "depth": 4,
+      "thickness": 2
+    }
+  }
+]

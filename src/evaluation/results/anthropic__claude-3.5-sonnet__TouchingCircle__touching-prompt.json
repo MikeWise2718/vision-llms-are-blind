@@ -1,0 +1,1902 @@
+[
+  {
+    "task": "TouchingCircle",
+    "prompt_key": "touching-prompt",
+    "model": "anthropic/claude-3.5-sonnet",
+    "image_path": "D:\\python\\vision-llms-are-blind\\src\\TouchingCircle\\images\\touching-prompt\\gpt-4o\\correct\\gpt_touch_pixels_1155_rotation_diagonal_1_diameter_0.14_distance_-0.05.png",
+    "ground_truth": "Yes",
+    "raw_response": "Yes",
+    "parsed_answer": "Yes",
+    "correct": true,
+    "error": null,
+    "input_tokens": 1545,
+    "output_tokens": 4,
+    "tokens_used": 1549,
+    "latency_s": 5.15,
+    "metadata": {
+      "distance": -0.05,
+      "diameter": 0.14
+    }
+  },
+  {
+    "task": "TouchingCircle",
+    "prompt_key": "touching-prompt",
+    "model": "anthropic/claude-3.5-sonnet",
+    "image_path": "D:\\python\\vision-llms-are-blind\\src\\TouchingCircle\\images\\touching-prompt\\gpt-4o\\correct\\gpt_touch_pixels_1155_rotation_diagonal_1_diameter_0.14_distance_-0.10.png",
+    "ground_truth": "Yes",
+    "raw_response": "Yes",
+    "parsed_answer": "Yes",
+    "correct": true,
+    "error": null,
+    "input_tokens": 1545,
+    "output_tokens": 4,
+    "tokens_used": 1549,
+    "latency_s": 14.94,
+    "metadata": {
+      "distance": -0.1,
+      "diameter": 0.14
+    }
+  },
+  {
+    "task": "TouchingCircle",
+    "prompt_key": "touching-prompt",
+    "model": "anthropic/claude-3.5-sonnet",
+    "image_path": "D:\\python\\vision-llms-are-blind\\src\\TouchingCircle\\images\\touching-prompt\\gpt-4o\\correct\\gpt_touch_pixels_1155_rotation_diagonal_1_diameter_0.14_distance_-0.15.png",
+    "ground_truth": "Yes",
+    "raw_response": "Yes",
+    "parsed_answer": "Yes",
+    "correct": true,
+    "error": null,
+    "input_tokens": 1545,
+    "output_tokens": 4,
+    "tokens_used": 1549,
+    "latency_s": 2.06,
+    "metadata": {
+      "distance": -0.15,
+      "diameter": 0.14
+    }
+  },
+  {
+    "task": "TouchingCircle",
+    "prompt_key": "touching-prompt",
+    "model": "anthropic/claude-3.5-sonnet",
+    "image_path": "D:\\python\\vision-llms-are-blind\\src\\TouchingCircle\\images\\touching-prompt\\gpt-4o\\correct\\gpt_touch_pixels_1155_rotation_diagonal_1_diameter_0.14_distance_0.00.png",
+    "ground_truth": "Yes",
+    "raw_response": "No",
+    "parsed_answer": "No",
+    "correct": false,
+    "error": null,
+    "input_tokens": 1545,
+    "output_tokens": 4,
+    "tokens_used": 1549,
+    "latency_s": 1.83,
+    "metadata": {
+      "distance": 0.0,
+      "diameter": 0.14
+    }
+  },
+  {
+    "task": "TouchingCircle",
+    "prompt_key": "touching-prompt",
+    "model": "anthropic/claude-3.5-sonnet",
+    "image_path": "D:\\python\\vision-llms-are-blind\\src\\TouchingCircle\\images\\touching-prompt\\gpt-4o\\correct\\gpt_touch_pixels_1155_rotation_diagonal_1_diameter_0.14_distance_0.25.png",
+    "ground_truth": "No",
+    "raw_response": "No",
+    "parsed_answer": "No",
+    "correct": true,
+    "error": null,
+    "input_tokens": 1545,
+    "output_tokens": 4,
+    "tokens_used": 1549,
+    "latency_s": 4.36,
+    "metadata": {
+      "distance": 0.25,
+      "diameter": 0.14
+    }
+  },
+  {
+    "task": "TouchingCircle",
+    "prompt_key": "touching-prompt",
+    "model": "anthropic/claude-3.5-sonnet",
+    "image_path": "D:\\python\\vision-llms-are-blind\\src\\TouchingCircle\\images\\touching-prompt\\gpt-4o\\correct\\gpt_touch_pixels_1155_rotation_diagonal_1_diameter_0.14_distance_0.30.png",
+    "ground_truth": "No",
+    "raw_response": "No",
+    "parsed_answer": "No",
+    "correct": true,
+    "error": null,
+    "input_tokens": 1545,
+    "output_tokens": 4,
+    "tokens_used": 1549,
+    "latency_s": 8.97,
+    "metadata": {
+      "distance": 0.3,
+      "diameter": 0.14
+    }
+  },
+  {
+    "task": "TouchingCircle",
+    "prompt_key": "touching-prompt",
+    "model": "anthropic/claude-3.5-sonnet",
+    "image_path": "D:\\python\\vision-llms-are-blind\\src\\TouchingCircle\\images\\touching-prompt\\gpt-4o\\correct\\gpt_touch_pixels_1155_rotation_diagonal_1_diameter_0.14_distance_0.35.png",
+    "ground_truth": "No",
+    "raw_response": "No",
+    "parsed_answer": "No",
+    "correct": true,
+    "error": null,
+    "input_tokens": 1545,
+    "output_tokens": 4,
+    "tokens_used": 1549,
+    "latency_s": 2.19,
+    "metadata": {
+      "distance": 0.35,
+      "diameter": 0.14
+    }
+  },
+  {
+    "task": "TouchingCircle",
+    "prompt_key": "touching-prompt",
+    "model": "anthropic/claude-3.5-sonnet",
+    "image_path": "D:\\python\\vision-llms-are-blind\\src\\TouchingCircle\\images\\touching-prompt\\gpt-4o\\correct\\gpt_touch_pixels_1155_rotation_diagonal_1_diameter_0.14_distance_0.45.png",
+    "ground_truth": "No",
+    "raw_response": "No",
+    "parsed_answer": "No",
+    "correct": true,
+    "error": null,
+    "input_tokens": 1545,
+    "output_tokens": 4,
+    "tokens_used": 1549,
+    "latency_s": 2.06,
+    "metadata": {
+      "distance": 0.45,
+      "diameter": 0.14
+    }
+  },
+  {
+    "task": "TouchingCircle",
+    "prompt_key": "touching-prompt",
+    "model": "anthropic/claude-3.5-sonnet",
+    "image_path": "D:\\python\\vision-llms-are-blind\\src\\TouchingCircle\\images\\touching-prompt\\gpt-4o\\correct\\gpt_touch_pixels_1155_rotation_diagonal_1_diameter_0.14_distance_0.50.png",
+    "ground_truth": "No",
+    "raw_response": "No",
+    "parsed_answer": "No",
+    "correct": true,
+    "error": null,
+    "input_tokens": 1545,
+    "output_tokens": 4,
+    "tokens_used": 1549,
+    "latency_s": 2.34,
+    "metadata": {
+      "distance": 0.5,
+      "diameter": 0.14
+    }
+  },
+  {
+    "task": "TouchingCircle",
+    "prompt_key": "touching-prompt",
+    "model": "anthropic/claude-3.5-sonnet",
+    "image_path": "D:\\python\\vision-llms-are-blind\\src\\TouchingCircle\\images\\touching-prompt\\gpt-4o\\correct\\gpt_touch_pixels_1155_rotation_diagonal_1_diameter_0.17_distance_-0.05.png",
+    "ground_truth": "Yes",
+    "raw_response": "Yes",
+    "parsed_answer": "Yes",
+    "correct": true,
+    "error": null,
+    "input_tokens": 1545,
+    "output_tokens": 4,
+    "tokens_used": 1549,
+    "latency_s": 2.37,
+    "metadata": {
+      "distance": -0.05,
+      "diameter": 0.17
+    }
+  },
+  {
+    "task": "TouchingCircle",
+    "prompt_key": "touching-prompt",
+    "model": "anthropic/claude-3.5-sonnet",
+    "image_path": "D:\\python\\vision-llms-are-blind\\src\\TouchingCircle\\images\\touching-prompt\\gpt-4o\\correct\\gpt_touch_pixels_1155_rotation_diagonal_1_diameter_0.17_distance_-0.10.png",
+    "ground_truth": "Yes",
+    "raw_response": "Yes",
+    "parsed_answer": "Yes",
+    "correct": true,
+    "error": null,
+    "input_tokens": 1545,
+    "output_tokens": 4,
+    "tokens_used": 1549,
+    "latency_s": 4.14,
+    "metadata": {
+      "distance": -0.1,
+      "diameter": 0.17
+    }
+  },
+  {
+    "task": "TouchingCircle",
+    "prompt_key": "touching-prompt",
+    "model": "anthropic/claude-3.5-sonnet",
+    "image_path": "D:\\python\\vision-llms-are-blind\\src\\TouchingCircle\\images\\touching-prompt\\gpt-4o\\correct\\gpt_touch_pixels_1155_rotation_diagonal_1_diameter_0.17_distance_-0.15.png",
+    "ground_truth": "Yes",
+    "raw_response": "Yes",
+    "parsed_answer": "Yes",
+    "correct": true,
+    "error": null,
+    "input_tokens": 1545,
+    "output_tokens": 4,
+    "tokens_used": 1549,
+    "latency_s": 2.08,
+    "metadata": {
+      "distance": -0.15,
+      "diameter": 0.17
+    }
+  },
+  {
+    "task": "TouchingCircle",
+    "prompt_key": "touching-prompt",
+    "model": "anthropic/claude-3.5-sonnet",
+    "image_path": "D:\\python\\vision-llms-are-blind\\src\\TouchingCircle\\images\\touching-prompt\\gpt-4o\\correct\\gpt_touch_pixels_1155_rotation_diagonal_1_diameter_0.17_distance_0.00.png",
+    "ground_truth": "Yes",
+    "raw_response": "Yes",
+    "parsed_answer": "Yes",
+    "correct": true,
+    "error": null,
+    "input_tokens": 1545,
+    "output_tokens": 4,
+    "tokens_used": 1549,
+    "latency_s": 2.03,
+    "metadata": {
+      "distance": 0.0,
+      "diameter": 0.17
+    }
+  },
+  {
+    "task": "TouchingCircle",
+    "prompt_key": "touching-prompt",
+    "model": "anthropic/claude-3.5-sonnet",
+    "image_path": "D:\\python\\vision-llms-are-blind\\src\\TouchingCircle\\images\\touching-prompt\\gpt-4o\\correct\\gpt_touch_pixels_1155_rotation_diagonal_1_diameter_0.17_distance_0.25.png",
+    "ground_truth": "No",
+    "raw_response": "Yes",
+    "parsed_answer": "Yes",
+    "correct": false,
+    "error": null,
+    "input_tokens": 1545,
+    "output_tokens": 4,
+    "tokens_used": 1549,
+    "latency_s": 1.78,
+    "metadata": {
+      "distance": 0.25,
+      "diameter": 0.17
+    }
+  },
+  {
+    "task": "TouchingCircle",
+    "prompt_key": "touching-prompt",
+    "model": "anthropic/claude-3.5-sonnet",
+    "image_path": "D:\\python\\vision-llms-are-blind\\src\\TouchingCircle\\images\\touching-prompt\\gpt-4o\\correct\\gpt_touch_pixels_1155_rotation_diagonal_1_diameter_0.17_distance_0.30.png",
+    "ground_truth": "No",
+    "raw_response": "No",
+    "parsed_answer": "No",
+    "correct": true,
+    "error": null,
+    "input_tokens": 1545,
+    "output_tokens": 4,
+    "tokens_used": 1549,
+    "latency_s": 5.61,
+    "metadata": {
+      "distance": 0.3,
+      "diameter": 0.17
+    }
+  },
+  {
+    "task": "TouchingCircle",
+    "prompt_key": "touching-prompt",
+    "model": "anthropic/claude-3.5-sonnet",
+    "image_path": "D:\\python\\vision-llms-are-blind\\src\\TouchingCircle\\images\\touching-prompt\\gpt-4o\\correct\\gpt_touch_pixels_1155_rotation_diagonal_1_diameter_0.17_distance_0.35.png",
+    "ground_truth": "No",
+    "raw_response": "No",
+    "parsed_answer": "No",
+    "correct": true,
+    "error": null,
+    "input_tokens": 1545,
+    "output_tokens": 4,
+    "tokens_used": 1549,
+    "latency_s": 4.13,
+    "metadata": {
+      "distance": 0.35,
+      "diameter": 0.17
+    }
+  },
+  {
+    "task": "TouchingCircle",
+    "prompt_key": "touching-prompt",
+    "model": "anthropic/claude-3.5-sonnet",
+    "image_path": "D:\\python\\vision-llms-are-blind\\src\\TouchingCircle\\images\\touching-prompt\\gpt-4o\\correct\\gpt_touch_pixels_1155_rotation_diagonal_1_diameter_0.17_distance_0.40.png",
+    "ground_truth": "No",
+    "raw_response": "No",
+    "parsed_answer": "No",
+    "correct": true,
+    "error": null,
+    "input_tokens": 1545,
+    "output_tokens": 4,
+    "tokens_used": 1549,
+    "latency_s": 2.19,
+    "metadata": {
+      "distance": 0.4,
+      "diameter": 0.17
+    }
+  },
+  {
+    "task": "TouchingCircle",
+    "prompt_key": "touching-prompt",
+    "model": "anthropic/claude-3.5-sonnet",
+    "image_path": "D:\\python\\vision-llms-are-blind\\src\\TouchingCircle\\images\\touching-prompt\\gpt-4o\\correct\\gpt_touch_pixels_1155_rotation_diagonal_1_diameter_0.17_distance_0.45.png",
+    "ground_truth": "No",
+    "raw_response": "No",
+    "parsed_answer": "No",
+    "correct": true,
+    "error": null,
+    "input_tokens": 1545,
+    "output_tokens": 4,
+    "tokens_used": 1549,
+    "latency_s": 5.62,
+    "metadata": {
+      "distance": 0.45,
+      "diameter": 0.17
+    }
+  },
+  {
+    "task": "TouchingCircle",
+    "prompt_key": "touching-prompt",
+    "model": "anthropic/claude-3.5-sonnet",
+    "image_path": "D:\\python\\vision-llms-are-blind\\src\\TouchingCircle\\images\\touching-prompt\\gpt-4o\\correct\\gpt_touch_pixels_1155_rotation_diagonal_1_diameter_0.17_distance_0.50.png",
+    "ground_truth": "No",
+    "raw_response": "No",
+    "parsed_answer": "No",
+    "correct": true,
+    "error": null,
+    "input_tokens": 1545,
+    "output_tokens": 4,
+    "tokens_used": 1549,
+    "latency_s": 5.51,
+    "metadata": {
+      "distance": 0.5,
+      "diameter": 0.17
+    }
+  },
+  {
+    "task": "TouchingCircle",
+    "prompt_key": "touching-prompt",
+    "model": "anthropic/claude-3.5-sonnet",
+    "image_path": "D:\\python\\vision-llms-are-blind\\src\\TouchingCircle\\images\\touching-prompt\\gpt-4o\\correct\\gpt_touch_pixels_1155_rotation_diagonal_1_diameter_0.20_distance_-0.05.png",
+    "ground_truth": "Yes",
+    "raw_response": "Yes",
+    "parsed_answer": "Yes",
+    "correct": true,
+    "error": null,
+    "input_tokens": 1545,
+    "output_tokens": 4,
+    "tokens_used": 1549,
+    "latency_s": 2.29,
+    "metadata": {
+      "distance": -0.05,
+      "diameter": 0.2
+    }
+  },
+  {
+    "task": "TouchingCircle",
+    "prompt_key": "touching-prompt",
+    "model": "anthropic/claude-3.5-sonnet",
+    "image_path": "D:\\python\\vision-llms-are-blind\\src\\TouchingCircle\\images\\touching-prompt\\gpt-4o\\correct\\gpt_touch_pixels_1155_rotation_diagonal_1_diameter_0.20_distance_-0.10.png",
+    "ground_truth": "Yes",
+    "raw_response": "Yes",
+    "parsed_answer": "Yes",
+    "correct": true,
+    "error": null,
+    "input_tokens": 1545,
+    "output_tokens": 4,
+    "tokens_used": 1549,
+    "latency_s": 65.86,
+    "metadata": {
+      "distance": -0.1,
+      "diameter": 0.2
+    }
+  },
+  {
+    "task": "TouchingCircle",
+    "prompt_key": "touching-prompt",
+    "model": "anthropic/claude-3.5-sonnet",
+    "image_path": "D:\\python\\vision-llms-are-blind\\src\\TouchingCircle\\images\\touching-prompt\\gpt-4o\\correct\\gpt_touch_pixels_1155_rotation_diagonal_1_diameter_0.20_distance_-0.15.png",
+    "ground_truth": "Yes",
+    "raw_response": "Yes",
+    "parsed_answer": "Yes",
+    "correct": true,
+    "error": null,
+    "input_tokens": 1545,
+    "output_tokens": 4,
+    "tokens_used": 1549,
+    "latency_s": 2.22,
+    "metadata": {
+      "distance": -0.15,
+      "diameter": 0.2
+    }
+  },
+  {
+    "task": "TouchingCircle",
+    "prompt_key": "touching-prompt",
+    "model": "anthropic/claude-3.5-sonnet",
+    "image_path": "D:\\python\\vision-llms-are-blind\\src\\TouchingCircle\\images\\touching-prompt\\gpt-4o\\correct\\gpt_touch_pixels_1155_rotation_diagonal_1_diameter_0.20_distance_0.15.png",
+    "ground_truth": "No",
+    "raw_response": "No",
+    "parsed_answer": "No",
+    "correct": true,
+    "error": null,
+    "input_tokens": 1545,
+    "output_tokens": 4,
+    "tokens_used": 1549,
+    "latency_s": 2.39,
+    "metadata": {
+      "distance": 0.15,
+      "diameter": 0.2
+    }
+  },
+  {
+    "task": "TouchingCircle",
+    "prompt_key": "touching-prompt",
+    "model": "anthropic/claude-3.5-sonnet",
+    "image_path": "D:\\python\\vision-llms-are-blind\\src\\TouchingCircle\\images\\touching-prompt\\gpt-4o\\correct\\gpt_touch_pixels_1155_rotation_diagonal_1_diameter_0.20_distance_0.20.png",
+    "ground_truth": "No",
+    "raw_response": "No",
+    "parsed_answer": "No",
+    "correct": true,
+    "error": null,
+    "input_tokens": 1545,
+    "output_tokens": 4,
+    "tokens_used": 1549,
+    "latency_s": 4.01,
+    "metadata": {
+      "distance": 0.2,
+      "diameter": 0.2
+    }
+  },
+  {
+    "task": "TouchingCircle",
+    "prompt_key": "touching-prompt",
+    "model": "anthropic/claude-3.5-sonnet",
+    "image_path": "D:\\python\\vision-llms-are-blind\\src\\TouchingCircle\\images\\touching-prompt\\gpt-4o\\correct\\gpt_touch_pixels_1155_rotation_diagonal_1_diameter_0.20_distance_0.25.png",
+    "ground_truth": "No",
+    "raw_response": "Yes",
+    "parsed_answer": "Yes",
+    "correct": false,
+    "error": null,
+    "input_tokens": 1545,
+    "output_tokens": 4,
+    "tokens_used": 1549,
+    "latency_s": 4.4,
+    "metadata": {
+      "distance": 0.25,
+      "diameter": 0.2
+    }
+  },
+  {
+    "task": "TouchingCircle",
+    "prompt_key": "touching-prompt",
+    "model": "anthropic/claude-3.5-sonnet",
+    "image_path": "D:\\python\\vision-llms-are-blind\\src\\TouchingCircle\\images\\touching-prompt\\gpt-4o\\correct\\gpt_touch_pixels_1155_rotation_diagonal_1_diameter_0.20_distance_0.30.png",
+    "ground_truth": "No",
+    "raw_response": "No",
+    "parsed_answer": "No",
+    "correct": true,
+    "error": null,
+    "input_tokens": 1545,
+    "output_tokens": 4,
+    "tokens_used": 1549,
+    "latency_s": 5.7,
+    "metadata": {
+      "distance": 0.3,
+      "diameter": 0.2
+    }
+  },
+  {
+    "task": "TouchingCircle",
+    "prompt_key": "touching-prompt",
+    "model": "anthropic/claude-3.5-sonnet",
+    "image_path": "D:\\python\\vision-llms-are-blind\\src\\TouchingCircle\\images\\touching-prompt\\gpt-4o\\correct\\gpt_touch_pixels_1155_rotation_diagonal_1_diameter_0.20_distance_0.35.png",
+    "ground_truth": "No",
+    "raw_response": "No",
+    "parsed_answer": "No",
+    "correct": true,
+    "error": null,
+    "input_tokens": 1545,
+    "output_tokens": 4,
+    "tokens_used": 1549,
+    "latency_s": 3.88,
+    "metadata": {
+      "distance": 0.35,
+      "diameter": 0.2
+    }
+  },
+  {
+    "task": "TouchingCircle",
+    "prompt_key": "touching-prompt",
+    "model": "anthropic/claude-3.5-sonnet",
+    "image_path": "D:\\python\\vision-llms-are-blind\\src\\TouchingCircle\\images\\touching-prompt\\gpt-4o\\correct\\gpt_touch_pixels_1155_rotation_diagonal_1_diameter_0.20_distance_0.40.png",
+    "ground_truth": "No",
+    "raw_response": "No",
+    "parsed_answer": "No",
+    "correct": true,
+    "error": null,
+    "input_tokens": 1545,
+    "output_tokens": 4,
+    "tokens_used": 1549,
+    "latency_s": 5.22,
+    "metadata": {
+      "distance": 0.4,
+      "diameter": 0.2
+    }
+  },
+  {
+    "task": "TouchingCircle",
+    "prompt_key": "touching-prompt",
+    "model": "anthropic/claude-3.5-sonnet",
+    "image_path": "D:\\python\\vision-llms-are-blind\\src\\TouchingCircle\\images\\touching-prompt\\gpt-4o\\correct\\gpt_touch_pixels_1155_rotation_diagonal_1_diameter_0.20_distance_0.45.png",
+    "ground_truth": "No",
+    "raw_response": "No",
+    "parsed_answer": "No",
+    "correct": true,
+    "error": null,
+    "input_tokens": 1545,
+    "output_tokens": 4,
+    "tokens_used": 1549,
+    "latency_s": 1.74,
+    "metadata": {
+      "distance": 0.45,
+      "diameter": 0.2
+    }
+  },
+  {
+    "task": "TouchingCircle",
+    "prompt_key": "touching-prompt",
+    "model": "anthropic/claude-3.5-sonnet",
+    "image_path": "D:\\python\\vision-llms-are-blind\\src\\TouchingCircle\\images\\touching-prompt\\gpt-4o\\correct\\gpt_touch_pixels_1155_rotation_diagonal_1_diameter_0.20_distance_0.50.png",
+    "ground_truth": "No",
+    "raw_response": "No",
+    "parsed_answer": "No",
+    "correct": true,
+    "error": null,
+    "input_tokens": 1545,
+    "output_tokens": 4,
+    "tokens_used": 1549,
+    "latency_s": 2.5,
+    "metadata": {
+      "distance": 0.5,
+      "diameter": 0.2
+    }
+  },
+  {
+    "task": "TouchingCircle",
+    "prompt_key": "touching-prompt",
+    "model": "anthropic/claude-3.5-sonnet",
+    "image_path": "D:\\python\\vision-llms-are-blind\\src\\TouchingCircle\\images\\touching-prompt\\gpt-4o\\correct\\gpt_touch_pixels_1155_rotation_diagonal_1_diameter_0.25_distance_-0.05.png",
+    "ground_truth": "Yes",
+    "raw_response": "Yes",
+    "parsed_answer": "Yes",
+    "correct": true,
+    "error": null,
+    "input_tokens": 1545,
+    "output_tokens": 4,
+    "tokens_used": 1549,
+    "latency_s": 2.33,
+    "metadata": {
+      "distance": -0.05,
+      "diameter": 0.25
+    }
+  },
+  {
+    "task": "TouchingCircle",
+    "prompt_key": "touching-prompt",
+    "model": "anthropic/claude-3.5-sonnet",
+    "image_path": "D:\\python\\vision-llms-are-blind\\src\\TouchingCircle\\images\\touching-prompt\\gpt-4o\\correct\\gpt_touch_pixels_1155_rotation_diagonal_1_diameter_0.25_distance_-0.10.png",
+    "ground_truth": "Yes",
+    "raw_response": "No",
+    "parsed_answer": "No",
+    "correct": false,
+    "error": null,
+    "input_tokens": 1545,
+    "output_tokens": 4,
+    "tokens_used": 1549,
+    "latency_s": 5.09,
+    "metadata": {
+      "distance": -0.1,
+      "diameter": 0.25
+    }
+  },
+  {
+    "task": "TouchingCircle",
+    "prompt_key": "touching-prompt",
+    "model": "anthropic/claude-3.5-sonnet",
+    "image_path": "D:\\python\\vision-llms-are-blind\\src\\TouchingCircle\\images\\touching-prompt\\gpt-4o\\correct\\gpt_touch_pixels_1155_rotation_diagonal_1_diameter_0.25_distance_-0.15.png",
+    "ground_truth": "Yes",
+    "raw_response": "Yes",
+    "parsed_answer": "Yes",
+    "correct": true,
+    "error": null,
+    "input_tokens": 1545,
+    "output_tokens": 4,
+    "tokens_used": 1549,
+    "latency_s": 1.94,
+    "metadata": {
+      "distance": -0.15,
+      "diameter": 0.25
+    }
+  },
+  {
+    "task": "TouchingCircle",
+    "prompt_key": "touching-prompt",
+    "model": "anthropic/claude-3.5-sonnet",
+    "image_path": "D:\\python\\vision-llms-are-blind\\src\\TouchingCircle\\images\\touching-prompt\\gpt-4o\\correct\\gpt_touch_pixels_1155_rotation_diagonal_1_diameter_0.25_distance_0.00.png",
+    "ground_truth": "Yes",
+    "raw_response": "Yes",
+    "parsed_answer": "Yes",
+    "correct": true,
+    "error": null,
+    "input_tokens": 1545,
+    "output_tokens": 4,
+    "tokens_used": 1549,
+    "latency_s": 2.79,
+    "metadata": {
+      "distance": 0.0,
+      "diameter": 0.25
+    }
+  },
+  {
+    "task": "TouchingCircle",
+    "prompt_key": "touching-prompt",
+    "model": "anthropic/claude-3.5-sonnet",
+    "image_path": "D:\\python\\vision-llms-are-blind\\src\\TouchingCircle\\images\\touching-prompt\\gpt-4o\\correct\\gpt_touch_pixels_1155_rotation_diagonal_1_diameter_0.25_distance_0.10.png",
+    "ground_truth": "No",
+    "raw_response": "Yes",
+    "parsed_answer": "Yes",
+    "correct": false,
+    "error": null,
+    "input_tokens": 1545,
+    "output_tokens": 4,
+    "tokens_used": 1549,
+    "latency_s": 2.58,
+    "metadata": {
+      "distance": 0.1,
+      "diameter": 0.25
+    }
+  },
+  {
+    "task": "TouchingCircle",
+    "prompt_key": "touching-prompt",
+    "model": "anthropic/claude-3.5-sonnet",
+    "image_path": "D:\\python\\vision-llms-are-blind\\src\\TouchingCircle\\images\\touching-prompt\\gpt-4o\\correct\\gpt_touch_pixels_1155_rotation_diagonal_1_diameter_0.25_distance_0.15.png",
+    "ground_truth": "No",
+    "raw_response": "No",
+    "parsed_answer": "No",
+    "correct": true,
+    "error": null,
+    "input_tokens": 1545,
+    "output_tokens": 4,
+    "tokens_used": 1549,
+    "latency_s": 2.02,
+    "metadata": {
+      "distance": 0.15,
+      "diameter": 0.25
+    }
+  },
+  {
+    "task": "TouchingCircle",
+    "prompt_key": "touching-prompt",
+    "model": "anthropic/claude-3.5-sonnet",
+    "image_path": "D:\\python\\vision-llms-are-blind\\src\\TouchingCircle\\images\\touching-prompt\\gpt-4o\\correct\\gpt_touch_pixels_1155_rotation_diagonal_1_diameter_0.25_distance_0.20.png",
+    "ground_truth": "No",
+    "raw_response": "Yes",
+    "parsed_answer": "Yes",
+    "correct": false,
+    "error": null,
+    "input_tokens": 1545,
+    "output_tokens": 4,
+    "tokens_used": 1549,
+    "latency_s": 8.57,
+    "metadata": {
+      "distance": 0.2,
+      "diameter": 0.25
+    }
+  },
+  {
+    "task": "TouchingCircle",
+    "prompt_key": "touching-prompt",
+    "model": "anthropic/claude-3.5-sonnet",
+    "image_path": "D:\\python\\vision-llms-are-blind\\src\\TouchingCircle\\images\\touching-prompt\\gpt-4o\\correct\\gpt_touch_pixels_1155_rotation_diagonal_1_diameter_0.25_distance_0.25.png",
+    "ground_truth": "No",
+    "raw_response": "No",
+    "parsed_answer": "No",
+    "correct": true,
+    "error": null,
+    "input_tokens": 1545,
+    "output_tokens": 4,
+    "tokens_used": 1549,
+    "latency_s": 2.27,
+    "metadata": {
+      "distance": 0.25,
+      "diameter": 0.25
+    }
+  },
+  {
+    "task": "TouchingCircle",
+    "prompt_key": "touching-prompt",
+    "model": "anthropic/claude-3.5-sonnet",
+    "image_path": "D:\\python\\vision-llms-are-blind\\src\\TouchingCircle\\images\\touching-prompt\\gpt-4o\\correct\\gpt_touch_pixels_1155_rotation_diagonal_1_diameter_0.25_distance_0.30.png",
+    "ground_truth": "No",
+    "raw_response": "No",
+    "parsed_answer": "No",
+    "correct": true,
+    "error": null,
+    "input_tokens": 1545,
+    "output_tokens": 4,
+    "tokens_used": 1549,
+    "latency_s": 8.68,
+    "metadata": {
+      "distance": 0.3,
+      "diameter": 0.25
+    }
+  },
+  {
+    "task": "TouchingCircle",
+    "prompt_key": "touching-prompt",
+    "model": "anthropic/claude-3.5-sonnet",
+    "image_path": "D:\\python\\vision-llms-are-blind\\src\\TouchingCircle\\images\\touching-prompt\\gpt-4o\\correct\\gpt_touch_pixels_1155_rotation_diagonal_1_diameter_0.25_distance_0.35.png",
+    "ground_truth": "No",
+    "raw_response": "No",
+    "parsed_answer": "No",
+    "correct": true,
+    "error": null,
+    "input_tokens": 1545,
+    "output_tokens": 4,
+    "tokens_used": 1549,
+    "latency_s": 1.76,
+    "metadata": {
+      "distance": 0.35,
+      "diameter": 0.25
+    }
+  },
+  {
+    "task": "TouchingCircle",
+    "prompt_key": "touching-prompt",
+    "model": "anthropic/claude-3.5-sonnet",
+    "image_path": "D:\\python\\vision-llms-are-blind\\src\\TouchingCircle\\images\\touching-prompt\\gpt-4o\\correct\\gpt_touch_pixels_1155_rotation_diagonal_1_diameter_0.25_distance_0.40.png",
+    "ground_truth": "No",
+    "raw_response": "No",
+    "parsed_answer": "No",
+    "correct": true,
+    "error": null,
+    "input_tokens": 1545,
+    "output_tokens": 4,
+    "tokens_used": 1549,
+    "latency_s": 1.68,
+    "metadata": {
+      "distance": 0.4,
+      "diameter": 0.25
+    }
+  },
+  {
+    "task": "TouchingCircle",
+    "prompt_key": "touching-prompt",
+    "model": "anthropic/claude-3.5-sonnet",
+    "image_path": "D:\\python\\vision-llms-are-blind\\src\\TouchingCircle\\images\\touching-prompt\\gpt-4o\\correct\\gpt_touch_pixels_1155_rotation_diagonal_1_diameter_0.25_distance_0.45.png",
+    "ground_truth": "No",
+    "raw_response": "No",
+    "parsed_answer": "No",
+    "correct": true,
+    "error": null,
+    "input_tokens": 1545,
+    "output_tokens": 4,
+    "tokens_used": 1549,
+    "latency_s": 2.23,
+    "metadata": {
+      "distance": 0.45,
+      "diameter": 0.25
+    }
+  },
+  {
+    "task": "TouchingCircle",
+    "prompt_key": "touching-prompt",
+    "model": "anthropic/claude-3.5-sonnet",
+    "image_path": "D:\\python\\vision-llms-are-blind\\src\\TouchingCircle\\images\\touching-prompt\\gpt-4o\\correct\\gpt_touch_pixels_1155_rotation_diagonal_1_diameter_0.25_distance_0.50.png",
+    "ground_truth": "No",
+    "raw_response": "No",
+    "parsed_answer": "No",
+    "correct": true,
+    "error": null,
+    "input_tokens": 1545,
+    "output_tokens": 4,
+    "tokens_used": 1549,
+    "latency_s": 2.02,
+    "metadata": {
+      "distance": 0.5,
+      "diameter": 0.25
+    }
+  },
+  {
+    "task": "TouchingCircle",
+    "prompt_key": "touching-prompt",
+    "model": "anthropic/claude-3.5-sonnet",
+    "image_path": "D:\\python\\vision-llms-are-blind\\src\\TouchingCircle\\images\\touching-prompt\\gpt-4o\\correct\\gpt_touch_pixels_1155_rotation_diagonal_2_diameter_0.14_distance_-0.05.png",
+    "ground_truth": "Yes",
+    "raw_response": "Yes",
+    "parsed_answer": "Yes",
+    "correct": true,
+    "error": null,
+    "input_tokens": 1545,
+    "output_tokens": 4,
+    "tokens_used": 1549,
+    "latency_s": 2.3,
+    "metadata": {
+      "distance": -0.05,
+      "diameter": 0.14
+    }
+  },
+  {
+    "task": "TouchingCircle",
+    "prompt_key": "touching-prompt",
+    "model": "anthropic/claude-3.5-sonnet",
+    "image_path": "D:\\python\\vision-llms-are-blind\\src\\TouchingCircle\\images\\touching-prompt\\gpt-4o\\correct\\gpt_touch_pixels_1155_rotation_diagonal_2_diameter_0.14_distance_-0.10.png",
+    "ground_truth": "Yes",
+    "raw_response": "Yes",
+    "parsed_answer": "Yes",
+    "correct": true,
+    "error": null,
+    "input_tokens": 1545,
+    "output_tokens": 4,
+    "tokens_used": 1549,
+    "latency_s": 1.97,
+    "metadata": {
+      "distance": -0.1,
+      "diameter": 0.14
+    }
+  },
+  {
+    "task": "TouchingCircle",
+    "prompt_key": "touching-prompt",
+    "model": "anthropic/claude-3.5-sonnet",
+    "image_path": "D:\\python\\vision-llms-are-blind\\src\\TouchingCircle\\images\\touching-prompt\\gpt-4o\\correct\\gpt_touch_pixels_1155_rotation_diagonal_2_diameter_0.14_distance_-0.15.png",
+    "ground_truth": "Yes",
+    "raw_response": "No",
+    "parsed_answer": "No",
+    "correct": false,
+    "error": null,
+    "input_tokens": 1545,
+    "output_tokens": 4,
+    "tokens_used": 1549,
+    "latency_s": 1.87,
+    "metadata": {
+      "distance": -0.15,
+      "diameter": 0.14
+    }
+  },
+  {
+    "task": "TouchingCircle",
+    "prompt_key": "touching-prompt",
+    "model": "anthropic/claude-3.5-sonnet",
+    "image_path": "D:\\python\\vision-llms-are-blind\\src\\TouchingCircle\\images\\touching-prompt\\gpt-4o\\correct\\gpt_touch_pixels_1155_rotation_diagonal_2_diameter_0.14_distance_0.00.png",
+    "ground_truth": "Yes",
+    "raw_response": "Yes",
+    "parsed_answer": "Yes",
+    "correct": true,
+    "error": null,
+    "input_tokens": 1545,
+    "output_tokens": 4,
+    "tokens_used": 1549,
+    "latency_s": 5.22,
+    "metadata": {
+      "distance": 0.0,
+      "diameter": 0.14
+    }
+  },
+  {
+    "task": "TouchingCircle",
+    "prompt_key": "touching-prompt",
+    "model": "anthropic/claude-3.5-sonnet",
+    "image_path": "D:\\python\\vision-llms-are-blind\\src\\TouchingCircle\\images\\touching-prompt\\gpt-4o\\correct\\gpt_touch_pixels_1155_rotation_diagonal_2_diameter_0.14_distance_0.35.png",
+    "ground_truth": "No",
+    "raw_response": "No",
+    "parsed_answer": "No",
+    "correct": true,
+    "error": null,
+    "input_tokens": 1545,
+    "output_tokens": 4,
+    "tokens_used": 1549,
+    "latency_s": 2.06,
+    "metadata": {
+      "distance": 0.35,
+      "diameter": 0.14
+    }
+  },
+  {
+    "task": "TouchingCircle",
+    "prompt_key": "touching-prompt",
+    "model": "anthropic/claude-3.5-sonnet",
+    "image_path": "D:\\python\\vision-llms-are-blind\\src\\TouchingCircle\\images\\touching-prompt\\gpt-4o\\correct\\gpt_touch_pixels_1155_rotation_diagonal_2_diameter_0.14_distance_0.40.png",
+    "ground_truth": "No",
+    "raw_response": "No",
+    "parsed_answer": "No",
+    "correct": true,
+    "error": null,
+    "input_tokens": 1545,
+    "output_tokens": 4,
+    "tokens_used": 1549,
+    "latency_s": 5.15,
+    "metadata": {
+      "distance": 0.4,
+      "diameter": 0.14
+    }
+  },
+  {
+    "task": "TouchingCircle",
+    "prompt_key": "touching-prompt",
+    "model": "anthropic/claude-3.5-sonnet",
+    "image_path": "D:\\python\\vision-llms-are-blind\\src\\TouchingCircle\\images\\touching-prompt\\gpt-4o\\correct\\gpt_touch_pixels_1155_rotation_diagonal_2_diameter_0.14_distance_0.45.png",
+    "ground_truth": "No",
+    "raw_response": "Yes",
+    "parsed_answer": "Yes",
+    "correct": false,
+    "error": null,
+    "input_tokens": 1545,
+    "output_tokens": 4,
+    "tokens_used": 1549,
+    "latency_s": 2.06,
+    "metadata": {
+      "distance": 0.45,
+      "diameter": 0.14
+    }
+  },
+  {
+    "task": "TouchingCircle",
+    "prompt_key": "touching-prompt",
+    "model": "anthropic/claude-3.5-sonnet",
+    "image_path": "D:\\python\\vision-llms-are-blind\\src\\TouchingCircle\\images\\touching-prompt\\gpt-4o\\correct\\gpt_touch_pixels_1155_rotation_diagonal_2_diameter_0.14_distance_0.50.png",
+    "ground_truth": "No",
+    "raw_response": "No",
+    "parsed_answer": "No",
+    "correct": true,
+    "error": null,
+    "input_tokens": 1545,
+    "output_tokens": 4,
+    "tokens_used": 1549,
+    "latency_s": 2.26,
+    "metadata": {
+      "distance": 0.5,
+      "diameter": 0.14
+    }
+  },
+  {
+    "task": "TouchingCircle",
+    "prompt_key": "touching-prompt",
+    "model": "anthropic/claude-3.5-sonnet",
+    "image_path": "D:\\python\\vision-llms-are-blind\\src\\TouchingCircle\\images\\touching-prompt\\gpt-4o\\correct\\gpt_touch_pixels_1155_rotation_diagonal_2_diameter_0.17_distance_-0.05.png",
+    "ground_truth": "Yes",
+    "raw_response": "Yes",
+    "parsed_answer": "Yes",
+    "correct": true,
+    "error": null,
+    "input_tokens": 1545,
+    "output_tokens": 4,
+    "tokens_used": 1549,
+    "latency_s": 2.24,
+    "metadata": {
+      "distance": -0.05,
+      "diameter": 0.17
+    }
+  },
+  {
+    "task": "TouchingCircle",
+    "prompt_key": "touching-prompt",
+    "model": "anthropic/claude-3.5-sonnet",
+    "image_path": "D:\\python\\vision-llms-are-blind\\src\\TouchingCircle\\images\\touching-prompt\\gpt-4o\\correct\\gpt_touch_pixels_1155_rotation_diagonal_2_diameter_0.17_distance_-0.10.png",
+    "ground_truth": "Yes",
+    "raw_response": "Yes",
+    "parsed_answer": "Yes",
+    "correct": true,
+    "error": null,
+    "input_tokens": 1545,
+    "output_tokens": 4,
+    "tokens_used": 1549,
+    "latency_s": 1.92,
+    "metadata": {
+      "distance": -0.1,
+      "diameter": 0.17
+    }
+  },
+  {
+    "task": "TouchingCircle",
+    "prompt_key": "touching-prompt",
+    "model": "anthropic/claude-3.5-sonnet",
+    "image_path": "D:\\python\\vision-llms-are-blind\\src\\TouchingCircle\\images\\touching-prompt\\gpt-4o\\correct\\gpt_touch_pixels_1155_rotation_diagonal_2_diameter_0.17_distance_-0.15.png",
+    "ground_truth": "Yes",
+    "raw_response": "Yes",
+    "parsed_answer": "Yes",
+    "correct": true,
+    "error": null,
+    "input_tokens": 1545,
+    "output_tokens": 4,
+    "tokens_used": 1549,
+    "latency_s": 1.65,
+    "metadata": {
+      "distance": -0.15,
+      "diameter": 0.17
+    }
+  },
+  {
+    "task": "TouchingCircle",
+    "prompt_key": "touching-prompt",
+    "model": "anthropic/claude-3.5-sonnet",
+    "image_path": "D:\\python\\vision-llms-are-blind\\src\\TouchingCircle\\images\\touching-prompt\\gpt-4o\\correct\\gpt_touch_pixels_1155_rotation_diagonal_2_diameter_0.17_distance_0.00.png",
+    "ground_truth": "Yes",
+    "raw_response": "Yes",
+    "parsed_answer": "Yes",
+    "correct": true,
+    "error": null,
+    "input_tokens": 1545,
+    "output_tokens": 4,
+    "tokens_used": 1549,
+    "latency_s": 1.98,
+    "metadata": {
+      "distance": 0.0,
+      "diameter": 0.17
+    }
+  },
+  {
+    "task": "TouchingCircle",
+    "prompt_key": "touching-prompt",
+    "model": "anthropic/claude-3.5-sonnet",
+    "image_path": "D:\\python\\vision-llms-are-blind\\src\\TouchingCircle\\images\\touching-prompt\\gpt-4o\\correct\\gpt_touch_pixels_1155_rotation_diagonal_2_diameter_0.17_distance_0.15.png",
+    "ground_truth": "No",
+    "raw_response": "No",
+    "parsed_answer": "No",
+    "correct": true,
+    "error": null,
+    "input_tokens": 1545,
+    "output_tokens": 4,
+    "tokens_used": 1549,
+    "latency_s": 2.15,
+    "metadata": {
+      "distance": 0.15,
+      "diameter": 0.17
+    }
+  },
+  {
+    "task": "TouchingCircle",
+    "prompt_key": "touching-prompt",
+    "model": "anthropic/claude-3.5-sonnet",
+    "image_path": "D:\\python\\vision-llms-are-blind\\src\\TouchingCircle\\images\\touching-prompt\\gpt-4o\\correct\\gpt_touch_pixels_1155_rotation_diagonal_2_diameter_0.17_distance_0.20.png",
+    "ground_truth": "No",
+    "raw_response": "No",
+    "parsed_answer": "No",
+    "correct": true,
+    "error": null,
+    "input_tokens": 1545,
+    "output_tokens": 4,
+    "tokens_used": 1549,
+    "latency_s": 2.02,
+    "metadata": {
+      "distance": 0.2,
+      "diameter": 0.17
+    }
+  },
+  {
+    "task": "TouchingCircle",
+    "prompt_key": "touching-prompt",
+    "model": "anthropic/claude-3.5-sonnet",
+    "image_path": "D:\\python\\vision-llms-are-blind\\src\\TouchingCircle\\images\\touching-prompt\\gpt-4o\\correct\\gpt_touch_pixels_1155_rotation_diagonal_2_diameter_0.17_distance_0.25.png",
+    "ground_truth": "No",
+    "raw_response": "No",
+    "parsed_answer": "No",
+    "correct": true,
+    "error": null,
+    "input_tokens": 1545,
+    "output_tokens": 4,
+    "tokens_used": 1549,
+    "latency_s": 2.33,
+    "metadata": {
+      "distance": 0.25,
+      "diameter": 0.17
+    }
+  },
+  {
+    "task": "TouchingCircle",
+    "prompt_key": "touching-prompt",
+    "model": "anthropic/claude-3.5-sonnet",
+    "image_path": "D:\\python\\vision-llms-are-blind\\src\\TouchingCircle\\images\\touching-prompt\\gpt-4o\\correct\\gpt_touch_pixels_1155_rotation_diagonal_2_diameter_0.17_distance_0.30.png",
+    "ground_truth": "No",
+    "raw_response": "No",
+    "parsed_answer": "No",
+    "correct": true,
+    "error": null,
+    "input_tokens": 1545,
+    "output_tokens": 4,
+    "tokens_used": 1549,
+    "latency_s": 2.35,
+    "metadata": {
+      "distance": 0.3,
+      "diameter": 0.17
+    }
+  },
+  {
+    "task": "TouchingCircle",
+    "prompt_key": "touching-prompt",
+    "model": "anthropic/claude-3.5-sonnet",
+    "image_path": "D:\\python\\vision-llms-are-blind\\src\\TouchingCircle\\images\\touching-prompt\\gpt-4o\\correct\\gpt_touch_pixels_1155_rotation_diagonal_2_diameter_0.17_distance_0.35.png",
+    "ground_truth": "No",
+    "raw_response": "No",
+    "parsed_answer": "No",
+    "correct": true,
+    "error": null,
+    "input_tokens": 1545,
+    "output_tokens": 4,
+    "tokens_used": 1549,
+    "latency_s": 4.19,
+    "metadata": {
+      "distance": 0.35,
+      "diameter": 0.17
+    }
+  },
+  {
+    "task": "TouchingCircle",
+    "prompt_key": "touching-prompt",
+    "model": "anthropic/claude-3.5-sonnet",
+    "image_path": "D:\\python\\vision-llms-are-blind\\src\\TouchingCircle\\images\\touching-prompt\\gpt-4o\\correct\\gpt_touch_pixels_1155_rotation_diagonal_2_diameter_0.17_distance_0.40.png",
+    "ground_truth": "No",
+    "raw_response": "No",
+    "parsed_answer": "No",
+    "correct": true,
+    "error": null,
+    "input_tokens": 1545,
+    "output_tokens": 4,
+    "tokens_used": 1549,
+    "latency_s": 2.76,
+    "metadata": {
+      "distance": 0.4,
+      "diameter": 0.17
+    }
+  },
+  {
+    "task": "TouchingCircle",
+    "prompt_key": "touching-prompt",
+    "model": "anthropic/claude-3.5-sonnet",
+    "image_path": "D:\\python\\vision-llms-are-blind\\src\\TouchingCircle\\images\\touching-prompt\\gpt-4o\\correct\\gpt_touch_pixels_1155_rotation_diagonal_2_diameter_0.17_distance_0.45.png",
+    "ground_truth": "No",
+    "raw_response": "No",
+    "parsed_answer": "No",
+    "correct": true,
+    "error": null,
+    "input_tokens": 1545,
+    "output_tokens": 4,
+    "tokens_used": 1549,
+    "latency_s": 1.87,
+    "metadata": {
+      "distance": 0.45,
+      "diameter": 0.17
+    }
+  },
+  {
+    "task": "TouchingCircle",
+    "prompt_key": "touching-prompt",
+    "model": "anthropic/claude-3.5-sonnet",
+    "image_path": "D:\\python\\vision-llms-are-blind\\src\\TouchingCircle\\images\\touching-prompt\\gpt-4o\\correct\\gpt_touch_pixels_1155_rotation_diagonal_2_diameter_0.17_distance_0.50.png",
+    "ground_truth": "No",
+    "raw_response": "No",
+    "parsed_answer": "No",
+    "correct": true,
+    "error": null,
+    "input_tokens": 1545,
+    "output_tokens": 4,
+    "tokens_used": 1549,
+    "latency_s": 4.01,
+    "metadata": {
+      "distance": 0.5,
+      "diameter": 0.17
+    }
+  },
+  {
+    "task": "TouchingCircle",
+    "prompt_key": "touching-prompt",
+    "model": "anthropic/claude-3.5-sonnet",
+    "image_path": "D:\\python\\vision-llms-are-blind\\src\\TouchingCircle\\images\\touching-prompt\\gpt-4o\\correct\\gpt_touch_pixels_1155_rotation_diagonal_2_diameter_0.20_distance_-0.05.png",
+    "ground_truth": "Yes",
+    "raw_response": "No",
+    "parsed_answer": "No",
+    "correct": false,
+    "error": null,
+    "input_tokens": 1545,
+    "output_tokens": 4,
+    "tokens_used": 1549,
+    "latency_s": 9.2,
+    "metadata": {
+      "distance": -0.05,
+      "diameter": 0.2
+    }
+  },
+  {
+    "task": "TouchingCircle",
+    "prompt_key": "touching-prompt",
+    "model": "anthropic/claude-3.5-sonnet",
+    "image_path": "D:\\python\\vision-llms-are-blind\\src\\TouchingCircle\\images\\touching-prompt\\gpt-4o\\correct\\gpt_touch_pixels_1155_rotation_diagonal_2_diameter_0.20_distance_-0.10.png",
+    "ground_truth": "Yes",
+    "raw_response": "Yes",
+    "parsed_answer": "Yes",
+    "correct": true,
+    "error": null,
+    "input_tokens": 1545,
+    "output_tokens": 4,
+    "tokens_used": 1549,
+    "latency_s": 2.68,
+    "metadata": {
+      "distance": -0.1,
+      "diameter": 0.2
+    }
+  },
+  {
+    "task": "TouchingCircle",
+    "prompt_key": "touching-prompt",
+    "model": "anthropic/claude-3.5-sonnet",
+    "image_path": "D:\\python\\vision-llms-are-blind\\src\\TouchingCircle\\images\\touching-prompt\\gpt-4o\\correct\\gpt_touch_pixels_1155_rotation_diagonal_2_diameter_0.20_distance_-0.15.png",
+    "ground_truth": "Yes",
+    "raw_response": "Yes",
+    "parsed_answer": "Yes",
+    "correct": true,
+    "error": null,
+    "input_tokens": 1545,
+    "output_tokens": 4,
+    "tokens_used": 1549,
+    "latency_s": 2.77,
+    "metadata": {
+      "distance": -0.15,
+      "diameter": 0.2
+    }
+  },
+  {
+    "task": "TouchingCircle",
+    "prompt_key": "touching-prompt",
+    "model": "anthropic/claude-3.5-sonnet",
+    "image_path": "D:\\python\\vision-llms-are-blind\\src\\TouchingCircle\\images\\touching-prompt\\gpt-4o\\correct\\gpt_touch_pixels_1155_rotation_diagonal_2_diameter_0.20_distance_0.00.png",
+    "ground_truth": "Yes",
+    "raw_response": "Yes",
+    "parsed_answer": "Yes",
+    "correct": true,
+    "error": null,
+    "input_tokens": 1545,
+    "output_tokens": 4,
+    "tokens_used": 1549,
+    "latency_s": 8.88,
+    "metadata": {
+      "distance": 0.0,
+      "diameter": 0.2
+    }
+  },
+  {
+    "task": "TouchingCircle",
+    "prompt_key": "touching-prompt",
+    "model": "anthropic/claude-3.5-sonnet",
+    "image_path": "D:\\python\\vision-llms-are-blind\\src\\TouchingCircle\\images\\touching-prompt\\gpt-4o\\correct\\gpt_touch_pixels_1155_rotation_diagonal_2_diameter_0.20_distance_0.20.png",
+    "ground_truth": "No",
+    "raw_response": "No",
+    "parsed_answer": "No",
+    "correct": true,
+    "error": null,
+    "input_tokens": 1545,
+    "output_tokens": 4,
+    "tokens_used": 1549,
+    "latency_s": 2.2,
+    "metadata": {
+      "distance": 0.2,
+      "diameter": 0.2
+    }
+  },
+  {
+    "task": "TouchingCircle",
+    "prompt_key": "touching-prompt",
+    "model": "anthropic/claude-3.5-sonnet",
+    "image_path": "D:\\python\\vision-llms-are-blind\\src\\TouchingCircle\\images\\touching-prompt\\gpt-4o\\correct\\gpt_touch_pixels_1155_rotation_diagonal_2_diameter_0.20_distance_0.25.png",
+    "ground_truth": "No",
+    "raw_response": "No",
+    "parsed_answer": "No",
+    "correct": true,
+    "error": null,
+    "input_tokens": 1545,
+    "output_tokens": 4,
+    "tokens_used": 1549,
+    "latency_s": 2.04,
+    "metadata": {
+      "distance": 0.25,
+      "diameter": 0.2
+    }
+  },
+  {
+    "task": "TouchingCircle",
+    "prompt_key": "touching-prompt",
+    "model": "anthropic/claude-3.5-sonnet",
+    "image_path": "D:\\python\\vision-llms-are-blind\\src\\TouchingCircle\\images\\touching-prompt\\gpt-4o\\correct\\gpt_touch_pixels_1155_rotation_diagonal_2_diameter_0.20_distance_0.30.png",
+    "ground_truth": "No",
+    "raw_response": "Yes",
+    "parsed_answer": "Yes",
+    "correct": false,
+    "error": null,
+    "input_tokens": 1545,
+    "output_tokens": 4,
+    "tokens_used": 1549,
+    "latency_s": 2.12,
+    "metadata": {
+      "distance": 0.3,
+      "diameter": 0.2
+    }
+  },
+  {
+    "task": "TouchingCircle",
+    "prompt_key": "touching-prompt",
+    "model": "anthropic/claude-3.5-sonnet",
+    "image_path": "D:\\python\\vision-llms-are-blind\\src\\TouchingCircle\\images\\touching-prompt\\gpt-4o\\correct\\gpt_touch_pixels_1155_rotation_diagonal_2_diameter_0.20_distance_0.35.png",
+    "ground_truth": "No",
+    "raw_response": "Yes",
+    "parsed_answer": "Yes",
+    "correct": false,
+    "error": null,
+    "input_tokens": 1545,
+    "output_tokens": 4,
+    "tokens_used": 1549,
+    "latency_s": 1.73,
+    "metadata": {
+      "distance": 0.35,
+      "diameter": 0.2
+    }
+  },
+  {
+    "task": "TouchingCircle",
+    "prompt_key": "touching-prompt",
+    "model": "anthropic/claude-3.5-sonnet",
+    "image_path": "D:\\python\\vision-llms-are-blind\\src\\TouchingCircle\\images\\touching-prompt\\gpt-4o\\correct\\gpt_touch_pixels_1155_rotation_diagonal_2_diameter_0.20_distance_0.40.png",
+    "ground_truth": "No",
+    "raw_response": "Yes",
+    "parsed_answer": "Yes",
+    "correct": false,
+    "error": null,
+    "input_tokens": 1545,
+    "output_tokens": 4,
+    "tokens_used": 1549,
+    "latency_s": 3.91,
+    "metadata": {
+      "distance": 0.4,
+      "diameter": 0.2
+    }
+  },
+  {
+    "task": "TouchingCircle",
+    "prompt_key": "touching-prompt",
+    "model": "anthropic/claude-3.5-sonnet",
+    "image_path": "D:\\python\\vision-llms-are-blind\\src\\TouchingCircle\\images\\touching-prompt\\gpt-4o\\correct\\gpt_touch_pixels_1155_rotation_diagonal_2_diameter_0.20_distance_0.45.png",
+    "ground_truth": "No",
+    "raw_response": "No",
+    "parsed_answer": "No",
+    "correct": true,
+    "error": null,
+    "input_tokens": 1545,
+    "output_tokens": 4,
+    "tokens_used": 1549,
+    "latency_s": 2.09,
+    "metadata": {
+      "distance": 0.45,
+      "diameter": 0.2
+    }
+  },
+  {
+    "task": "TouchingCircle",
+    "prompt_key": "touching-prompt",
+    "model": "anthropic/claude-3.5-sonnet",
+    "image_path": "D:\\python\\vision-llms-are-blind\\src\\TouchingCircle\\images\\touching-prompt\\gpt-4o\\correct\\gpt_touch_pixels_1155_rotation_diagonal_2_diameter_0.20_distance_0.50.png",
+    "ground_truth": "No",
+    "raw_response": "No",
+    "parsed_answer": "No",
+    "correct": true,
+    "error": null,
+    "input_tokens": 1545,
+    "output_tokens": 4,
+    "tokens_used": 1549,
+    "latency_s": 4.95,
+    "metadata": {
+      "distance": 0.5,
+      "diameter": 0.2
+    }
+  },
+  {
+    "task": "TouchingCircle",
+    "prompt_key": "touching-prompt",
+    "model": "anthropic/claude-3.5-sonnet",
+    "image_path": "D:\\python\\vision-llms-are-blind\\src\\TouchingCircle\\images\\touching-prompt\\gpt-4o\\correct\\gpt_touch_pixels_1155_rotation_diagonal_2_diameter_0.25_distance_-0.05.png",
+    "ground_truth": "Yes",
+    "raw_response": "Yes",
+    "parsed_answer": "Yes",
+    "correct": true,
+    "error": null,
+    "input_tokens": 1545,
+    "output_tokens": 4,
+    "tokens_used": 1549,
+    "latency_s": 2.11,
+    "metadata": {
+      "distance": -0.05,
+      "diameter": 0.25
+    }
+  },
+  {
+    "task": "TouchingCircle",
+    "prompt_key": "touching-prompt",
+    "model": "anthropic/claude-3.5-sonnet",
+    "image_path": "D:\\python\\vision-llms-are-blind\\src\\TouchingCircle\\images\\touching-prompt\\gpt-4o\\correct\\gpt_touch_pixels_1155_rotation_diagonal_2_diameter_0.25_distance_-0.10.png",
+    "ground_truth": "Yes",
+    "raw_response": "Yes",
+    "parsed_answer": "Yes",
+    "correct": true,
+    "error": null,
+    "input_tokens": 1545,
+    "output_tokens": 4,
+    "tokens_used": 1549,
+    "latency_s": 5.21,
+    "metadata": {
+      "distance": -0.1,
+      "diameter": 0.25
+    }
+  },
+  {
+    "task": "TouchingCircle",
+    "prompt_key": "touching-prompt",
+    "model": "anthropic/claude-3.5-sonnet",
+    "image_path": "D:\\python\\vision-llms-are-blind\\src\\TouchingCircle\\images\\touching-prompt\\gpt-4o\\correct\\gpt_touch_pixels_1155_rotation_diagonal_2_diameter_0.25_distance_-0.15.png",
+    "ground_truth": "Yes",
+    "raw_response": "Yes, the blue and pink circles are touching each other where they overlap.",
+    "parsed_answer": "Yes",
+    "correct": true,
+    "error": null,
+    "input_tokens": 1545,
+    "output_tokens": 18,
+    "tokens_used": 1563,
+    "latency_s": 3.34,
+    "metadata": {
+      "distance": -0.15,
+      "diameter": 0.25
+    }
+  },
+  {
+    "task": "TouchingCircle",
+    "prompt_key": "touching-prompt",
+    "model": "anthropic/claude-3.5-sonnet",
+    "image_path": "D:\\python\\vision-llms-are-blind\\src\\TouchingCircle\\images\\touching-prompt\\gpt-4o\\correct\\gpt_touch_pixels_1155_rotation_diagonal_2_diameter_0.25_distance_0.00.png",
+    "ground_truth": "Yes",
+    "raw_response": "No",
+    "parsed_answer": "No",
+    "correct": false,
+    "error": null,
+    "input_tokens": 1545,
+    "output_tokens": 4,
+    "tokens_used": 1549,
+    "latency_s": 1.95,
+    "metadata": {
+      "distance": 0.0,
+      "diameter": 0.25
+    }
+  },
+  {
+    "task": "TouchingCircle",
+    "prompt_key": "touching-prompt",
+    "model": "anthropic/claude-3.5-sonnet",
+    "image_path": "D:\\python\\vision-llms-are-blind\\src\\TouchingCircle\\images\\touching-prompt\\gpt-4o\\correct\\gpt_touch_pixels_1155_rotation_diagonal_2_diameter_0.25_distance_0.10.png",
+    "ground_truth": "No",
+    "raw_response": "Yes",
+    "parsed_answer": "Yes",
+    "correct": false,
+    "error": null,
+    "input_tokens": 1545,
+    "output_tokens": 4,
+    "tokens_used": 1549,
+    "latency_s": 2.37,
+    "metadata": {
+      "distance": 0.1,
+      "diameter": 0.25
+    }
+  },
+  {
+    "task": "TouchingCircle",
+    "prompt_key": "touching-prompt",
+    "model": "anthropic/claude-3.5-sonnet",
+    "image_path": "D:\\python\\vision-llms-are-blind\\src\\TouchingCircle\\images\\touching-prompt\\gpt-4o\\correct\\gpt_touch_pixels_1155_rotation_diagonal_2_diameter_0.25_distance_0.15.png",
+    "ground_truth": "No",
+    "raw_response": "Yes",
+    "parsed_answer": "Yes",
+    "correct": false,
+    "error": null,
+    "input_tokens": 1545,
+    "output_tokens": 4,
+    "tokens_used": 1549,
+    "latency_s": 2.02,
+    "metadata": {
+      "distance": 0.15,
+      "diameter": 0.25
+    }
+  },
+  {
+    "task": "TouchingCircle",
+    "prompt_key": "touching-prompt",
+    "model": "anthropic/claude-3.5-sonnet",
+    "image_path": "D:\\python\\vision-llms-are-blind\\src\\TouchingCircle\\images\\touching-prompt\\gpt-4o\\correct\\gpt_touch_pixels_1155_rotation_diagonal_2_diameter_0.25_distance_0.20.png",
+    "ground_truth": "No",
+    "raw_response": "No",
+    "parsed_answer": "No",
+    "correct": true,
+    "error": null,
+    "input_tokens": 1545,
+    "output_tokens": 4,
+    "tokens_used": 1549,
+    "latency_s": 3.93,
+    "metadata": {
+      "distance": 0.2,
+      "diameter": 0.25
+    }
+  },
+  {
+    "task": "TouchingCircle",
+    "prompt_key": "touching-prompt",
+    "model": "anthropic/claude-3.5-sonnet",
+    "image_path": "D:\\python\\vision-llms-are-blind\\src\\TouchingCircle\\images\\touching-prompt\\gpt-4o\\correct\\gpt_touch_pixels_1155_rotation_diagonal_2_diameter_0.25_distance_0.25.png",
+    "ground_truth": "No",
+    "raw_response": "No",
+    "parsed_answer": "No",
+    "correct": true,
+    "error": null,
+    "input_tokens": 1545,
+    "output_tokens": 4,
+    "tokens_used": 1549,
+    "latency_s": 2.51,
+    "metadata": {
+      "distance": 0.25,
+      "diameter": 0.25
+    }
+  },
+  {
+    "task": "TouchingCircle",
+    "prompt_key": "touching-prompt",
+    "model": "anthropic/claude-3.5-sonnet",
+    "image_path": "D:\\python\\vision-llms-are-blind\\src\\TouchingCircle\\images\\touching-prompt\\gpt-4o\\correct\\gpt_touch_pixels_1155_rotation_diagonal_2_diameter_0.25_distance_0.30.png",
+    "ground_truth": "No",
+    "raw_response": "No",
+    "parsed_answer": "No",
+    "correct": true,
+    "error": null,
+    "input_tokens": 1545,
+    "output_tokens": 4,
+    "tokens_used": 1549,
+    "latency_s": 2.22,
+    "metadata": {
+      "distance": 0.3,
+      "diameter": 0.25
+    }
+  },
+  {
+    "task": "TouchingCircle",
+    "prompt_key": "touching-prompt",
+    "model": "anthropic/claude-3.5-sonnet",
+    "image_path": "D:\\python\\vision-llms-are-blind\\src\\TouchingCircle\\images\\touching-prompt\\gpt-4o\\correct\\gpt_touch_pixels_1155_rotation_diagonal_2_diameter_0.25_distance_0.35.png",
+    "ground_truth": "No",
+    "raw_response": "No",
+    "parsed_answer": "No",
+    "correct": true,
+    "error": null,
+    "input_tokens": 1545,
+    "output_tokens": 4,
+    "tokens_used": 1549,
+    "latency_s": 2.57,
+    "metadata": {
+      "distance": 0.35,
+      "diameter": 0.25
+    }
+  },
+  {
+    "task": "TouchingCircle",
+    "prompt_key": "touching-prompt",
+    "model": "anthropic/claude-3.5-sonnet",
+    "image_path": "D:\\python\\vision-llms-are-blind\\src\\TouchingCircle\\images\\touching-prompt\\gpt-4o\\correct\\gpt_touch_pixels_1155_rotation_diagonal_2_diameter_0.25_distance_0.40.png",
+    "ground_truth": "No",
+    "raw_response": "No",
+    "parsed_answer": "No",
+    "correct": true,
+    "error": null,
+    "input_tokens": 1545,
+    "output_tokens": 4,
+    "tokens_used": 1549,
+    "latency_s": 1.99,
+    "metadata": {
+      "distance": 0.4,
+      "diameter": 0.25
+    }
+  },
+  {
+    "task": "TouchingCircle",
+    "prompt_key": "touching-prompt",
+    "model": "anthropic/claude-3.5-sonnet",
+    "image_path": "D:\\python\\vision-llms-are-blind\\src\\TouchingCircle\\images\\touching-prompt\\gpt-4o\\correct\\gpt_touch_pixels_1155_rotation_diagonal_2_diameter_0.25_distance_0.45.png",
+    "ground_truth": "No",
+    "raw_response": "No",
+    "parsed_answer": "No",
+    "correct": true,
+    "error": null,
+    "input_tokens": 1545,
+    "output_tokens": 4,
+    "tokens_used": 1549,
+    "latency_s": 3.17,
+    "metadata": {
+      "distance": 0.45,
+      "diameter": 0.25
+    }
+  },
+  {
+    "task": "TouchingCircle",
+    "prompt_key": "touching-prompt",
+    "model": "anthropic/claude-3.5-sonnet",
+    "image_path": "D:\\python\\vision-llms-are-blind\\src\\TouchingCircle\\images\\touching-prompt\\gpt-4o\\correct\\gpt_touch_pixels_1155_rotation_diagonal_2_diameter_0.25_distance_0.50.png",
+    "ground_truth": "No",
+    "raw_response": "No",
+    "parsed_answer": "No",
+    "correct": true,
+    "error": null,
+    "input_tokens": 1545,
+    "output_tokens": 4,
+    "tokens_used": 1549,
+    "latency_s": 4.03,
+    "metadata": {
+      "distance": 0.5,
+      "diameter": 0.25
+    }
+  },
+  {
+    "task": "TouchingCircle",
+    "prompt_key": "touching-prompt",
+    "model": "anthropic/claude-3.5-sonnet",
+    "image_path": "D:\\python\\vision-llms-are-blind\\src\\TouchingCircle\\images\\touching-prompt\\gpt-4o\\correct\\gpt_touch_pixels_1155_rotation_horizontal_diameter_0.14_distance_-0.05.png",
+    "ground_truth": "Yes",
+    "raw_response": "Yes",
+    "parsed_answer": "Yes",
+    "correct": true,
+    "error": null,
+    "input_tokens": 1545,
+    "output_tokens": 4,
+    "tokens_used": 1549,
+    "latency_s": 5.75,
+    "metadata": {
+      "distance": -0.05,
+      "diameter": 0.14
+    }
+  },
+  {
+    "task": "TouchingCircle",
+    "prompt_key": "touching-prompt",
+    "model": "anthropic/claude-3.5-sonnet",
+    "image_path": "D:\\python\\vision-llms-are-blind\\src\\TouchingCircle\\images\\touching-prompt\\gpt-4o\\correct\\gpt_touch_pixels_1155_rotation_horizontal_diameter_0.14_distance_-0.10.png",
+    "ground_truth": "Yes",
+    "raw_response": "Yes",
+    "parsed_answer": "Yes",
+    "correct": true,
+    "error": null,
+    "input_tokens": 1545,
+    "output_tokens": 4,
+    "tokens_used": 1549,
+    "latency_s": 4.46,
+    "metadata": {
+      "distance": -0.1,
+      "diameter": 0.14
+    }
+  },
+  {
+    "task": "TouchingCircle",
+    "prompt_key": "touching-prompt",
+    "model": "anthropic/claude-3.5-sonnet",
+    "image_path": "D:\\python\\vision-llms-are-blind\\src\\TouchingCircle\\images\\touching-prompt\\gpt-4o\\correct\\gpt_touch_pixels_1155_rotation_horizontal_diameter_0.14_distance_-0.15.png",
+    "ground_truth": "Yes",
+    "raw_response": "Yes",
+    "parsed_answer": "Yes",
+    "correct": true,
+    "error": null,
+    "input_tokens": 1545,
+    "output_tokens": 4,
+    "tokens_used": 1549,
+    "latency_s": 1.87,
+    "metadata": {
+      "distance": -0.15,
+      "diameter": 0.14
+    }
+  },
+  {
+    "task": "TouchingCircle",
+    "prompt_key": "touching-prompt",
+    "model": "anthropic/claude-3.5-sonnet",
+    "image_path": "D:\\python\\vision-llms-are-blind\\src\\TouchingCircle\\images\\touching-prompt\\gpt-4o\\correct\\gpt_touch_pixels_1155_rotation_horizontal_diameter_0.14_distance_0.00.png",
+    "ground_truth": "Yes",
+    "raw_response": "Yes",
+    "parsed_answer": "Yes",
+    "correct": true,
+    "error": null,
+    "input_tokens": 1545,
+    "output_tokens": 4,
+    "tokens_used": 1549,
+    "latency_s": 1.97,
+    "metadata": {
+      "distance": 0.0,
+      "diameter": 0.14
+    }
+  },
+  {
+    "task": "TouchingCircle",
+    "prompt_key": "touching-prompt",
+    "model": "anthropic/claude-3.5-sonnet",
+    "image_path": "D:\\python\\vision-llms-are-blind\\src\\TouchingCircle\\images\\touching-prompt\\gpt-4o\\correct\\gpt_touch_pixels_1155_rotation_horizontal_diameter_0.14_distance_0.35.png",
+    "ground_truth": "No",
+    "raw_response": "No",
+    "parsed_answer": "No",
+    "correct": true,
+    "error": null,
+    "input_tokens": 1545,
+    "output_tokens": 4,
+    "tokens_used": 1549,
+    "latency_s": 2.26,
+    "metadata": {
+      "distance": 0.35,
+      "diameter": 0.14
+    }
+  },
+  {
+    "task": "TouchingCircle",
+    "prompt_key": "touching-prompt",
+    "model": "anthropic/claude-3.5-sonnet",
+    "image_path": "D:\\python\\vision-llms-are-blind\\src\\TouchingCircle\\images\\touching-prompt\\gpt-4o\\correct\\gpt_touch_pixels_1155_rotation_horizontal_diameter_0.14_distance_0.45.png",
+    "ground_truth": "No",
+    "raw_response": "No",
+    "parsed_answer": "No",
+    "correct": true,
+    "error": null,
+    "input_tokens": 1545,
+    "output_tokens": 4,
+    "tokens_used": 1549,
+    "latency_s": 1.72,
+    "metadata": {
+      "distance": 0.45,
+      "diameter": 0.14
+    }
+  },
+  {
+    "task": "TouchingCircle",
+    "prompt_key": "touching-prompt",
+    "model": "anthropic/claude-3.5-sonnet",
+    "image_path": "D:\\python\\vision-llms-are-blind\\src\\TouchingCircle\\images\\touching-prompt\\gpt-4o\\correct\\gpt_touch_pixels_1155_rotation_horizontal_diameter_0.14_distance_0.50.png",
+    "ground_truth": "No",
+    "raw_response": "No",
+    "parsed_answer": "No",
+    "correct": true,
+    "error": null,
+    "input_tokens": 1545,
+    "output_tokens": 4,
+    "tokens_used": 1549,
+    "latency_s": 2.13,
+    "metadata": {
+      "distance": 0.5,
+      "diameter": 0.14
+    }
+  },
+  {
+    "task": "TouchingCircle",
+    "prompt_key": "touching-prompt",
+    "model": "anthropic/claude-3.5-sonnet",
+    "image_path": "D:\\python\\vision-llms-are-blind\\src\\TouchingCircle\\images\\touching-prompt\\gpt-4o\\correct\\gpt_touch_pixels_1155_rotation_horizontal_diameter_0.17_distance_-0.05.png",
+    "ground_truth": "Yes",
+    "raw_response": "Yes",
+    "parsed_answer": "Yes",
+    "correct": true,
+    "error": null,
+    "input_tokens": 1545,
+    "output_tokens": 4,
+    "tokens_used": 1549,
+    "latency_s": 2.85,
+    "metadata": {
+      "distance": -0.05,
+      "diameter": 0.17
+    }
+  },
+  {
+    "task": "TouchingCircle",
+    "prompt_key": "touching-prompt",
+    "model": "anthropic/claude-3.5-sonnet",
+    "image_path": "D:\\python\\vision-llms-are-blind\\src\\TouchingCircle\\images\\touching-prompt\\gpt-4o\\correct\\gpt_touch_pixels_1155_rotation_horizontal_diameter_0.17_distance_-0.10.png",
+    "ground_truth": "Yes",
+    "raw_response": "Yes",
+    "parsed_answer": "Yes",
+    "correct": true,
+    "error": null,
+    "input_tokens": 1545,
+    "output_tokens": 4,
+    "tokens_used": 1549,
+    "latency_s": 1.95,
+    "metadata": {
+      "distance": -0.1,
+      "diameter": 0.17
+    }
+  },
+  {
+    "task": "TouchingCircle",
+    "prompt_key": "touching-prompt",
+    "model": "anthropic/claude-3.5-sonnet",
+    "image_path": "D:\\python\\vision-llms-are-blind\\src\\TouchingCircle\\images\\touching-prompt\\gpt-4o\\correct\\gpt_touch_pixels_1155_rotation_horizontal_diameter_0.17_distance_-0.15.png",
+    "ground_truth": "Yes",
+    "raw_response": "Yes",
+    "parsed_answer": "Yes",
+    "correct": true,
+    "error": null,
+    "input_tokens": 1545,
+    "output_tokens": 4,
+    "tokens_used": 1549,
+    "latency_s": 5.89,
+    "metadata": {
+      "distance": -0.15,
+      "diameter": 0.17
+    }
+  },
+  {
+    "task": "TouchingCircle",
+    "prompt_key": "touching-prompt",
+    "model": "anthropic/claude-3.5-sonnet",
+    "image_path": "D:\\python\\vision-llms-are-blind\\src\\TouchingCircle\\images\\touching-prompt\\gpt-4o\\correct\\gpt_touch_pixels_1155_rotation_horizontal_diameter_0.17_distance_0.00.png",
+    "ground_truth": "Yes",
+    "raw_response": "No",
+    "parsed_answer": "No",
+    "correct": false,
+    "error": null,
+    "input_tokens": 1545,
+    "output_tokens": 4,
+    "tokens_used": 1549,
+    "latency_s": 1.93,
+    "metadata": {
+      "distance": 0.0,
+      "diameter": 0.17
+    }
+  },
+  {
+    "task": "TouchingCircle",
+    "prompt_key": "touching-prompt",
+    "model": "anthropic/claude-3.5-sonnet",
+    "image_path": "D:\\python\\vision-llms-are-blind\\src\\TouchingCircle\\images\\touching-prompt\\gpt-4o\\correct\\gpt_touch_pixels_1155_rotation_horizontal_diameter_0.17_distance_0.25.png",
+    "ground_truth": "No",
+    "raw_response": "No",
+    "parsed_answer": "No",
+    "correct": true,
+    "error": null,
+    "input_tokens": 1545,
+    "output_tokens": 4,
+    "tokens_used": 1549,
+    "latency_s": 2.01,
+    "metadata": {
+      "distance": 0.25,
+      "diameter": 0.17
+    }
+  },
+  {
+    "task": "TouchingCircle",
+    "prompt_key": "touching-prompt",
+    "model": "anthropic/claude-3.5-sonnet",
+    "image_path": "D:\\python\\vision-llms-are-blind\\src\\TouchingCircle\\images\\touching-prompt\\gpt-4o\\correct\\gpt_touch_pixels_1155_rotation_horizontal_diameter_0.17_distance_0.30.png",
+    "ground_truth": "No",
+    "raw_response": "No",
+    "parsed_answer": "No",
+    "correct": true,
+    "error": null,
+    "input_tokens": 1545,
+    "output_tokens": 4,
+    "tokens_used": 1549,
+    "latency_s": 1.9,
+    "metadata": {
+      "distance": 0.3,
+      "diameter": 0.17
+    }
+  }
+]

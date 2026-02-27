@@ -1,0 +1,1902 @@
+[
+  {
+    "task": "TouchingCircle",
+    "prompt_key": "overlapping-prompt",
+    "model": "anthropic/claude-3.5-sonnet",
+    "image_path": "D:\\python\\vision-llms-are-blind\\src\\TouchingCircle\\images\\overlapping-prompt\\gpt-4o\\correct\\gpt_overlap_pixels_1155_rotation_diagonal_1_diameter_0.14_distance_-0.05.png",
+    "ground_truth": "Yes",
+    "raw_response": "Yes",
+    "parsed_answer": "Yes",
+    "correct": true,
+    "error": null,
+    "input_tokens": 1544,
+    "output_tokens": 4,
+    "tokens_used": 1548,
+    "latency_s": 2.67,
+    "metadata": {
+      "distance": -0.05,
+      "diameter": 0.14
+    }
+  },
+  {
+    "task": "TouchingCircle",
+    "prompt_key": "overlapping-prompt",
+    "model": "anthropic/claude-3.5-sonnet",
+    "image_path": "D:\\python\\vision-llms-are-blind\\src\\TouchingCircle\\images\\overlapping-prompt\\gpt-4o\\correct\\gpt_overlap_pixels_1155_rotation_diagonal_1_diameter_0.14_distance_-0.10.png",
+    "ground_truth": "Yes",
+    "raw_response": "Yes",
+    "parsed_answer": "Yes",
+    "correct": true,
+    "error": null,
+    "input_tokens": 1544,
+    "output_tokens": 4,
+    "tokens_used": 1548,
+    "latency_s": 2.3,
+    "metadata": {
+      "distance": -0.1,
+      "diameter": 0.14
+    }
+  },
+  {
+    "task": "TouchingCircle",
+    "prompt_key": "overlapping-prompt",
+    "model": "anthropic/claude-3.5-sonnet",
+    "image_path": "D:\\python\\vision-llms-are-blind\\src\\TouchingCircle\\images\\overlapping-prompt\\gpt-4o\\correct\\gpt_overlap_pixels_1155_rotation_diagonal_1_diameter_0.14_distance_-0.15.png",
+    "ground_truth": "Yes",
+    "raw_response": "Yes",
+    "parsed_answer": "Yes",
+    "correct": true,
+    "error": null,
+    "input_tokens": 1544,
+    "output_tokens": 4,
+    "tokens_used": 1548,
+    "latency_s": 3.31,
+    "metadata": {
+      "distance": -0.15,
+      "diameter": 0.14
+    }
+  },
+  {
+    "task": "TouchingCircle",
+    "prompt_key": "overlapping-prompt",
+    "model": "anthropic/claude-3.5-sonnet",
+    "image_path": "D:\\python\\vision-llms-are-blind\\src\\TouchingCircle\\images\\overlapping-prompt\\gpt-4o\\correct\\gpt_overlap_pixels_1155_rotation_diagonal_1_diameter_0.14_distance_0.35.png",
+    "ground_truth": "No",
+    "raw_response": "No",
+    "parsed_answer": "No",
+    "correct": true,
+    "error": null,
+    "input_tokens": 1544,
+    "output_tokens": 4,
+    "tokens_used": 1548,
+    "latency_s": 2.21,
+    "metadata": {
+      "distance": 0.35,
+      "diameter": 0.14
+    }
+  },
+  {
+    "task": "TouchingCircle",
+    "prompt_key": "overlapping-prompt",
+    "model": "anthropic/claude-3.5-sonnet",
+    "image_path": "D:\\python\\vision-llms-are-blind\\src\\TouchingCircle\\images\\overlapping-prompt\\gpt-4o\\correct\\gpt_overlap_pixels_1155_rotation_diagonal_1_diameter_0.14_distance_0.45.png",
+    "ground_truth": "No",
+    "raw_response": "No",
+    "parsed_answer": "No",
+    "correct": true,
+    "error": null,
+    "input_tokens": 1544,
+    "output_tokens": 4,
+    "tokens_used": 1548,
+    "latency_s": 2.75,
+    "metadata": {
+      "distance": 0.45,
+      "diameter": 0.14
+    }
+  },
+  {
+    "task": "TouchingCircle",
+    "prompt_key": "overlapping-prompt",
+    "model": "anthropic/claude-3.5-sonnet",
+    "image_path": "D:\\python\\vision-llms-are-blind\\src\\TouchingCircle\\images\\overlapping-prompt\\gpt-4o\\correct\\gpt_overlap_pixels_1155_rotation_diagonal_1_diameter_0.14_distance_0.50.png",
+    "ground_truth": "No",
+    "raw_response": "No",
+    "parsed_answer": "No",
+    "correct": true,
+    "error": null,
+    "input_tokens": 1544,
+    "output_tokens": 4,
+    "tokens_used": 1548,
+    "latency_s": 5.14,
+    "metadata": {
+      "distance": 0.5,
+      "diameter": 0.14
+    }
+  },
+  {
+    "task": "TouchingCircle",
+    "prompt_key": "overlapping-prompt",
+    "model": "anthropic/claude-3.5-sonnet",
+    "image_path": "D:\\python\\vision-llms-are-blind\\src\\TouchingCircle\\images\\overlapping-prompt\\gpt-4o\\correct\\gpt_overlap_pixels_1155_rotation_diagonal_1_diameter_0.17_distance_-0.05.png",
+    "ground_truth": "Yes",
+    "raw_response": "Yes",
+    "parsed_answer": "Yes",
+    "correct": true,
+    "error": null,
+    "input_tokens": 1544,
+    "output_tokens": 4,
+    "tokens_used": 1548,
+    "latency_s": 8.81,
+    "metadata": {
+      "distance": -0.05,
+      "diameter": 0.17
+    }
+  },
+  {
+    "task": "TouchingCircle",
+    "prompt_key": "overlapping-prompt",
+    "model": "anthropic/claude-3.5-sonnet",
+    "image_path": "D:\\python\\vision-llms-are-blind\\src\\TouchingCircle\\images\\overlapping-prompt\\gpt-4o\\correct\\gpt_overlap_pixels_1155_rotation_diagonal_1_diameter_0.17_distance_-0.10.png",
+    "ground_truth": "Yes",
+    "raw_response": "No",
+    "parsed_answer": "No",
+    "correct": false,
+    "error": null,
+    "input_tokens": 1544,
+    "output_tokens": 4,
+    "tokens_used": 1548,
+    "latency_s": 5.15,
+    "metadata": {
+      "distance": -0.1,
+      "diameter": 0.17
+    }
+  },
+  {
+    "task": "TouchingCircle",
+    "prompt_key": "overlapping-prompt",
+    "model": "anthropic/claude-3.5-sonnet",
+    "image_path": "D:\\python\\vision-llms-are-blind\\src\\TouchingCircle\\images\\overlapping-prompt\\gpt-4o\\correct\\gpt_overlap_pixels_1155_rotation_diagonal_1_diameter_0.17_distance_-0.15.png",
+    "ground_truth": "Yes",
+    "raw_response": "Yes",
+    "parsed_answer": "Yes",
+    "correct": true,
+    "error": null,
+    "input_tokens": 1544,
+    "output_tokens": 4,
+    "tokens_used": 1548,
+    "latency_s": 2.14,
+    "metadata": {
+      "distance": -0.15,
+      "diameter": 0.17
+    }
+  },
+  {
+    "task": "TouchingCircle",
+    "prompt_key": "overlapping-prompt",
+    "model": "anthropic/claude-3.5-sonnet",
+    "image_path": "D:\\python\\vision-llms-are-blind\\src\\TouchingCircle\\images\\overlapping-prompt\\gpt-4o\\correct\\gpt_overlap_pixels_1155_rotation_diagonal_1_diameter_0.17_distance_0.35.png",
+    "ground_truth": "No",
+    "raw_response": "No",
+    "parsed_answer": "No",
+    "correct": true,
+    "error": null,
+    "input_tokens": 1544,
+    "output_tokens": 4,
+    "tokens_used": 1548,
+    "latency_s": 2.78,
+    "metadata": {
+      "distance": 0.35,
+      "diameter": 0.17
+    }
+  },
+  {
+    "task": "TouchingCircle",
+    "prompt_key": "overlapping-prompt",
+    "model": "anthropic/claude-3.5-sonnet",
+    "image_path": "D:\\python\\vision-llms-are-blind\\src\\TouchingCircle\\images\\overlapping-prompt\\gpt-4o\\correct\\gpt_overlap_pixels_1155_rotation_diagonal_1_diameter_0.17_distance_0.40.png",
+    "ground_truth": "No",
+    "raw_response": "No",
+    "parsed_answer": "No",
+    "correct": true,
+    "error": null,
+    "input_tokens": 1544,
+    "output_tokens": 4,
+    "tokens_used": 1548,
+    "latency_s": 1.91,
+    "metadata": {
+      "distance": 0.4,
+      "diameter": 0.17
+    }
+  },
+  {
+    "task": "TouchingCircle",
+    "prompt_key": "overlapping-prompt",
+    "model": "anthropic/claude-3.5-sonnet",
+    "image_path": "D:\\python\\vision-llms-are-blind\\src\\TouchingCircle\\images\\overlapping-prompt\\gpt-4o\\correct\\gpt_overlap_pixels_1155_rotation_diagonal_1_diameter_0.17_distance_0.45.png",
+    "ground_truth": "No",
+    "raw_response": "No",
+    "parsed_answer": "No",
+    "correct": true,
+    "error": null,
+    "input_tokens": 1544,
+    "output_tokens": 4,
+    "tokens_used": 1548,
+    "latency_s": 5.29,
+    "metadata": {
+      "distance": 0.45,
+      "diameter": 0.17
+    }
+  },
+  {
+    "task": "TouchingCircle",
+    "prompt_key": "overlapping-prompt",
+    "model": "anthropic/claude-3.5-sonnet",
+    "image_path": "D:\\python\\vision-llms-are-blind\\src\\TouchingCircle\\images\\overlapping-prompt\\gpt-4o\\correct\\gpt_overlap_pixels_1155_rotation_diagonal_1_diameter_0.20_distance_-0.05.png",
+    "ground_truth": "Yes",
+    "raw_response": "No",
+    "parsed_answer": "No",
+    "correct": false,
+    "error": null,
+    "input_tokens": 1544,
+    "output_tokens": 4,
+    "tokens_used": 1548,
+    "latency_s": 1.72,
+    "metadata": {
+      "distance": -0.05,
+      "diameter": 0.2
+    }
+  },
+  {
+    "task": "TouchingCircle",
+    "prompt_key": "overlapping-prompt",
+    "model": "anthropic/claude-3.5-sonnet",
+    "image_path": "D:\\python\\vision-llms-are-blind\\src\\TouchingCircle\\images\\overlapping-prompt\\gpt-4o\\correct\\gpt_overlap_pixels_1155_rotation_diagonal_1_diameter_0.20_distance_-0.10.png",
+    "ground_truth": "Yes",
+    "raw_response": "No",
+    "parsed_answer": "No",
+    "correct": false,
+    "error": null,
+    "input_tokens": 1544,
+    "output_tokens": 4,
+    "tokens_used": 1548,
+    "latency_s": 2.41,
+    "metadata": {
+      "distance": -0.1,
+      "diameter": 0.2
+    }
+  },
+  {
+    "task": "TouchingCircle",
+    "prompt_key": "overlapping-prompt",
+    "model": "anthropic/claude-3.5-sonnet",
+    "image_path": "D:\\python\\vision-llms-are-blind\\src\\TouchingCircle\\images\\overlapping-prompt\\gpt-4o\\correct\\gpt_overlap_pixels_1155_rotation_diagonal_1_diameter_0.20_distance_-0.15.png",
+    "ground_truth": "Yes",
+    "raw_response": "Yes",
+    "parsed_answer": "Yes",
+    "correct": true,
+    "error": null,
+    "input_tokens": 1544,
+    "output_tokens": 4,
+    "tokens_used": 1548,
+    "latency_s": 2.1,
+    "metadata": {
+      "distance": -0.15,
+      "diameter": 0.2
+    }
+  },
+  {
+    "task": "TouchingCircle",
+    "prompt_key": "overlapping-prompt",
+    "model": "anthropic/claude-3.5-sonnet",
+    "image_path": "D:\\python\\vision-llms-are-blind\\src\\TouchingCircle\\images\\overlapping-prompt\\gpt-4o\\correct\\gpt_overlap_pixels_1155_rotation_diagonal_1_diameter_0.20_distance_0.25.png",
+    "ground_truth": "No",
+    "raw_response": "No",
+    "parsed_answer": "No",
+    "correct": true,
+    "error": null,
+    "input_tokens": 1544,
+    "output_tokens": 4,
+    "tokens_used": 1548,
+    "latency_s": 2.12,
+    "metadata": {
+      "distance": 0.25,
+      "diameter": 0.2
+    }
+  },
+  {
+    "task": "TouchingCircle",
+    "prompt_key": "overlapping-prompt",
+    "model": "anthropic/claude-3.5-sonnet",
+    "image_path": "D:\\python\\vision-llms-are-blind\\src\\TouchingCircle\\images\\overlapping-prompt\\gpt-4o\\correct\\gpt_overlap_pixels_1155_rotation_diagonal_1_diameter_0.20_distance_0.30.png",
+    "ground_truth": "No",
+    "raw_response": "No",
+    "parsed_answer": "No",
+    "correct": true,
+    "error": null,
+    "input_tokens": 1544,
+    "output_tokens": 4,
+    "tokens_used": 1548,
+    "latency_s": 2.5,
+    "metadata": {
+      "distance": 0.3,
+      "diameter": 0.2
+    }
+  },
+  {
+    "task": "TouchingCircle",
+    "prompt_key": "overlapping-prompt",
+    "model": "anthropic/claude-3.5-sonnet",
+    "image_path": "D:\\python\\vision-llms-are-blind\\src\\TouchingCircle\\images\\overlapping-prompt\\gpt-4o\\correct\\gpt_overlap_pixels_1155_rotation_diagonal_1_diameter_0.20_distance_0.35.png",
+    "ground_truth": "No",
+    "raw_response": "No",
+    "parsed_answer": "No",
+    "correct": true,
+    "error": null,
+    "input_tokens": 1544,
+    "output_tokens": 4,
+    "tokens_used": 1548,
+    "latency_s": 2.14,
+    "metadata": {
+      "distance": 0.35,
+      "diameter": 0.2
+    }
+  },
+  {
+    "task": "TouchingCircle",
+    "prompt_key": "overlapping-prompt",
+    "model": "anthropic/claude-3.5-sonnet",
+    "image_path": "D:\\python\\vision-llms-are-blind\\src\\TouchingCircle\\images\\overlapping-prompt\\gpt-4o\\correct\\gpt_overlap_pixels_1155_rotation_diagonal_1_diameter_0.20_distance_0.40.png",
+    "ground_truth": "No",
+    "raw_response": "No",
+    "parsed_answer": "No",
+    "correct": true,
+    "error": null,
+    "input_tokens": 1544,
+    "output_tokens": 4,
+    "tokens_used": 1548,
+    "latency_s": 5.65,
+    "metadata": {
+      "distance": 0.4,
+      "diameter": 0.2
+    }
+  },
+  {
+    "task": "TouchingCircle",
+    "prompt_key": "overlapping-prompt",
+    "model": "anthropic/claude-3.5-sonnet",
+    "image_path": "D:\\python\\vision-llms-are-blind\\src\\TouchingCircle\\images\\overlapping-prompt\\gpt-4o\\correct\\gpt_overlap_pixels_1155_rotation_diagonal_1_diameter_0.20_distance_0.45.png",
+    "ground_truth": "No",
+    "raw_response": "No",
+    "parsed_answer": "No",
+    "correct": true,
+    "error": null,
+    "input_tokens": 1544,
+    "output_tokens": 4,
+    "tokens_used": 1548,
+    "latency_s": 4.17,
+    "metadata": {
+      "distance": 0.45,
+      "diameter": 0.2
+    }
+  },
+  {
+    "task": "TouchingCircle",
+    "prompt_key": "overlapping-prompt",
+    "model": "anthropic/claude-3.5-sonnet",
+    "image_path": "D:\\python\\vision-llms-are-blind\\src\\TouchingCircle\\images\\overlapping-prompt\\gpt-4o\\correct\\gpt_overlap_pixels_1155_rotation_diagonal_1_diameter_0.20_distance_0.50.png",
+    "ground_truth": "No",
+    "raw_response": "No",
+    "parsed_answer": "No",
+    "correct": true,
+    "error": null,
+    "input_tokens": 1544,
+    "output_tokens": 4,
+    "tokens_used": 1548,
+    "latency_s": 1.75,
+    "metadata": {
+      "distance": 0.5,
+      "diameter": 0.2
+    }
+  },
+  {
+    "task": "TouchingCircle",
+    "prompt_key": "overlapping-prompt",
+    "model": "anthropic/claude-3.5-sonnet",
+    "image_path": "D:\\python\\vision-llms-are-blind\\src\\TouchingCircle\\images\\overlapping-prompt\\gpt-4o\\correct\\gpt_overlap_pixels_1155_rotation_diagonal_1_diameter_0.25_distance_-0.05.png",
+    "ground_truth": "Yes",
+    "raw_response": "No",
+    "parsed_answer": "No",
+    "correct": false,
+    "error": null,
+    "input_tokens": 1544,
+    "output_tokens": 4,
+    "tokens_used": 1548,
+    "latency_s": 2.07,
+    "metadata": {
+      "distance": -0.05,
+      "diameter": 0.25
+    }
+  },
+  {
+    "task": "TouchingCircle",
+    "prompt_key": "overlapping-prompt",
+    "model": "anthropic/claude-3.5-sonnet",
+    "image_path": "D:\\python\\vision-llms-are-blind\\src\\TouchingCircle\\images\\overlapping-prompt\\gpt-4o\\correct\\gpt_overlap_pixels_1155_rotation_diagonal_1_diameter_0.25_distance_-0.10.png",
+    "ground_truth": "Yes",
+    "raw_response": "Yes",
+    "parsed_answer": "Yes",
+    "correct": true,
+    "error": null,
+    "input_tokens": 1544,
+    "output_tokens": 4,
+    "tokens_used": 1548,
+    "latency_s": 2.03,
+    "metadata": {
+      "distance": -0.1,
+      "diameter": 0.25
+    }
+  },
+  {
+    "task": "TouchingCircle",
+    "prompt_key": "overlapping-prompt",
+    "model": "anthropic/claude-3.5-sonnet",
+    "image_path": "D:\\python\\vision-llms-are-blind\\src\\TouchingCircle\\images\\overlapping-prompt\\gpt-4o\\correct\\gpt_overlap_pixels_1155_rotation_diagonal_1_diameter_0.25_distance_-0.15.png",
+    "ground_truth": "Yes",
+    "raw_response": "Yes",
+    "parsed_answer": "Yes",
+    "correct": true,
+    "error": null,
+    "input_tokens": 1544,
+    "output_tokens": 4,
+    "tokens_used": 1548,
+    "latency_s": 1.89,
+    "metadata": {
+      "distance": -0.15,
+      "diameter": 0.25
+    }
+  },
+  {
+    "task": "TouchingCircle",
+    "prompt_key": "overlapping-prompt",
+    "model": "anthropic/claude-3.5-sonnet",
+    "image_path": "D:\\python\\vision-llms-are-blind\\src\\TouchingCircle\\images\\overlapping-prompt\\gpt-4o\\correct\\gpt_overlap_pixels_1155_rotation_diagonal_1_diameter_0.25_distance_0.20.png",
+    "ground_truth": "No",
+    "raw_response": "No",
+    "parsed_answer": "No",
+    "correct": true,
+    "error": null,
+    "input_tokens": 1544,
+    "output_tokens": 4,
+    "tokens_used": 1548,
+    "latency_s": 2.54,
+    "metadata": {
+      "distance": 0.2,
+      "diameter": 0.25
+    }
+  },
+  {
+    "task": "TouchingCircle",
+    "prompt_key": "overlapping-prompt",
+    "model": "anthropic/claude-3.5-sonnet",
+    "image_path": "D:\\python\\vision-llms-are-blind\\src\\TouchingCircle\\images\\overlapping-prompt\\gpt-4o\\correct\\gpt_overlap_pixels_1155_rotation_diagonal_1_diameter_0.25_distance_0.30.png",
+    "ground_truth": "No",
+    "raw_response": "No",
+    "parsed_answer": "No",
+    "correct": true,
+    "error": null,
+    "input_tokens": 1544,
+    "output_tokens": 4,
+    "tokens_used": 1548,
+    "latency_s": 4.96,
+    "metadata": {
+      "distance": 0.3,
+      "diameter": 0.25
+    }
+  },
+  {
+    "task": "TouchingCircle",
+    "prompt_key": "overlapping-prompt",
+    "model": "anthropic/claude-3.5-sonnet",
+    "image_path": "D:\\python\\vision-llms-are-blind\\src\\TouchingCircle\\images\\overlapping-prompt\\gpt-4o\\correct\\gpt_overlap_pixels_1155_rotation_diagonal_1_diameter_0.25_distance_0.35.png",
+    "ground_truth": "No",
+    "raw_response": "No",
+    "parsed_answer": "No",
+    "correct": true,
+    "error": null,
+    "input_tokens": 1544,
+    "output_tokens": 4,
+    "tokens_used": 1548,
+    "latency_s": 2.37,
+    "metadata": {
+      "distance": 0.35,
+      "diameter": 0.25
+    }
+  },
+  {
+    "task": "TouchingCircle",
+    "prompt_key": "overlapping-prompt",
+    "model": "anthropic/claude-3.5-sonnet",
+    "image_path": "D:\\python\\vision-llms-are-blind\\src\\TouchingCircle\\images\\overlapping-prompt\\gpt-4o\\correct\\gpt_overlap_pixels_1155_rotation_diagonal_1_diameter_0.25_distance_0.40.png",
+    "ground_truth": "No",
+    "raw_response": "No",
+    "parsed_answer": "No",
+    "correct": true,
+    "error": null,
+    "input_tokens": 1544,
+    "output_tokens": 4,
+    "tokens_used": 1548,
+    "latency_s": 1.9,
+    "metadata": {
+      "distance": 0.4,
+      "diameter": 0.25
+    }
+  },
+  {
+    "task": "TouchingCircle",
+    "prompt_key": "overlapping-prompt",
+    "model": "anthropic/claude-3.5-sonnet",
+    "image_path": "D:\\python\\vision-llms-are-blind\\src\\TouchingCircle\\images\\overlapping-prompt\\gpt-4o\\correct\\gpt_overlap_pixels_1155_rotation_diagonal_1_diameter_0.25_distance_0.45.png",
+    "ground_truth": "No",
+    "raw_response": "No",
+    "parsed_answer": "No",
+    "correct": true,
+    "error": null,
+    "input_tokens": 1544,
+    "output_tokens": 4,
+    "tokens_used": 1548,
+    "latency_s": 2.11,
+    "metadata": {
+      "distance": 0.45,
+      "diameter": 0.25
+    }
+  },
+  {
+    "task": "TouchingCircle",
+    "prompt_key": "overlapping-prompt",
+    "model": "anthropic/claude-3.5-sonnet",
+    "image_path": "D:\\python\\vision-llms-are-blind\\src\\TouchingCircle\\images\\overlapping-prompt\\gpt-4o\\correct\\gpt_overlap_pixels_1155_rotation_diagonal_1_diameter_0.25_distance_0.50.png",
+    "ground_truth": "No",
+    "raw_response": "No",
+    "parsed_answer": "No",
+    "correct": true,
+    "error": null,
+    "input_tokens": 1544,
+    "output_tokens": 4,
+    "tokens_used": 1548,
+    "latency_s": 2.01,
+    "metadata": {
+      "distance": 0.5,
+      "diameter": 0.25
+    }
+  },
+  {
+    "task": "TouchingCircle",
+    "prompt_key": "overlapping-prompt",
+    "model": "anthropic/claude-3.5-sonnet",
+    "image_path": "D:\\python\\vision-llms-are-blind\\src\\TouchingCircle\\images\\overlapping-prompt\\gpt-4o\\correct\\gpt_overlap_pixels_1155_rotation_diagonal_2_diameter_0.14_distance_-0.05.png",
+    "ground_truth": "Yes",
+    "raw_response": "No",
+    "parsed_answer": "No",
+    "correct": false,
+    "error": null,
+    "input_tokens": 1544,
+    "output_tokens": 4,
+    "tokens_used": 1548,
+    "latency_s": 11.79,
+    "metadata": {
+      "distance": -0.05,
+      "diameter": 0.14
+    }
+  },
+  {
+    "task": "TouchingCircle",
+    "prompt_key": "overlapping-prompt",
+    "model": "anthropic/claude-3.5-sonnet",
+    "image_path": "D:\\python\\vision-llms-are-blind\\src\\TouchingCircle\\images\\overlapping-prompt\\gpt-4o\\correct\\gpt_overlap_pixels_1155_rotation_diagonal_2_diameter_0.14_distance_-0.10.png",
+    "ground_truth": "Yes",
+    "raw_response": "No",
+    "parsed_answer": "No",
+    "correct": false,
+    "error": null,
+    "input_tokens": 1544,
+    "output_tokens": 4,
+    "tokens_used": 1548,
+    "latency_s": 3.99,
+    "metadata": {
+      "distance": -0.1,
+      "diameter": 0.14
+    }
+  },
+  {
+    "task": "TouchingCircle",
+    "prompt_key": "overlapping-prompt",
+    "model": "anthropic/claude-3.5-sonnet",
+    "image_path": "D:\\python\\vision-llms-are-blind\\src\\TouchingCircle\\images\\overlapping-prompt\\gpt-4o\\correct\\gpt_overlap_pixels_1155_rotation_diagonal_2_diameter_0.14_distance_-0.15.png",
+    "ground_truth": "Yes",
+    "raw_response": "Yes",
+    "parsed_answer": "Yes",
+    "correct": true,
+    "error": null,
+    "input_tokens": 1544,
+    "output_tokens": 4,
+    "tokens_used": 1548,
+    "latency_s": 1.93,
+    "metadata": {
+      "distance": -0.15,
+      "diameter": 0.14
+    }
+  },
+  {
+    "task": "TouchingCircle",
+    "prompt_key": "overlapping-prompt",
+    "model": "anthropic/claude-3.5-sonnet",
+    "image_path": "D:\\python\\vision-llms-are-blind\\src\\TouchingCircle\\images\\overlapping-prompt\\gpt-4o\\correct\\gpt_overlap_pixels_1155_rotation_diagonal_2_diameter_0.14_distance_0.35.png",
+    "ground_truth": "No",
+    "raw_response": "No",
+    "parsed_answer": "No",
+    "correct": true,
+    "error": null,
+    "input_tokens": 1544,
+    "output_tokens": 4,
+    "tokens_used": 1548,
+    "latency_s": 12.22,
+    "metadata": {
+      "distance": 0.35,
+      "diameter": 0.14
+    }
+  },
+  {
+    "task": "TouchingCircle",
+    "prompt_key": "overlapping-prompt",
+    "model": "anthropic/claude-3.5-sonnet",
+    "image_path": "D:\\python\\vision-llms-are-blind\\src\\TouchingCircle\\images\\overlapping-prompt\\gpt-4o\\correct\\gpt_overlap_pixels_1155_rotation_diagonal_2_diameter_0.14_distance_0.50.png",
+    "ground_truth": "No",
+    "raw_response": "No",
+    "parsed_answer": "No",
+    "correct": true,
+    "error": null,
+    "input_tokens": 1544,
+    "output_tokens": 4,
+    "tokens_used": 1548,
+    "latency_s": 2.16,
+    "metadata": {
+      "distance": 0.5,
+      "diameter": 0.14
+    }
+  },
+  {
+    "task": "TouchingCircle",
+    "prompt_key": "overlapping-prompt",
+    "model": "anthropic/claude-3.5-sonnet",
+    "image_path": "D:\\python\\vision-llms-are-blind\\src\\TouchingCircle\\images\\overlapping-prompt\\gpt-4o\\correct\\gpt_overlap_pixels_1155_rotation_diagonal_2_diameter_0.17_distance_-0.05.png",
+    "ground_truth": "Yes",
+    "raw_response": "No",
+    "parsed_answer": "No",
+    "correct": false,
+    "error": null,
+    "input_tokens": 1544,
+    "output_tokens": 4,
+    "tokens_used": 1548,
+    "latency_s": 2.47,
+    "metadata": {
+      "distance": -0.05,
+      "diameter": 0.17
+    }
+  },
+  {
+    "task": "TouchingCircle",
+    "prompt_key": "overlapping-prompt",
+    "model": "anthropic/claude-3.5-sonnet",
+    "image_path": "D:\\python\\vision-llms-are-blind\\src\\TouchingCircle\\images\\overlapping-prompt\\gpt-4o\\correct\\gpt_overlap_pixels_1155_rotation_diagonal_2_diameter_0.17_distance_-0.10.png",
+    "ground_truth": "Yes",
+    "raw_response": "Yes",
+    "parsed_answer": "Yes",
+    "correct": true,
+    "error": null,
+    "input_tokens": 1544,
+    "output_tokens": 4,
+    "tokens_used": 1548,
+    "latency_s": 1.71,
+    "metadata": {
+      "distance": -0.1,
+      "diameter": 0.17
+    }
+  },
+  {
+    "task": "TouchingCircle",
+    "prompt_key": "overlapping-prompt",
+    "model": "anthropic/claude-3.5-sonnet",
+    "image_path": "D:\\python\\vision-llms-are-blind\\src\\TouchingCircle\\images\\overlapping-prompt\\gpt-4o\\correct\\gpt_overlap_pixels_1155_rotation_diagonal_2_diameter_0.17_distance_-0.15.png",
+    "ground_truth": "Yes",
+    "raw_response": "Yes",
+    "parsed_answer": "Yes",
+    "correct": true,
+    "error": null,
+    "input_tokens": 1544,
+    "output_tokens": 4,
+    "tokens_used": 1548,
+    "latency_s": 2.24,
+    "metadata": {
+      "distance": -0.15,
+      "diameter": 0.17
+    }
+  },
+  {
+    "task": "TouchingCircle",
+    "prompt_key": "overlapping-prompt",
+    "model": "anthropic/claude-3.5-sonnet",
+    "image_path": "D:\\python\\vision-llms-are-blind\\src\\TouchingCircle\\images\\overlapping-prompt\\gpt-4o\\correct\\gpt_overlap_pixels_1155_rotation_diagonal_2_diameter_0.17_distance_0.30.png",
+    "ground_truth": "No",
+    "raw_response": "No",
+    "parsed_answer": "No",
+    "correct": true,
+    "error": null,
+    "input_tokens": 1544,
+    "output_tokens": 4,
+    "tokens_used": 1548,
+    "latency_s": 4.53,
+    "metadata": {
+      "distance": 0.3,
+      "diameter": 0.17
+    }
+  },
+  {
+    "task": "TouchingCircle",
+    "prompt_key": "overlapping-prompt",
+    "model": "anthropic/claude-3.5-sonnet",
+    "image_path": "D:\\python\\vision-llms-are-blind\\src\\TouchingCircle\\images\\overlapping-prompt\\gpt-4o\\correct\\gpt_overlap_pixels_1155_rotation_diagonal_2_diameter_0.17_distance_0.35.png",
+    "ground_truth": "No",
+    "raw_response": "No",
+    "parsed_answer": "No",
+    "correct": true,
+    "error": null,
+    "input_tokens": 1544,
+    "output_tokens": 4,
+    "tokens_used": 1548,
+    "latency_s": 1.94,
+    "metadata": {
+      "distance": 0.35,
+      "diameter": 0.17
+    }
+  },
+  {
+    "task": "TouchingCircle",
+    "prompt_key": "overlapping-prompt",
+    "model": "anthropic/claude-3.5-sonnet",
+    "image_path": "D:\\python\\vision-llms-are-blind\\src\\TouchingCircle\\images\\overlapping-prompt\\gpt-4o\\correct\\gpt_overlap_pixels_1155_rotation_diagonal_2_diameter_0.17_distance_0.40.png",
+    "ground_truth": "No",
+    "raw_response": "No",
+    "parsed_answer": "No",
+    "correct": true,
+    "error": null,
+    "input_tokens": 1544,
+    "output_tokens": 4,
+    "tokens_used": 1548,
+    "latency_s": 4.5,
+    "metadata": {
+      "distance": 0.4,
+      "diameter": 0.17
+    }
+  },
+  {
+    "task": "TouchingCircle",
+    "prompt_key": "overlapping-prompt",
+    "model": "anthropic/claude-3.5-sonnet",
+    "image_path": "D:\\python\\vision-llms-are-blind\\src\\TouchingCircle\\images\\overlapping-prompt\\gpt-4o\\correct\\gpt_overlap_pixels_1155_rotation_diagonal_2_diameter_0.17_distance_0.45.png",
+    "ground_truth": "No",
+    "raw_response": "No",
+    "parsed_answer": "No",
+    "correct": true,
+    "error": null,
+    "input_tokens": 1544,
+    "output_tokens": 4,
+    "tokens_used": 1548,
+    "latency_s": 4.99,
+    "metadata": {
+      "distance": 0.45,
+      "diameter": 0.17
+    }
+  },
+  {
+    "task": "TouchingCircle",
+    "prompt_key": "overlapping-prompt",
+    "model": "anthropic/claude-3.5-sonnet",
+    "image_path": "D:\\python\\vision-llms-are-blind\\src\\TouchingCircle\\images\\overlapping-prompt\\gpt-4o\\correct\\gpt_overlap_pixels_1155_rotation_diagonal_2_diameter_0.17_distance_0.50.png",
+    "ground_truth": "No",
+    "raw_response": "No",
+    "parsed_answer": "No",
+    "correct": true,
+    "error": null,
+    "input_tokens": 1544,
+    "output_tokens": 4,
+    "tokens_used": 1548,
+    "latency_s": 2.29,
+    "metadata": {
+      "distance": 0.5,
+      "diameter": 0.17
+    }
+  },
+  {
+    "task": "TouchingCircle",
+    "prompt_key": "overlapping-prompt",
+    "model": "anthropic/claude-3.5-sonnet",
+    "image_path": "D:\\python\\vision-llms-are-blind\\src\\TouchingCircle\\images\\overlapping-prompt\\gpt-4o\\correct\\gpt_overlap_pixels_1155_rotation_diagonal_2_diameter_0.20_distance_-0.05.png",
+    "ground_truth": "Yes",
+    "raw_response": "No",
+    "parsed_answer": "No",
+    "correct": false,
+    "error": null,
+    "input_tokens": 1544,
+    "output_tokens": 4,
+    "tokens_used": 1548,
+    "latency_s": 2.43,
+    "metadata": {
+      "distance": -0.05,
+      "diameter": 0.2
+    }
+  },
+  {
+    "task": "TouchingCircle",
+    "prompt_key": "overlapping-prompt",
+    "model": "anthropic/claude-3.5-sonnet",
+    "image_path": "D:\\python\\vision-llms-are-blind\\src\\TouchingCircle\\images\\overlapping-prompt\\gpt-4o\\correct\\gpt_overlap_pixels_1155_rotation_diagonal_2_diameter_0.20_distance_-0.10.png",
+    "ground_truth": "Yes",
+    "raw_response": "Yes",
+    "parsed_answer": "Yes",
+    "correct": true,
+    "error": null,
+    "input_tokens": 1544,
+    "output_tokens": 4,
+    "tokens_used": 1548,
+    "latency_s": 5.2,
+    "metadata": {
+      "distance": -0.1,
+      "diameter": 0.2
+    }
+  },
+  {
+    "task": "TouchingCircle",
+    "prompt_key": "overlapping-prompt",
+    "model": "anthropic/claude-3.5-sonnet",
+    "image_path": "D:\\python\\vision-llms-are-blind\\src\\TouchingCircle\\images\\overlapping-prompt\\gpt-4o\\correct\\gpt_overlap_pixels_1155_rotation_diagonal_2_diameter_0.20_distance_-0.15.png",
+    "ground_truth": "Yes",
+    "raw_response": "No",
+    "parsed_answer": "No",
+    "correct": false,
+    "error": null,
+    "input_tokens": 1544,
+    "output_tokens": 4,
+    "tokens_used": 1548,
+    "latency_s": 2.24,
+    "metadata": {
+      "distance": -0.15,
+      "diameter": 0.2
+    }
+  },
+  {
+    "task": "TouchingCircle",
+    "prompt_key": "overlapping-prompt",
+    "model": "anthropic/claude-3.5-sonnet",
+    "image_path": "D:\\python\\vision-llms-are-blind\\src\\TouchingCircle\\images\\overlapping-prompt\\gpt-4o\\correct\\gpt_overlap_pixels_1155_rotation_diagonal_2_diameter_0.20_distance_0.20.png",
+    "ground_truth": "No",
+    "raw_response": "No",
+    "parsed_answer": "No",
+    "correct": true,
+    "error": null,
+    "input_tokens": 1544,
+    "output_tokens": 4,
+    "tokens_used": 1548,
+    "latency_s": 1.92,
+    "metadata": {
+      "distance": 0.2,
+      "diameter": 0.2
+    }
+  },
+  {
+    "task": "TouchingCircle",
+    "prompt_key": "overlapping-prompt",
+    "model": "anthropic/claude-3.5-sonnet",
+    "image_path": "D:\\python\\vision-llms-are-blind\\src\\TouchingCircle\\images\\overlapping-prompt\\gpt-4o\\correct\\gpt_overlap_pixels_1155_rotation_diagonal_2_diameter_0.20_distance_0.25.png",
+    "ground_truth": "No",
+    "raw_response": "No",
+    "parsed_answer": "No",
+    "correct": true,
+    "error": null,
+    "input_tokens": 1544,
+    "output_tokens": 4,
+    "tokens_used": 1548,
+    "latency_s": 2.6,
+    "metadata": {
+      "distance": 0.25,
+      "diameter": 0.2
+    }
+  },
+  {
+    "task": "TouchingCircle",
+    "prompt_key": "overlapping-prompt",
+    "model": "anthropic/claude-3.5-sonnet",
+    "image_path": "D:\\python\\vision-llms-are-blind\\src\\TouchingCircle\\images\\overlapping-prompt\\gpt-4o\\correct\\gpt_overlap_pixels_1155_rotation_diagonal_2_diameter_0.20_distance_0.30.png",
+    "ground_truth": "No",
+    "raw_response": "No",
+    "parsed_answer": "No",
+    "correct": true,
+    "error": null,
+    "input_tokens": 1544,
+    "output_tokens": 4,
+    "tokens_used": 1548,
+    "latency_s": 5.2,
+    "metadata": {
+      "distance": 0.3,
+      "diameter": 0.2
+    }
+  },
+  {
+    "task": "TouchingCircle",
+    "prompt_key": "overlapping-prompt",
+    "model": "anthropic/claude-3.5-sonnet",
+    "image_path": "D:\\python\\vision-llms-are-blind\\src\\TouchingCircle\\images\\overlapping-prompt\\gpt-4o\\correct\\gpt_overlap_pixels_1155_rotation_diagonal_2_diameter_0.20_distance_0.35.png",
+    "ground_truth": "No",
+    "raw_response": "Yes",
+    "parsed_answer": "Yes",
+    "correct": false,
+    "error": null,
+    "input_tokens": 1544,
+    "output_tokens": 4,
+    "tokens_used": 1548,
+    "latency_s": 1.94,
+    "metadata": {
+      "distance": 0.35,
+      "diameter": 0.2
+    }
+  },
+  {
+    "task": "TouchingCircle",
+    "prompt_key": "overlapping-prompt",
+    "model": "anthropic/claude-3.5-sonnet",
+    "image_path": "D:\\python\\vision-llms-are-blind\\src\\TouchingCircle\\images\\overlapping-prompt\\gpt-4o\\correct\\gpt_overlap_pixels_1155_rotation_diagonal_2_diameter_0.20_distance_0.40.png",
+    "ground_truth": "No",
+    "raw_response": "No",
+    "parsed_answer": "No",
+    "correct": true,
+    "error": null,
+    "input_tokens": 1544,
+    "output_tokens": 4,
+    "tokens_used": 1548,
+    "latency_s": 6.34,
+    "metadata": {
+      "distance": 0.4,
+      "diameter": 0.2
+    }
+  },
+  {
+    "task": "TouchingCircle",
+    "prompt_key": "overlapping-prompt",
+    "model": "anthropic/claude-3.5-sonnet",
+    "image_path": "D:\\python\\vision-llms-are-blind\\src\\TouchingCircle\\images\\overlapping-prompt\\gpt-4o\\correct\\gpt_overlap_pixels_1155_rotation_diagonal_2_diameter_0.20_distance_0.45.png",
+    "ground_truth": "No",
+    "raw_response": "No",
+    "parsed_answer": "No",
+    "correct": true,
+    "error": null,
+    "input_tokens": 1544,
+    "output_tokens": 4,
+    "tokens_used": 1548,
+    "latency_s": 2.07,
+    "metadata": {
+      "distance": 0.45,
+      "diameter": 0.2
+    }
+  },
+  {
+    "task": "TouchingCircle",
+    "prompt_key": "overlapping-prompt",
+    "model": "anthropic/claude-3.5-sonnet",
+    "image_path": "D:\\python\\vision-llms-are-blind\\src\\TouchingCircle\\images\\overlapping-prompt\\gpt-4o\\correct\\gpt_overlap_pixels_1155_rotation_diagonal_2_diameter_0.20_distance_0.50.png",
+    "ground_truth": "No",
+    "raw_response": "Yes",
+    "parsed_answer": "Yes",
+    "correct": false,
+    "error": null,
+    "input_tokens": 1544,
+    "output_tokens": 4,
+    "tokens_used": 1548,
+    "latency_s": 1.87,
+    "metadata": {
+      "distance": 0.5,
+      "diameter": 0.2
+    }
+  },
+  {
+    "task": "TouchingCircle",
+    "prompt_key": "overlapping-prompt",
+    "model": "anthropic/claude-3.5-sonnet",
+    "image_path": "D:\\python\\vision-llms-are-blind\\src\\TouchingCircle\\images\\overlapping-prompt\\gpt-4o\\correct\\gpt_overlap_pixels_1155_rotation_diagonal_2_diameter_0.25_distance_-0.05.png",
+    "ground_truth": "Yes",
+    "raw_response": "No",
+    "parsed_answer": "No",
+    "correct": false,
+    "error": null,
+    "input_tokens": 1544,
+    "output_tokens": 4,
+    "tokens_used": 1548,
+    "latency_s": 2.04,
+    "metadata": {
+      "distance": -0.05,
+      "diameter": 0.25
+    }
+  },
+  {
+    "task": "TouchingCircle",
+    "prompt_key": "overlapping-prompt",
+    "model": "anthropic/claude-3.5-sonnet",
+    "image_path": "D:\\python\\vision-llms-are-blind\\src\\TouchingCircle\\images\\overlapping-prompt\\gpt-4o\\correct\\gpt_overlap_pixels_1155_rotation_diagonal_2_diameter_0.25_distance_-0.10.png",
+    "ground_truth": "Yes",
+    "raw_response": "Yes",
+    "parsed_answer": "Yes",
+    "correct": true,
+    "error": null,
+    "input_tokens": 1544,
+    "output_tokens": 4,
+    "tokens_used": 1548,
+    "latency_s": 5.3,
+    "metadata": {
+      "distance": -0.1,
+      "diameter": 0.25
+    }
+  },
+  {
+    "task": "TouchingCircle",
+    "prompt_key": "overlapping-prompt",
+    "model": "anthropic/claude-3.5-sonnet",
+    "image_path": "D:\\python\\vision-llms-are-blind\\src\\TouchingCircle\\images\\overlapping-prompt\\gpt-4o\\correct\\gpt_overlap_pixels_1155_rotation_diagonal_2_diameter_0.25_distance_-0.15.png",
+    "ground_truth": "Yes",
+    "raw_response": "Yes",
+    "parsed_answer": "Yes",
+    "correct": true,
+    "error": null,
+    "input_tokens": 1544,
+    "output_tokens": 4,
+    "tokens_used": 1548,
+    "latency_s": 2.29,
+    "metadata": {
+      "distance": -0.15,
+      "diameter": 0.25
+    }
+  },
+  {
+    "task": "TouchingCircle",
+    "prompt_key": "overlapping-prompt",
+    "model": "anthropic/claude-3.5-sonnet",
+    "image_path": "D:\\python\\vision-llms-are-blind\\src\\TouchingCircle\\images\\overlapping-prompt\\gpt-4o\\correct\\gpt_overlap_pixels_1155_rotation_diagonal_2_diameter_0.25_distance_0.20.png",
+    "ground_truth": "No",
+    "raw_response": "No",
+    "parsed_answer": "No",
+    "correct": true,
+    "error": null,
+    "input_tokens": 1544,
+    "output_tokens": 4,
+    "tokens_used": 1548,
+    "latency_s": 1.65,
+    "metadata": {
+      "distance": 0.2,
+      "diameter": 0.25
+    }
+  },
+  {
+    "task": "TouchingCircle",
+    "prompt_key": "overlapping-prompt",
+    "model": "anthropic/claude-3.5-sonnet",
+    "image_path": "D:\\python\\vision-llms-are-blind\\src\\TouchingCircle\\images\\overlapping-prompt\\gpt-4o\\correct\\gpt_overlap_pixels_1155_rotation_diagonal_2_diameter_0.25_distance_0.25.png",
+    "ground_truth": "No",
+    "raw_response": "Yes",
+    "parsed_answer": "Yes",
+    "correct": false,
+    "error": null,
+    "input_tokens": 1544,
+    "output_tokens": 4,
+    "tokens_used": 1548,
+    "latency_s": 2.05,
+    "metadata": {
+      "distance": 0.25,
+      "diameter": 0.25
+    }
+  },
+  {
+    "task": "TouchingCircle",
+    "prompt_key": "overlapping-prompt",
+    "model": "anthropic/claude-3.5-sonnet",
+    "image_path": "D:\\python\\vision-llms-are-blind\\src\\TouchingCircle\\images\\overlapping-prompt\\gpt-4o\\correct\\gpt_overlap_pixels_1155_rotation_diagonal_2_diameter_0.25_distance_0.30.png",
+    "ground_truth": "No",
+    "raw_response": "No",
+    "parsed_answer": "No",
+    "correct": true,
+    "error": null,
+    "input_tokens": 1544,
+    "output_tokens": 4,
+    "tokens_used": 1548,
+    "latency_s": 2.05,
+    "metadata": {
+      "distance": 0.3,
+      "diameter": 0.25
+    }
+  },
+  {
+    "task": "TouchingCircle",
+    "prompt_key": "overlapping-prompt",
+    "model": "anthropic/claude-3.5-sonnet",
+    "image_path": "D:\\python\\vision-llms-are-blind\\src\\TouchingCircle\\images\\overlapping-prompt\\gpt-4o\\correct\\gpt_overlap_pixels_1155_rotation_diagonal_2_diameter_0.25_distance_0.35.png",
+    "ground_truth": "No",
+    "raw_response": "No",
+    "parsed_answer": "No",
+    "correct": true,
+    "error": null,
+    "input_tokens": 1544,
+    "output_tokens": 4,
+    "tokens_used": 1548,
+    "latency_s": 2.09,
+    "metadata": {
+      "distance": 0.35,
+      "diameter": 0.25
+    }
+  },
+  {
+    "task": "TouchingCircle",
+    "prompt_key": "overlapping-prompt",
+    "model": "anthropic/claude-3.5-sonnet",
+    "image_path": "D:\\python\\vision-llms-are-blind\\src\\TouchingCircle\\images\\overlapping-prompt\\gpt-4o\\correct\\gpt_overlap_pixels_1155_rotation_diagonal_2_diameter_0.25_distance_0.40.png",
+    "ground_truth": "No",
+    "raw_response": "No",
+    "parsed_answer": "No",
+    "correct": true,
+    "error": null,
+    "input_tokens": 1544,
+    "output_tokens": 4,
+    "tokens_used": 1548,
+    "latency_s": 2.06,
+    "metadata": {
+      "distance": 0.4,
+      "diameter": 0.25
+    }
+  },
+  {
+    "task": "TouchingCircle",
+    "prompt_key": "overlapping-prompt",
+    "model": "anthropic/claude-3.5-sonnet",
+    "image_path": "D:\\python\\vision-llms-are-blind\\src\\TouchingCircle\\images\\overlapping-prompt\\gpt-4o\\correct\\gpt_overlap_pixels_1155_rotation_diagonal_2_diameter_0.25_distance_0.45.png",
+    "ground_truth": "No",
+    "raw_response": "No",
+    "parsed_answer": "No",
+    "correct": true,
+    "error": null,
+    "input_tokens": 1544,
+    "output_tokens": 4,
+    "tokens_used": 1548,
+    "latency_s": 2.19,
+    "metadata": {
+      "distance": 0.45,
+      "diameter": 0.25
+    }
+  },
+  {
+    "task": "TouchingCircle",
+    "prompt_key": "overlapping-prompt",
+    "model": "anthropic/claude-3.5-sonnet",
+    "image_path": "D:\\python\\vision-llms-are-blind\\src\\TouchingCircle\\images\\overlapping-prompt\\gpt-4o\\correct\\gpt_overlap_pixels_1155_rotation_diagonal_2_diameter_0.25_distance_0.50.png",
+    "ground_truth": "No",
+    "raw_response": "No",
+    "parsed_answer": "No",
+    "correct": true,
+    "error": null,
+    "input_tokens": 1544,
+    "output_tokens": 4,
+    "tokens_used": 1548,
+    "latency_s": 4.98,
+    "metadata": {
+      "distance": 0.5,
+      "diameter": 0.25
+    }
+  },
+  {
+    "task": "TouchingCircle",
+    "prompt_key": "overlapping-prompt",
+    "model": "anthropic/claude-3.5-sonnet",
+    "image_path": "D:\\python\\vision-llms-are-blind\\src\\TouchingCircle\\images\\overlapping-prompt\\gpt-4o\\correct\\gpt_overlap_pixels_1155_rotation_horizontal_diameter_0.14_distance_-0.05.png",
+    "ground_truth": "Yes",
+    "raw_response": "Yes",
+    "parsed_answer": "Yes",
+    "correct": true,
+    "error": null,
+    "input_tokens": 1544,
+    "output_tokens": 4,
+    "tokens_used": 1548,
+    "latency_s": 2.07,
+    "metadata": {
+      "distance": -0.05,
+      "diameter": 0.14
+    }
+  },
+  {
+    "task": "TouchingCircle",
+    "prompt_key": "overlapping-prompt",
+    "model": "anthropic/claude-3.5-sonnet",
+    "image_path": "D:\\python\\vision-llms-are-blind\\src\\TouchingCircle\\images\\overlapping-prompt\\gpt-4o\\correct\\gpt_overlap_pixels_1155_rotation_horizontal_diameter_0.14_distance_-0.10.png",
+    "ground_truth": "Yes",
+    "raw_response": "Yes",
+    "parsed_answer": "Yes",
+    "correct": true,
+    "error": null,
+    "input_tokens": 1544,
+    "output_tokens": 4,
+    "tokens_used": 1548,
+    "latency_s": 2.18,
+    "metadata": {
+      "distance": -0.1,
+      "diameter": 0.14
+    }
+  },
+  {
+    "task": "TouchingCircle",
+    "prompt_key": "overlapping-prompt",
+    "model": "anthropic/claude-3.5-sonnet",
+    "image_path": "D:\\python\\vision-llms-are-blind\\src\\TouchingCircle\\images\\overlapping-prompt\\gpt-4o\\correct\\gpt_overlap_pixels_1155_rotation_horizontal_diameter_0.14_distance_-0.15.png",
+    "ground_truth": "Yes",
+    "raw_response": "Yes",
+    "parsed_answer": "Yes",
+    "correct": true,
+    "error": null,
+    "input_tokens": 1544,
+    "output_tokens": 4,
+    "tokens_used": 1548,
+    "latency_s": 2.35,
+    "metadata": {
+      "distance": -0.15,
+      "diameter": 0.14
+    }
+  },
+  {
+    "task": "TouchingCircle",
+    "prompt_key": "overlapping-prompt",
+    "model": "anthropic/claude-3.5-sonnet",
+    "image_path": "D:\\python\\vision-llms-are-blind\\src\\TouchingCircle\\images\\overlapping-prompt\\gpt-4o\\correct\\gpt_overlap_pixels_1155_rotation_horizontal_diameter_0.14_distance_0.10.png",
+    "ground_truth": "No",
+    "raw_response": "No",
+    "parsed_answer": "No",
+    "correct": true,
+    "error": null,
+    "input_tokens": 1544,
+    "output_tokens": 4,
+    "tokens_used": 1548,
+    "latency_s": 5.61,
+    "metadata": {
+      "distance": 0.1,
+      "diameter": 0.14
+    }
+  },
+  {
+    "task": "TouchingCircle",
+    "prompt_key": "overlapping-prompt",
+    "model": "anthropic/claude-3.5-sonnet",
+    "image_path": "D:\\python\\vision-llms-are-blind\\src\\TouchingCircle\\images\\overlapping-prompt\\gpt-4o\\correct\\gpt_overlap_pixels_1155_rotation_horizontal_diameter_0.14_distance_0.15.png",
+    "ground_truth": "No",
+    "raw_response": "No",
+    "parsed_answer": "No",
+    "correct": true,
+    "error": null,
+    "input_tokens": 1544,
+    "output_tokens": 4,
+    "tokens_used": 1548,
+    "latency_s": 1.84,
+    "metadata": {
+      "distance": 0.15,
+      "diameter": 0.14
+    }
+  },
+  {
+    "task": "TouchingCircle",
+    "prompt_key": "overlapping-prompt",
+    "model": "anthropic/claude-3.5-sonnet",
+    "image_path": "D:\\python\\vision-llms-are-blind\\src\\TouchingCircle\\images\\overlapping-prompt\\gpt-4o\\correct\\gpt_overlap_pixels_1155_rotation_horizontal_diameter_0.14_distance_0.30.png",
+    "ground_truth": "No",
+    "raw_response": "No",
+    "parsed_answer": "No",
+    "correct": true,
+    "error": null,
+    "input_tokens": 1544,
+    "output_tokens": 4,
+    "tokens_used": 1548,
+    "latency_s": 2.0,
+    "metadata": {
+      "distance": 0.3,
+      "diameter": 0.14
+    }
+  },
+  {
+    "task": "TouchingCircle",
+    "prompt_key": "overlapping-prompt",
+    "model": "anthropic/claude-3.5-sonnet",
+    "image_path": "D:\\python\\vision-llms-are-blind\\src\\TouchingCircle\\images\\overlapping-prompt\\gpt-4o\\correct\\gpt_overlap_pixels_1155_rotation_horizontal_diameter_0.14_distance_0.35.png",
+    "ground_truth": "No",
+    "raw_response": "No",
+    "parsed_answer": "No",
+    "correct": true,
+    "error": null,
+    "input_tokens": 1544,
+    "output_tokens": 4,
+    "tokens_used": 1548,
+    "latency_s": 5.71,
+    "metadata": {
+      "distance": 0.35,
+      "diameter": 0.14
+    }
+  },
+  {
+    "task": "TouchingCircle",
+    "prompt_key": "overlapping-prompt",
+    "model": "anthropic/claude-3.5-sonnet",
+    "image_path": "D:\\python\\vision-llms-are-blind\\src\\TouchingCircle\\images\\overlapping-prompt\\gpt-4o\\correct\\gpt_overlap_pixels_1155_rotation_horizontal_diameter_0.14_distance_0.40.png",
+    "ground_truth": "No",
+    "raw_response": "No",
+    "parsed_answer": "No",
+    "correct": true,
+    "error": null,
+    "input_tokens": 1544,
+    "output_tokens": 4,
+    "tokens_used": 1548,
+    "latency_s": 64.59,
+    "metadata": {
+      "distance": 0.4,
+      "diameter": 0.14
+    }
+  },
+  {
+    "task": "TouchingCircle",
+    "prompt_key": "overlapping-prompt",
+    "model": "anthropic/claude-3.5-sonnet",
+    "image_path": "D:\\python\\vision-llms-are-blind\\src\\TouchingCircle\\images\\overlapping-prompt\\gpt-4o\\correct\\gpt_overlap_pixels_1155_rotation_horizontal_diameter_0.14_distance_0.45.png",
+    "ground_truth": "No",
+    "raw_response": "No",
+    "parsed_answer": "No",
+    "correct": true,
+    "error": null,
+    "input_tokens": 1544,
+    "output_tokens": 4,
+    "tokens_used": 1548,
+    "latency_s": 9.32,
+    "metadata": {
+      "distance": 0.45,
+      "diameter": 0.14
+    }
+  },
+  {
+    "task": "TouchingCircle",
+    "prompt_key": "overlapping-prompt",
+    "model": "anthropic/claude-3.5-sonnet",
+    "image_path": "D:\\python\\vision-llms-are-blind\\src\\TouchingCircle\\images\\overlapping-prompt\\gpt-4o\\correct\\gpt_overlap_pixels_1155_rotation_horizontal_diameter_0.14_distance_0.50.png",
+    "ground_truth": "No",
+    "raw_response": "No",
+    "parsed_answer": "No",
+    "correct": true,
+    "error": null,
+    "input_tokens": 1544,
+    "output_tokens": 4,
+    "tokens_used": 1548,
+    "latency_s": 2.13,
+    "metadata": {
+      "distance": 0.5,
+      "diameter": 0.14
+    }
+  },
+  {
+    "task": "TouchingCircle",
+    "prompt_key": "overlapping-prompt",
+    "model": "anthropic/claude-3.5-sonnet",
+    "image_path": "D:\\python\\vision-llms-are-blind\\src\\TouchingCircle\\images\\overlapping-prompt\\gpt-4o\\correct\\gpt_overlap_pixels_1155_rotation_horizontal_diameter_0.17_distance_-0.05.png",
+    "ground_truth": "Yes",
+    "raw_response": "Yes",
+    "parsed_answer": "Yes",
+    "correct": true,
+    "error": null,
+    "input_tokens": 1544,
+    "output_tokens": 4,
+    "tokens_used": 1548,
+    "latency_s": 2.12,
+    "metadata": {
+      "distance": -0.05,
+      "diameter": 0.17
+    }
+  },
+  {
+    "task": "TouchingCircle",
+    "prompt_key": "overlapping-prompt",
+    "model": "anthropic/claude-3.5-sonnet",
+    "image_path": "D:\\python\\vision-llms-are-blind\\src\\TouchingCircle\\images\\overlapping-prompt\\gpt-4o\\correct\\gpt_overlap_pixels_1155_rotation_horizontal_diameter_0.17_distance_-0.10.png",
+    "ground_truth": "Yes",
+    "raw_response": "Yes",
+    "parsed_answer": "Yes",
+    "correct": true,
+    "error": null,
+    "input_tokens": 1544,
+    "output_tokens": 4,
+    "tokens_used": 1548,
+    "latency_s": 2.71,
+    "metadata": {
+      "distance": -0.1,
+      "diameter": 0.17
+    }
+  },
+  {
+    "task": "TouchingCircle",
+    "prompt_key": "overlapping-prompt",
+    "model": "anthropic/claude-3.5-sonnet",
+    "image_path": "D:\\python\\vision-llms-are-blind\\src\\TouchingCircle\\images\\overlapping-prompt\\gpt-4o\\correct\\gpt_overlap_pixels_1155_rotation_horizontal_diameter_0.17_distance_-0.15.png",
+    "ground_truth": "Yes",
+    "raw_response": "Yes",
+    "parsed_answer": "Yes",
+    "correct": true,
+    "error": null,
+    "input_tokens": 1544,
+    "output_tokens": 4,
+    "tokens_used": 1548,
+    "latency_s": 1.81,
+    "metadata": {
+      "distance": -0.15,
+      "diameter": 0.17
+    }
+  },
+  {
+    "task": "TouchingCircle",
+    "prompt_key": "overlapping-prompt",
+    "model": "anthropic/claude-3.5-sonnet",
+    "image_path": "D:\\python\\vision-llms-are-blind\\src\\TouchingCircle\\images\\overlapping-prompt\\gpt-4o\\correct\\gpt_overlap_pixels_1155_rotation_horizontal_diameter_0.17_distance_0.15.png",
+    "ground_truth": "No",
+    "raw_response": "No",
+    "parsed_answer": "No",
+    "correct": true,
+    "error": null,
+    "input_tokens": 1544,
+    "output_tokens": 4,
+    "tokens_used": 1548,
+    "latency_s": 2.32,
+    "metadata": {
+      "distance": 0.15,
+      "diameter": 0.17
+    }
+  },
+  {
+    "task": "TouchingCircle",
+    "prompt_key": "overlapping-prompt",
+    "model": "anthropic/claude-3.5-sonnet",
+    "image_path": "D:\\python\\vision-llms-are-blind\\src\\TouchingCircle\\images\\overlapping-prompt\\gpt-4o\\correct\\gpt_overlap_pixels_1155_rotation_horizontal_diameter_0.17_distance_0.20.png",
+    "ground_truth": "No",
+    "raw_response": "No",
+    "parsed_answer": "No",
+    "correct": true,
+    "error": null,
+    "input_tokens": 1544,
+    "output_tokens": 4,
+    "tokens_used": 1548,
+    "latency_s": 4.91,
+    "metadata": {
+      "distance": 0.2,
+      "diameter": 0.17
+    }
+  },
+  {
+    "task": "TouchingCircle",
+    "prompt_key": "overlapping-prompt",
+    "model": "anthropic/claude-3.5-sonnet",
+    "image_path": "D:\\python\\vision-llms-are-blind\\src\\TouchingCircle\\images\\overlapping-prompt\\gpt-4o\\correct\\gpt_overlap_pixels_1155_rotation_horizontal_diameter_0.17_distance_0.25.png",
+    "ground_truth": "No",
+    "raw_response": "No",
+    "parsed_answer": "No",
+    "correct": true,
+    "error": null,
+    "input_tokens": 1544,
+    "output_tokens": 4,
+    "tokens_used": 1548,
+    "latency_s": 4.12,
+    "metadata": {
+      "distance": 0.25,
+      "diameter": 0.17
+    }
+  },
+  {
+    "task": "TouchingCircle",
+    "prompt_key": "overlapping-prompt",
+    "model": "anthropic/claude-3.5-sonnet",
+    "image_path": "D:\\python\\vision-llms-are-blind\\src\\TouchingCircle\\images\\overlapping-prompt\\gpt-4o\\correct\\gpt_overlap_pixels_1155_rotation_horizontal_diameter_0.17_distance_0.30.png",
+    "ground_truth": "No",
+    "raw_response": "No",
+    "parsed_answer": "No",
+    "correct": true,
+    "error": null,
+    "input_tokens": 1544,
+    "output_tokens": 4,
+    "tokens_used": 1548,
+    "latency_s": 2.1,
+    "metadata": {
+      "distance": 0.3,
+      "diameter": 0.17
+    }
+  },
+  {
+    "task": "TouchingCircle",
+    "prompt_key": "overlapping-prompt",
+    "model": "anthropic/claude-3.5-sonnet",
+    "image_path": "D:\\python\\vision-llms-are-blind\\src\\TouchingCircle\\images\\overlapping-prompt\\gpt-4o\\correct\\gpt_overlap_pixels_1155_rotation_horizontal_diameter_0.17_distance_0.35.png",
+    "ground_truth": "No",
+    "raw_response": "No",
+    "parsed_answer": "No",
+    "correct": true,
+    "error": null,
+    "input_tokens": 1544,
+    "output_tokens": 4,
+    "tokens_used": 1548,
+    "latency_s": 2.05,
+    "metadata": {
+      "distance": 0.35,
+      "diameter": 0.17
+    }
+  },
+  {
+    "task": "TouchingCircle",
+    "prompt_key": "overlapping-prompt",
+    "model": "anthropic/claude-3.5-sonnet",
+    "image_path": "D:\\python\\vision-llms-are-blind\\src\\TouchingCircle\\images\\overlapping-prompt\\gpt-4o\\correct\\gpt_overlap_pixels_1155_rotation_horizontal_diameter_0.17_distance_0.40.png",
+    "ground_truth": "No",
+    "raw_response": "No",
+    "parsed_answer": "No",
+    "correct": true,
+    "error": null,
+    "input_tokens": 1544,
+    "output_tokens": 4,
+    "tokens_used": 1548,
+    "latency_s": 1.94,
+    "metadata": {
+      "distance": 0.4,
+      "diameter": 0.17
+    }
+  },
+  {
+    "task": "TouchingCircle",
+    "prompt_key": "overlapping-prompt",
+    "model": "anthropic/claude-3.5-sonnet",
+    "image_path": "D:\\python\\vision-llms-are-blind\\src\\TouchingCircle\\images\\overlapping-prompt\\gpt-4o\\correct\\gpt_overlap_pixels_1155_rotation_horizontal_diameter_0.17_distance_0.45.png",
+    "ground_truth": "No",
+    "raw_response": "No",
+    "parsed_answer": "No",
+    "correct": true,
+    "error": null,
+    "input_tokens": 1544,
+    "output_tokens": 4,
+    "tokens_used": 1548,
+    "latency_s": 2.69,
+    "metadata": {
+      "distance": 0.45,
+      "diameter": 0.17
+    }
+  },
+  {
+    "task": "TouchingCircle",
+    "prompt_key": "overlapping-prompt",
+    "model": "anthropic/claude-3.5-sonnet",
+    "image_path": "D:\\python\\vision-llms-are-blind\\src\\TouchingCircle\\images\\overlapping-prompt\\gpt-4o\\correct\\gpt_overlap_pixels_1155_rotation_horizontal_diameter_0.17_distance_0.50.png",
+    "ground_truth": "No",
+    "raw_response": "No",
+    "parsed_answer": "No",
+    "correct": true,
+    "error": null,
+    "input_tokens": 1544,
+    "output_tokens": 4,
+    "tokens_used": 1548,
+    "latency_s": 5.36,
+    "metadata": {
+      "distance": 0.5,
+      "diameter": 0.17
+    }
+  },
+  {
+    "task": "TouchingCircle",
+    "prompt_key": "overlapping-prompt",
+    "model": "anthropic/claude-3.5-sonnet",
+    "image_path": "D:\\python\\vision-llms-are-blind\\src\\TouchingCircle\\images\\overlapping-prompt\\gpt-4o\\correct\\gpt_overlap_pixels_1155_rotation_horizontal_diameter_0.20_distance_-0.05.png",
+    "ground_truth": "Yes",
+    "raw_response": "Yes",
+    "parsed_answer": "Yes",
+    "correct": true,
+    "error": null,
+    "input_tokens": 1544,
+    "output_tokens": 4,
+    "tokens_used": 1548,
+    "latency_s": 1.98,
+    "metadata": {
+      "distance": -0.05,
+      "diameter": 0.2
+    }
+  },
+  {
+    "task": "TouchingCircle",
+    "prompt_key": "overlapping-prompt",
+    "model": "anthropic/claude-3.5-sonnet",
+    "image_path": "D:\\python\\vision-llms-are-blind\\src\\TouchingCircle\\images\\overlapping-prompt\\gpt-4o\\correct\\gpt_overlap_pixels_1155_rotation_horizontal_diameter_0.20_distance_-0.10.png",
+    "ground_truth": "Yes",
+    "raw_response": "No",
+    "parsed_answer": "No",
+    "correct": false,
+    "error": null,
+    "input_tokens": 1544,
+    "output_tokens": 4,
+    "tokens_used": 1548,
+    "latency_s": 4.5,
+    "metadata": {
+      "distance": -0.1,
+      "diameter": 0.2
+    }
+  },
+  {
+    "task": "TouchingCircle",
+    "prompt_key": "overlapping-prompt",
+    "model": "anthropic/claude-3.5-sonnet",
+    "image_path": "D:\\python\\vision-llms-are-blind\\src\\TouchingCircle\\images\\overlapping-prompt\\gpt-4o\\correct\\gpt_overlap_pixels_1155_rotation_horizontal_diameter_0.20_distance_-0.15.png",
+    "ground_truth": "Yes",
+    "raw_response": "Yes",
+    "parsed_answer": "Yes",
+    "correct": true,
+    "error": null,
+    "input_tokens": 1544,
+    "output_tokens": 4,
+    "tokens_used": 1548,
+    "latency_s": 11.14,
+    "metadata": {
+      "distance": -0.15,
+      "diameter": 0.2
+    }
+  },
+  {
+    "task": "TouchingCircle",
+    "prompt_key": "overlapping-prompt",
+    "model": "anthropic/claude-3.5-sonnet",
+    "image_path": "D:\\python\\vision-llms-are-blind\\src\\TouchingCircle\\images\\overlapping-prompt\\gpt-4o\\correct\\gpt_overlap_pixels_1155_rotation_horizontal_diameter_0.20_distance_0.10.png",
+    "ground_truth": "No",
+    "raw_response": "No",
+    "parsed_answer": "No",
+    "correct": true,
+    "error": null,
+    "input_tokens": 1544,
+    "output_tokens": 4,
+    "tokens_used": 1548,
+    "latency_s": 1.8,
+    "metadata": {
+      "distance": 0.1,
+      "diameter": 0.2
+    }
+  },
+  {
+    "task": "TouchingCircle",
+    "prompt_key": "overlapping-prompt",
+    "model": "anthropic/claude-3.5-sonnet",
+    "image_path": "D:\\python\\vision-llms-are-blind\\src\\TouchingCircle\\images\\overlapping-prompt\\gpt-4o\\correct\\gpt_overlap_pixels_1155_rotation_horizontal_diameter_0.20_distance_0.15.png",
+    "ground_truth": "No",
+    "raw_response": "No",
+    "parsed_answer": "No",
+    "correct": true,
+    "error": null,
+    "input_tokens": 1544,
+    "output_tokens": 4,
+    "tokens_used": 1548,
+    "latency_s": 1.86,
+    "metadata": {
+      "distance": 0.15,
+      "diameter": 0.2
+    }
+  },
+  {
+    "task": "TouchingCircle",
+    "prompt_key": "overlapping-prompt",
+    "model": "anthropic/claude-3.5-sonnet",
+    "image_path": "D:\\python\\vision-llms-are-blind\\src\\TouchingCircle\\images\\overlapping-prompt\\gpt-4o\\correct\\gpt_overlap_pixels_1155_rotation_horizontal_diameter_0.20_distance_0.20.png",
+    "ground_truth": "No",
+    "raw_response": "No",
+    "parsed_answer": "No",
+    "correct": true,
+    "error": null,
+    "input_tokens": 1544,
+    "output_tokens": 4,
+    "tokens_used": 1548,
+    "latency_s": 5.04,
+    "metadata": {
+      "distance": 0.2,
+      "diameter": 0.2
+    }
+  },
+  {
+    "task": "TouchingCircle",
+    "prompt_key": "overlapping-prompt",
+    "model": "anthropic/claude-3.5-sonnet",
+    "image_path": "D:\\python\\vision-llms-are-blind\\src\\TouchingCircle\\images\\overlapping-prompt\\gpt-4o\\correct\\gpt_overlap_pixels_1155_rotation_horizontal_diameter_0.20_distance_0.25.png",
+    "ground_truth": "No",
+    "raw_response": "No",
+    "parsed_answer": "No",
+    "correct": true,
+    "error": null,
+    "input_tokens": 1544,
+    "output_tokens": 4,
+    "tokens_used": 1548,
+    "latency_s": 2.84,
+    "metadata": {
+      "distance": 0.25,
+      "diameter": 0.2
+    }
+  },
+  {
+    "task": "TouchingCircle",
+    "prompt_key": "overlapping-prompt",
+    "model": "anthropic/claude-3.5-sonnet",
+    "image_path": "D:\\python\\vision-llms-are-blind\\src\\TouchingCircle\\images\\overlapping-prompt\\gpt-4o\\correct\\gpt_overlap_pixels_1155_rotation_horizontal_diameter_0.20_distance_0.30.png",
+    "ground_truth": "No",
+    "raw_response": "No",
+    "parsed_answer": "No",
+    "correct": true,
+    "error": null,
+    "input_tokens": 1544,
+    "output_tokens": 4,
+    "tokens_used": 1548,
+    "latency_s": 5.79,
+    "metadata": {
+      "distance": 0.3,
+      "diameter": 0.2
+    }
+  },
+  {
+    "task": "TouchingCircle",
+    "prompt_key": "overlapping-prompt",
+    "model": "anthropic/claude-3.5-sonnet",
+    "image_path": "D:\\python\\vision-llms-are-blind\\src\\TouchingCircle\\images\\overlapping-prompt\\gpt-4o\\correct\\gpt_overlap_pixels_1155_rotation_horizontal_diameter_0.20_distance_0.35.png",
+    "ground_truth": "No",
+    "raw_response": "No",
+    "parsed_answer": "No",
+    "correct": true,
+    "error": null,
+    "input_tokens": 1544,
+    "output_tokens": 4,
+    "tokens_used": 1548,
+    "latency_s": 2.02,
+    "metadata": {
+      "distance": 0.35,
+      "diameter": 0.2
+    }
+  },
+  {
+    "task": "TouchingCircle",
+    "prompt_key": "overlapping-prompt",
+    "model": "anthropic/claude-3.5-sonnet",
+    "image_path": "D:\\python\\vision-llms-are-blind\\src\\TouchingCircle\\images\\overlapping-prompt\\gpt-4o\\correct\\gpt_overlap_pixels_1155_rotation_horizontal_diameter_0.20_distance_0.40.png",
+    "ground_truth": "No",
+    "raw_response": "No",
+    "parsed_answer": "No",
+    "correct": true,
+    "error": null,
+    "input_tokens": 1544,
+    "output_tokens": 4,
+    "tokens_used": 1548,
+    "latency_s": 4.78,
+    "metadata": {
+      "distance": 0.4,
+      "diameter": 0.2
+    }
+  },
+  {
+    "task": "TouchingCircle",
+    "prompt_key": "overlapping-prompt",
+    "model": "anthropic/claude-3.5-sonnet",
+    "image_path": "D:\\python\\vision-llms-are-blind\\src\\TouchingCircle\\images\\overlapping-prompt\\gpt-4o\\correct\\gpt_overlap_pixels_1155_rotation_horizontal_diameter_0.20_distance_0.45.png",
+    "ground_truth": "No",
+    "raw_response": "No",
+    "parsed_answer": "No",
+    "correct": true,
+    "error": null,
+    "input_tokens": 1544,
+    "output_tokens": 4,
+    "tokens_used": 1548,
+    "latency_s": 8.95,
+    "metadata": {
+      "distance": 0.45,
+      "diameter": 0.2
+    }
+  },
+  {
+    "task": "TouchingCircle",
+    "prompt_key": "overlapping-prompt",
+    "model": "anthropic/claude-3.5-sonnet",
+    "image_path": "D:\\python\\vision-llms-are-blind\\src\\TouchingCircle\\images\\overlapping-prompt\\gpt-4o\\correct\\gpt_overlap_pixels_1155_rotation_horizontal_diameter_0.20_distance_0.50.png",
+    "ground_truth": "No",
+    "raw_response": "No",
+    "parsed_answer": "No",
+    "correct": true,
+    "error": null,
+    "input_tokens": 1544,
+    "output_tokens": 4,
+    "tokens_used": 1548,
+    "latency_s": 2.13,
+    "metadata": {
+      "distance": 0.5,
+      "diameter": 0.2
+    }
+  },
+  {
+    "task": "TouchingCircle",
+    "prompt_key": "overlapping-prompt",
+    "model": "anthropic/claude-3.5-sonnet",
+    "image_path": "D:\\python\\vision-llms-are-blind\\src\\TouchingCircle\\images\\overlapping-prompt\\gpt-4o\\correct\\gpt_overlap_pixels_1155_rotation_horizontal_diameter_0.25_distance_-0.05.png",
+    "ground_truth": "Yes",
+    "raw_response": "No",
+    "parsed_answer": "No",
+    "correct": false,
+    "error": null,
+    "input_tokens": 1544,
+    "output_tokens": 4,
+    "tokens_used": 1548,
+    "latency_s": 4.15,
+    "metadata": {
+      "distance": -0.05,
+      "diameter": 0.25
+    }
+  },
+  {
+    "task": "TouchingCircle",
+    "prompt_key": "overlapping-prompt",
+    "model": "anthropic/claude-3.5-sonnet",
+    "image_path": "D:\\python\\vision-llms-are-blind\\src\\TouchingCircle\\images\\overlapping-prompt\\gpt-4o\\correct\\gpt_overlap_pixels_1155_rotation_horizontal_diameter_0.25_distance_-0.10.png",
+    "ground_truth": "Yes",
+    "raw_response": "Yes",
+    "parsed_answer": "Yes",
+    "correct": true,
+    "error": null,
+    "input_tokens": 1544,
+    "output_tokens": 4,
+    "tokens_used": 1548,
+    "latency_s": 5.87,
+    "metadata": {
+      "distance": -0.1,
+      "diameter": 0.25
+    }
+  },
+  {
+    "task": "TouchingCircle",
+    "prompt_key": "overlapping-prompt",
+    "model": "anthropic/claude-3.5-sonnet",
+    "image_path": "D:\\python\\vision-llms-are-blind\\src\\TouchingCircle\\images\\overlapping-prompt\\gpt-4o\\correct\\gpt_overlap_pixels_1155_rotation_horizontal_diameter_0.25_distance_-0.15.png",
+    "ground_truth": "Yes",
+    "raw_response": "Yes",
+    "parsed_answer": "Yes",
+    "correct": true,
+    "error": null,
+    "input_tokens": 1544,
+    "output_tokens": 4,
+    "tokens_used": 1548,
+    "latency_s": 2.12,
+    "metadata": {
+      "distance": -0.15,
+      "diameter": 0.25
+    }
+  },
+  {
+    "task": "TouchingCircle",
+    "prompt_key": "overlapping-prompt",
+    "model": "anthropic/claude-3.5-sonnet",
+    "image_path": "D:\\python\\vision-llms-are-blind\\src\\TouchingCircle\\images\\overlapping-prompt\\gpt-4o\\correct\\gpt_overlap_pixels_1155_rotation_horizontal_diameter_0.25_distance_0.10.png",
+    "ground_truth": "No",
+    "raw_response": "No",
+    "parsed_answer": "No",
+    "correct": true,
+    "error": null,
+    "input_tokens": 1544,
+    "output_tokens": 4,
+    "tokens_used": 1548,
+    "latency_s": 1.79,
+    "metadata": {
+      "distance": 0.1,
+      "diameter": 0.25
+    }
+  }
+]

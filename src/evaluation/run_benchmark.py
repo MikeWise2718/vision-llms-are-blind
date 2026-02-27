@@ -1,12 +1,12 @@
 """CLI entry point for the BlindTest benchmark evaluation."""
 
 import argparse
+import os
 import sys
 
-from .config import DEFAULT_MODEL, TASKS
+from .config import DEFAULT_MODEL, TASKS, RESULTS_DIR
 from .runner import run_benchmark
-from .reporter import load_results, print_report, save_summary, os
-from .config import RESULTS_DIR
+from .reporter import load_results, print_report, save_run, format_report
 
 
 def main():
@@ -50,10 +50,9 @@ def main():
             print("No results found.")
             sys.exit(1)
         print_report(results)
-        save_summary(results, os.path.join(RESULTS_DIR, "summary.json"))
         return
 
-    all_results = run_benchmark(
+    all_results, run_meta = run_benchmark(
         model=args.model,
         tasks=args.task,
         limit=args.limit,
@@ -62,8 +61,11 @@ def main():
     )
 
     if all_results:
-        print_report(all_results)
-        save_summary(all_results, os.path.join(RESULTS_DIR, "summary.json"))
+        print_report(all_results, run_meta)
+
+        eval_dir = os.path.dirname(os.path.abspath(__file__))
+        run_dir = save_run(all_results, run_meta, eval_dir)
+        print(f"\nRun archived to: {run_dir}")
 
 
 if __name__ == "__main__":

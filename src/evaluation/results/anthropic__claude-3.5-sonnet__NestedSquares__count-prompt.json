@@ -1,0 +1,1902 @@
+[
+  {
+    "task": "NestedSquares",
+    "prompt_key": "count-prompt",
+    "model": "anthropic/claude-3.5-sonnet",
+    "image_path": "D:\\python\\vision-llms-are-blind\\src\\NestedSquares\\images\\count-prompt\\gpt-4o\\correct\\nested_squares_depth_2_image_10_thickness_2.png",
+    "ground_truth": "2",
+    "raw_response": "{2}",
+    "parsed_answer": "2",
+    "correct": true,
+    "error": null,
+    "input_tokens": 1335,
+    "output_tokens": 6,
+    "tokens_used": 1341,
+    "latency_s": 1.92,
+    "metadata": {
+      "depth": 2,
+      "thickness": 2
+    }
+  },
+  {
+    "task": "NestedSquares",
+    "prompt_key": "count-prompt",
+    "model": "anthropic/claude-3.5-sonnet",
+    "image_path": "D:\\python\\vision-llms-are-blind\\src\\NestedSquares\\images\\count-prompt\\gpt-4o\\correct\\nested_squares_depth_2_image_10_thickness_3.png",
+    "ground_truth": "2",
+    "raw_response": "{2}",
+    "parsed_answer": "2",
+    "correct": true,
+    "error": null,
+    "input_tokens": 1335,
+    "output_tokens": 6,
+    "tokens_used": 1341,
+    "latency_s": 2.01,
+    "metadata": {
+      "depth": 2,
+      "thickness": 3
+    }
+  },
+  {
+    "task": "NestedSquares",
+    "prompt_key": "count-prompt",
+    "model": "anthropic/claude-3.5-sonnet",
+    "image_path": "D:\\python\\vision-llms-are-blind\\src\\NestedSquares\\images\\count-prompt\\gpt-4o\\correct\\nested_squares_depth_2_image_10_thickness_4.png",
+    "ground_truth": "2",
+    "raw_response": "{2}",
+    "parsed_answer": "2",
+    "correct": true,
+    "error": null,
+    "input_tokens": 1335,
+    "output_tokens": 6,
+    "tokens_used": 1341,
+    "latency_s": 5.11,
+    "metadata": {
+      "depth": 2,
+      "thickness": 4
+    }
+  },
+  {
+    "task": "NestedSquares",
+    "prompt_key": "count-prompt",
+    "model": "anthropic/claude-3.5-sonnet",
+    "image_path": "D:\\python\\vision-llms-are-blind\\src\\NestedSquares\\images\\count-prompt\\gpt-4o\\correct\\nested_squares_depth_2_image_1_thickness_2.png",
+    "ground_truth": "2",
+    "raw_response": "{2}",
+    "parsed_answer": "2",
+    "correct": true,
+    "error": null,
+    "input_tokens": 1335,
+    "output_tokens": 6,
+    "tokens_used": 1341,
+    "latency_s": 3.17,
+    "metadata": {
+      "depth": 2,
+      "thickness": 2
+    }
+  },
+  {
+    "task": "NestedSquares",
+    "prompt_key": "count-prompt",
+    "model": "anthropic/claude-3.5-sonnet",
+    "image_path": "D:\\python\\vision-llms-are-blind\\src\\NestedSquares\\images\\count-prompt\\gpt-4o\\correct\\nested_squares_depth_2_image_1_thickness_3.png",
+    "ground_truth": "2",
+    "raw_response": "{3}",
+    "parsed_answer": "3",
+    "correct": false,
+    "error": null,
+    "input_tokens": 1335,
+    "output_tokens": 6,
+    "tokens_used": 1341,
+    "latency_s": 5.43,
+    "metadata": {
+      "depth": 2,
+      "thickness": 3
+    }
+  },
+  {
+    "task": "NestedSquares",
+    "prompt_key": "count-prompt",
+    "model": "anthropic/claude-3.5-sonnet",
+    "image_path": "D:\\python\\vision-llms-are-blind\\src\\NestedSquares\\images\\count-prompt\\gpt-4o\\correct\\nested_squares_depth_2_image_1_thickness_4.png",
+    "ground_truth": "2",
+    "raw_response": "{3}",
+    "parsed_answer": "3",
+    "correct": false,
+    "error": null,
+    "input_tokens": 1335,
+    "output_tokens": 6,
+    "tokens_used": 1341,
+    "latency_s": 3.22,
+    "metadata": {
+      "depth": 2,
+      "thickness": 4
+    }
+  },
+  {
+    "task": "NestedSquares",
+    "prompt_key": "count-prompt",
+    "model": "anthropic/claude-3.5-sonnet",
+    "image_path": "D:\\python\\vision-llms-are-blind\\src\\NestedSquares\\images\\count-prompt\\gpt-4o\\correct\\nested_squares_depth_2_image_2_thickness_2.png",
+    "ground_truth": "2",
+    "raw_response": "{2}",
+    "parsed_answer": "2",
+    "correct": true,
+    "error": null,
+    "input_tokens": 1335,
+    "output_tokens": 6,
+    "tokens_used": 1341,
+    "latency_s": 1.93,
+    "metadata": {
+      "depth": 2,
+      "thickness": 2
+    }
+  },
+  {
+    "task": "NestedSquares",
+    "prompt_key": "count-prompt",
+    "model": "anthropic/claude-3.5-sonnet",
+    "image_path": "D:\\python\\vision-llms-are-blind\\src\\NestedSquares\\images\\count-prompt\\gpt-4o\\correct\\nested_squares_depth_2_image_2_thickness_4.png",
+    "ground_truth": "2",
+    "raw_response": "{2}",
+    "parsed_answer": "2",
+    "correct": true,
+    "error": null,
+    "input_tokens": 1335,
+    "output_tokens": 6,
+    "tokens_used": 1341,
+    "latency_s": 5.18,
+    "metadata": {
+      "depth": 2,
+      "thickness": 4
+    }
+  },
+  {
+    "task": "NestedSquares",
+    "prompt_key": "count-prompt",
+    "model": "anthropic/claude-3.5-sonnet",
+    "image_path": "D:\\python\\vision-llms-are-blind\\src\\NestedSquares\\images\\count-prompt\\gpt-4o\\correct\\nested_squares_depth_2_image_3_thickness_2.png",
+    "ground_truth": "2",
+    "raw_response": "{2}",
+    "parsed_answer": "2",
+    "correct": true,
+    "error": null,
+    "input_tokens": 1335,
+    "output_tokens": 6,
+    "tokens_used": 1341,
+    "latency_s": 1.87,
+    "metadata": {
+      "depth": 2,
+      "thickness": 2
+    }
+  },
+  {
+    "task": "NestedSquares",
+    "prompt_key": "count-prompt",
+    "model": "anthropic/claude-3.5-sonnet",
+    "image_path": "D:\\python\\vision-llms-are-blind\\src\\NestedSquares\\images\\count-prompt\\gpt-4o\\correct\\nested_squares_depth_2_image_3_thickness_3.png",
+    "ground_truth": "2",
+    "raw_response": "{2}",
+    "parsed_answer": "2",
+    "correct": true,
+    "error": null,
+    "input_tokens": 1335,
+    "output_tokens": 6,
+    "tokens_used": 1341,
+    "latency_s": 1.7,
+    "metadata": {
+      "depth": 2,
+      "thickness": 3
+    }
+  },
+  {
+    "task": "NestedSquares",
+    "prompt_key": "count-prompt",
+    "model": "anthropic/claude-3.5-sonnet",
+    "image_path": "D:\\python\\vision-llms-are-blind\\src\\NestedSquares\\images\\count-prompt\\gpt-4o\\correct\\nested_squares_depth_2_image_3_thickness_4.png",
+    "ground_truth": "2",
+    "raw_response": "{2}",
+    "parsed_answer": "2",
+    "correct": true,
+    "error": null,
+    "input_tokens": 1335,
+    "output_tokens": 6,
+    "tokens_used": 1341,
+    "latency_s": 2.42,
+    "metadata": {
+      "depth": 2,
+      "thickness": 4
+    }
+  },
+  {
+    "task": "NestedSquares",
+    "prompt_key": "count-prompt",
+    "model": "anthropic/claude-3.5-sonnet",
+    "image_path": "D:\\python\\vision-llms-are-blind\\src\\NestedSquares\\images\\count-prompt\\gpt-4o\\correct\\nested_squares_depth_2_image_4_thickness_2.png",
+    "ground_truth": "2",
+    "raw_response": "{2}",
+    "parsed_answer": "2",
+    "correct": true,
+    "error": null,
+    "input_tokens": 1335,
+    "output_tokens": 6,
+    "tokens_used": 1341,
+    "latency_s": 2.26,
+    "metadata": {
+      "depth": 2,
+      "thickness": 2
+    }
+  },
+  {
+    "task": "NestedSquares",
+    "prompt_key": "count-prompt",
+    "model": "anthropic/claude-3.5-sonnet",
+    "image_path": "D:\\python\\vision-llms-are-blind\\src\\NestedSquares\\images\\count-prompt\\gpt-4o\\correct\\nested_squares_depth_2_image_4_thickness_3.png",
+    "ground_truth": "2",
+    "raw_response": "{2}",
+    "parsed_answer": "2",
+    "correct": true,
+    "error": null,
+    "input_tokens": 1335,
+    "output_tokens": 6,
+    "tokens_used": 1341,
+    "latency_s": 1.82,
+    "metadata": {
+      "depth": 2,
+      "thickness": 3
+    }
+  },
+  {
+    "task": "NestedSquares",
+    "prompt_key": "count-prompt",
+    "model": "anthropic/claude-3.5-sonnet",
+    "image_path": "D:\\python\\vision-llms-are-blind\\src\\NestedSquares\\images\\count-prompt\\gpt-4o\\correct\\nested_squares_depth_2_image_4_thickness_4.png",
+    "ground_truth": "2",
+    "raw_response": "{2}",
+    "parsed_answer": "2",
+    "correct": true,
+    "error": null,
+    "input_tokens": 1335,
+    "output_tokens": 6,
+    "tokens_used": 1341,
+    "latency_s": 2.2,
+    "metadata": {
+      "depth": 2,
+      "thickness": 4
+    }
+  },
+  {
+    "task": "NestedSquares",
+    "prompt_key": "count-prompt",
+    "model": "anthropic/claude-3.5-sonnet",
+    "image_path": "D:\\python\\vision-llms-are-blind\\src\\NestedSquares\\images\\count-prompt\\gpt-4o\\correct\\nested_squares_depth_2_image_5_thickness_2.png",
+    "ground_truth": "2",
+    "raw_response": "{2}",
+    "parsed_answer": "2",
+    "correct": true,
+    "error": null,
+    "input_tokens": 1335,
+    "output_tokens": 6,
+    "tokens_used": 1341,
+    "latency_s": 1.79,
+    "metadata": {
+      "depth": 2,
+      "thickness": 2
+    }
+  },
+  {
+    "task": "NestedSquares",
+    "prompt_key": "count-prompt",
+    "model": "anthropic/claude-3.5-sonnet",
+    "image_path": "D:\\python\\vision-llms-are-blind\\src\\NestedSquares\\images\\count-prompt\\gpt-4o\\correct\\nested_squares_depth_2_image_5_thickness_3.png",
+    "ground_truth": "2",
+    "raw_response": "{2}",
+    "parsed_answer": "2",
+    "correct": true,
+    "error": null,
+    "input_tokens": 1335,
+    "output_tokens": 6,
+    "tokens_used": 1341,
+    "latency_s": 2.57,
+    "metadata": {
+      "depth": 2,
+      "thickness": 3
+    }
+  },
+  {
+    "task": "NestedSquares",
+    "prompt_key": "count-prompt",
+    "model": "anthropic/claude-3.5-sonnet",
+    "image_path": "D:\\python\\vision-llms-are-blind\\src\\NestedSquares\\images\\count-prompt\\gpt-4o\\correct\\nested_squares_depth_2_image_5_thickness_4.png",
+    "ground_truth": "2",
+    "raw_response": "{2}",
+    "parsed_answer": "2",
+    "correct": true,
+    "error": null,
+    "input_tokens": 1335,
+    "output_tokens": 6,
+    "tokens_used": 1341,
+    "latency_s": 1.95,
+    "metadata": {
+      "depth": 2,
+      "thickness": 4
+    }
+  },
+  {
+    "task": "NestedSquares",
+    "prompt_key": "count-prompt",
+    "model": "anthropic/claude-3.5-sonnet",
+    "image_path": "D:\\python\\vision-llms-are-blind\\src\\NestedSquares\\images\\count-prompt\\gpt-4o\\correct\\nested_squares_depth_2_image_6_thickness_2.png",
+    "ground_truth": "2",
+    "raw_response": "{2}",
+    "parsed_answer": "2",
+    "correct": true,
+    "error": null,
+    "input_tokens": 1335,
+    "output_tokens": 6,
+    "tokens_used": 1341,
+    "latency_s": 2.57,
+    "metadata": {
+      "depth": 2,
+      "thickness": 2
+    }
+  },
+  {
+    "task": "NestedSquares",
+    "prompt_key": "count-prompt",
+    "model": "anthropic/claude-3.5-sonnet",
+    "image_path": "D:\\python\\vision-llms-are-blind\\src\\NestedSquares\\images\\count-prompt\\gpt-4o\\correct\\nested_squares_depth_2_image_6_thickness_3.png",
+    "ground_truth": "2",
+    "raw_response": "{2}",
+    "parsed_answer": "2",
+    "correct": true,
+    "error": null,
+    "input_tokens": 1335,
+    "output_tokens": 6,
+    "tokens_used": 1341,
+    "latency_s": 5.35,
+    "metadata": {
+      "depth": 2,
+      "thickness": 3
+    }
+  },
+  {
+    "task": "NestedSquares",
+    "prompt_key": "count-prompt",
+    "model": "anthropic/claude-3.5-sonnet",
+    "image_path": "D:\\python\\vision-llms-are-blind\\src\\NestedSquares\\images\\count-prompt\\gpt-4o\\correct\\nested_squares_depth_2_image_6_thickness_4.png",
+    "ground_truth": "2",
+    "raw_response": "{2}",
+    "parsed_answer": "2",
+    "correct": true,
+    "error": null,
+    "input_tokens": 1335,
+    "output_tokens": 6,
+    "tokens_used": 1341,
+    "latency_s": 1.96,
+    "metadata": {
+      "depth": 2,
+      "thickness": 4
+    }
+  },
+  {
+    "task": "NestedSquares",
+    "prompt_key": "count-prompt",
+    "model": "anthropic/claude-3.5-sonnet",
+    "image_path": "D:\\python\\vision-llms-are-blind\\src\\NestedSquares\\images\\count-prompt\\gpt-4o\\correct\\nested_squares_depth_2_image_7_thickness_2.png",
+    "ground_truth": "2",
+    "raw_response": "{2}",
+    "parsed_answer": "2",
+    "correct": true,
+    "error": null,
+    "input_tokens": 1335,
+    "output_tokens": 6,
+    "tokens_used": 1341,
+    "latency_s": 2.14,
+    "metadata": {
+      "depth": 2,
+      "thickness": 2
+    }
+  },
+  {
+    "task": "NestedSquares",
+    "prompt_key": "count-prompt",
+    "model": "anthropic/claude-3.5-sonnet",
+    "image_path": "D:\\python\\vision-llms-are-blind\\src\\NestedSquares\\images\\count-prompt\\gpt-4o\\correct\\nested_squares_depth_2_image_7_thickness_3.png",
+    "ground_truth": "2",
+    "raw_response": "{2}",
+    "parsed_answer": "2",
+    "correct": true,
+    "error": null,
+    "input_tokens": 1335,
+    "output_tokens": 6,
+    "tokens_used": 1341,
+    "latency_s": 2.42,
+    "metadata": {
+      "depth": 2,
+      "thickness": 3
+    }
+  },
+  {
+    "task": "NestedSquares",
+    "prompt_key": "count-prompt",
+    "model": "anthropic/claude-3.5-sonnet",
+    "image_path": "D:\\python\\vision-llms-are-blind\\src\\NestedSquares\\images\\count-prompt\\gpt-4o\\correct\\nested_squares_depth_2_image_7_thickness_4.png",
+    "ground_truth": "2",
+    "raw_response": "{3}",
+    "parsed_answer": "3",
+    "correct": false,
+    "error": null,
+    "input_tokens": 1335,
+    "output_tokens": 6,
+    "tokens_used": 1341,
+    "latency_s": 2.39,
+    "metadata": {
+      "depth": 2,
+      "thickness": 4
+    }
+  },
+  {
+    "task": "NestedSquares",
+    "prompt_key": "count-prompt",
+    "model": "anthropic/claude-3.5-sonnet",
+    "image_path": "D:\\python\\vision-llms-are-blind\\src\\NestedSquares\\images\\count-prompt\\gpt-4o\\correct\\nested_squares_depth_2_image_8_thickness_2.png",
+    "ground_truth": "2",
+    "raw_response": "{2}",
+    "parsed_answer": "2",
+    "correct": true,
+    "error": null,
+    "input_tokens": 1335,
+    "output_tokens": 6,
+    "tokens_used": 1341,
+    "latency_s": 4.58,
+    "metadata": {
+      "depth": 2,
+      "thickness": 2
+    }
+  },
+  {
+    "task": "NestedSquares",
+    "prompt_key": "count-prompt",
+    "model": "anthropic/claude-3.5-sonnet",
+    "image_path": "D:\\python\\vision-llms-are-blind\\src\\NestedSquares\\images\\count-prompt\\gpt-4o\\correct\\nested_squares_depth_2_image_8_thickness_3.png",
+    "ground_truth": "2",
+    "raw_response": "{2}",
+    "parsed_answer": "2",
+    "correct": true,
+    "error": null,
+    "input_tokens": 1335,
+    "output_tokens": 6,
+    "tokens_used": 1341,
+    "latency_s": 2.16,
+    "metadata": {
+      "depth": 2,
+      "thickness": 3
+    }
+  },
+  {
+    "task": "NestedSquares",
+    "prompt_key": "count-prompt",
+    "model": "anthropic/claude-3.5-sonnet",
+    "image_path": "D:\\python\\vision-llms-are-blind\\src\\NestedSquares\\images\\count-prompt\\gpt-4o\\correct\\nested_squares_depth_2_image_8_thickness_4.png",
+    "ground_truth": "2",
+    "raw_response": "{2}",
+    "parsed_answer": "2",
+    "correct": true,
+    "error": null,
+    "input_tokens": 1335,
+    "output_tokens": 6,
+    "tokens_used": 1341,
+    "latency_s": 5.25,
+    "metadata": {
+      "depth": 2,
+      "thickness": 4
+    }
+  },
+  {
+    "task": "NestedSquares",
+    "prompt_key": "count-prompt",
+    "model": "anthropic/claude-3.5-sonnet",
+    "image_path": "D:\\python\\vision-llms-are-blind\\src\\NestedSquares\\images\\count-prompt\\gpt-4o\\correct\\nested_squares_depth_2_image_9_thickness_2.png",
+    "ground_truth": "2",
+    "raw_response": "{2}",
+    "parsed_answer": "2",
+    "correct": true,
+    "error": null,
+    "input_tokens": 1335,
+    "output_tokens": 6,
+    "tokens_used": 1341,
+    "latency_s": 2.09,
+    "metadata": {
+      "depth": 2,
+      "thickness": 2
+    }
+  },
+  {
+    "task": "NestedSquares",
+    "prompt_key": "count-prompt",
+    "model": "anthropic/claude-3.5-sonnet",
+    "image_path": "D:\\python\\vision-llms-are-blind\\src\\NestedSquares\\images\\count-prompt\\gpt-4o\\correct\\nested_squares_depth_2_image_9_thickness_3.png",
+    "ground_truth": "2",
+    "raw_response": "{2}",
+    "parsed_answer": "2",
+    "correct": true,
+    "error": null,
+    "input_tokens": 1335,
+    "output_tokens": 6,
+    "tokens_used": 1341,
+    "latency_s": 2.05,
+    "metadata": {
+      "depth": 2,
+      "thickness": 3
+    }
+  },
+  {
+    "task": "NestedSquares",
+    "prompt_key": "count-prompt",
+    "model": "anthropic/claude-3.5-sonnet",
+    "image_path": "D:\\python\\vision-llms-are-blind\\src\\NestedSquares\\images\\count-prompt\\gpt-4o\\correct\\nested_squares_depth_2_image_9_thickness_4.png",
+    "ground_truth": "2",
+    "raw_response": "{2}",
+    "parsed_answer": "2",
+    "correct": true,
+    "error": null,
+    "input_tokens": 1335,
+    "output_tokens": 6,
+    "tokens_used": 1341,
+    "latency_s": 1.62,
+    "metadata": {
+      "depth": 2,
+      "thickness": 4
+    }
+  },
+  {
+    "task": "NestedSquares",
+    "prompt_key": "count-prompt",
+    "model": "anthropic/claude-3.5-sonnet",
+    "image_path": "D:\\python\\vision-llms-are-blind\\src\\NestedSquares\\images\\count-prompt\\gpt-4o\\correct\\nested_squares_depth_3_image_10_thickness_3.png",
+    "ground_truth": "3",
+    "raw_response": "{3}",
+    "parsed_answer": "3",
+    "correct": true,
+    "error": null,
+    "input_tokens": 1335,
+    "output_tokens": 6,
+    "tokens_used": 1341,
+    "latency_s": 5.04,
+    "metadata": {
+      "depth": 3,
+      "thickness": 3
+    }
+  },
+  {
+    "task": "NestedSquares",
+    "prompt_key": "count-prompt",
+    "model": "anthropic/claude-3.5-sonnet",
+    "image_path": "D:\\python\\vision-llms-are-blind\\src\\NestedSquares\\images\\count-prompt\\gpt-4o\\correct\\nested_squares_depth_3_image_1_thickness_2.png",
+    "ground_truth": "3",
+    "raw_response": "{3}",
+    "parsed_answer": "3",
+    "correct": true,
+    "error": null,
+    "input_tokens": 1335,
+    "output_tokens": 6,
+    "tokens_used": 1341,
+    "latency_s": 2.18,
+    "metadata": {
+      "depth": 3,
+      "thickness": 2
+    }
+  },
+  {
+    "task": "NestedSquares",
+    "prompt_key": "count-prompt",
+    "model": "anthropic/claude-3.5-sonnet",
+    "image_path": "D:\\python\\vision-llms-are-blind\\src\\NestedSquares\\images\\count-prompt\\gpt-4o\\correct\\nested_squares_depth_3_image_1_thickness_3.png",
+    "ground_truth": "3",
+    "raw_response": "{3}",
+    "parsed_answer": "3",
+    "correct": true,
+    "error": null,
+    "input_tokens": 1335,
+    "output_tokens": 6,
+    "tokens_used": 1341,
+    "latency_s": 1.79,
+    "metadata": {
+      "depth": 3,
+      "thickness": 3
+    }
+  },
+  {
+    "task": "NestedSquares",
+    "prompt_key": "count-prompt",
+    "model": "anthropic/claude-3.5-sonnet",
+    "image_path": "D:\\python\\vision-llms-are-blind\\src\\NestedSquares\\images\\count-prompt\\gpt-4o\\correct\\nested_squares_depth_3_image_2_thickness_2.png",
+    "ground_truth": "3",
+    "raw_response": "{3}",
+    "parsed_answer": "3",
+    "correct": true,
+    "error": null,
+    "input_tokens": 1335,
+    "output_tokens": 6,
+    "tokens_used": 1341,
+    "latency_s": 4.38,
+    "metadata": {
+      "depth": 3,
+      "thickness": 2
+    }
+  },
+  {
+    "task": "NestedSquares",
+    "prompt_key": "count-prompt",
+    "model": "anthropic/claude-3.5-sonnet",
+    "image_path": "D:\\python\\vision-llms-are-blind\\src\\NestedSquares\\images\\count-prompt\\gpt-4o\\correct\\nested_squares_depth_3_image_2_thickness_4.png",
+    "ground_truth": "3",
+    "raw_response": "{3}",
+    "parsed_answer": "3",
+    "correct": true,
+    "error": null,
+    "input_tokens": 1335,
+    "output_tokens": 6,
+    "tokens_used": 1341,
+    "latency_s": 3.05,
+    "metadata": {
+      "depth": 3,
+      "thickness": 4
+    }
+  },
+  {
+    "task": "NestedSquares",
+    "prompt_key": "count-prompt",
+    "model": "anthropic/claude-3.5-sonnet",
+    "image_path": "D:\\python\\vision-llms-are-blind\\src\\NestedSquares\\images\\count-prompt\\gpt-4o\\correct\\nested_squares_depth_3_image_5_thickness_2.png",
+    "ground_truth": "3",
+    "raw_response": "{3}",
+    "parsed_answer": "3",
+    "correct": true,
+    "error": null,
+    "input_tokens": 1335,
+    "output_tokens": 6,
+    "tokens_used": 1341,
+    "latency_s": 2.02,
+    "metadata": {
+      "depth": 3,
+      "thickness": 2
+    }
+  },
+  {
+    "task": "NestedSquares",
+    "prompt_key": "count-prompt",
+    "model": "anthropic/claude-3.5-sonnet",
+    "image_path": "D:\\python\\vision-llms-are-blind\\src\\NestedSquares\\images\\count-prompt\\gpt-4o\\correct\\nested_squares_depth_3_image_6_thickness_3.png",
+    "ground_truth": "3",
+    "raw_response": "{3}",
+    "parsed_answer": "3",
+    "correct": true,
+    "error": null,
+    "input_tokens": 1335,
+    "output_tokens": 6,
+    "tokens_used": 1341,
+    "latency_s": 2.06,
+    "metadata": {
+      "depth": 3,
+      "thickness": 3
+    }
+  },
+  {
+    "task": "NestedSquares",
+    "prompt_key": "count-prompt",
+    "model": "anthropic/claude-3.5-sonnet",
+    "image_path": "D:\\python\\vision-llms-are-blind\\src\\NestedSquares\\images\\count-prompt\\gpt-4o\\correct\\nested_squares_depth_3_image_7_thickness_3.png",
+    "ground_truth": "3",
+    "raw_response": "{3}",
+    "parsed_answer": "3",
+    "correct": true,
+    "error": null,
+    "input_tokens": 1335,
+    "output_tokens": 6,
+    "tokens_used": 1341,
+    "latency_s": 8.91,
+    "metadata": {
+      "depth": 3,
+      "thickness": 3
+    }
+  },
+  {
+    "task": "NestedSquares",
+    "prompt_key": "count-prompt",
+    "model": "anthropic/claude-3.5-sonnet",
+    "image_path": "D:\\python\\vision-llms-are-blind\\src\\NestedSquares\\images\\count-prompt\\gpt-4o\\correct\\nested_squares_depth_3_image_7_thickness_4.png",
+    "ground_truth": "3",
+    "raw_response": "{4}",
+    "parsed_answer": "4",
+    "correct": false,
+    "error": null,
+    "input_tokens": 1335,
+    "output_tokens": 6,
+    "tokens_used": 1341,
+    "latency_s": 2.2,
+    "metadata": {
+      "depth": 3,
+      "thickness": 4
+    }
+  },
+  {
+    "task": "NestedSquares",
+    "prompt_key": "count-prompt",
+    "model": "anthropic/claude-3.5-sonnet",
+    "image_path": "D:\\python\\vision-llms-are-blind\\src\\NestedSquares\\images\\count-prompt\\gpt-4o\\correct\\nested_squares_depth_4_image_1_thickness_2.png",
+    "ground_truth": "4",
+    "raw_response": "{4}",
+    "parsed_answer": "4",
+    "correct": true,
+    "error": null,
+    "input_tokens": 1335,
+    "output_tokens": 6,
+    "tokens_used": 1341,
+    "latency_s": 1.91,
+    "metadata": {
+      "depth": 4,
+      "thickness": 2
+    }
+  },
+  {
+    "task": "NestedSquares",
+    "prompt_key": "count-prompt",
+    "model": "anthropic/claude-3.5-sonnet",
+    "image_path": "D:\\python\\vision-llms-are-blind\\src\\NestedSquares\\images\\count-prompt\\gpt-4o\\correct\\nested_squares_depth_4_image_1_thickness_3.png",
+    "ground_truth": "4",
+    "raw_response": "{4}",
+    "parsed_answer": "4",
+    "correct": true,
+    "error": null,
+    "input_tokens": 1335,
+    "output_tokens": 6,
+    "tokens_used": 1341,
+    "latency_s": 1.73,
+    "metadata": {
+      "depth": 4,
+      "thickness": 3
+    }
+  },
+  {
+    "task": "NestedSquares",
+    "prompt_key": "count-prompt",
+    "model": "anthropic/claude-3.5-sonnet",
+    "image_path": "D:\\python\\vision-llms-are-blind\\src\\NestedSquares\\images\\count-prompt\\gpt-4o\\correct\\nested_squares_depth_4_image_3_thickness_2.png",
+    "ground_truth": "4",
+    "raw_response": "{4}",
+    "parsed_answer": "4",
+    "correct": true,
+    "error": null,
+    "input_tokens": 1335,
+    "output_tokens": 6,
+    "tokens_used": 1341,
+    "latency_s": 2.05,
+    "metadata": {
+      "depth": 4,
+      "thickness": 2
+    }
+  },
+  {
+    "task": "NestedSquares",
+    "prompt_key": "count-prompt",
+    "model": "anthropic/claude-3.5-sonnet",
+    "image_path": "D:\\python\\vision-llms-are-blind\\src\\NestedSquares\\images\\count-prompt\\gpt-4o\\correct\\nested_squares_depth_4_image_3_thickness_3.png",
+    "ground_truth": "4",
+    "raw_response": "{5}",
+    "parsed_answer": "5",
+    "correct": false,
+    "error": null,
+    "input_tokens": 1335,
+    "output_tokens": 6,
+    "tokens_used": 1341,
+    "latency_s": 2.42,
+    "metadata": {
+      "depth": 4,
+      "thickness": 3
+    }
+  },
+  {
+    "task": "NestedSquares",
+    "prompt_key": "count-prompt",
+    "model": "anthropic/claude-3.5-sonnet",
+    "image_path": "D:\\python\\vision-llms-are-blind\\src\\NestedSquares\\images\\count-prompt\\gpt-4o\\correct\\nested_squares_depth_4_image_6_thickness_2.png",
+    "ground_truth": "4",
+    "raw_response": "{4}",
+    "parsed_answer": "4",
+    "correct": true,
+    "error": null,
+    "input_tokens": 1335,
+    "output_tokens": 6,
+    "tokens_used": 1341,
+    "latency_s": 1.87,
+    "metadata": {
+      "depth": 4,
+      "thickness": 2
+    }
+  },
+  {
+    "task": "NestedSquares",
+    "prompt_key": "count-prompt",
+    "model": "anthropic/claude-3.5-sonnet",
+    "image_path": "D:\\python\\vision-llms-are-blind\\src\\NestedSquares\\images\\count-prompt\\gpt-4o\\correct\\nested_squares_depth_4_image_7_thickness_3.png",
+    "ground_truth": "4",
+    "raw_response": "{4}",
+    "parsed_answer": "4",
+    "correct": true,
+    "error": null,
+    "input_tokens": 1335,
+    "output_tokens": 6,
+    "tokens_used": 1341,
+    "latency_s": 2.07,
+    "metadata": {
+      "depth": 4,
+      "thickness": 3
+    }
+  },
+  {
+    "task": "NestedSquares",
+    "prompt_key": "count-prompt",
+    "model": "anthropic/claude-3.5-sonnet",
+    "image_path": "D:\\python\\vision-llms-are-blind\\src\\NestedSquares\\images\\count-prompt\\gpt-4o\\correct\\nested_squares_depth_5_image_10_thickness_2.png",
+    "ground_truth": "5",
+    "raw_response": "{5}",
+    "parsed_answer": "5",
+    "correct": true,
+    "error": null,
+    "input_tokens": 1335,
+    "output_tokens": 6,
+    "tokens_used": 1341,
+    "latency_s": 1.64,
+    "metadata": {
+      "depth": 5,
+      "thickness": 2
+    }
+  },
+  {
+    "task": "NestedSquares",
+    "prompt_key": "count-prompt",
+    "model": "anthropic/claude-3.5-sonnet",
+    "image_path": "D:\\python\\vision-llms-are-blind\\src\\NestedSquares\\images\\count-prompt\\gpt-4o\\correct\\nested_squares_depth_5_image_10_thickness_3.png",
+    "ground_truth": "5",
+    "raw_response": "{5}",
+    "parsed_answer": "5",
+    "correct": true,
+    "error": null,
+    "input_tokens": 1335,
+    "output_tokens": 6,
+    "tokens_used": 1341,
+    "latency_s": 5.38,
+    "metadata": {
+      "depth": 5,
+      "thickness": 3
+    }
+  },
+  {
+    "task": "NestedSquares",
+    "prompt_key": "count-prompt",
+    "model": "anthropic/claude-3.5-sonnet",
+    "image_path": "D:\\python\\vision-llms-are-blind\\src\\NestedSquares\\images\\count-prompt\\gpt-4o\\correct\\nested_squares_depth_5_image_1_thickness_2.png",
+    "ground_truth": "5",
+    "raw_response": "{5}",
+    "parsed_answer": "5",
+    "correct": true,
+    "error": null,
+    "input_tokens": 1335,
+    "output_tokens": 6,
+    "tokens_used": 1341,
+    "latency_s": 2.2,
+    "metadata": {
+      "depth": 5,
+      "thickness": 2
+    }
+  },
+  {
+    "task": "NestedSquares",
+    "prompt_key": "count-prompt",
+    "model": "anthropic/claude-3.5-sonnet",
+    "image_path": "D:\\python\\vision-llms-are-blind\\src\\NestedSquares\\images\\count-prompt\\gpt-4o\\correct\\nested_squares_depth_5_image_1_thickness_3.png",
+    "ground_truth": "5",
+    "raw_response": "{5}",
+    "parsed_answer": "5",
+    "correct": true,
+    "error": null,
+    "input_tokens": 1335,
+    "output_tokens": 6,
+    "tokens_used": 1341,
+    "latency_s": 4.72,
+    "metadata": {
+      "depth": 5,
+      "thickness": 3
+    }
+  },
+  {
+    "task": "NestedSquares",
+    "prompt_key": "count-prompt",
+    "model": "anthropic/claude-3.5-sonnet",
+    "image_path": "D:\\python\\vision-llms-are-blind\\src\\NestedSquares\\images\\count-prompt\\gpt-4o\\correct\\nested_squares_depth_5_image_1_thickness_4.png",
+    "ground_truth": "5",
+    "raw_response": "{5}",
+    "parsed_answer": "5",
+    "correct": true,
+    "error": null,
+    "input_tokens": 1335,
+    "output_tokens": 6,
+    "tokens_used": 1341,
+    "latency_s": 2.42,
+    "metadata": {
+      "depth": 5,
+      "thickness": 4
+    }
+  },
+  {
+    "task": "NestedSquares",
+    "prompt_key": "count-prompt",
+    "model": "anthropic/claude-3.5-sonnet",
+    "image_path": "D:\\python\\vision-llms-are-blind\\src\\NestedSquares\\images\\count-prompt\\gpt-4o\\correct\\nested_squares_depth_5_image_2_thickness_2.png",
+    "ground_truth": "5",
+    "raw_response": "{5}",
+    "parsed_answer": "5",
+    "correct": true,
+    "error": null,
+    "input_tokens": 1335,
+    "output_tokens": 6,
+    "tokens_used": 1341,
+    "latency_s": 1.98,
+    "metadata": {
+      "depth": 5,
+      "thickness": 2
+    }
+  },
+  {
+    "task": "NestedSquares",
+    "prompt_key": "count-prompt",
+    "model": "anthropic/claude-3.5-sonnet",
+    "image_path": "D:\\python\\vision-llms-are-blind\\src\\NestedSquares\\images\\count-prompt\\gpt-4o\\correct\\nested_squares_depth_5_image_2_thickness_3.png",
+    "ground_truth": "5",
+    "raw_response": "{6}",
+    "parsed_answer": "6",
+    "correct": false,
+    "error": null,
+    "input_tokens": 1335,
+    "output_tokens": 6,
+    "tokens_used": 1341,
+    "latency_s": 1.75,
+    "metadata": {
+      "depth": 5,
+      "thickness": 3
+    }
+  },
+  {
+    "task": "NestedSquares",
+    "prompt_key": "count-prompt",
+    "model": "anthropic/claude-3.5-sonnet",
+    "image_path": "D:\\python\\vision-llms-are-blind\\src\\NestedSquares\\images\\count-prompt\\gpt-4o\\correct\\nested_squares_depth_5_image_2_thickness_4.png",
+    "ground_truth": "5",
+    "raw_response": "{5}",
+    "parsed_answer": "5",
+    "correct": true,
+    "error": null,
+    "input_tokens": 1335,
+    "output_tokens": 6,
+    "tokens_used": 1341,
+    "latency_s": 1.73,
+    "metadata": {
+      "depth": 5,
+      "thickness": 4
+    }
+  },
+  {
+    "task": "NestedSquares",
+    "prompt_key": "count-prompt",
+    "model": "anthropic/claude-3.5-sonnet",
+    "image_path": "D:\\python\\vision-llms-are-blind\\src\\NestedSquares\\images\\count-prompt\\gpt-4o\\correct\\nested_squares_depth_5_image_3_thickness_2.png",
+    "ground_truth": "5",
+    "raw_response": "{4}",
+    "parsed_answer": "4",
+    "correct": false,
+    "error": null,
+    "input_tokens": 1335,
+    "output_tokens": 6,
+    "tokens_used": 1341,
+    "latency_s": 2.29,
+    "metadata": {
+      "depth": 5,
+      "thickness": 2
+    }
+  },
+  {
+    "task": "NestedSquares",
+    "prompt_key": "count-prompt",
+    "model": "anthropic/claude-3.5-sonnet",
+    "image_path": "D:\\python\\vision-llms-are-blind\\src\\NestedSquares\\images\\count-prompt\\gpt-4o\\correct\\nested_squares_depth_5_image_3_thickness_4.png",
+    "ground_truth": "5",
+    "raw_response": "{5}",
+    "parsed_answer": "5",
+    "correct": true,
+    "error": null,
+    "input_tokens": 1335,
+    "output_tokens": 6,
+    "tokens_used": 1341,
+    "latency_s": 3.84,
+    "metadata": {
+      "depth": 5,
+      "thickness": 4
+    }
+  },
+  {
+    "task": "NestedSquares",
+    "prompt_key": "count-prompt",
+    "model": "anthropic/claude-3.5-sonnet",
+    "image_path": "D:\\python\\vision-llms-are-blind\\src\\NestedSquares\\images\\count-prompt\\gpt-4o\\correct\\nested_squares_depth_5_image_4_thickness_2.png",
+    "ground_truth": "5",
+    "raw_response": "{4}",
+    "parsed_answer": "4",
+    "correct": false,
+    "error": null,
+    "input_tokens": 1335,
+    "output_tokens": 6,
+    "tokens_used": 1341,
+    "latency_s": 6.11,
+    "metadata": {
+      "depth": 5,
+      "thickness": 2
+    }
+  },
+  {
+    "task": "NestedSquares",
+    "prompt_key": "count-prompt",
+    "model": "anthropic/claude-3.5-sonnet",
+    "image_path": "D:\\python\\vision-llms-are-blind\\src\\NestedSquares\\images\\count-prompt\\gpt-4o\\correct\\nested_squares_depth_5_image_4_thickness_3.png",
+    "ground_truth": "5",
+    "raw_response": "{5}",
+    "parsed_answer": "5",
+    "correct": true,
+    "error": null,
+    "input_tokens": 1335,
+    "output_tokens": 6,
+    "tokens_used": 1341,
+    "latency_s": 2.37,
+    "metadata": {
+      "depth": 5,
+      "thickness": 3
+    }
+  },
+  {
+    "task": "NestedSquares",
+    "prompt_key": "count-prompt",
+    "model": "anthropic/claude-3.5-sonnet",
+    "image_path": "D:\\python\\vision-llms-are-blind\\src\\NestedSquares\\images\\count-prompt\\gpt-4o\\correct\\nested_squares_depth_5_image_4_thickness_4.png",
+    "ground_truth": "5",
+    "raw_response": "{4}",
+    "parsed_answer": "4",
+    "correct": false,
+    "error": null,
+    "input_tokens": 1335,
+    "output_tokens": 6,
+    "tokens_used": 1341,
+    "latency_s": 2.5,
+    "metadata": {
+      "depth": 5,
+      "thickness": 4
+    }
+  },
+  {
+    "task": "NestedSquares",
+    "prompt_key": "count-prompt",
+    "model": "anthropic/claude-3.5-sonnet",
+    "image_path": "D:\\python\\vision-llms-are-blind\\src\\NestedSquares\\images\\count-prompt\\gpt-4o\\correct\\nested_squares_depth_5_image_5_thickness_2.png",
+    "ground_truth": "5",
+    "raw_response": "{5}",
+    "parsed_answer": "5",
+    "correct": true,
+    "error": null,
+    "input_tokens": 1335,
+    "output_tokens": 6,
+    "tokens_used": 1341,
+    "latency_s": 1.78,
+    "metadata": {
+      "depth": 5,
+      "thickness": 2
+    }
+  },
+  {
+    "task": "NestedSquares",
+    "prompt_key": "count-prompt",
+    "model": "anthropic/claude-3.5-sonnet",
+    "image_path": "D:\\python\\vision-llms-are-blind\\src\\NestedSquares\\images\\count-prompt\\gpt-4o\\correct\\nested_squares_depth_5_image_5_thickness_3.png",
+    "ground_truth": "5",
+    "raw_response": "{5}",
+    "parsed_answer": "5",
+    "correct": true,
+    "error": null,
+    "input_tokens": 1335,
+    "output_tokens": 6,
+    "tokens_used": 1341,
+    "latency_s": 3.73,
+    "metadata": {
+      "depth": 5,
+      "thickness": 3
+    }
+  },
+  {
+    "task": "NestedSquares",
+    "prompt_key": "count-prompt",
+    "model": "anthropic/claude-3.5-sonnet",
+    "image_path": "D:\\python\\vision-llms-are-blind\\src\\NestedSquares\\images\\count-prompt\\gpt-4o\\correct\\nested_squares_depth_5_image_5_thickness_4.png",
+    "ground_truth": "5",
+    "raw_response": "{4}",
+    "parsed_answer": "4",
+    "correct": false,
+    "error": null,
+    "input_tokens": 1335,
+    "output_tokens": 6,
+    "tokens_used": 1341,
+    "latency_s": 1.85,
+    "metadata": {
+      "depth": 5,
+      "thickness": 4
+    }
+  },
+  {
+    "task": "NestedSquares",
+    "prompt_key": "count-prompt",
+    "model": "anthropic/claude-3.5-sonnet",
+    "image_path": "D:\\python\\vision-llms-are-blind\\src\\NestedSquares\\images\\count-prompt\\gpt-4o\\correct\\nested_squares_depth_5_image_6_thickness_2.png",
+    "ground_truth": "5",
+    "raw_response": "{5}",
+    "parsed_answer": "5",
+    "correct": true,
+    "error": null,
+    "input_tokens": 1335,
+    "output_tokens": 6,
+    "tokens_used": 1341,
+    "latency_s": 1.74,
+    "metadata": {
+      "depth": 5,
+      "thickness": 2
+    }
+  },
+  {
+    "task": "NestedSquares",
+    "prompt_key": "count-prompt",
+    "model": "anthropic/claude-3.5-sonnet",
+    "image_path": "D:\\python\\vision-llms-are-blind\\src\\NestedSquares\\images\\count-prompt\\gpt-4o\\correct\\nested_squares_depth_5_image_6_thickness_3.png",
+    "ground_truth": "5",
+    "raw_response": "{4}",
+    "parsed_answer": "4",
+    "correct": false,
+    "error": null,
+    "input_tokens": 1335,
+    "output_tokens": 6,
+    "tokens_used": 1341,
+    "latency_s": 1.91,
+    "metadata": {
+      "depth": 5,
+      "thickness": 3
+    }
+  },
+  {
+    "task": "NestedSquares",
+    "prompt_key": "count-prompt",
+    "model": "anthropic/claude-3.5-sonnet",
+    "image_path": "D:\\python\\vision-llms-are-blind\\src\\NestedSquares\\images\\count-prompt\\gpt-4o\\correct\\nested_squares_depth_5_image_6_thickness_4.png",
+    "ground_truth": "5",
+    "raw_response": "{5}",
+    "parsed_answer": "5",
+    "correct": true,
+    "error": null,
+    "input_tokens": 1335,
+    "output_tokens": 6,
+    "tokens_used": 1341,
+    "latency_s": 2.45,
+    "metadata": {
+      "depth": 5,
+      "thickness": 4
+    }
+  },
+  {
+    "task": "NestedSquares",
+    "prompt_key": "count-prompt",
+    "model": "anthropic/claude-3.5-sonnet",
+    "image_path": "D:\\python\\vision-llms-are-blind\\src\\NestedSquares\\images\\count-prompt\\gpt-4o\\correct\\nested_squares_depth_5_image_7_thickness_2.png",
+    "ground_truth": "5",
+    "raw_response": "{5}",
+    "parsed_answer": "5",
+    "correct": true,
+    "error": null,
+    "input_tokens": 1335,
+    "output_tokens": 6,
+    "tokens_used": 1341,
+    "latency_s": 1.91,
+    "metadata": {
+      "depth": 5,
+      "thickness": 2
+    }
+  },
+  {
+    "task": "NestedSquares",
+    "prompt_key": "count-prompt",
+    "model": "anthropic/claude-3.5-sonnet",
+    "image_path": "D:\\python\\vision-llms-are-blind\\src\\NestedSquares\\images\\count-prompt\\gpt-4o\\correct\\nested_squares_depth_5_image_7_thickness_3.png",
+    "ground_truth": "5",
+    "raw_response": "{5}",
+    "parsed_answer": "5",
+    "correct": true,
+    "error": null,
+    "input_tokens": 1335,
+    "output_tokens": 6,
+    "tokens_used": 1341,
+    "latency_s": 5.28,
+    "metadata": {
+      "depth": 5,
+      "thickness": 3
+    }
+  },
+  {
+    "task": "NestedSquares",
+    "prompt_key": "count-prompt",
+    "model": "anthropic/claude-3.5-sonnet",
+    "image_path": "D:\\python\\vision-llms-are-blind\\src\\NestedSquares\\images\\count-prompt\\gpt-4o\\correct\\nested_squares_depth_5_image_8_thickness_2.png",
+    "ground_truth": "5",
+    "raw_response": "{5}",
+    "parsed_answer": "5",
+    "correct": true,
+    "error": null,
+    "input_tokens": 1335,
+    "output_tokens": 6,
+    "tokens_used": 1341,
+    "latency_s": 1.87,
+    "metadata": {
+      "depth": 5,
+      "thickness": 2
+    }
+  },
+  {
+    "task": "NestedSquares",
+    "prompt_key": "count-prompt",
+    "model": "anthropic/claude-3.5-sonnet",
+    "image_path": "D:\\python\\vision-llms-are-blind\\src\\NestedSquares\\images\\count-prompt\\gpt-4o\\correct\\nested_squares_depth_5_image_8_thickness_3.png",
+    "ground_truth": "5",
+    "raw_response": "{5}",
+    "parsed_answer": "5",
+    "correct": true,
+    "error": null,
+    "input_tokens": 1335,
+    "output_tokens": 6,
+    "tokens_used": 1341,
+    "latency_s": 1.83,
+    "metadata": {
+      "depth": 5,
+      "thickness": 3
+    }
+  },
+  {
+    "task": "NestedSquares",
+    "prompt_key": "count-prompt",
+    "model": "anthropic/claude-3.5-sonnet",
+    "image_path": "D:\\python\\vision-llms-are-blind\\src\\NestedSquares\\images\\count-prompt\\gpt-4o\\correct\\nested_squares_depth_5_image_8_thickness_4.png",
+    "ground_truth": "5",
+    "raw_response": "{5}",
+    "parsed_answer": "5",
+    "correct": true,
+    "error": null,
+    "input_tokens": 1335,
+    "output_tokens": 6,
+    "tokens_used": 1341,
+    "latency_s": 1.89,
+    "metadata": {
+      "depth": 5,
+      "thickness": 4
+    }
+  },
+  {
+    "task": "NestedSquares",
+    "prompt_key": "count-prompt",
+    "model": "anthropic/claude-3.5-sonnet",
+    "image_path": "D:\\python\\vision-llms-are-blind\\src\\NestedSquares\\images\\count-prompt\\gpt-4o\\incorrect\\nested_squares_depth_2_image_2_thickness_3.png",
+    "ground_truth": "2",
+    "raw_response": "{2}",
+    "parsed_answer": "2",
+    "correct": true,
+    "error": null,
+    "input_tokens": 1335,
+    "output_tokens": 6,
+    "tokens_used": 1341,
+    "latency_s": 4.22,
+    "metadata": {
+      "depth": 2,
+      "thickness": 3
+    }
+  },
+  {
+    "task": "NestedSquares",
+    "prompt_key": "count-prompt",
+    "model": "anthropic/claude-3.5-sonnet",
+    "image_path": "D:\\python\\vision-llms-are-blind\\src\\NestedSquares\\images\\count-prompt\\gpt-4o\\incorrect\\nested_squares_depth_3_image_10_thickness_2.png",
+    "ground_truth": "3",
+    "raw_response": "{3}",
+    "parsed_answer": "3",
+    "correct": true,
+    "error": null,
+    "input_tokens": 1335,
+    "output_tokens": 6,
+    "tokens_used": 1341,
+    "latency_s": 2.94,
+    "metadata": {
+      "depth": 3,
+      "thickness": 2
+    }
+  },
+  {
+    "task": "NestedSquares",
+    "prompt_key": "count-prompt",
+    "model": "anthropic/claude-3.5-sonnet",
+    "image_path": "D:\\python\\vision-llms-are-blind\\src\\NestedSquares\\images\\count-prompt\\gpt-4o\\incorrect\\nested_squares_depth_3_image_10_thickness_4.png",
+    "ground_truth": "3",
+    "raw_response": "{3}",
+    "parsed_answer": "3",
+    "correct": true,
+    "error": null,
+    "input_tokens": 1335,
+    "output_tokens": 6,
+    "tokens_used": 1341,
+    "latency_s": 1.8,
+    "metadata": {
+      "depth": 3,
+      "thickness": 4
+    }
+  },
+  {
+    "task": "NestedSquares",
+    "prompt_key": "count-prompt",
+    "model": "anthropic/claude-3.5-sonnet",
+    "image_path": "D:\\python\\vision-llms-are-blind\\src\\NestedSquares\\images\\count-prompt\\gpt-4o\\incorrect\\nested_squares_depth_3_image_1_thickness_4.png",
+    "ground_truth": "3",
+    "raw_response": "{3}",
+    "parsed_answer": "3",
+    "correct": true,
+    "error": null,
+    "input_tokens": 1335,
+    "output_tokens": 6,
+    "tokens_used": 1341,
+    "latency_s": 2.81,
+    "metadata": {
+      "depth": 3,
+      "thickness": 4
+    }
+  },
+  {
+    "task": "NestedSquares",
+    "prompt_key": "count-prompt",
+    "model": "anthropic/claude-3.5-sonnet",
+    "image_path": "D:\\python\\vision-llms-are-blind\\src\\NestedSquares\\images\\count-prompt\\gpt-4o\\incorrect\\nested_squares_depth_3_image_2_thickness_3.png",
+    "ground_truth": "3",
+    "raw_response": "{3}",
+    "parsed_answer": "3",
+    "correct": true,
+    "error": null,
+    "input_tokens": 1335,
+    "output_tokens": 6,
+    "tokens_used": 1341,
+    "latency_s": 1.97,
+    "metadata": {
+      "depth": 3,
+      "thickness": 3
+    }
+  },
+  {
+    "task": "NestedSquares",
+    "prompt_key": "count-prompt",
+    "model": "anthropic/claude-3.5-sonnet",
+    "image_path": "D:\\python\\vision-llms-are-blind\\src\\NestedSquares\\images\\count-prompt\\gpt-4o\\incorrect\\nested_squares_depth_3_image_3_thickness_2.png",
+    "ground_truth": "3",
+    "raw_response": "{3}",
+    "parsed_answer": "3",
+    "correct": true,
+    "error": null,
+    "input_tokens": 1335,
+    "output_tokens": 6,
+    "tokens_used": 1341,
+    "latency_s": 1.92,
+    "metadata": {
+      "depth": 3,
+      "thickness": 2
+    }
+  },
+  {
+    "task": "NestedSquares",
+    "prompt_key": "count-prompt",
+    "model": "anthropic/claude-3.5-sonnet",
+    "image_path": "D:\\python\\vision-llms-are-blind\\src\\NestedSquares\\images\\count-prompt\\gpt-4o\\incorrect\\nested_squares_depth_3_image_3_thickness_3.png",
+    "ground_truth": "3",
+    "raw_response": "{3}",
+    "parsed_answer": "3",
+    "correct": true,
+    "error": null,
+    "input_tokens": 1335,
+    "output_tokens": 6,
+    "tokens_used": 1341,
+    "latency_s": 5.27,
+    "metadata": {
+      "depth": 3,
+      "thickness": 3
+    }
+  },
+  {
+    "task": "NestedSquares",
+    "prompt_key": "count-prompt",
+    "model": "anthropic/claude-3.5-sonnet",
+    "image_path": "D:\\python\\vision-llms-are-blind\\src\\NestedSquares\\images\\count-prompt\\gpt-4o\\incorrect\\nested_squares_depth_3_image_3_thickness_4.png",
+    "ground_truth": "3",
+    "raw_response": "{3}",
+    "parsed_answer": "3",
+    "correct": true,
+    "error": null,
+    "input_tokens": 1335,
+    "output_tokens": 6,
+    "tokens_used": 1341,
+    "latency_s": 1.96,
+    "metadata": {
+      "depth": 3,
+      "thickness": 4
+    }
+  },
+  {
+    "task": "NestedSquares",
+    "prompt_key": "count-prompt",
+    "model": "anthropic/claude-3.5-sonnet",
+    "image_path": "D:\\python\\vision-llms-are-blind\\src\\NestedSquares\\images\\count-prompt\\gpt-4o\\incorrect\\nested_squares_depth_3_image_4_thickness_2.png",
+    "ground_truth": "3",
+    "raw_response": "{3}",
+    "parsed_answer": "3",
+    "correct": true,
+    "error": null,
+    "input_tokens": 1335,
+    "output_tokens": 6,
+    "tokens_used": 1341,
+    "latency_s": 1.9,
+    "metadata": {
+      "depth": 3,
+      "thickness": 2
+    }
+  },
+  {
+    "task": "NestedSquares",
+    "prompt_key": "count-prompt",
+    "model": "anthropic/claude-3.5-sonnet",
+    "image_path": "D:\\python\\vision-llms-are-blind\\src\\NestedSquares\\images\\count-prompt\\gpt-4o\\incorrect\\nested_squares_depth_3_image_4_thickness_3.png",
+    "ground_truth": "3",
+    "raw_response": "{3}",
+    "parsed_answer": "3",
+    "correct": true,
+    "error": null,
+    "input_tokens": 1335,
+    "output_tokens": 6,
+    "tokens_used": 1341,
+    "latency_s": 1.82,
+    "metadata": {
+      "depth": 3,
+      "thickness": 3
+    }
+  },
+  {
+    "task": "NestedSquares",
+    "prompt_key": "count-prompt",
+    "model": "anthropic/claude-3.5-sonnet",
+    "image_path": "D:\\python\\vision-llms-are-blind\\src\\NestedSquares\\images\\count-prompt\\gpt-4o\\incorrect\\nested_squares_depth_3_image_4_thickness_4.png",
+    "ground_truth": "3",
+    "raw_response": "{3}",
+    "parsed_answer": "3",
+    "correct": true,
+    "error": null,
+    "input_tokens": 1335,
+    "output_tokens": 6,
+    "tokens_used": 1341,
+    "latency_s": 8.56,
+    "metadata": {
+      "depth": 3,
+      "thickness": 4
+    }
+  },
+  {
+    "task": "NestedSquares",
+    "prompt_key": "count-prompt",
+    "model": "anthropic/claude-3.5-sonnet",
+    "image_path": "D:\\python\\vision-llms-are-blind\\src\\NestedSquares\\images\\count-prompt\\gpt-4o\\incorrect\\nested_squares_depth_3_image_5_thickness_3.png",
+    "ground_truth": "3",
+    "raw_response": "{3}",
+    "parsed_answer": "3",
+    "correct": true,
+    "error": null,
+    "input_tokens": 1335,
+    "output_tokens": 6,
+    "tokens_used": 1341,
+    "latency_s": 2.75,
+    "metadata": {
+      "depth": 3,
+      "thickness": 3
+    }
+  },
+  {
+    "task": "NestedSquares",
+    "prompt_key": "count-prompt",
+    "model": "anthropic/claude-3.5-sonnet",
+    "image_path": "D:\\python\\vision-llms-are-blind\\src\\NestedSquares\\images\\count-prompt\\gpt-4o\\incorrect\\nested_squares_depth_3_image_5_thickness_4.png",
+    "ground_truth": "3",
+    "raw_response": "{3}",
+    "parsed_answer": "3",
+    "correct": true,
+    "error": null,
+    "input_tokens": 1335,
+    "output_tokens": 6,
+    "tokens_used": 1341,
+    "latency_s": 5.68,
+    "metadata": {
+      "depth": 3,
+      "thickness": 4
+    }
+  },
+  {
+    "task": "NestedSquares",
+    "prompt_key": "count-prompt",
+    "model": "anthropic/claude-3.5-sonnet",
+    "image_path": "D:\\python\\vision-llms-are-blind\\src\\NestedSquares\\images\\count-prompt\\gpt-4o\\incorrect\\nested_squares_depth_3_image_6_thickness_2.png",
+    "ground_truth": "3",
+    "raw_response": "{3}",
+    "parsed_answer": "3",
+    "correct": true,
+    "error": null,
+    "input_tokens": 1335,
+    "output_tokens": 6,
+    "tokens_used": 1341,
+    "latency_s": 2.1,
+    "metadata": {
+      "depth": 3,
+      "thickness": 2
+    }
+  },
+  {
+    "task": "NestedSquares",
+    "prompt_key": "count-prompt",
+    "model": "anthropic/claude-3.5-sonnet",
+    "image_path": "D:\\python\\vision-llms-are-blind\\src\\NestedSquares\\images\\count-prompt\\gpt-4o\\incorrect\\nested_squares_depth_3_image_6_thickness_4.png",
+    "ground_truth": "3",
+    "raw_response": "{3}",
+    "parsed_answer": "3",
+    "correct": true,
+    "error": null,
+    "input_tokens": 1335,
+    "output_tokens": 6,
+    "tokens_used": 1341,
+    "latency_s": 1.69,
+    "metadata": {
+      "depth": 3,
+      "thickness": 4
+    }
+  },
+  {
+    "task": "NestedSquares",
+    "prompt_key": "count-prompt",
+    "model": "anthropic/claude-3.5-sonnet",
+    "image_path": "D:\\python\\vision-llms-are-blind\\src\\NestedSquares\\images\\count-prompt\\gpt-4o\\incorrect\\nested_squares_depth_3_image_7_thickness_2.png",
+    "ground_truth": "3",
+    "raw_response": "{3}",
+    "parsed_answer": "3",
+    "correct": true,
+    "error": null,
+    "input_tokens": 1335,
+    "output_tokens": 6,
+    "tokens_used": 1341,
+    "latency_s": 5.35,
+    "metadata": {
+      "depth": 3,
+      "thickness": 2
+    }
+  },
+  {
+    "task": "NestedSquares",
+    "prompt_key": "count-prompt",
+    "model": "anthropic/claude-3.5-sonnet",
+    "image_path": "D:\\python\\vision-llms-are-blind\\src\\NestedSquares\\images\\count-prompt\\gpt-4o\\incorrect\\nested_squares_depth_3_image_8_thickness_2.png",
+    "ground_truth": "3",
+    "raw_response": "{3}",
+    "parsed_answer": "3",
+    "correct": true,
+    "error": null,
+    "input_tokens": 1335,
+    "output_tokens": 6,
+    "tokens_used": 1341,
+    "latency_s": 11.92,
+    "metadata": {
+      "depth": 3,
+      "thickness": 2
+    }
+  },
+  {
+    "task": "NestedSquares",
+    "prompt_key": "count-prompt",
+    "model": "anthropic/claude-3.5-sonnet",
+    "image_path": "D:\\python\\vision-llms-are-blind\\src\\NestedSquares\\images\\count-prompt\\gpt-4o\\incorrect\\nested_squares_depth_3_image_8_thickness_3.png",
+    "ground_truth": "3",
+    "raw_response": "{3}",
+    "parsed_answer": "3",
+    "correct": true,
+    "error": null,
+    "input_tokens": 1335,
+    "output_tokens": 6,
+    "tokens_used": 1341,
+    "latency_s": 2.1,
+    "metadata": {
+      "depth": 3,
+      "thickness": 3
+    }
+  },
+  {
+    "task": "NestedSquares",
+    "prompt_key": "count-prompt",
+    "model": "anthropic/claude-3.5-sonnet",
+    "image_path": "D:\\python\\vision-llms-are-blind\\src\\NestedSquares\\images\\count-prompt\\gpt-4o\\incorrect\\nested_squares_depth_3_image_8_thickness_4.png",
+    "ground_truth": "3",
+    "raw_response": "{3}",
+    "parsed_answer": "3",
+    "correct": true,
+    "error": null,
+    "input_tokens": 1335,
+    "output_tokens": 6,
+    "tokens_used": 1341,
+    "latency_s": 2.08,
+    "metadata": {
+      "depth": 3,
+      "thickness": 4
+    }
+  },
+  {
+    "task": "NestedSquares",
+    "prompt_key": "count-prompt",
+    "model": "anthropic/claude-3.5-sonnet",
+    "image_path": "D:\\python\\vision-llms-are-blind\\src\\NestedSquares\\images\\count-prompt\\gpt-4o\\incorrect\\nested_squares_depth_3_image_9_thickness_2.png",
+    "ground_truth": "3",
+    "raw_response": "{3}",
+    "parsed_answer": "3",
+    "correct": true,
+    "error": null,
+    "input_tokens": 1335,
+    "output_tokens": 6,
+    "tokens_used": 1341,
+    "latency_s": 4.09,
+    "metadata": {
+      "depth": 3,
+      "thickness": 2
+    }
+  },
+  {
+    "task": "NestedSquares",
+    "prompt_key": "count-prompt",
+    "model": "anthropic/claude-3.5-sonnet",
+    "image_path": "D:\\python\\vision-llms-are-blind\\src\\NestedSquares\\images\\count-prompt\\gpt-4o\\incorrect\\nested_squares_depth_3_image_9_thickness_3.png",
+    "ground_truth": "3",
+    "raw_response": "{3}",
+    "parsed_answer": "3",
+    "correct": true,
+    "error": null,
+    "input_tokens": 1335,
+    "output_tokens": 6,
+    "tokens_used": 1341,
+    "latency_s": 1.96,
+    "metadata": {
+      "depth": 3,
+      "thickness": 3
+    }
+  },
+  {
+    "task": "NestedSquares",
+    "prompt_key": "count-prompt",
+    "model": "anthropic/claude-3.5-sonnet",
+    "image_path": "D:\\python\\vision-llms-are-blind\\src\\NestedSquares\\images\\count-prompt\\gpt-4o\\incorrect\\nested_squares_depth_3_image_9_thickness_4.png",
+    "ground_truth": "3",
+    "raw_response": "{3}",
+    "parsed_answer": "3",
+    "correct": true,
+    "error": null,
+    "input_tokens": 1335,
+    "output_tokens": 6,
+    "tokens_used": 1341,
+    "latency_s": 2.01,
+    "metadata": {
+      "depth": 3,
+      "thickness": 4
+    }
+  },
+  {
+    "task": "NestedSquares",
+    "prompt_key": "count-prompt",
+    "model": "anthropic/claude-3.5-sonnet",
+    "image_path": "D:\\python\\vision-llms-are-blind\\src\\NestedSquares\\images\\count-prompt\\gpt-4o\\incorrect\\nested_squares_depth_4_image_10_thickness_2.png",
+    "ground_truth": "4",
+    "raw_response": "{5}",
+    "parsed_answer": "5",
+    "correct": false,
+    "error": null,
+    "input_tokens": 1335,
+    "output_tokens": 6,
+    "tokens_used": 1341,
+    "latency_s": 1.69,
+    "metadata": {
+      "depth": 4,
+      "thickness": 2
+    }
+  },
+  {
+    "task": "NestedSquares",
+    "prompt_key": "count-prompt",
+    "model": "anthropic/claude-3.5-sonnet",
+    "image_path": "D:\\python\\vision-llms-are-blind\\src\\NestedSquares\\images\\count-prompt\\gpt-4o\\incorrect\\nested_squares_depth_4_image_10_thickness_3.png",
+    "ground_truth": "4",
+    "raw_response": "{5}",
+    "parsed_answer": "5",
+    "correct": false,
+    "error": null,
+    "input_tokens": 1335,
+    "output_tokens": 6,
+    "tokens_used": 1341,
+    "latency_s": 2.41,
+    "metadata": {
+      "depth": 4,
+      "thickness": 3
+    }
+  },
+  {
+    "task": "NestedSquares",
+    "prompt_key": "count-prompt",
+    "model": "anthropic/claude-3.5-sonnet",
+    "image_path": "D:\\python\\vision-llms-are-blind\\src\\NestedSquares\\images\\count-prompt\\gpt-4o\\incorrect\\nested_squares_depth_4_image_10_thickness_4.png",
+    "ground_truth": "4",
+    "raw_response": "{4}",
+    "parsed_answer": "4",
+    "correct": true,
+    "error": null,
+    "input_tokens": 1335,
+    "output_tokens": 6,
+    "tokens_used": 1341,
+    "latency_s": 4.65,
+    "metadata": {
+      "depth": 4,
+      "thickness": 4
+    }
+  },
+  {
+    "task": "NestedSquares",
+    "prompt_key": "count-prompt",
+    "model": "anthropic/claude-3.5-sonnet",
+    "image_path": "D:\\python\\vision-llms-are-blind\\src\\NestedSquares\\images\\count-prompt\\gpt-4o\\incorrect\\nested_squares_depth_4_image_1_thickness_4.png",
+    "ground_truth": "4",
+    "raw_response": "{4}",
+    "parsed_answer": "4",
+    "correct": true,
+    "error": null,
+    "input_tokens": 1335,
+    "output_tokens": 6,
+    "tokens_used": 1341,
+    "latency_s": 2.08,
+    "metadata": {
+      "depth": 4,
+      "thickness": 4
+    }
+  },
+  {
+    "task": "NestedSquares",
+    "prompt_key": "count-prompt",
+    "model": "anthropic/claude-3.5-sonnet",
+    "image_path": "D:\\python\\vision-llms-are-blind\\src\\NestedSquares\\images\\count-prompt\\gpt-4o\\incorrect\\nested_squares_depth_4_image_2_thickness_2.png",
+    "ground_truth": "4",
+    "raw_response": "{4}",
+    "parsed_answer": "4",
+    "correct": true,
+    "error": null,
+    "input_tokens": 1335,
+    "output_tokens": 6,
+    "tokens_used": 1341,
+    "latency_s": 5.55,
+    "metadata": {
+      "depth": 4,
+      "thickness": 2
+    }
+  },
+  {
+    "task": "NestedSquares",
+    "prompt_key": "count-prompt",
+    "model": "anthropic/claude-3.5-sonnet",
+    "image_path": "D:\\python\\vision-llms-are-blind\\src\\NestedSquares\\images\\count-prompt\\gpt-4o\\incorrect\\nested_squares_depth_4_image_2_thickness_3.png",
+    "ground_truth": "4",
+    "raw_response": "{4}",
+    "parsed_answer": "4",
+    "correct": true,
+    "error": null,
+    "input_tokens": 1335,
+    "output_tokens": 6,
+    "tokens_used": 1341,
+    "latency_s": 2.49,
+    "metadata": {
+      "depth": 4,
+      "thickness": 3
+    }
+  },
+  {
+    "task": "NestedSquares",
+    "prompt_key": "count-prompt",
+    "model": "anthropic/claude-3.5-sonnet",
+    "image_path": "D:\\python\\vision-llms-are-blind\\src\\NestedSquares\\images\\count-prompt\\gpt-4o\\incorrect\\nested_squares_depth_4_image_2_thickness_4.png",
+    "ground_truth": "4",
+    "raw_response": "{3}",
+    "parsed_answer": "3",
+    "correct": false,
+    "error": null,
+    "input_tokens": 1335,
+    "output_tokens": 6,
+    "tokens_used": 1341,
+    "latency_s": 2.12,
+    "metadata": {
+      "depth": 4,
+      "thickness": 4
+    }
+  },
+  {
+    "task": "NestedSquares",
+    "prompt_key": "count-prompt",
+    "model": "anthropic/claude-3.5-sonnet",
+    "image_path": "D:\\python\\vision-llms-are-blind\\src\\NestedSquares\\images\\count-prompt\\gpt-4o\\incorrect\\nested_squares_depth_4_image_3_thickness_4.png",
+    "ground_truth": "4",
+    "raw_response": "{4}",
+    "parsed_answer": "4",
+    "correct": true,
+    "error": null,
+    "input_tokens": 1335,
+    "output_tokens": 6,
+    "tokens_used": 1341,
+    "latency_s": 1.77,
+    "metadata": {
+      "depth": 4,
+      "thickness": 4
+    }
+  },
+  {
+    "task": "NestedSquares",
+    "prompt_key": "count-prompt",
+    "model": "anthropic/claude-3.5-sonnet",
+    "image_path": "D:\\python\\vision-llms-are-blind\\src\\NestedSquares\\images\\count-prompt\\gpt-4o\\incorrect\\nested_squares_depth_4_image_4_thickness_2.png",
+    "ground_truth": "4",
+    "raw_response": "{4}",
+    "parsed_answer": "4",
+    "correct": true,
+    "error": null,
+    "input_tokens": 1335,
+    "output_tokens": 6,
+    "tokens_used": 1341,
+    "latency_s": 1.87,
+    "metadata": {
+      "depth": 4,
+      "thickness": 2
+    }
+  },
+  {
+    "task": "NestedSquares",
+    "prompt_key": "count-prompt",
+    "model": "anthropic/claude-3.5-sonnet",
+    "image_path": "D:\\python\\vision-llms-are-blind\\src\\NestedSquares\\images\\count-prompt\\gpt-4o\\incorrect\\nested_squares_depth_4_image_4_thickness_3.png",
+    "ground_truth": "4",
+    "raw_response": "{3}",
+    "parsed_answer": "3",
+    "correct": false,
+    "error": null,
+    "input_tokens": 1335,
+    "output_tokens": 6,
+    "tokens_used": 1341,
+    "latency_s": 1.74,
+    "metadata": {
+      "depth": 4,
+      "thickness": 3
+    }
+  }
+]

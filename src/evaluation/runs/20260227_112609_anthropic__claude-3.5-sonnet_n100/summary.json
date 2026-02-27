@@ -1,0 +1,91 @@
+{
+  "run": {
+    "timestamp": "20260227_112609",
+    "model": "anthropic/claude-3.5-sonnet",
+    "tasks": [
+      "LineIntersection",
+      "TouchingCircle",
+      "NestedSquares",
+      "CountingRowsAndColumns"
+    ],
+    "limit": 100,
+    "total_requests": 800,
+    "total_input_tokens": 985638,
+    "total_output_tokens": 12960,
+    "total_tokens": 998598,
+    "wall_clock_s": 2957.1,
+    "errors": 0
+  },
+  "models": {
+    "anthropic/claude-3.5-sonnet": {
+      "LineIntersection": {
+        "Count-prompt": {
+          "correct": 50,
+          "total": 100,
+          "accuracy": 50.0
+        },
+        "HowMany-prompt": {
+          "correct": 74,
+          "total": 100,
+          "accuracy": 74.0
+        },
+        "_average": {
+          "correct": 124,
+          "total": 200,
+          "accuracy": 62.0
+        }
+      },
+      "TouchingCircle": {
+        "touching-prompt": {
+          "correct": 84,
+          "total": 100,
+          "accuracy": 84.0
+        },
+        "overlapping-prompt": {
+          "correct": 85,
+          "total": 100,
+          "accuracy": 85.0
+        },
+        "_average": {
+          "correct": 169,
+          "total": 200,
+          "accuracy": 84.5
+        }
+      },
+      "NestedSquares": {
+        "count-prompt": {
+          "correct": 85,
+          "total": 100,
+          "accuracy": 85.0
+        },
+        "how-many-prompt": {
+          "correct": 80,
+          "total": 100,
+          "accuracy": 80.0
+        },
+        "_average": {
+          "correct": 165,
+          "total": 200,
+          "accuracy": 82.5
+        }
+      },
+      "CountingRowsAndColumns": {
+        "CountRC-prompt": {
+          "correct": 93,
+          "total": 100,
+          "accuracy": 93.0
+        },
+        "HowManyRC-prompt": {
+          "correct": 91,
+          "total": 100,
+          "accuracy": 91.0
+        },
+        "_average": {
+          "correct": 184,
+          "total": 200,
+          "accuracy": 92.0
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,1902 @@
+[
+  {
+    "task": "CountingRowsAndColumns",
+    "prompt_key": "CountRC-prompt",
+    "model": "anthropic/claude-3.5-sonnet",
+    "image_path": "D:\\python\\vision-llms-are-blind\\src\\CountingRowsAndColumns\\images\\CountRC-prompt\\gpt-4o\\correct\\gpt_grid_10x10_1250_10.png_blank.png",
+    "ground_truth": "10,10",
+    "raw_response": "rows={10} columns={10}",
+    "parsed_answer": "10,10",
+    "correct": true,
+    "error": null,
+    "input_tokens": 1558,
+    "output_tokens": 11,
+    "tokens_used": 1569,
+    "latency_s": 2.35,
+    "metadata": {
+      "rows": 10,
+      "cols": 10
+    }
+  },
+  {
+    "task": "CountingRowsAndColumns",
+    "prompt_key": "CountRC-prompt",
+    "model": "anthropic/claude-3.5-sonnet",
+    "image_path": "D:\\python\\vision-llms-are-blind\\src\\CountingRowsAndColumns\\images\\CountRC-prompt\\gpt-4o\\correct\\gpt_grid_10x10_1250_20.png_blank.png",
+    "ground_truth": "10,10",
+    "raw_response": "rows={11} columns={10}",
+    "parsed_answer": "11,10",
+    "correct": false,
+    "error": null,
+    "input_tokens": 1558,
+    "output_tokens": 11,
+    "tokens_used": 1569,
+    "latency_s": 2.23,
+    "metadata": {
+      "rows": 10,
+      "cols": 10
+    }
+  },
+  {
+    "task": "CountingRowsAndColumns",
+    "prompt_key": "CountRC-prompt",
+    "model": "anthropic/claude-3.5-sonnet",
+    "image_path": "D:\\python\\vision-llms-are-blind\\src\\CountingRowsAndColumns\\images\\CountRC-prompt\\gpt-4o\\correct\\gpt_grid_10x10_2000_10.png_blank.png",
+    "ground_truth": "10,10",
+    "raw_response": "rows={10} columns={10}",
+    "parsed_answer": "10,10",
+    "correct": true,
+    "error": null,
+    "input_tokens": 1558,
+    "output_tokens": 11,
+    "tokens_used": 1569,
+    "latency_s": 5.16,
+    "metadata": {
+      "rows": 10,
+      "cols": 10
+    }
+  },
+  {
+    "task": "CountingRowsAndColumns",
+    "prompt_key": "CountRC-prompt",
+    "model": "anthropic/claude-3.5-sonnet",
+    "image_path": "D:\\python\\vision-llms-are-blind\\src\\CountingRowsAndColumns\\images\\CountRC-prompt\\gpt-4o\\correct\\gpt_grid_10x10_500_10.png_blank.png",
+    "ground_truth": "10,10",
+    "raw_response": "rows={7} columns={12}",
+    "parsed_answer": "7,12",
+    "correct": false,
+    "error": null,
+    "input_tokens": 361,
+    "output_tokens": 11,
+    "tokens_used": 372,
+    "latency_s": 1.88,
+    "metadata": {
+      "rows": 10,
+      "cols": 10
+    }
+  },
+  {
+    "task": "CountingRowsAndColumns",
+    "prompt_key": "CountRC-prompt",
+    "model": "anthropic/claude-3.5-sonnet",
+    "image_path": "D:\\python\\vision-llms-are-blind\\src\\CountingRowsAndColumns\\images\\CountRC-prompt\\gpt-4o\\correct\\gpt_grid_10x10_500_20.png_blank.png",
+    "ground_truth": "10,10",
+    "raw_response": "rows={8} columns={11}",
+    "parsed_answer": "8,11",
+    "correct": false,
+    "error": null,
+    "input_tokens": 361,
+    "output_tokens": 11,
+    "tokens_used": 372,
+    "latency_s": 3.94,
+    "metadata": {
+      "rows": 10,
+      "cols": 10
+    }
+  },
+  {
+    "task": "CountingRowsAndColumns",
+    "prompt_key": "CountRC-prompt",
+    "model": "anthropic/claude-3.5-sonnet",
+    "image_path": "D:\\python\\vision-llms-are-blind\\src\\CountingRowsAndColumns\\images\\CountRC-prompt\\gpt-4o\\correct\\gpt_grid_3x3_1250_10.png_blank.png",
+    "ground_truth": "3,3",
+    "raw_response": "rows={3} columns={3}",
+    "parsed_answer": "3,3",
+    "correct": true,
+    "error": null,
+    "input_tokens": 1558,
+    "output_tokens": 11,
+    "tokens_used": 1569,
+    "latency_s": 2.51,
+    "metadata": {
+      "rows": 3,
+      "cols": 3
+    }
+  },
+  {
+    "task": "CountingRowsAndColumns",
+    "prompt_key": "CountRC-prompt",
+    "model": "anthropic/claude-3.5-sonnet",
+    "image_path": "D:\\python\\vision-llms-are-blind\\src\\CountingRowsAndColumns\\images\\CountRC-prompt\\gpt-4o\\correct\\gpt_grid_3x3_1250_20.png_blank.png",
+    "ground_truth": "3,3",
+    "raw_response": "rows={3} columns={3}",
+    "parsed_answer": "3,3",
+    "correct": true,
+    "error": null,
+    "input_tokens": 1558,
+    "output_tokens": 11,
+    "tokens_used": 1569,
+    "latency_s": 2.03,
+    "metadata": {
+      "rows": 3,
+      "cols": 3
+    }
+  },
+  {
+    "task": "CountingRowsAndColumns",
+    "prompt_key": "CountRC-prompt",
+    "model": "anthropic/claude-3.5-sonnet",
+    "image_path": "D:\\python\\vision-llms-are-blind\\src\\CountingRowsAndColumns\\images\\CountRC-prompt\\gpt-4o\\correct\\gpt_grid_3x3_2000_10.png_blank.png",
+    "ground_truth": "3,3",
+    "raw_response": "rows={3} columns={3}",
+    "parsed_answer": "3,3",
+    "correct": true,
+    "error": null,
+    "input_tokens": 1558,
+    "output_tokens": 11,
+    "tokens_used": 1569,
+    "latency_s": 2.47,
+    "metadata": {
+      "rows": 3,
+      "cols": 3
+    }
+  },
+  {
+    "task": "CountingRowsAndColumns",
+    "prompt_key": "CountRC-prompt",
+    "model": "anthropic/claude-3.5-sonnet",
+    "image_path": "D:\\python\\vision-llms-are-blind\\src\\CountingRowsAndColumns\\images\\CountRC-prompt\\gpt-4o\\correct\\gpt_grid_3x3_2000_20.png_blank.png",
+    "ground_truth": "3,3",
+    "raw_response": "rows={3} columns={3}",
+    "parsed_answer": "3,3",
+    "correct": true,
+    "error": null,
+    "input_tokens": 1558,
+    "output_tokens": 11,
+    "tokens_used": 1569,
+    "latency_s": 2.18,
+    "metadata": {
+      "rows": 3,
+      "cols": 3
+    }
+  },
+  {
+    "task": "CountingRowsAndColumns",
+    "prompt_key": "CountRC-prompt",
+    "model": "anthropic/claude-3.5-sonnet",
+    "image_path": "D:\\python\\vision-llms-are-blind\\src\\CountingRowsAndColumns\\images\\CountRC-prompt\\gpt-4o\\correct\\gpt_grid_3x3_500_10.png_blank.png",
+    "ground_truth": "3,3",
+    "raw_response": "rows={3} columns={3}",
+    "parsed_answer": "3,3",
+    "correct": true,
+    "error": null,
+    "input_tokens": 361,
+    "output_tokens": 11,
+    "tokens_used": 372,
+    "latency_s": 3.58,
+    "metadata": {
+      "rows": 3,
+      "cols": 3
+    }
+  },
+  {
+    "task": "CountingRowsAndColumns",
+    "prompt_key": "CountRC-prompt",
+    "model": "anthropic/claude-3.5-sonnet",
+    "image_path": "D:\\python\\vision-llms-are-blind\\src\\CountingRowsAndColumns\\images\\CountRC-prompt\\gpt-4o\\correct\\gpt_grid_3x3_500_20.png_blank.png",
+    "ground_truth": "3,3",
+    "raw_response": "rows={3} columns={3}",
+    "parsed_answer": "3,3",
+    "correct": true,
+    "error": null,
+    "input_tokens": 361,
+    "output_tokens": 11,
+    "tokens_used": 372,
+    "latency_s": 2.43,
+    "metadata": {
+      "rows": 3,
+      "cols": 3
+    }
+  },
+  {
+    "task": "CountingRowsAndColumns",
+    "prompt_key": "CountRC-prompt",
+    "model": "anthropic/claude-3.5-sonnet",
+    "image_path": "D:\\python\\vision-llms-are-blind\\src\\CountingRowsAndColumns\\images\\CountRC-prompt\\gpt-4o\\correct\\gpt_grid_4x3_1250_10.png_blank.png",
+    "ground_truth": "4,3",
+    "raw_response": "rows={4} columns={3}",
+    "parsed_answer": "4,3",
+    "correct": true,
+    "error": null,
+    "input_tokens": 1558,
+    "output_tokens": 11,
+    "tokens_used": 1569,
+    "latency_s": 2.29,
+    "metadata": {
+      "rows": 4,
+      "cols": 3
+    }
+  },
+  {
+    "task": "CountingRowsAndColumns",
+    "prompt_key": "CountRC-prompt",
+    "model": "anthropic/claude-3.5-sonnet",
+    "image_path": "D:\\python\\vision-llms-are-blind\\src\\CountingRowsAndColumns\\images\\CountRC-prompt\\gpt-4o\\correct\\gpt_grid_4x3_2000_10.png_blank.png",
+    "ground_truth": "4,3",
+    "raw_response": "rows={4} columns={3}",
+    "parsed_answer": "4,3",
+    "correct": true,
+    "error": null,
+    "input_tokens": 1558,
+    "output_tokens": 11,
+    "tokens_used": 1569,
+    "latency_s": 2.92,
+    "metadata": {
+      "rows": 4,
+      "cols": 3
+    }
+  },
+  {
+    "task": "CountingRowsAndColumns",
+    "prompt_key": "CountRC-prompt",
+    "model": "anthropic/claude-3.5-sonnet",
+    "image_path": "D:\\python\\vision-llms-are-blind\\src\\CountingRowsAndColumns\\images\\CountRC-prompt\\gpt-4o\\correct\\gpt_grid_4x3_2000_20.png_blank.png",
+    "ground_truth": "4,3",
+    "raw_response": "rows={4} columns={3}",
+    "parsed_answer": "4,3",
+    "correct": true,
+    "error": null,
+    "input_tokens": 1558,
+    "output_tokens": 11,
+    "tokens_used": 1569,
+    "latency_s": 2.12,
+    "metadata": {
+      "rows": 4,
+      "cols": 3
+    }
+  },
+  {
+    "task": "CountingRowsAndColumns",
+    "prompt_key": "CountRC-prompt",
+    "model": "anthropic/claude-3.5-sonnet",
+    "image_path": "D:\\python\\vision-llms-are-blind\\src\\CountingRowsAndColumns\\images\\CountRC-prompt\\gpt-4o\\correct\\gpt_grid_4x3_500_10.png_blank.png",
+    "ground_truth": "4,3",
+    "raw_response": "rows={4} columns={3}",
+    "parsed_answer": "4,3",
+    "correct": true,
+    "error": null,
+    "input_tokens": 361,
+    "output_tokens": 11,
+    "tokens_used": 372,
+    "latency_s": 2.04,
+    "metadata": {
+      "rows": 4,
+      "cols": 3
+    }
+  },
+  {
+    "task": "CountingRowsAndColumns",
+    "prompt_key": "CountRC-prompt",
+    "model": "anthropic/claude-3.5-sonnet",
+    "image_path": "D:\\python\\vision-llms-are-blind\\src\\CountingRowsAndColumns\\images\\CountRC-prompt\\gpt-4o\\correct\\gpt_grid_4x4_1250_10.png_blank.png",
+    "ground_truth": "4,4",
+    "raw_response": "rows={4} columns={4}",
+    "parsed_answer": "4,4",
+    "correct": true,
+    "error": null,
+    "input_tokens": 1558,
+    "output_tokens": 11,
+    "tokens_used": 1569,
+    "latency_s": 4.08,
+    "metadata": {
+      "rows": 4,
+      "cols": 4
+    }
+  },
+  {
+    "task": "CountingRowsAndColumns",
+    "prompt_key": "CountRC-prompt",
+    "model": "anthropic/claude-3.5-sonnet",
+    "image_path": "D:\\python\\vision-llms-are-blind\\src\\CountingRowsAndColumns\\images\\CountRC-prompt\\gpt-4o\\correct\\gpt_grid_4x4_1250_20.png_blank.png",
+    "ground_truth": "4,4",
+    "raw_response": "rows={4} columns={4}",
+    "parsed_answer": "4,4",
+    "correct": true,
+    "error": null,
+    "input_tokens": 1558,
+    "output_tokens": 11,
+    "tokens_used": 1569,
+    "latency_s": 4.08,
+    "metadata": {
+      "rows": 4,
+      "cols": 4
+    }
+  },
+  {
+    "task": "CountingRowsAndColumns",
+    "prompt_key": "CountRC-prompt",
+    "model": "anthropic/claude-3.5-sonnet",
+    "image_path": "D:\\python\\vision-llms-are-blind\\src\\CountingRowsAndColumns\\images\\CountRC-prompt\\gpt-4o\\correct\\gpt_grid_4x4_2000_10.png_blank.png",
+    "ground_truth": "4,4",
+    "raw_response": "rows={4} columns={4}",
+    "parsed_answer": "4,4",
+    "correct": true,
+    "error": null,
+    "input_tokens": 1558,
+    "output_tokens": 11,
+    "tokens_used": 1569,
+    "latency_s": 2.25,
+    "metadata": {
+      "rows": 4,
+      "cols": 4
+    }
+  },
+  {
+    "task": "CountingRowsAndColumns",
+    "prompt_key": "CountRC-prompt",
+    "model": "anthropic/claude-3.5-sonnet",
+    "image_path": "D:\\python\\vision-llms-are-blind\\src\\CountingRowsAndColumns\\images\\CountRC-prompt\\gpt-4o\\correct\\gpt_grid_4x4_2000_20.png_blank.png",
+    "ground_truth": "4,4",
+    "raw_response": "rows={4} columns={4}",
+    "parsed_answer": "4,4",
+    "correct": true,
+    "error": null,
+    "input_tokens": 1558,
+    "output_tokens": 11,
+    "tokens_used": 1569,
+    "latency_s": 64.08,
+    "metadata": {
+      "rows": 4,
+      "cols": 4
+    }
+  },
+  {
+    "task": "CountingRowsAndColumns",
+    "prompt_key": "CountRC-prompt",
+    "model": "anthropic/claude-3.5-sonnet",
+    "image_path": "D:\\python\\vision-llms-are-blind\\src\\CountingRowsAndColumns\\images\\CountRC-prompt\\gpt-4o\\correct\\gpt_grid_4x4_500_10.png_blank.png",
+    "ground_truth": "4,4",
+    "raw_response": "rows={4} columns={4}",
+    "parsed_answer": "4,4",
+    "correct": true,
+    "error": null,
+    "input_tokens": 361,
+    "output_tokens": 11,
+    "tokens_used": 372,
+    "latency_s": 2.18,
+    "metadata": {
+      "rows": 4,
+      "cols": 4
+    }
+  },
+  {
+    "task": "CountingRowsAndColumns",
+    "prompt_key": "CountRC-prompt",
+    "model": "anthropic/claude-3.5-sonnet",
+    "image_path": "D:\\python\\vision-llms-are-blind\\src\\CountingRowsAndColumns\\images\\CountRC-prompt\\gpt-4o\\correct\\gpt_grid_4x4_500_20.png_blank.png",
+    "ground_truth": "4,4",
+    "raw_response": "rows={4} columns={4}",
+    "parsed_answer": "4,4",
+    "correct": true,
+    "error": null,
+    "input_tokens": 361,
+    "output_tokens": 11,
+    "tokens_used": 372,
+    "latency_s": 3.98,
+    "metadata": {
+      "rows": 4,
+      "cols": 4
+    }
+  },
+  {
+    "task": "CountingRowsAndColumns",
+    "prompt_key": "CountRC-prompt",
+    "model": "anthropic/claude-3.5-sonnet",
+    "image_path": "D:\\python\\vision-llms-are-blind\\src\\CountingRowsAndColumns\\images\\CountRC-prompt\\gpt-4o\\correct\\gpt_grid_4x5_2000_10.png_blank.png",
+    "ground_truth": "4,5",
+    "raw_response": "rows={4} columns={5}",
+    "parsed_answer": "4,5",
+    "correct": true,
+    "error": null,
+    "input_tokens": 1558,
+    "output_tokens": 11,
+    "tokens_used": 1569,
+    "latency_s": 2.11,
+    "metadata": {
+      "rows": 4,
+      "cols": 5
+    }
+  },
+  {
+    "task": "CountingRowsAndColumns",
+    "prompt_key": "CountRC-prompt",
+    "model": "anthropic/claude-3.5-sonnet",
+    "image_path": "D:\\python\\vision-llms-are-blind\\src\\CountingRowsAndColumns\\images\\CountRC-prompt\\gpt-4o\\correct\\gpt_grid_5x5_1250_10.png_blank.png",
+    "ground_truth": "5,5",
+    "raw_response": "rows={5} columns={5}",
+    "parsed_answer": "5,5",
+    "correct": true,
+    "error": null,
+    "input_tokens": 1558,
+    "output_tokens": 11,
+    "tokens_used": 1569,
+    "latency_s": 2.21,
+    "metadata": {
+      "rows": 5,
+      "cols": 5
+    }
+  },
+  {
+    "task": "CountingRowsAndColumns",
+    "prompt_key": "CountRC-prompt",
+    "model": "anthropic/claude-3.5-sonnet",
+    "image_path": "D:\\python\\vision-llms-are-blind\\src\\CountingRowsAndColumns\\images\\CountRC-prompt\\gpt-4o\\correct\\gpt_grid_5x5_1250_20.png_blank.png",
+    "ground_truth": "5,5",
+    "raw_response": "rows={5} columns={5}",
+    "parsed_answer": "5,5",
+    "correct": true,
+    "error": null,
+    "input_tokens": 1558,
+    "output_tokens": 11,
+    "tokens_used": 1569,
+    "latency_s": 1.73,
+    "metadata": {
+      "rows": 5,
+      "cols": 5
+    }
+  },
+  {
+    "task": "CountingRowsAndColumns",
+    "prompt_key": "CountRC-prompt",
+    "model": "anthropic/claude-3.5-sonnet",
+    "image_path": "D:\\python\\vision-llms-are-blind\\src\\CountingRowsAndColumns\\images\\CountRC-prompt\\gpt-4o\\correct\\gpt_grid_5x5_2000_10.png_blank.png",
+    "ground_truth": "5,5",
+    "raw_response": "rows={5} columns={5}",
+    "parsed_answer": "5,5",
+    "correct": true,
+    "error": null,
+    "input_tokens": 1558,
+    "output_tokens": 11,
+    "tokens_used": 1569,
+    "latency_s": 2.32,
+    "metadata": {
+      "rows": 5,
+      "cols": 5
+    }
+  },
+  {
+    "task": "CountingRowsAndColumns",
+    "prompt_key": "CountRC-prompt",
+    "model": "anthropic/claude-3.5-sonnet",
+    "image_path": "D:\\python\\vision-llms-are-blind\\src\\CountingRowsAndColumns\\images\\CountRC-prompt\\gpt-4o\\correct\\gpt_grid_5x5_2000_20.png_blank.png",
+    "ground_truth": "5,5",
+    "raw_response": "rows={5} columns={5}",
+    "parsed_answer": "5,5",
+    "correct": true,
+    "error": null,
+    "input_tokens": 1558,
+    "output_tokens": 11,
+    "tokens_used": 1569,
+    "latency_s": 3.06,
+    "metadata": {
+      "rows": 5,
+      "cols": 5
+    }
+  },
+  {
+    "task": "CountingRowsAndColumns",
+    "prompt_key": "CountRC-prompt",
+    "model": "anthropic/claude-3.5-sonnet",
+    "image_path": "D:\\python\\vision-llms-are-blind\\src\\CountingRowsAndColumns\\images\\CountRC-prompt\\gpt-4o\\correct\\gpt_grid_5x5_500_10.png_blank.png",
+    "ground_truth": "5,5",
+    "raw_response": "rows={5} columns={5}",
+    "parsed_answer": "5,5",
+    "correct": true,
+    "error": null,
+    "input_tokens": 361,
+    "output_tokens": 11,
+    "tokens_used": 372,
+    "latency_s": 1.53,
+    "metadata": {
+      "rows": 5,
+      "cols": 5
+    }
+  },
+  {
+    "task": "CountingRowsAndColumns",
+    "prompt_key": "CountRC-prompt",
+    "model": "anthropic/claude-3.5-sonnet",
+    "image_path": "D:\\python\\vision-llms-are-blind\\src\\CountingRowsAndColumns\\images\\CountRC-prompt\\gpt-4o\\correct\\gpt_grid_5x5_500_20.png_blank.png",
+    "ground_truth": "5,5",
+    "raw_response": "rows={5} columns={5}",
+    "parsed_answer": "5,5",
+    "correct": true,
+    "error": null,
+    "input_tokens": 361,
+    "output_tokens": 11,
+    "tokens_used": 372,
+    "latency_s": 1.86,
+    "metadata": {
+      "rows": 5,
+      "cols": 5
+    }
+  },
+  {
+    "task": "CountingRowsAndColumns",
+    "prompt_key": "CountRC-prompt",
+    "model": "anthropic/claude-3.5-sonnet",
+    "image_path": "D:\\python\\vision-llms-are-blind\\src\\CountingRowsAndColumns\\images\\CountRC-prompt\\gpt-4o\\correct\\gpt_grid_6x5_2000_10.png_blank.png",
+    "ground_truth": "6,5",
+    "raw_response": "rows={6} columns={5}",
+    "parsed_answer": "6,5",
+    "correct": true,
+    "error": null,
+    "input_tokens": 1558,
+    "output_tokens": 11,
+    "tokens_used": 1569,
+    "latency_s": 2.8,
+    "metadata": {
+      "rows": 6,
+      "cols": 5
+    }
+  },
+  {
+    "task": "CountingRowsAndColumns",
+    "prompt_key": "CountRC-prompt",
+    "model": "anthropic/claude-3.5-sonnet",
+    "image_path": "D:\\python\\vision-llms-are-blind\\src\\CountingRowsAndColumns\\images\\CountRC-prompt\\gpt-4o\\correct\\gpt_grid_6x6_1250_20.png_blank.png",
+    "ground_truth": "6,6",
+    "raw_response": "rows={6} columns={6}",
+    "parsed_answer": "6,6",
+    "correct": true,
+    "error": null,
+    "input_tokens": 1558,
+    "output_tokens": 11,
+    "tokens_used": 1569,
+    "latency_s": 2.25,
+    "metadata": {
+      "rows": 6,
+      "cols": 6
+    }
+  },
+  {
+    "task": "CountingRowsAndColumns",
+    "prompt_key": "CountRC-prompt",
+    "model": "anthropic/claude-3.5-sonnet",
+    "image_path": "D:\\python\\vision-llms-are-blind\\src\\CountingRowsAndColumns\\images\\CountRC-prompt\\gpt-4o\\correct\\gpt_grid_6x6_2000_10.png_blank.png",
+    "ground_truth": "6,6",
+    "raw_response": "rows={6} columns={6}",
+    "parsed_answer": "6,6",
+    "correct": true,
+    "error": null,
+    "input_tokens": 1558,
+    "output_tokens": 11,
+    "tokens_used": 1569,
+    "latency_s": 2.27,
+    "metadata": {
+      "rows": 6,
+      "cols": 6
+    }
+  },
+  {
+    "task": "CountingRowsAndColumns",
+    "prompt_key": "CountRC-prompt",
+    "model": "anthropic/claude-3.5-sonnet",
+    "image_path": "D:\\python\\vision-llms-are-blind\\src\\CountingRowsAndColumns\\images\\CountRC-prompt\\gpt-4o\\correct\\gpt_grid_6x6_2000_20.png_blank.png",
+    "ground_truth": "6,6",
+    "raw_response": "rows={6} columns={6}",
+    "parsed_answer": "6,6",
+    "correct": true,
+    "error": null,
+    "input_tokens": 1558,
+    "output_tokens": 11,
+    "tokens_used": 1569,
+    "latency_s": 2.33,
+    "metadata": {
+      "rows": 6,
+      "cols": 6
+    }
+  },
+  {
+    "task": "CountingRowsAndColumns",
+    "prompt_key": "CountRC-prompt",
+    "model": "anthropic/claude-3.5-sonnet",
+    "image_path": "D:\\python\\vision-llms-are-blind\\src\\CountingRowsAndColumns\\images\\CountRC-prompt\\gpt-4o\\correct\\gpt_grid_6x6_500_10.png_blank.png",
+    "ground_truth": "6,6",
+    "raw_response": "rows={7} columns={6}",
+    "parsed_answer": "7,6",
+    "correct": false,
+    "error": null,
+    "input_tokens": 361,
+    "output_tokens": 11,
+    "tokens_used": 372,
+    "latency_s": 2.09,
+    "metadata": {
+      "rows": 6,
+      "cols": 6
+    }
+  },
+  {
+    "task": "CountingRowsAndColumns",
+    "prompt_key": "CountRC-prompt",
+    "model": "anthropic/claude-3.5-sonnet",
+    "image_path": "D:\\python\\vision-llms-are-blind\\src\\CountingRowsAndColumns\\images\\CountRC-prompt\\gpt-4o\\correct\\gpt_grid_6x6_500_20.png_blank.png",
+    "ground_truth": "6,6",
+    "raw_response": "rows={6} columns={6}",
+    "parsed_answer": "6,6",
+    "correct": true,
+    "error": null,
+    "input_tokens": 361,
+    "output_tokens": 11,
+    "tokens_used": 372,
+    "latency_s": 4.38,
+    "metadata": {
+      "rows": 6,
+      "cols": 6
+    }
+  },
+  {
+    "task": "CountingRowsAndColumns",
+    "prompt_key": "CountRC-prompt",
+    "model": "anthropic/claude-3.5-sonnet",
+    "image_path": "D:\\python\\vision-llms-are-blind\\src\\CountingRowsAndColumns\\images\\CountRC-prompt\\gpt-4o\\correct\\gpt_grid_8x8_1250_10.png_blank.png",
+    "ground_truth": "8,8",
+    "raw_response": "rows={8} columns={8}",
+    "parsed_answer": "8,8",
+    "correct": true,
+    "error": null,
+    "input_tokens": 1558,
+    "output_tokens": 11,
+    "tokens_used": 1569,
+    "latency_s": 1.95,
+    "metadata": {
+      "rows": 8,
+      "cols": 8
+    }
+  },
+  {
+    "task": "CountingRowsAndColumns",
+    "prompt_key": "CountRC-prompt",
+    "model": "anthropic/claude-3.5-sonnet",
+    "image_path": "D:\\python\\vision-llms-are-blind\\src\\CountingRowsAndColumns\\images\\CountRC-prompt\\gpt-4o\\correct\\gpt_grid_8x8_1250_20.png_blank.png",
+    "ground_truth": "8,8",
+    "raw_response": "rows={8} columns={8}",
+    "parsed_answer": "8,8",
+    "correct": true,
+    "error": null,
+    "input_tokens": 1558,
+    "output_tokens": 11,
+    "tokens_used": 1569,
+    "latency_s": 2.27,
+    "metadata": {
+      "rows": 8,
+      "cols": 8
+    }
+  },
+  {
+    "task": "CountingRowsAndColumns",
+    "prompt_key": "CountRC-prompt",
+    "model": "anthropic/claude-3.5-sonnet",
+    "image_path": "D:\\python\\vision-llms-are-blind\\src\\CountingRowsAndColumns\\images\\CountRC-prompt\\gpt-4o\\correct\\gpt_text_grid_10x10_1250_10.png_text.png",
+    "ground_truth": "10,10",
+    "raw_response": "rows={10} columns={10}",
+    "parsed_answer": "10,10",
+    "correct": true,
+    "error": null,
+    "input_tokens": 1558,
+    "output_tokens": 11,
+    "tokens_used": 1569,
+    "latency_s": 2.41,
+    "metadata": {
+      "rows": 10,
+      "cols": 10
+    }
+  },
+  {
+    "task": "CountingRowsAndColumns",
+    "prompt_key": "CountRC-prompt",
+    "model": "anthropic/claude-3.5-sonnet",
+    "image_path": "D:\\python\\vision-llms-are-blind\\src\\CountingRowsAndColumns\\images\\CountRC-prompt\\gpt-4o\\correct\\gpt_text_grid_10x10_1250_20.png_text.png",
+    "ground_truth": "10,10",
+    "raw_response": "rows={10} columns={10}",
+    "parsed_answer": "10,10",
+    "correct": true,
+    "error": null,
+    "input_tokens": 1558,
+    "output_tokens": 11,
+    "tokens_used": 1569,
+    "latency_s": 2.64,
+    "metadata": {
+      "rows": 10,
+      "cols": 10
+    }
+  },
+  {
+    "task": "CountingRowsAndColumns",
+    "prompt_key": "CountRC-prompt",
+    "model": "anthropic/claude-3.5-sonnet",
+    "image_path": "D:\\python\\vision-llms-are-blind\\src\\CountingRowsAndColumns\\images\\CountRC-prompt\\gpt-4o\\correct\\gpt_text_grid_10x10_2000_10.png_text.png",
+    "ground_truth": "10,10",
+    "raw_response": "rows={10} columns={10}",
+    "parsed_answer": "10,10",
+    "correct": true,
+    "error": null,
+    "input_tokens": 1558,
+    "output_tokens": 11,
+    "tokens_used": 1569,
+    "latency_s": 2.67,
+    "metadata": {
+      "rows": 10,
+      "cols": 10
+    }
+  },
+  {
+    "task": "CountingRowsAndColumns",
+    "prompt_key": "CountRC-prompt",
+    "model": "anthropic/claude-3.5-sonnet",
+    "image_path": "D:\\python\\vision-llms-are-blind\\src\\CountingRowsAndColumns\\images\\CountRC-prompt\\gpt-4o\\correct\\gpt_text_grid_10x10_2000_20.png_text.png",
+    "ground_truth": "10,10",
+    "raw_response": "rows={10} columns={10}",
+    "parsed_answer": "10,10",
+    "correct": true,
+    "error": null,
+    "input_tokens": 1558,
+    "output_tokens": 11,
+    "tokens_used": 1569,
+    "latency_s": 2.1,
+    "metadata": {
+      "rows": 10,
+      "cols": 10
+    }
+  },
+  {
+    "task": "CountingRowsAndColumns",
+    "prompt_key": "CountRC-prompt",
+    "model": "anthropic/claude-3.5-sonnet",
+    "image_path": "D:\\python\\vision-llms-are-blind\\src\\CountingRowsAndColumns\\images\\CountRC-prompt\\gpt-4o\\correct\\gpt_text_grid_10x10_500_10.png_text.png",
+    "ground_truth": "10,10",
+    "raw_response": "rows={10} columns={10}",
+    "parsed_answer": "10,10",
+    "correct": true,
+    "error": null,
+    "input_tokens": 361,
+    "output_tokens": 11,
+    "tokens_used": 372,
+    "latency_s": 1.69,
+    "metadata": {
+      "rows": 10,
+      "cols": 10
+    }
+  },
+  {
+    "task": "CountingRowsAndColumns",
+    "prompt_key": "CountRC-prompt",
+    "model": "anthropic/claude-3.5-sonnet",
+    "image_path": "D:\\python\\vision-llms-are-blind\\src\\CountingRowsAndColumns\\images\\CountRC-prompt\\gpt-4o\\correct\\gpt_text_grid_10x10_500_20.png_text.png",
+    "ground_truth": "10,10",
+    "raw_response": "rows={9} columns={10}",
+    "parsed_answer": "9,10",
+    "correct": false,
+    "error": null,
+    "input_tokens": 361,
+    "output_tokens": 11,
+    "tokens_used": 372,
+    "latency_s": 1.95,
+    "metadata": {
+      "rows": 10,
+      "cols": 10
+    }
+  },
+  {
+    "task": "CountingRowsAndColumns",
+    "prompt_key": "CountRC-prompt",
+    "model": "anthropic/claude-3.5-sonnet",
+    "image_path": "D:\\python\\vision-llms-are-blind\\src\\CountingRowsAndColumns\\images\\CountRC-prompt\\gpt-4o\\correct\\gpt_text_grid_3x3_1250_10.png_text.png",
+    "ground_truth": "3,3",
+    "raw_response": "rows={3} columns={3}",
+    "parsed_answer": "3,3",
+    "correct": true,
+    "error": null,
+    "input_tokens": 1558,
+    "output_tokens": 11,
+    "tokens_used": 1569,
+    "latency_s": 2.21,
+    "metadata": {
+      "rows": 3,
+      "cols": 3
+    }
+  },
+  {
+    "task": "CountingRowsAndColumns",
+    "prompt_key": "CountRC-prompt",
+    "model": "anthropic/claude-3.5-sonnet",
+    "image_path": "D:\\python\\vision-llms-are-blind\\src\\CountingRowsAndColumns\\images\\CountRC-prompt\\gpt-4o\\correct\\gpt_text_grid_3x3_1250_20.png_text.png",
+    "ground_truth": "3,3",
+    "raw_response": "rows={3} columns={3}",
+    "parsed_answer": "3,3",
+    "correct": true,
+    "error": null,
+    "input_tokens": 1558,
+    "output_tokens": 11,
+    "tokens_used": 1569,
+    "latency_s": 5.52,
+    "metadata": {
+      "rows": 3,
+      "cols": 3
+    }
+  },
+  {
+    "task": "CountingRowsAndColumns",
+    "prompt_key": "CountRC-prompt",
+    "model": "anthropic/claude-3.5-sonnet",
+    "image_path": "D:\\python\\vision-llms-are-blind\\src\\CountingRowsAndColumns\\images\\CountRC-prompt\\gpt-4o\\correct\\gpt_text_grid_3x3_2000_10.png_text.png",
+    "ground_truth": "3,3",
+    "raw_response": "rows={3} columns={3}",
+    "parsed_answer": "3,3",
+    "correct": true,
+    "error": null,
+    "input_tokens": 1558,
+    "output_tokens": 11,
+    "tokens_used": 1569,
+    "latency_s": 5.69,
+    "metadata": {
+      "rows": 3,
+      "cols": 3
+    }
+  },
+  {
+    "task": "CountingRowsAndColumns",
+    "prompt_key": "CountRC-prompt",
+    "model": "anthropic/claude-3.5-sonnet",
+    "image_path": "D:\\python\\vision-llms-are-blind\\src\\CountingRowsAndColumns\\images\\CountRC-prompt\\gpt-4o\\correct\\gpt_text_grid_3x3_2000_20.png_text.png",
+    "ground_truth": "3,3",
+    "raw_response": "rows={3} columns={3}",
+    "parsed_answer": "3,3",
+    "correct": true,
+    "error": null,
+    "input_tokens": 1558,
+    "output_tokens": 11,
+    "tokens_used": 1569,
+    "latency_s": 5.85,
+    "metadata": {
+      "rows": 3,
+      "cols": 3
+    }
+  },
+  {
+    "task": "CountingRowsAndColumns",
+    "prompt_key": "CountRC-prompt",
+    "model": "anthropic/claude-3.5-sonnet",
+    "image_path": "D:\\python\\vision-llms-are-blind\\src\\CountingRowsAndColumns\\images\\CountRC-prompt\\gpt-4o\\correct\\gpt_text_grid_3x3_500_10.png_text.png",
+    "ground_truth": "3,3",
+    "raw_response": "rows={3} columns={3}",
+    "parsed_answer": "3,3",
+    "correct": true,
+    "error": null,
+    "input_tokens": 361,
+    "output_tokens": 11,
+    "tokens_used": 372,
+    "latency_s": 1.64,
+    "metadata": {
+      "rows": 3,
+      "cols": 3
+    }
+  },
+  {
+    "task": "CountingRowsAndColumns",
+    "prompt_key": "CountRC-prompt",
+    "model": "anthropic/claude-3.5-sonnet",
+    "image_path": "D:\\python\\vision-llms-are-blind\\src\\CountingRowsAndColumns\\images\\CountRC-prompt\\gpt-4o\\correct\\gpt_text_grid_3x3_500_20.png_text.png",
+    "ground_truth": "3,3",
+    "raw_response": "rows={3} columns={3}",
+    "parsed_answer": "3,3",
+    "correct": true,
+    "error": null,
+    "input_tokens": 361,
+    "output_tokens": 11,
+    "tokens_used": 372,
+    "latency_s": 1.55,
+    "metadata": {
+      "rows": 3,
+      "cols": 3
+    }
+  },
+  {
+    "task": "CountingRowsAndColumns",
+    "prompt_key": "CountRC-prompt",
+    "model": "anthropic/claude-3.5-sonnet",
+    "image_path": "D:\\python\\vision-llms-are-blind\\src\\CountingRowsAndColumns\\images\\CountRC-prompt\\gpt-4o\\correct\\gpt_text_grid_3x4_1250_10.png_text.png",
+    "ground_truth": "3,4",
+    "raw_response": "rows={3} columns={4}",
+    "parsed_answer": "3,4",
+    "correct": true,
+    "error": null,
+    "input_tokens": 1558,
+    "output_tokens": 11,
+    "tokens_used": 1569,
+    "latency_s": 4.2,
+    "metadata": {
+      "rows": 3,
+      "cols": 4
+    }
+  },
+  {
+    "task": "CountingRowsAndColumns",
+    "prompt_key": "CountRC-prompt",
+    "model": "anthropic/claude-3.5-sonnet",
+    "image_path": "D:\\python\\vision-llms-are-blind\\src\\CountingRowsAndColumns\\images\\CountRC-prompt\\gpt-4o\\correct\\gpt_text_grid_3x4_1250_20.png_text.png",
+    "ground_truth": "3,4",
+    "raw_response": "rows={3} columns={4}",
+    "parsed_answer": "3,4",
+    "correct": true,
+    "error": null,
+    "input_tokens": 1558,
+    "output_tokens": 11,
+    "tokens_used": 1569,
+    "latency_s": 2.09,
+    "metadata": {
+      "rows": 3,
+      "cols": 4
+    }
+  },
+  {
+    "task": "CountingRowsAndColumns",
+    "prompt_key": "CountRC-prompt",
+    "model": "anthropic/claude-3.5-sonnet",
+    "image_path": "D:\\python\\vision-llms-are-blind\\src\\CountingRowsAndColumns\\images\\CountRC-prompt\\gpt-4o\\correct\\gpt_text_grid_3x4_2000_10.png_text.png",
+    "ground_truth": "3,4",
+    "raw_response": "rows={3} columns={4}",
+    "parsed_answer": "3,4",
+    "correct": true,
+    "error": null,
+    "input_tokens": 1558,
+    "output_tokens": 11,
+    "tokens_used": 1569,
+    "latency_s": 1.96,
+    "metadata": {
+      "rows": 3,
+      "cols": 4
+    }
+  },
+  {
+    "task": "CountingRowsAndColumns",
+    "prompt_key": "CountRC-prompt",
+    "model": "anthropic/claude-3.5-sonnet",
+    "image_path": "D:\\python\\vision-llms-are-blind\\src\\CountingRowsAndColumns\\images\\CountRC-prompt\\gpt-4o\\correct\\gpt_text_grid_3x4_2000_20.png_text.png",
+    "ground_truth": "3,4",
+    "raw_response": "rows={3} columns={4}",
+    "parsed_answer": "3,4",
+    "correct": true,
+    "error": null,
+    "input_tokens": 1558,
+    "output_tokens": 11,
+    "tokens_used": 1569,
+    "latency_s": 2.35,
+    "metadata": {
+      "rows": 3,
+      "cols": 4
+    }
+  },
+  {
+    "task": "CountingRowsAndColumns",
+    "prompt_key": "CountRC-prompt",
+    "model": "anthropic/claude-3.5-sonnet",
+    "image_path": "D:\\python\\vision-llms-are-blind\\src\\CountingRowsAndColumns\\images\\CountRC-prompt\\gpt-4o\\correct\\gpt_text_grid_3x4_500_10.png_text.png",
+    "ground_truth": "3,4",
+    "raw_response": "rows={3} columns={4}",
+    "parsed_answer": "3,4",
+    "correct": true,
+    "error": null,
+    "input_tokens": 361,
+    "output_tokens": 11,
+    "tokens_used": 372,
+    "latency_s": 2.09,
+    "metadata": {
+      "rows": 3,
+      "cols": 4
+    }
+  },
+  {
+    "task": "CountingRowsAndColumns",
+    "prompt_key": "CountRC-prompt",
+    "model": "anthropic/claude-3.5-sonnet",
+    "image_path": "D:\\python\\vision-llms-are-blind\\src\\CountingRowsAndColumns\\images\\CountRC-prompt\\gpt-4o\\correct\\gpt_text_grid_3x4_500_20.png_text.png",
+    "ground_truth": "3,4",
+    "raw_response": "rows={3} columns={4}",
+    "parsed_answer": "3,4",
+    "correct": true,
+    "error": null,
+    "input_tokens": 361,
+    "output_tokens": 11,
+    "tokens_used": 372,
+    "latency_s": 1.8,
+    "metadata": {
+      "rows": 3,
+      "cols": 4
+    }
+  },
+  {
+    "task": "CountingRowsAndColumns",
+    "prompt_key": "CountRC-prompt",
+    "model": "anthropic/claude-3.5-sonnet",
+    "image_path": "D:\\python\\vision-llms-are-blind\\src\\CountingRowsAndColumns\\images\\CountRC-prompt\\gpt-4o\\correct\\gpt_text_grid_4x3_1250_10.png_text.png",
+    "ground_truth": "4,3",
+    "raw_response": "rows={4} columns={3}",
+    "parsed_answer": "4,3",
+    "correct": true,
+    "error": null,
+    "input_tokens": 1558,
+    "output_tokens": 11,
+    "tokens_used": 1569,
+    "latency_s": 2.09,
+    "metadata": {
+      "rows": 4,
+      "cols": 3
+    }
+  },
+  {
+    "task": "CountingRowsAndColumns",
+    "prompt_key": "CountRC-prompt",
+    "model": "anthropic/claude-3.5-sonnet",
+    "image_path": "D:\\python\\vision-llms-are-blind\\src\\CountingRowsAndColumns\\images\\CountRC-prompt\\gpt-4o\\correct\\gpt_text_grid_4x3_1250_20.png_text.png",
+    "ground_truth": "4,3",
+    "raw_response": "rows={4} columns={3}",
+    "parsed_answer": "4,3",
+    "correct": true,
+    "error": null,
+    "input_tokens": 1558,
+    "output_tokens": 11,
+    "tokens_used": 1569,
+    "latency_s": 2.21,
+    "metadata": {
+      "rows": 4,
+      "cols": 3
+    }
+  },
+  {
+    "task": "CountingRowsAndColumns",
+    "prompt_key": "CountRC-prompt",
+    "model": "anthropic/claude-3.5-sonnet",
+    "image_path": "D:\\python\\vision-llms-are-blind\\src\\CountingRowsAndColumns\\images\\CountRC-prompt\\gpt-4o\\correct\\gpt_text_grid_4x3_2000_10.png_text.png",
+    "ground_truth": "4,3",
+    "raw_response": "rows={4} columns={3}",
+    "parsed_answer": "4,3",
+    "correct": true,
+    "error": null,
+    "input_tokens": 1558,
+    "output_tokens": 11,
+    "tokens_used": 1569,
+    "latency_s": 5.91,
+    "metadata": {
+      "rows": 4,
+      "cols": 3
+    }
+  },
+  {
+    "task": "CountingRowsAndColumns",
+    "prompt_key": "CountRC-prompt",
+    "model": "anthropic/claude-3.5-sonnet",
+    "image_path": "D:\\python\\vision-llms-are-blind\\src\\CountingRowsAndColumns\\images\\CountRC-prompt\\gpt-4o\\correct\\gpt_text_grid_4x3_2000_20.png_text.png",
+    "ground_truth": "4,3",
+    "raw_response": "rows={4} columns={3}",
+    "parsed_answer": "4,3",
+    "correct": true,
+    "error": null,
+    "input_tokens": 1558,
+    "output_tokens": 11,
+    "tokens_used": 1569,
+    "latency_s": 2.24,
+    "metadata": {
+      "rows": 4,
+      "cols": 3
+    }
+  },
+  {
+    "task": "CountingRowsAndColumns",
+    "prompt_key": "CountRC-prompt",
+    "model": "anthropic/claude-3.5-sonnet",
+    "image_path": "D:\\python\\vision-llms-are-blind\\src\\CountingRowsAndColumns\\images\\CountRC-prompt\\gpt-4o\\correct\\gpt_text_grid_4x3_500_10.png_text.png",
+    "ground_truth": "4,3",
+    "raw_response": "rows={4} columns={3}",
+    "parsed_answer": "4,3",
+    "correct": true,
+    "error": null,
+    "input_tokens": 361,
+    "output_tokens": 11,
+    "tokens_used": 372,
+    "latency_s": 1.63,
+    "metadata": {
+      "rows": 4,
+      "cols": 3
+    }
+  },
+  {
+    "task": "CountingRowsAndColumns",
+    "prompt_key": "CountRC-prompt",
+    "model": "anthropic/claude-3.5-sonnet",
+    "image_path": "D:\\python\\vision-llms-are-blind\\src\\CountingRowsAndColumns\\images\\CountRC-prompt\\gpt-4o\\correct\\gpt_text_grid_4x3_500_20.png_text.png",
+    "ground_truth": "4,3",
+    "raw_response": "rows={4} columns={3}",
+    "parsed_answer": "4,3",
+    "correct": true,
+    "error": null,
+    "input_tokens": 361,
+    "output_tokens": 11,
+    "tokens_used": 372,
+    "latency_s": 4.96,
+    "metadata": {
+      "rows": 4,
+      "cols": 3
+    }
+  },
+  {
+    "task": "CountingRowsAndColumns",
+    "prompt_key": "CountRC-prompt",
+    "model": "anthropic/claude-3.5-sonnet",
+    "image_path": "D:\\python\\vision-llms-are-blind\\src\\CountingRowsAndColumns\\images\\CountRC-prompt\\gpt-4o\\correct\\gpt_text_grid_4x4_1250_10.png_text.png",
+    "ground_truth": "4,4",
+    "raw_response": "rows={4} columns={4}",
+    "parsed_answer": "4,4",
+    "correct": true,
+    "error": null,
+    "input_tokens": 1558,
+    "output_tokens": 11,
+    "tokens_used": 1569,
+    "latency_s": 2.59,
+    "metadata": {
+      "rows": 4,
+      "cols": 4
+    }
+  },
+  {
+    "task": "CountingRowsAndColumns",
+    "prompt_key": "CountRC-prompt",
+    "model": "anthropic/claude-3.5-sonnet",
+    "image_path": "D:\\python\\vision-llms-are-blind\\src\\CountingRowsAndColumns\\images\\CountRC-prompt\\gpt-4o\\correct\\gpt_text_grid_4x4_1250_20.png_text.png",
+    "ground_truth": "4,4",
+    "raw_response": "rows={4} columns={4}",
+    "parsed_answer": "4,4",
+    "correct": true,
+    "error": null,
+    "input_tokens": 1558,
+    "output_tokens": 11,
+    "tokens_used": 1569,
+    "latency_s": 2.53,
+    "metadata": {
+      "rows": 4,
+      "cols": 4
+    }
+  },
+  {
+    "task": "CountingRowsAndColumns",
+    "prompt_key": "CountRC-prompt",
+    "model": "anthropic/claude-3.5-sonnet",
+    "image_path": "D:\\python\\vision-llms-are-blind\\src\\CountingRowsAndColumns\\images\\CountRC-prompt\\gpt-4o\\correct\\gpt_text_grid_4x4_2000_10.png_text.png",
+    "ground_truth": "4,4",
+    "raw_response": "rows={4} columns={4}",
+    "parsed_answer": "4,4",
+    "correct": true,
+    "error": null,
+    "input_tokens": 1558,
+    "output_tokens": 11,
+    "tokens_used": 1569,
+    "latency_s": 2.8,
+    "metadata": {
+      "rows": 4,
+      "cols": 4
+    }
+  },
+  {
+    "task": "CountingRowsAndColumns",
+    "prompt_key": "CountRC-prompt",
+    "model": "anthropic/claude-3.5-sonnet",
+    "image_path": "D:\\python\\vision-llms-are-blind\\src\\CountingRowsAndColumns\\images\\CountRC-prompt\\gpt-4o\\correct\\gpt_text_grid_4x4_2000_20.png_text.png",
+    "ground_truth": "4,4",
+    "raw_response": "rows={4} columns={4}",
+    "parsed_answer": "4,4",
+    "correct": true,
+    "error": null,
+    "input_tokens": 1558,
+    "output_tokens": 11,
+    "tokens_used": 1569,
+    "latency_s": 2.12,
+    "metadata": {
+      "rows": 4,
+      "cols": 4
+    }
+  },
+  {
+    "task": "CountingRowsAndColumns",
+    "prompt_key": "CountRC-prompt",
+    "model": "anthropic/claude-3.5-sonnet",
+    "image_path": "D:\\python\\vision-llms-are-blind\\src\\CountingRowsAndColumns\\images\\CountRC-prompt\\gpt-4o\\correct\\gpt_text_grid_4x4_500_10.png_text.png",
+    "ground_truth": "4,4",
+    "raw_response": "rows={4} columns={4}",
+    "parsed_answer": "4,4",
+    "correct": true,
+    "error": null,
+    "input_tokens": 361,
+    "output_tokens": 11,
+    "tokens_used": 372,
+    "latency_s": 1.81,
+    "metadata": {
+      "rows": 4,
+      "cols": 4
+    }
+  },
+  {
+    "task": "CountingRowsAndColumns",
+    "prompt_key": "CountRC-prompt",
+    "model": "anthropic/claude-3.5-sonnet",
+    "image_path": "D:\\python\\vision-llms-are-blind\\src\\CountingRowsAndColumns\\images\\CountRC-prompt\\gpt-4o\\correct\\gpt_text_grid_4x4_500_20.png_text.png",
+    "ground_truth": "4,4",
+    "raw_response": "rows={4} columns={4}",
+    "parsed_answer": "4,4",
+    "correct": true,
+    "error": null,
+    "input_tokens": 361,
+    "output_tokens": 11,
+    "tokens_used": 372,
+    "latency_s": 4.72,
+    "metadata": {
+      "rows": 4,
+      "cols": 4
+    }
+  },
+  {
+    "task": "CountingRowsAndColumns",
+    "prompt_key": "CountRC-prompt",
+    "model": "anthropic/claude-3.5-sonnet",
+    "image_path": "D:\\python\\vision-llms-are-blind\\src\\CountingRowsAndColumns\\images\\CountRC-prompt\\gpt-4o\\correct\\gpt_text_grid_4x5_1250_10.png_text.png",
+    "ground_truth": "4,5",
+    "raw_response": "rows={4} columns={5}",
+    "parsed_answer": "4,5",
+    "correct": true,
+    "error": null,
+    "input_tokens": 1558,
+    "output_tokens": 11,
+    "tokens_used": 1569,
+    "latency_s": 5.84,
+    "metadata": {
+      "rows": 4,
+      "cols": 5
+    }
+  },
+  {
+    "task": "CountingRowsAndColumns",
+    "prompt_key": "CountRC-prompt",
+    "model": "anthropic/claude-3.5-sonnet",
+    "image_path": "D:\\python\\vision-llms-are-blind\\src\\CountingRowsAndColumns\\images\\CountRC-prompt\\gpt-4o\\correct\\gpt_text_grid_4x5_2000_10.png_text.png",
+    "ground_truth": "4,5",
+    "raw_response": "rows={4} columns={5}",
+    "parsed_answer": "4,5",
+    "correct": true,
+    "error": null,
+    "input_tokens": 1558,
+    "output_tokens": 11,
+    "tokens_used": 1569,
+    "latency_s": 2.58,
+    "metadata": {
+      "rows": 4,
+      "cols": 5
+    }
+  },
+  {
+    "task": "CountingRowsAndColumns",
+    "prompt_key": "CountRC-prompt",
+    "model": "anthropic/claude-3.5-sonnet",
+    "image_path": "D:\\python\\vision-llms-are-blind\\src\\CountingRowsAndColumns\\images\\CountRC-prompt\\gpt-4o\\correct\\gpt_text_grid_4x5_500_10.png_text.png",
+    "ground_truth": "4,5",
+    "raw_response": "rows={4} columns={5}",
+    "parsed_answer": "4,5",
+    "correct": true,
+    "error": null,
+    "input_tokens": 361,
+    "output_tokens": 11,
+    "tokens_used": 372,
+    "latency_s": 1.55,
+    "metadata": {
+      "rows": 4,
+      "cols": 5
+    }
+  },
+  {
+    "task": "CountingRowsAndColumns",
+    "prompt_key": "CountRC-prompt",
+    "model": "anthropic/claude-3.5-sonnet",
+    "image_path": "D:\\python\\vision-llms-are-blind\\src\\CountingRowsAndColumns\\images\\CountRC-prompt\\gpt-4o\\correct\\gpt_text_grid_4x5_500_20.png_text.png",
+    "ground_truth": "4,5",
+    "raw_response": "rows={4} columns={5}\n\nThis appears to be a grid containing simple English words, arranged in 4 rows and 5 columns, with words like \"apple\", \"book\", \"car\" and others organized alphabetically.",
+    "parsed_answer": "4,5",
+    "correct": true,
+    "error": null,
+    "input_tokens": 361,
+    "output_tokens": 53,
+    "tokens_used": 414,
+    "latency_s": 2.9,
+    "metadata": {
+      "rows": 4,
+      "cols": 5
+    }
+  },
+  {
+    "task": "CountingRowsAndColumns",
+    "prompt_key": "CountRC-prompt",
+    "model": "anthropic/claude-3.5-sonnet",
+    "image_path": "D:\\python\\vision-llms-are-blind\\src\\CountingRowsAndColumns\\images\\CountRC-prompt\\gpt-4o\\correct\\gpt_text_grid_5x4_1250_10.png_text.png",
+    "ground_truth": "5,4",
+    "raw_response": "rows={5} columns={4}",
+    "parsed_answer": "5,4",
+    "correct": true,
+    "error": null,
+    "input_tokens": 1558,
+    "output_tokens": 11,
+    "tokens_used": 1569,
+    "latency_s": 2.43,
+    "metadata": {
+      "rows": 5,
+      "cols": 4
+    }
+  },
+  {
+    "task": "CountingRowsAndColumns",
+    "prompt_key": "CountRC-prompt",
+    "model": "anthropic/claude-3.5-sonnet",
+    "image_path": "D:\\python\\vision-llms-are-blind\\src\\CountingRowsAndColumns\\images\\CountRC-prompt\\gpt-4o\\correct\\gpt_text_grid_5x4_1250_20.png_text.png",
+    "ground_truth": "5,4",
+    "raw_response": "rows={5} columns={4}",
+    "parsed_answer": "5,4",
+    "correct": true,
+    "error": null,
+    "input_tokens": 1558,
+    "output_tokens": 11,
+    "tokens_used": 1569,
+    "latency_s": 5.45,
+    "metadata": {
+      "rows": 5,
+      "cols": 4
+    }
+  },
+  {
+    "task": "CountingRowsAndColumns",
+    "prompt_key": "CountRC-prompt",
+    "model": "anthropic/claude-3.5-sonnet",
+    "image_path": "D:\\python\\vision-llms-are-blind\\src\\CountingRowsAndColumns\\images\\CountRC-prompt\\gpt-4o\\correct\\gpt_text_grid_5x4_2000_10.png_text.png",
+    "ground_truth": "5,4",
+    "raw_response": "rows={5} columns={4}",
+    "parsed_answer": "5,4",
+    "correct": true,
+    "error": null,
+    "input_tokens": 1558,
+    "output_tokens": 11,
+    "tokens_used": 1569,
+    "latency_s": 2.83,
+    "metadata": {
+      "rows": 5,
+      "cols": 4
+    }
+  },
+  {
+    "task": "CountingRowsAndColumns",
+    "prompt_key": "CountRC-prompt",
+    "model": "anthropic/claude-3.5-sonnet",
+    "image_path": "D:\\python\\vision-llms-are-blind\\src\\CountingRowsAndColumns\\images\\CountRC-prompt\\gpt-4o\\correct\\gpt_text_grid_5x4_2000_20.png_text.png",
+    "ground_truth": "5,4",
+    "raw_response": "rows={5} columns={4}",
+    "parsed_answer": "5,4",
+    "correct": true,
+    "error": null,
+    "input_tokens": 1558,
+    "output_tokens": 11,
+    "tokens_used": 1569,
+    "latency_s": 2.61,
+    "metadata": {
+      "rows": 5,
+      "cols": 4
+    }
+  },
+  {
+    "task": "CountingRowsAndColumns",
+    "prompt_key": "CountRC-prompt",
+    "model": "anthropic/claude-3.5-sonnet",
+    "image_path": "D:\\python\\vision-llms-are-blind\\src\\CountingRowsAndColumns\\images\\CountRC-prompt\\gpt-4o\\correct\\gpt_text_grid_5x4_500_10.png_text.png",
+    "ground_truth": "5,4",
+    "raw_response": "rows={5} columns={4}",
+    "parsed_answer": "5,4",
+    "correct": true,
+    "error": null,
+    "input_tokens": 361,
+    "output_tokens": 11,
+    "tokens_used": 372,
+    "latency_s": 1.93,
+    "metadata": {
+      "rows": 5,
+      "cols": 4
+    }
+  },
+  {
+    "task": "CountingRowsAndColumns",
+    "prompt_key": "CountRC-prompt",
+    "model": "anthropic/claude-3.5-sonnet",
+    "image_path": "D:\\python\\vision-llms-are-blind\\src\\CountingRowsAndColumns\\images\\CountRC-prompt\\gpt-4o\\correct\\gpt_text_grid_5x4_500_20.png_text.png",
+    "ground_truth": "5,4",
+    "raw_response": "rows={5} columns={4}",
+    "parsed_answer": "5,4",
+    "correct": true,
+    "error": null,
+    "input_tokens": 361,
+    "output_tokens": 11,
+    "tokens_used": 372,
+    "latency_s": 1.64,
+    "metadata": {
+      "rows": 5,
+      "cols": 4
+    }
+  },
+  {
+    "task": "CountingRowsAndColumns",
+    "prompt_key": "CountRC-prompt",
+    "model": "anthropic/claude-3.5-sonnet",
+    "image_path": "D:\\python\\vision-llms-are-blind\\src\\CountingRowsAndColumns\\images\\CountRC-prompt\\gpt-4o\\correct\\gpt_text_grid_5x5_1250_20.png_text.png",
+    "ground_truth": "5,5",
+    "raw_response": "rows={5} columns={5}",
+    "parsed_answer": "5,5",
+    "correct": true,
+    "error": null,
+    "input_tokens": 1558,
+    "output_tokens": 11,
+    "tokens_used": 1569,
+    "latency_s": 2.72,
+    "metadata": {
+      "rows": 5,
+      "cols": 5
+    }
+  },
+  {
+    "task": "CountingRowsAndColumns",
+    "prompt_key": "CountRC-prompt",
+    "model": "anthropic/claude-3.5-sonnet",
+    "image_path": "D:\\python\\vision-llms-are-blind\\src\\CountingRowsAndColumns\\images\\CountRC-prompt\\gpt-4o\\correct\\gpt_text_grid_5x5_2000_10.png_text.png",
+    "ground_truth": "5,5",
+    "raw_response": "rows={5} columns={5}",
+    "parsed_answer": "5,5",
+    "correct": true,
+    "error": null,
+    "input_tokens": 1558,
+    "output_tokens": 11,
+    "tokens_used": 1569,
+    "latency_s": 2.1,
+    "metadata": {
+      "rows": 5,
+      "cols": 5
+    }
+  },
+  {
+    "task": "CountingRowsAndColumns",
+    "prompt_key": "CountRC-prompt",
+    "model": "anthropic/claude-3.5-sonnet",
+    "image_path": "D:\\python\\vision-llms-are-blind\\src\\CountingRowsAndColumns\\images\\CountRC-prompt\\gpt-4o\\correct\\gpt_text_grid_5x5_2000_20.png_text.png",
+    "ground_truth": "5,5",
+    "raw_response": "rows={5} columns={5}",
+    "parsed_answer": "5,5",
+    "correct": true,
+    "error": null,
+    "input_tokens": 1558,
+    "output_tokens": 11,
+    "tokens_used": 1569,
+    "latency_s": 2.15,
+    "metadata": {
+      "rows": 5,
+      "cols": 5
+    }
+  },
+  {
+    "task": "CountingRowsAndColumns",
+    "prompt_key": "CountRC-prompt",
+    "model": "anthropic/claude-3.5-sonnet",
+    "image_path": "D:\\python\\vision-llms-are-blind\\src\\CountingRowsAndColumns\\images\\CountRC-prompt\\gpt-4o\\correct\\gpt_text_grid_5x5_500_10.png_text.png",
+    "ground_truth": "5,5",
+    "raw_response": "rows={5} columns={5}",
+    "parsed_answer": "5,5",
+    "correct": true,
+    "error": null,
+    "input_tokens": 361,
+    "output_tokens": 11,
+    "tokens_used": 372,
+    "latency_s": 3.82,
+    "metadata": {
+      "rows": 5,
+      "cols": 5
+    }
+  },
+  {
+    "task": "CountingRowsAndColumns",
+    "prompt_key": "CountRC-prompt",
+    "model": "anthropic/claude-3.5-sonnet",
+    "image_path": "D:\\python\\vision-llms-are-blind\\src\\CountingRowsAndColumns\\images\\CountRC-prompt\\gpt-4o\\correct\\gpt_text_grid_5x5_500_20.png_text.png",
+    "ground_truth": "5,5",
+    "raw_response": "rows={5} columns={5}",
+    "parsed_answer": "5,5",
+    "correct": true,
+    "error": null,
+    "input_tokens": 361,
+    "output_tokens": 11,
+    "tokens_used": 372,
+    "latency_s": 1.74,
+    "metadata": {
+      "rows": 5,
+      "cols": 5
+    }
+  },
+  {
+    "task": "CountingRowsAndColumns",
+    "prompt_key": "CountRC-prompt",
+    "model": "anthropic/claude-3.5-sonnet",
+    "image_path": "D:\\python\\vision-llms-are-blind\\src\\CountingRowsAndColumns\\images\\CountRC-prompt\\gpt-4o\\correct\\gpt_text_grid_5x6_1250_10.png_text.png",
+    "ground_truth": "5,6",
+    "raw_response": "rows={5} columns={6}",
+    "parsed_answer": "5,6",
+    "correct": true,
+    "error": null,
+    "input_tokens": 1558,
+    "output_tokens": 11,
+    "tokens_used": 1569,
+    "latency_s": 3.04,
+    "metadata": {
+      "rows": 5,
+      "cols": 6
+    }
+  },
+  {
+    "task": "CountingRowsAndColumns",
+    "prompt_key": "CountRC-prompt",
+    "model": "anthropic/claude-3.5-sonnet",
+    "image_path": "D:\\python\\vision-llms-are-blind\\src\\CountingRowsAndColumns\\images\\CountRC-prompt\\gpt-4o\\correct\\gpt_text_grid_5x6_1250_20.png_text.png",
+    "ground_truth": "5,6",
+    "raw_response": "rows={5} columns={6}",
+    "parsed_answer": "5,6",
+    "correct": true,
+    "error": null,
+    "input_tokens": 1558,
+    "output_tokens": 11,
+    "tokens_used": 1569,
+    "latency_s": 2.24,
+    "metadata": {
+      "rows": 5,
+      "cols": 6
+    }
+  },
+  {
+    "task": "CountingRowsAndColumns",
+    "prompt_key": "CountRC-prompt",
+    "model": "anthropic/claude-3.5-sonnet",
+    "image_path": "D:\\python\\vision-llms-are-blind\\src\\CountingRowsAndColumns\\images\\CountRC-prompt\\gpt-4o\\correct\\gpt_text_grid_5x6_2000_10.png_text.png",
+    "ground_truth": "5,6",
+    "raw_response": "rows={5} columns={6}",
+    "parsed_answer": "5,6",
+    "correct": true,
+    "error": null,
+    "input_tokens": 1558,
+    "output_tokens": 11,
+    "tokens_used": 1569,
+    "latency_s": 3.2,
+    "metadata": {
+      "rows": 5,
+      "cols": 6
+    }
+  },
+  {
+    "task": "CountingRowsAndColumns",
+    "prompt_key": "CountRC-prompt",
+    "model": "anthropic/claude-3.5-sonnet",
+    "image_path": "D:\\python\\vision-llms-are-blind\\src\\CountingRowsAndColumns\\images\\CountRC-prompt\\gpt-4o\\correct\\gpt_text_grid_5x6_2000_20.png_text.png",
+    "ground_truth": "5,6",
+    "raw_response": "rows={5} columns={6}",
+    "parsed_answer": "5,6",
+    "correct": true,
+    "error": null,
+    "input_tokens": 1558,
+    "output_tokens": 11,
+    "tokens_used": 1569,
+    "latency_s": 3.18,
+    "metadata": {
+      "rows": 5,
+      "cols": 6
+    }
+  },
+  {
+    "task": "CountingRowsAndColumns",
+    "prompt_key": "CountRC-prompt",
+    "model": "anthropic/claude-3.5-sonnet",
+    "image_path": "D:\\python\\vision-llms-are-blind\\src\\CountingRowsAndColumns\\images\\CountRC-prompt\\gpt-4o\\correct\\gpt_text_grid_5x6_500_10.png_text.png",
+    "ground_truth": "5,6",
+    "raw_response": "rows={5} columns={6}",
+    "parsed_answer": "5,6",
+    "correct": true,
+    "error": null,
+    "input_tokens": 361,
+    "output_tokens": 11,
+    "tokens_used": 372,
+    "latency_s": 2.99,
+    "metadata": {
+      "rows": 5,
+      "cols": 6
+    }
+  },
+  {
+    "task": "CountingRowsAndColumns",
+    "prompt_key": "CountRC-prompt",
+    "model": "anthropic/claude-3.5-sonnet",
+    "image_path": "D:\\python\\vision-llms-are-blind\\src\\CountingRowsAndColumns\\images\\CountRC-prompt\\gpt-4o\\correct\\gpt_text_grid_5x6_500_20.png_text.png",
+    "ground_truth": "5,6",
+    "raw_response": "rows={5} columns={6}",
+    "parsed_answer": "5,6",
+    "correct": true,
+    "error": null,
+    "input_tokens": 361,
+    "output_tokens": 11,
+    "tokens_used": 372,
+    "latency_s": 1.95,
+    "metadata": {
+      "rows": 5,
+      "cols": 6
+    }
+  },
+  {
+    "task": "CountingRowsAndColumns",
+    "prompt_key": "CountRC-prompt",
+    "model": "anthropic/claude-3.5-sonnet",
+    "image_path": "D:\\python\\vision-llms-are-blind\\src\\CountingRowsAndColumns\\images\\CountRC-prompt\\gpt-4o\\correct\\gpt_text_grid_6x5_1250_10.png_text.png",
+    "ground_truth": "6,5",
+    "raw_response": "rows={6} columns={5}",
+    "parsed_answer": "6,5",
+    "correct": true,
+    "error": null,
+    "input_tokens": 1558,
+    "output_tokens": 11,
+    "tokens_used": 1569,
+    "latency_s": 2.71,
+    "metadata": {
+      "rows": 6,
+      "cols": 5
+    }
+  },
+  {
+    "task": "CountingRowsAndColumns",
+    "prompt_key": "CountRC-prompt",
+    "model": "anthropic/claude-3.5-sonnet",
+    "image_path": "D:\\python\\vision-llms-are-blind\\src\\CountingRowsAndColumns\\images\\CountRC-prompt\\gpt-4o\\correct\\gpt_text_grid_6x5_1250_20.png_text.png",
+    "ground_truth": "6,5",
+    "raw_response": "rows={6} columns={5}",
+    "parsed_answer": "6,5",
+    "correct": true,
+    "error": null,
+    "input_tokens": 1558,
+    "output_tokens": 11,
+    "tokens_used": 1569,
+    "latency_s": 1.87,
+    "metadata": {
+      "rows": 6,
+      "cols": 5
+    }
+  },
+  {
+    "task": "CountingRowsAndColumns",
+    "prompt_key": "CountRC-prompt",
+    "model": "anthropic/claude-3.5-sonnet",
+    "image_path": "D:\\python\\vision-llms-are-blind\\src\\CountingRowsAndColumns\\images\\CountRC-prompt\\gpt-4o\\correct\\gpt_text_grid_6x5_2000_20.png_text.png",
+    "ground_truth": "6,5",
+    "raw_response": "rows={6} columns={5}",
+    "parsed_answer": "6,5",
+    "correct": true,
+    "error": null,
+    "input_tokens": 1558,
+    "output_tokens": 11,
+    "tokens_used": 1569,
+    "latency_s": 2.47,
+    "metadata": {
+      "rows": 6,
+      "cols": 5
+    }
+  },
+  {
+    "task": "CountingRowsAndColumns",
+    "prompt_key": "CountRC-prompt",
+    "model": "anthropic/claude-3.5-sonnet",
+    "image_path": "D:\\python\\vision-llms-are-blind\\src\\CountingRowsAndColumns\\images\\CountRC-prompt\\gpt-4o\\correct\\gpt_text_grid_6x5_500_10.png_text.png",
+    "ground_truth": "6,5",
+    "raw_response": "rows={6} columns={10}",
+    "parsed_answer": "6,10",
+    "correct": false,
+    "error": null,
+    "input_tokens": 361,
+    "output_tokens": 11,
+    "tokens_used": 372,
+    "latency_s": 2.13,
+    "metadata": {
+      "rows": 6,
+      "cols": 5
+    }
+  },
+  {
+    "task": "CountingRowsAndColumns",
+    "prompt_key": "CountRC-prompt",
+    "model": "anthropic/claude-3.5-sonnet",
+    "image_path": "D:\\python\\vision-llms-are-blind\\src\\CountingRowsAndColumns\\images\\CountRC-prompt\\gpt-4o\\correct\\gpt_text_grid_6x5_500_20.png_text.png",
+    "ground_truth": "6,5",
+    "raw_response": "rows={6} columns={10}",
+    "parsed_answer": "6,10",
+    "correct": false,
+    "error": null,
+    "input_tokens": 361,
+    "output_tokens": 11,
+    "tokens_used": 372,
+    "latency_s": 1.69,
+    "metadata": {
+      "rows": 6,
+      "cols": 5
+    }
+  },
+  {
+    "task": "CountingRowsAndColumns",
+    "prompt_key": "CountRC-prompt",
+    "model": "anthropic/claude-3.5-sonnet",
+    "image_path": "D:\\python\\vision-llms-are-blind\\src\\CountingRowsAndColumns\\images\\CountRC-prompt\\gpt-4o\\correct\\gpt_text_grid_6x6_1250_10.png_text.png",
+    "ground_truth": "6,6",
+    "raw_response": "rows={6} columns={6}",
+    "parsed_answer": "6,6",
+    "correct": true,
+    "error": null,
+    "input_tokens": 1558,
+    "output_tokens": 11,
+    "tokens_used": 1569,
+    "latency_s": 2.8,
+    "metadata": {
+      "rows": 6,
+      "cols": 6
+    }
+  },
+  {
+    "task": "CountingRowsAndColumns",
+    "prompt_key": "CountRC-prompt",
+    "model": "anthropic/claude-3.5-sonnet",
+    "image_path": "D:\\python\\vision-llms-are-blind\\src\\CountingRowsAndColumns\\images\\CountRC-prompt\\gpt-4o\\correct\\gpt_text_grid_6x6_1250_20.png_text.png",
+    "ground_truth": "6,6",
+    "raw_response": "rows={6} columns={6}",
+    "parsed_answer": "6,6",
+    "correct": true,
+    "error": null,
+    "input_tokens": 1558,
+    "output_tokens": 11,
+    "tokens_used": 1569,
+    "latency_s": 2.53,
+    "metadata": {
+      "rows": 6,
+      "cols": 6
+    }
+  },
+  {
+    "task": "CountingRowsAndColumns",
+    "prompt_key": "CountRC-prompt",
+    "model": "anthropic/claude-3.5-sonnet",
+    "image_path": "D:\\python\\vision-llms-are-blind\\src\\CountingRowsAndColumns\\images\\CountRC-prompt\\gpt-4o\\correct\\gpt_text_grid_6x6_2000_10.png_text.png",
+    "ground_truth": "6,6",
+    "raw_response": "rows={6} columns={6}",
+    "parsed_answer": "6,6",
+    "correct": true,
+    "error": null,
+    "input_tokens": 1558,
+    "output_tokens": 11,
+    "tokens_used": 1569,
+    "latency_s": 3.08,
+    "metadata": {
+      "rows": 6,
+      "cols": 6
+    }
+  },
+  {
+    "task": "CountingRowsAndColumns",
+    "prompt_key": "CountRC-prompt",
+    "model": "anthropic/claude-3.5-sonnet",
+    "image_path": "D:\\python\\vision-llms-are-blind\\src\\CountingRowsAndColumns\\images\\CountRC-prompt\\gpt-4o\\correct\\gpt_text_grid_6x6_2000_20.png_text.png",
+    "ground_truth": "6,6",
+    "raw_response": "rows={6} columns={6}",
+    "parsed_answer": "6,6",
+    "correct": true,
+    "error": null,
+    "input_tokens": 1558,
+    "output_tokens": 11,
+    "tokens_used": 1569,
+    "latency_s": 3.91,
+    "metadata": {
+      "rows": 6,
+      "cols": 6
+    }
+  },
+  {
+    "task": "CountingRowsAndColumns",
+    "prompt_key": "CountRC-prompt",
+    "model": "anthropic/claude-3.5-sonnet",
+    "image_path": "D:\\python\\vision-llms-are-blind\\src\\CountingRowsAndColumns\\images\\CountRC-prompt\\gpt-4o\\correct\\gpt_text_grid_6x6_500_10.png_text.png",
+    "ground_truth": "6,6",
+    "raw_response": "rows={6} columns={6}",
+    "parsed_answer": "6,6",
+    "correct": true,
+    "error": null,
+    "input_tokens": 361,
+    "output_tokens": 11,
+    "tokens_used": 372,
+    "latency_s": 1.64,
+    "metadata": {
+      "rows": 6,
+      "cols": 6
+    }
+  },
+  {
+    "task": "CountingRowsAndColumns",
+    "prompt_key": "CountRC-prompt",
+    "model": "anthropic/claude-3.5-sonnet",
+    "image_path": "D:\\python\\vision-llms-are-blind\\src\\CountingRowsAndColumns\\images\\CountRC-prompt\\gpt-4o\\correct\\gpt_text_grid_6x6_500_20.png_text.png",
+    "ground_truth": "6,6",
+    "raw_response": "rows={6} columns={6}",
+    "parsed_answer": "6,6",
+    "correct": true,
+    "error": null,
+    "input_tokens": 361,
+    "output_tokens": 11,
+    "tokens_used": 372,
+    "latency_s": 5.02,
+    "metadata": {
+      "rows": 6,
+      "cols": 6
+    }
+  },
+  {
+    "task": "CountingRowsAndColumns",
+    "prompt_key": "CountRC-prompt",
+    "model": "anthropic/claude-3.5-sonnet",
+    "image_path": "D:\\python\\vision-llms-are-blind\\src\\CountingRowsAndColumns\\images\\CountRC-prompt\\gpt-4o\\correct\\gpt_text_grid_7x6_1250_10.png_text.png",
+    "ground_truth": "7,6",
+    "raw_response": "rows={7} columns={6}",
+    "parsed_answer": "7,6",
+    "correct": true,
+    "error": null,
+    "input_tokens": 1558,
+    "output_tokens": 11,
+    "tokens_used": 1569,
+    "latency_s": 2.21,
+    "metadata": {
+      "rows": 7,
+      "cols": 6
+    }
+  },
+  {
+    "task": "CountingRowsAndColumns",
+    "prompt_key": "CountRC-prompt",
+    "model": "anthropic/claude-3.5-sonnet",
+    "image_path": "D:\\python\\vision-llms-are-blind\\src\\CountingRowsAndColumns\\images\\CountRC-prompt\\gpt-4o\\correct\\gpt_text_grid_7x6_1250_20.png_text.png",
+    "ground_truth": "7,6",
+    "raw_response": "rows={7} columns={6}",
+    "parsed_answer": "7,6",
+    "correct": true,
+    "error": null,
+    "input_tokens": 1558,
+    "output_tokens": 11,
+    "tokens_used": 1569,
+    "latency_s": 2.23,
+    "metadata": {
+      "rows": 7,
+      "cols": 6
+    }
+  }
+]

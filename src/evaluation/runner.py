@@ -3,6 +3,7 @@
 import json
 import os
 import time
+from datetime import datetime, timezone
 
 from .config import TASKS, RESULTS_DIR
 from .ground_truth import TestImage, build_index
@@ -57,7 +58,9 @@ def run_task(
           f"({len(images)} total, {len(done_paths)} done)")
 
     for i, img in enumerate(remaining):
+        t0 = time.monotonic()
         response = client.query(model, prompt_text, img.image_path)
+        elapsed = time.monotonic() - t0
 
         if response["error"]:
             print(f"    [{i+1}/{len(remaining)}] ERROR: {response['error']}")
@@ -77,7 +80,10 @@ def run_task(
             "parsed_answer": parsed,
             "correct": is_correct,
             "error": response["error"],
+            "input_tokens": response["input_tokens"],
+            "output_tokens": response["output_tokens"],
             "tokens_used": response["tokens_used"],
+            "latency_s": round(elapsed, 2),
             "metadata": img.metadata,
         }
         results.append(result)
@@ -120,6 +126,9 @@ def run_benchmark(
 
     os.makedirs(RESULTS_DIR, exist_ok=True)
 
+    run_start = time.monotonic()
+    run_timestamp = datetime.now(timezone.utc).strftime("%Y%m%d_%H%M%S")
+
     print(f"Running benchmark: model={model}, tasks={task_list}, limit={limit}")
     print(f"Results directory: {RESULTS_DIR}\n")
 
@@ -145,7 +154,24 @@ def run_benchmark(
 
             all_results.extend(results)
 
-    print(f"\nDone. Total requests: {client.total_requests}, "
-          f"Total tokens: {client.total_tokens}")
+    wall_clock_s = time.monotonic() - run_start
 
-    return all_results
+    run_meta = {
+        "timestamp": run_timestamp,
+        "model": model,
+        "tasks": task_list,
+        "limit": limit,
+        "total_requests": client.total_requests,
+        "total_input_tokens": client.total_input_tokens,
+        "total_output_tokens": client.total_output_tokens,
+        "total_tokens": client.total_input_tokens + client.total_output_tokens,
+        "wall_clock_s": round(wall_clock_s, 1),
+        "errors": sum(1 for r in all_results if r["error"]),
+    }
+
+    print(f"\nDone. Requests: {run_meta['total_requests']}, "
+          f"Tokens: {run_meta['total_input_tokens']} in / "
+          f"{run_meta['total_output_tokens']} out, "
+          f"Wall clock: {run_meta['wall_clock_s']:.0f}s")
+
+    return all_results, run_meta

@@ -1,0 +1,38 @@
+========================================================================
+Model: anthropic/claude-3.5-sonnet
+========================================================================
+
+Task                         Prompt                   Ours    Paper
+---------------------------- -------------------- -------- --------
+CountingRowsAndColumns       CountRC-prompt          93.0%         
+CountingRowsAndColumns       HowManyRC-prompt        91.0%         
+                             average                 92.0%    74.3%
+
+LineIntersection             Count-prompt            50.0%         
+LineIntersection             HowMany-prompt          74.0%         
+                             average                 62.0%    77.3%
+
+NestedSquares                count-prompt            85.0%         
+NestedSquares                how-many-prompt         80.0%         
+                             average                 82.5%    87.5%
+
+TouchingCircle               overlapping-prompt      85.0%         
+TouchingCircle               touching-prompt         84.0%         
+                             average                 84.5%    91.7%
+
+OVERALL                                              80.2%    74.9%
+
+========================================================================
+Run Statistics
+========================================================================
+  Timestamp:      20260227_112609
+  Model:          anthropic/claude-3.5-sonnet
+  Tasks:          LineIntersection, TouchingCircle, NestedSquares, CountingRowsAndColumns
+  Limit/task:     100
+  Total requests: 800
+  Input tokens:   985,638
+  Output tokens:  12,960
+  Total tokens:   998,598
+  Wall clock:     49m 17s
+  Avg latency:    3.7s/request
+  Est. cost:      $3.15 ($2.96 input + $0.19 output)

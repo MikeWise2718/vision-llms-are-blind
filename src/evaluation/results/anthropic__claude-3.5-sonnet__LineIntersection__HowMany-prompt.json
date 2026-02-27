@@ -1,0 +1,2002 @@
+[
+  {
+    "task": "LineIntersection",
+    "prompt_key": "HowMany-prompt",
+    "model": "anthropic/claude-3.5-sonnet",
+    "image_path": "D:\\python\\vision-llms-are-blind\\src\\LineIntersection\\images\\HowMany-prompt\\gpt-4o\\correct\\gpt-how_gt_0_image_100_thickness_2_resolution_1152.png",
+    "ground_truth": "0",
+    "raw_response": "{0} - The red and blue lines in the image do not intersect or touch each other at any point. The lines appear to be running parallel or at angles to each other but never make contact.",
+    "parsed_answer": "0",
+    "correct": true,
+    "error": null,
+    "input_tokens": 1561,
+    "output_tokens": 45,
+    "tokens_used": 1606,
+    "latency_s": 3.75,
+    "metadata": {
+      "gt": 0,
+      "thickness": 2,
+      "resolution": 1152
+    }
+  },
+  {
+    "task": "LineIntersection",
+    "prompt_key": "HowMany-prompt",
+    "model": "anthropic/claude-3.5-sonnet",
+    "image_path": "D:\\python\\vision-llms-are-blind\\src\\LineIntersection\\images\\HowMany-prompt\\gpt-4o\\correct\\gpt-how_gt_0_image_100_thickness_2_resolution_384.png",
+    "ground_truth": "0",
+    "raw_response": "In this image, the blue and red lines intersect or touch {7} times.",
+    "parsed_answer": "7",
+    "correct": false,
+    "error": null,
+    "input_tokens": 236,
+    "output_tokens": 21,
+    "tokens_used": 257,
+    "latency_s": 4.39,
+    "metadata": {
+      "gt": 0,
+      "thickness": 2,
+      "resolution": 384
+    }
+  },
+  {
+    "task": "LineIntersection",
+    "prompt_key": "HowMany-prompt",
+    "model": "anthropic/claude-3.5-sonnet",
+    "image_path": "D:\\python\\vision-llms-are-blind\\src\\LineIntersection\\images\\HowMany-prompt\\gpt-4o\\correct\\gpt-how_gt_0_image_100_thickness_4_resolution_1152.png",
+    "ground_truth": "0",
+    "raw_response": "{0} - The blue and red lines in the image do not touch or intersect at any point.",
+    "parsed_answer": "0",
+    "correct": true,
+    "error": null,
+    "input_tokens": 1561,
+    "output_tokens": 25,
+    "tokens_used": 1586,
+    "latency_s": 2.95,
+    "metadata": {
+      "gt": 0,
+      "thickness": 4,
+      "resolution": 1152
+    }
+  },
+  {
+    "task": "LineIntersection",
+    "prompt_key": "HowMany-prompt",
+    "model": "anthropic/claude-3.5-sonnet",
+    "image_path": "D:\\python\\vision-llms-are-blind\\src\\LineIntersection\\images\\HowMany-prompt\\gpt-4o\\correct\\gpt-how_gt_0_image_103_thickness_2_resolution_1152.png",
+    "ground_truth": "0",
+    "raw_response": "The blue and red lines intersect {1} time.",
+    "parsed_answer": "1",
+    "correct": false,
+    "error": null,
+    "input_tokens": 1561,
+    "output_tokens": 15,
+    "tokens_used": 1576,
+    "latency_s": 2.67,
+    "metadata": {
+      "gt": 0,
+      "thickness": 2,
+      "resolution": 1152
+    }
+  },
+  {
+    "task": "LineIntersection",
+    "prompt_key": "HowMany-prompt",
+    "model": "anthropic/claude-3.5-sonnet",
+    "image_path": "D:\\python\\vision-llms-are-blind\\src\\LineIntersection\\images\\HowMany-prompt\\gpt-4o\\correct\\gpt-how_gt_0_image_103_thickness_2_resolution_384.png",
+    "ground_truth": "0",
+    "raw_response": "{3}",
+    "parsed_answer": "3",
+    "correct": false,
+    "error": null,
+    "input_tokens": 236,
+    "output_tokens": 6,
+    "tokens_used": 242,
+    "latency_s": 1.62,
+    "metadata": {
+      "gt": 0,
+      "thickness": 2,
+      "resolution": 384
+    }
+  },
+  {
+    "task": "LineIntersection",
+    "prompt_key": "HowMany-prompt",
+    "model": "anthropic/claude-3.5-sonnet",
+    "image_path": "D:\\python\\vision-llms-are-blind\\src\\LineIntersection\\images\\HowMany-prompt\\gpt-4o\\correct\\gpt-how_gt_0_image_103_thickness_2_resolution_768.png",
+    "ground_truth": "0",
+    "raw_response": "{1} - The blue and red lines intersect only once in this image.",
+    "parsed_answer": "1",
+    "correct": false,
+    "error": null,
+    "input_tokens": 824,
+    "output_tokens": 20,
+    "tokens_used": 844,
+    "latency_s": 2.13,
+    "metadata": {
+      "gt": 0,
+      "thickness": 2,
+      "resolution": 768
+    }
+  },
+  {
+    "task": "LineIntersection",
+    "prompt_key": "HowMany-prompt",
+    "model": "anthropic/claude-3.5-sonnet",
+    "image_path": "D:\\python\\vision-llms-are-blind\\src\\LineIntersection\\images\\HowMany-prompt\\gpt-4o\\correct\\gpt-how_gt_0_image_103_thickness_4_resolution_384.png",
+    "ground_truth": "0",
+    "raw_response": "Let me count the intersections of the blue and red lines in the image. The lines cross each other {4} times.",
+    "parsed_answer": "4",
+    "correct": false,
+    "error": null,
+    "input_tokens": 236,
+    "output_tokens": 29,
+    "tokens_used": 265,
+    "latency_s": 4.59,
+    "metadata": {
+      "gt": 0,
+      "thickness": 4,
+      "resolution": 384
+    }
+  },
+  {
+    "task": "LineIntersection",
+    "prompt_key": "HowMany-prompt",
+    "model": "anthropic/claude-3.5-sonnet",
+    "image_path": "D:\\python\\vision-llms-are-blind\\src\\LineIntersection\\images\\HowMany-prompt\\gpt-4o\\correct\\gpt-how_gt_0_image_103_thickness_4_resolution_768.png",
+    "ground_truth": "0",
+    "raw_response": "In this image, the blue and red lines intersect {1} time.",
+    "parsed_answer": "1",
+    "correct": false,
+    "error": null,
+    "input_tokens": 824,
+    "output_tokens": 19,
+    "tokens_used": 843,
+    "latency_s": 1.71,
+    "metadata": {
+      "gt": 0,
+      "thickness": 4,
+      "resolution": 768
+    }
+  },
+  {
+    "task": "LineIntersection",
+    "prompt_key": "HowMany-prompt",
+    "model": "anthropic/claude-3.5-sonnet",
+    "image_path": "D:\\python\\vision-llms-are-blind\\src\\LineIntersection\\images\\HowMany-prompt\\gpt-4o\\correct\\gpt-how_gt_0_image_110_thickness_2_resolution_1152.png",
+    "ground_truth": "0",
+    "raw_response": "{0} - The red and blue lines in this image never intersect or touch each other. The red line forms a \"V\" shape going upward while the blue line curves downward, but they remain separate throughout the image.",
+    "parsed_answer": "0",
+    "correct": true,
+    "error": null,
+    "input_tokens": 1561,
+    "output_tokens": 51,
+    "tokens_used": 1612,
+    "latency_s": 3.48,
+    "metadata": {
+      "gt": 0,
+      "thickness": 2,
+      "resolution": 1152
+    }
+  },
+  {
+    "task": "LineIntersection",
+    "prompt_key": "HowMany-prompt",
+    "model": "anthropic/claude-3.5-sonnet",
+    "image_path": "D:\\python\\vision-llms-are-blind\\src\\LineIntersection\\images\\HowMany-prompt\\gpt-4o\\correct\\gpt-how_gt_0_image_110_thickness_2_resolution_384.png",
+    "ground_truth": "0",
+    "raw_response": "{0}",
+    "parsed_answer": "0",
+    "correct": true,
+    "error": null,
+    "input_tokens": 236,
+    "output_tokens": 6,
+    "tokens_used": 242,
+    "latency_s": 2.43,
+    "metadata": {
+      "gt": 0,
+      "thickness": 2,
+      "resolution": 384
+    }
+  },
+  {
+    "task": "LineIntersection",
+    "prompt_key": "HowMany-prompt",
+    "model": "anthropic/claude-3.5-sonnet",
+    "image_path": "D:\\python\\vision-llms-are-blind\\src\\LineIntersection\\images\\HowMany-prompt\\gpt-4o\\correct\\gpt-how_gt_0_image_110_thickness_4_resolution_1152.png",
+    "ground_truth": "0",
+    "raw_response": "Looking at the image, the red and blue lines do not intersect or touch each other at any point. Therefore, the answer is {0}.",
+    "parsed_answer": "0",
+    "correct": true,
+    "error": null,
+    "input_tokens": 1561,
+    "output_tokens": 33,
+    "tokens_used": 1594,
+    "latency_s": 2.78,
+    "metadata": {
+      "gt": 0,
+      "thickness": 4,
+      "resolution": 1152
+    }
+  },
+  {
+    "task": "LineIntersection",
+    "prompt_key": "HowMany-prompt",
+    "model": "anthropic/claude-3.5-sonnet",
+    "image_path": "D:\\python\\vision-llms-are-blind\\src\\LineIntersection\\images\\HowMany-prompt\\gpt-4o\\correct\\gpt-how_gt_0_image_110_thickness_4_resolution_768.png",
+    "ground_truth": "0",
+    "raw_response": "{1} - The blue and red lines intersect once in the image.",
+    "parsed_answer": "1",
+    "correct": false,
+    "error": null,
+    "input_tokens": 824,
+    "output_tokens": 19,
+    "tokens_used": 843,
+    "latency_s": 5.32,
+    "metadata": {
+      "gt": 0,
+      "thickness": 4,
+      "resolution": 768
+    }
+  },
+  {
+    "task": "LineIntersection",
+    "prompt_key": "HowMany-prompt",
+    "model": "anthropic/claude-3.5-sonnet",
+    "image_path": "D:\\python\\vision-llms-are-blind\\src\\LineIntersection\\images\\HowMany-prompt\\gpt-4o\\correct\\gpt-how_gt_0_image_112_thickness_2_resolution_1152.png",
+    "ground_truth": "0",
+    "raw_response": "In this image, the blue and red lines intersect {8} times.",
+    "parsed_answer": "8",
+    "correct": false,
+    "error": null,
+    "input_tokens": 1561,
+    "output_tokens": 19,
+    "tokens_used": 1580,
+    "latency_s": 2.55,
+    "metadata": {
+      "gt": 0,
+      "thickness": 2,
+      "resolution": 1152
+    }
+  },
+  {
+    "task": "LineIntersection",
+    "prompt_key": "HowMany-prompt",
+    "model": "anthropic/claude-3.5-sonnet",
+    "image_path": "D:\\python\\vision-llms-are-blind\\src\\LineIntersection\\images\\HowMany-prompt\\gpt-4o\\correct\\gpt-how_gt_0_image_112_thickness_2_resolution_384.png",
+    "ground_truth": "0",
+    "raw_response": "In this image, the blue and red lines intersect (touch each other) {11} times.",
+    "parsed_answer": "11",
+    "correct": false,
+    "error": null,
+    "input_tokens": 236,
+    "output_tokens": 24,
+    "tokens_used": 260,
+    "latency_s": 5.82,
+    "metadata": {
+      "gt": 0,
+      "thickness": 2,
+      "resolution": 384
+    }
+  },
+  {
+    "task": "LineIntersection",
+    "prompt_key": "HowMany-prompt",
+    "model": "anthropic/claude-3.5-sonnet",
+    "image_path": "D:\\python\\vision-llms-are-blind\\src\\LineIntersection\\images\\HowMany-prompt\\gpt-4o\\correct\\gpt-how_gt_0_image_112_thickness_2_resolution_768.png",
+    "ground_truth": "0",
+    "raw_response": "{0} - The red and blue lines never intersect or touch each other in this image. They form similar zigzag patterns but at different vertical positions with the red line above the blue line.",
+    "parsed_answer": "0",
+    "correct": true,
+    "error": null,
+    "input_tokens": 824,
+    "output_tokens": 44,
+    "tokens_used": 868,
+    "latency_s": 3.67,
+    "metadata": {
+      "gt": 0,
+      "thickness": 2,
+      "resolution": 768
+    }
+  },
+  {
+    "task": "LineIntersection",
+    "prompt_key": "HowMany-prompt",
+    "model": "anthropic/claude-3.5-sonnet",
+    "image_path": "D:\\python\\vision-llms-are-blind\\src\\LineIntersection\\images\\HowMany-prompt\\gpt-4o\\correct\\gpt-how_gt_0_image_112_thickness_4_resolution_1152.png",
+    "ground_truth": "0",
+    "raw_response": "In this image, the blue and red lines intersect at {2} points.",
+    "parsed_answer": "2",
+    "correct": false,
+    "error": null,
+    "input_tokens": 1561,
+    "output_tokens": 20,
+    "tokens_used": 1581,
+    "latency_s": 4.57,
+    "metadata": {
+      "gt": 0,
+      "thickness": 4,
+      "resolution": 1152
+    }
+  },
+  {
+    "task": "LineIntersection",
+    "prompt_key": "HowMany-prompt",
+    "model": "anthropic/claude-3.5-sonnet",
+    "image_path": "D:\\python\\vision-llms-are-blind\\src\\LineIntersection\\images\\HowMany-prompt\\gpt-4o\\correct\\gpt-how_gt_0_image_112_thickness_4_resolution_768.png",
+    "ground_truth": "0",
+    "raw_response": "{1} - The blue and red lines intersect once in the image.",
+    "parsed_answer": "1",
+    "correct": false,
+    "error": null,
+    "input_tokens": 824,
+    "output_tokens": 19,
+    "tokens_used": 843,
+    "latency_s": 2.28,
+    "metadata": {
+      "gt": 0,
+      "thickness": 4,
+      "resolution": 768
+    }
+  },
+  {
+    "task": "LineIntersection",
+    "prompt_key": "HowMany-prompt",
+    "model": "anthropic/claude-3.5-sonnet",
+    "image_path": "D:\\python\\vision-llms-are-blind\\src\\LineIntersection\\images\\HowMany-prompt\\gpt-4o\\correct\\gpt-how_gt_0_image_117_thickness_2_resolution_1152.png",
+    "ground_truth": "0",
+    "raw_response": "{0}",
+    "parsed_answer": "0",
+    "correct": true,
+    "error": null,
+    "input_tokens": 1561,
+    "output_tokens": 6,
+    "tokens_used": 1567,
+    "latency_s": 1.84,
+    "metadata": {
+      "gt": 0,
+      "thickness": 2,
+      "resolution": 1152
+    }
+  },
+  {
+    "task": "LineIntersection",
+    "prompt_key": "HowMany-prompt",
+    "model": "anthropic/claude-3.5-sonnet",
+    "image_path": "D:\\python\\vision-llms-are-blind\\src\\LineIntersection\\images\\HowMany-prompt\\gpt-4o\\correct\\gpt-how_gt_0_image_117_thickness_2_resolution_384.png",
+    "ground_truth": "0",
+    "raw_response": "{0} The blue line and red line do not intersect or touch at any point in the image.",
+    "parsed_answer": "0",
+    "correct": true,
+    "error": null,
+    "input_tokens": 236,
+    "output_tokens": 25,
+    "tokens_used": 261,
+    "latency_s": 2.4,
+    "metadata": {
+      "gt": 0,
+      "thickness": 2,
+      "resolution": 384
+    }
+  },
+  {
+    "task": "LineIntersection",
+    "prompt_key": "HowMany-prompt",
+    "model": "anthropic/claude-3.5-sonnet",
+    "image_path": "D:\\python\\vision-llms-are-blind\\src\\LineIntersection\\images\\HowMany-prompt\\gpt-4o\\correct\\gpt-how_gt_0_image_117_thickness_2_resolution_768.png",
+    "ground_truth": "0",
+    "raw_response": "{0} - The blue and red lines in this image do not intersect or touch each other at any point.",
+    "parsed_answer": "0",
+    "correct": true,
+    "error": null,
+    "input_tokens": 824,
+    "output_tokens": 27,
+    "tokens_used": 851,
+    "latency_s": 1.97,
+    "metadata": {
+      "gt": 0,
+      "thickness": 2,
+      "resolution": 768
+    }
+  },
+  {
+    "task": "LineIntersection",
+    "prompt_key": "HowMany-prompt",
+    "model": "anthropic/claude-3.5-sonnet",
+    "image_path": "D:\\python\\vision-llms-are-blind\\src\\LineIntersection\\images\\HowMany-prompt\\gpt-4o\\correct\\gpt-how_gt_0_image_117_thickness_4_resolution_1152.png",
+    "ground_truth": "0",
+    "raw_response": "{0} - The blue and red lines in the image do not intersect or touch each other at any point. They appear to be completely separate, with the blue line pattern positioned above the red line pattern.",
+    "parsed_answer": "0",
+    "correct": true,
+    "error": null,
+    "input_tokens": 1561,
+    "output_tokens": 46,
+    "tokens_used": 1607,
+    "latency_s": 2.85,
+    "metadata": {
+      "gt": 0,
+      "thickness": 4,
+      "resolution": 1152
+    }
+  },
+  {
+    "task": "LineIntersection",
+    "prompt_key": "HowMany-prompt",
+    "model": "anthropic/claude-3.5-sonnet",
+    "image_path": "D:\\python\\vision-llms-are-blind\\src\\LineIntersection\\images\\HowMany-prompt\\gpt-4o\\correct\\gpt-how_gt_0_image_117_thickness_4_resolution_384.png",
+    "ground_truth": "0",
+    "raw_response": "{3}",
+    "parsed_answer": "3",
+    "correct": false,
+    "error": null,
+    "input_tokens": 236,
+    "output_tokens": 6,
+    "tokens_used": 242,
+    "latency_s": 1.86,
+    "metadata": {
+      "gt": 0,
+      "thickness": 4,
+      "resolution": 384
+    }
+  },
+  {
+    "task": "LineIntersection",
+    "prompt_key": "HowMany-prompt",
+    "model": "anthropic/claude-3.5-sonnet",
+    "image_path": "D:\\python\\vision-llms-are-blind\\src\\LineIntersection\\images\\HowMany-prompt\\gpt-4o\\correct\\gpt-how_gt_0_image_117_thickness_4_resolution_768.png",
+    "ground_truth": "0",
+    "raw_response": "{0} - The blue and red lines in this image do not intersect or touch at any point. The blue line appears in the upper portion of the image with several angular segments, while the red line forms a V-shape in the lower portion of the image, and there are no points where they meet.",
+    "parsed_answer": "0",
+    "correct": true,
+    "error": null,
+    "input_tokens": 824,
+    "output_tokens": 67,
+    "tokens_used": 891,
+    "latency_s": 5.13,
+    "metadata": {
+      "gt": 0,
+      "thickness": 4,
+      "resolution": 768
+    }
+  },
+  {
+    "task": "LineIntersection",
+    "prompt_key": "HowMany-prompt",
+    "model": "anthropic/claude-3.5-sonnet",
+    "image_path": "D:\\python\\vision-llms-are-blind\\src\\LineIntersection\\images\\HowMany-prompt\\gpt-4o\\correct\\gpt-how_gt_0_image_122_thickness_2_resolution_384.png",
+    "ground_truth": "0",
+    "raw_response": "{0} - The blue and red lines in this image do not intersect or touch at any point.",
+    "parsed_answer": "0",
+    "correct": true,
+    "error": null,
+    "input_tokens": 236,
+    "output_tokens": 25,
+    "tokens_used": 261,
+    "latency_s": 2.44,
+    "metadata": {
+      "gt": 0,
+      "thickness": 2,
+      "resolution": 384
+    }
+  },
+  {
+    "task": "LineIntersection",
+    "prompt_key": "HowMany-prompt",
+    "model": "anthropic/claude-3.5-sonnet",
+    "image_path": "D:\\python\\vision-llms-are-blind\\src\\LineIntersection\\images\\HowMany-prompt\\gpt-4o\\correct\\gpt-how_gt_0_image_122_thickness_2_resolution_768.png",
+    "ground_truth": "0",
+    "raw_response": "{0} - The red and blue lines in the image never intersect or touch each other. They remain separate throughout their paths, with the red line consistently staying above the blue line.",
+    "parsed_answer": "0",
+    "correct": true,
+    "error": null,
+    "input_tokens": 824,
+    "output_tokens": 41,
+    "tokens_used": 865,
+    "latency_s": 4.56,
+    "metadata": {
+      "gt": 0,
+      "thickness": 2,
+      "resolution": 768
+    }
+  },
+  {
+    "task": "LineIntersection",
+    "prompt_key": "HowMany-prompt",
+    "model": "anthropic/claude-3.5-sonnet",
+    "image_path": "D:\\python\\vision-llms-are-blind\\src\\LineIntersection\\images\\HowMany-prompt\\gpt-4o\\correct\\gpt-how_gt_0_image_122_thickness_4_resolution_1152.png",
+    "ground_truth": "0",
+    "raw_response": "{0} - The blue and red lines in the image do not intersect or touch each other at any point. They remain separate throughout their paths, with the red line consistently staying above the blue line.",
+    "parsed_answer": "0",
+    "correct": true,
+    "error": null,
+    "input_tokens": 1561,
+    "output_tokens": 45,
+    "tokens_used": 1606,
+    "latency_s": 4.22,
+    "metadata": {
+      "gt": 0,
+      "thickness": 4,
+      "resolution": 1152
+    }
+  },
+  {
+    "task": "LineIntersection",
+    "prompt_key": "HowMany-prompt",
+    "model": "anthropic/claude-3.5-sonnet",
+    "image_path": "D:\\python\\vision-llms-are-blind\\src\\LineIntersection\\images\\HowMany-prompt\\gpt-4o\\correct\\gpt-how_gt_0_image_122_thickness_4_resolution_768.png",
+    "ground_truth": "0",
+    "raw_response": "{0} - The blue and red lines in this image never intersect or touch each other. The red line remains above the blue line throughout their paths, both following downward slopes but at different angles.",
+    "parsed_answer": "0",
+    "correct": true,
+    "error": null,
+    "input_tokens": 824,
+    "output_tokens": 45,
+    "tokens_used": 869,
+    "latency_s": 3.71,
+    "metadata": {
+      "gt": 0,
+      "thickness": 4,
+      "resolution": 768
+    }
+  },
+  {
+    "task": "LineIntersection",
+    "prompt_key": "HowMany-prompt",
+    "model": "anthropic/claude-3.5-sonnet",
+    "image_path": "D:\\python\\vision-llms-are-blind\\src\\LineIntersection\\images\\HowMany-prompt\\gpt-4o\\correct\\gpt-how_gt_0_image_12_thickness_2_resolution_1152.png",
+    "ground_truth": "0",
+    "raw_response": "{1} - The red and blue lines intersect once in the image.",
+    "parsed_answer": "1",
+    "correct": false,
+    "error": null,
+    "input_tokens": 1561,
+    "output_tokens": 19,
+    "tokens_used": 1580,
+    "latency_s": 2.6,
+    "metadata": {
+      "gt": 0,
+      "thickness": 2,
+      "resolution": 1152
+    }
+  },
+  {
+    "task": "LineIntersection",
+    "prompt_key": "HowMany-prompt",
+    "model": "anthropic/claude-3.5-sonnet",
+    "image_path": "D:\\python\\vision-llms-are-blind\\src\\LineIntersection\\images\\HowMany-prompt\\gpt-4o\\correct\\gpt-how_gt_0_image_12_thickness_2_resolution_384.png",
+    "ground_truth": "0",
+    "raw_response": "{0} - The red and blue lines in the image never intersect. The red line is straight and ascending, while the blue line has two segments that form a peak, but they never touch each other.",
+    "parsed_answer": "0",
+    "correct": true,
+    "error": null,
+    "input_tokens": 236,
+    "output_tokens": 46,
+    "tokens_used": 282,
+    "latency_s": 6.57,
+    "metadata": {
+      "gt": 0,
+      "thickness": 2,
+      "resolution": 384
+    }
+  },
+  {
+    "task": "LineIntersection",
+    "prompt_key": "HowMany-prompt",
+    "model": "anthropic/claude-3.5-sonnet",
+    "image_path": "D:\\python\\vision-llms-are-blind\\src\\LineIntersection\\images\\HowMany-prompt\\gpt-4o\\correct\\gpt-how_gt_0_image_12_thickness_2_resolution_768.png",
+    "ground_truth": "0",
+    "raw_response": "{0} - The blue and red lines never intersect or touch each other in this image. The red lines appear to be parallel to each other in the upper portion, while the blue line follows a different path below them.",
+    "parsed_answer": "0",
+    "correct": true,
+    "error": null,
+    "input_tokens": 824,
+    "output_tokens": 49,
+    "tokens_used": 873,
+    "latency_s": 3.81,
+    "metadata": {
+      "gt": 0,
+      "thickness": 2,
+      "resolution": 768
+    }
+  },
+  {
+    "task": "LineIntersection",
+    "prompt_key": "HowMany-prompt",
+    "model": "anthropic/claude-3.5-sonnet",
+    "image_path": "D:\\python\\vision-llms-are-blind\\src\\LineIntersection\\images\\HowMany-prompt\\gpt-4o\\correct\\gpt-how_gt_0_image_12_thickness_4_resolution_1152.png",
+    "ground_truth": "0",
+    "raw_response": "{1}",
+    "parsed_answer": "1",
+    "correct": false,
+    "error": null,
+    "input_tokens": 1561,
+    "output_tokens": 6,
+    "tokens_used": 1567,
+    "latency_s": 2.71,
+    "metadata": {
+      "gt": 0,
+      "thickness": 4,
+      "resolution": 1152
+    }
+  },
+  {
+    "task": "LineIntersection",
+    "prompt_key": "HowMany-prompt",
+    "model": "anthropic/claude-3.5-sonnet",
+    "image_path": "D:\\python\\vision-llms-are-blind\\src\\LineIntersection\\images\\HowMany-prompt\\gpt-4o\\correct\\gpt-how_gt_0_image_12_thickness_4_resolution_384.png",
+    "ground_truth": "0",
+    "raw_response": "{1} - The blue and red lines intersect once in the image.",
+    "parsed_answer": "1",
+    "correct": false,
+    "error": null,
+    "input_tokens": 236,
+    "output_tokens": 19,
+    "tokens_used": 255,
+    "latency_s": 2.15,
+    "metadata": {
+      "gt": 0,
+      "thickness": 4,
+      "resolution": 384
+    }
+  },
+  {
+    "task": "LineIntersection",
+    "prompt_key": "HowMany-prompt",
+    "model": "anthropic/claude-3.5-sonnet",
+    "image_path": "D:\\python\\vision-llms-are-blind\\src\\LineIntersection\\images\\HowMany-prompt\\gpt-4o\\correct\\gpt-how_gt_0_image_12_thickness_4_resolution_768.png",
+    "ground_truth": "0",
+    "raw_response": "The blue and red lines in this image do not intersect or touch each other at any point. {0}",
+    "parsed_answer": "0",
+    "correct": true,
+    "error": null,
+    "input_tokens": 824,
+    "output_tokens": 26,
+    "tokens_used": 850,
+    "latency_s": 1.87,
+    "metadata": {
+      "gt": 0,
+      "thickness": 4,
+      "resolution": 768
+    }
+  },
+  {
+    "task": "LineIntersection",
+    "prompt_key": "HowMany-prompt",
+    "model": "anthropic/claude-3.5-sonnet",
+    "image_path": "D:\\python\\vision-llms-are-blind\\src\\LineIntersection\\images\\HowMany-prompt\\gpt-4o\\correct\\gpt-how_gt_0_image_132_thickness_2_resolution_1152.png",
+    "ground_truth": "0",
+    "raw_response": "In this image, the blue and red lines do not intersect or touch at any point. Therefore, the answer is {0}.",
+    "parsed_answer": "0",
+    "correct": true,
+    "error": null,
+    "input_tokens": 1561,
+    "output_tokens": 30,
+    "tokens_used": 1591,
+    "latency_s": 3.16,
+    "metadata": {
+      "gt": 0,
+      "thickness": 2,
+      "resolution": 1152
+    }
+  },
+  {
+    "task": "LineIntersection",
+    "prompt_key": "HowMany-prompt",
+    "model": "anthropic/claude-3.5-sonnet",
+    "image_path": "D:\\python\\vision-llms-are-blind\\src\\LineIntersection\\images\\HowMany-prompt\\gpt-4o\\correct\\gpt-how_gt_0_image_132_thickness_2_resolution_384.png",
+    "ground_truth": "0",
+    "raw_response": "Looking at the image, the blue and red lines intersect or touch {2} times.",
+    "parsed_answer": "2",
+    "correct": false,
+    "error": null,
+    "input_tokens": 236,
+    "output_tokens": 22,
+    "tokens_used": 258,
+    "latency_s": 8.81,
+    "metadata": {
+      "gt": 0,
+      "thickness": 2,
+      "resolution": 384
+    }
+  },
+  {
+    "task": "LineIntersection",
+    "prompt_key": "HowMany-prompt",
+    "model": "anthropic/claude-3.5-sonnet",
+    "image_path": "D:\\python\\vision-llms-are-blind\\src\\LineIntersection\\images\\HowMany-prompt\\gpt-4o\\correct\\gpt-how_gt_0_image_132_thickness_4_resolution_384.png",
+    "ground_truth": "0",
+    "raw_response": "{0} - The blue and red lines never intersect or touch each other in the image.",
+    "parsed_answer": "0",
+    "correct": true,
+    "error": null,
+    "input_tokens": 236,
+    "output_tokens": 23,
+    "tokens_used": 259,
+    "latency_s": 9.33,
+    "metadata": {
+      "gt": 0,
+      "thickness": 4,
+      "resolution": 384
+    }
+  },
+  {
+    "task": "LineIntersection",
+    "prompt_key": "HowMany-prompt",
+    "model": "anthropic/claude-3.5-sonnet",
+    "image_path": "D:\\python\\vision-llms-are-blind\\src\\LineIntersection\\images\\HowMany-prompt\\gpt-4o\\correct\\gpt-how_gt_0_image_148_thickness_2_resolution_1152.png",
+    "ground_truth": "0",
+    "raw_response": "Looking at the image, the blue and red lines do not intersect or touch at any point. They form similar shapes but are separated from each other. Therefore, the answer is {0}.",
+    "parsed_answer": "0",
+    "correct": true,
+    "error": null,
+    "input_tokens": 1561,
+    "output_tokens": 42,
+    "tokens_used": 1603,
+    "latency_s": 5.16,
+    "metadata": {
+      "gt": 0,
+      "thickness": 2,
+      "resolution": 1152
+    }
+  },
+  {
+    "task": "LineIntersection",
+    "prompt_key": "HowMany-prompt",
+    "model": "anthropic/claude-3.5-sonnet",
+    "image_path": "D:\\python\\vision-llms-are-blind\\src\\LineIntersection\\images\\HowMany-prompt\\gpt-4o\\correct\\gpt-how_gt_0_image_148_thickness_2_resolution_384.png",
+    "ground_truth": "0",
+    "raw_response": "{0} - The red and blue lines in this image never intersect or touch each other.",
+    "parsed_answer": "0",
+    "correct": true,
+    "error": null,
+    "input_tokens": 236,
+    "output_tokens": 23,
+    "tokens_used": 259,
+    "latency_s": 3.28,
+    "metadata": {
+      "gt": 0,
+      "thickness": 2,
+      "resolution": 384
+    }
+  },
+  {
+    "task": "LineIntersection",
+    "prompt_key": "HowMany-prompt",
+    "model": "anthropic/claude-3.5-sonnet",
+    "image_path": "D:\\python\\vision-llms-are-blind\\src\\LineIntersection\\images\\HowMany-prompt\\gpt-4o\\correct\\gpt-how_gt_0_image_158_thickness_2_resolution_1152.png",
+    "ground_truth": "0",
+    "raw_response": "In this image, the blue and red lines do not intersect or touch each other at any point. Therefore, {0}.",
+    "parsed_answer": "0",
+    "correct": true,
+    "error": null,
+    "input_tokens": 1561,
+    "output_tokens": 29,
+    "tokens_used": 1590,
+    "latency_s": 2.76,
+    "metadata": {
+      "gt": 0,
+      "thickness": 2,
+      "resolution": 1152
+    }
+  },
+  {
+    "task": "LineIntersection",
+    "prompt_key": "HowMany-prompt",
+    "model": "anthropic/claude-3.5-sonnet",
+    "image_path": "D:\\python\\vision-llms-are-blind\\src\\LineIntersection\\images\\HowMany-prompt\\gpt-4o\\correct\\gpt-how_gt_0_image_158_thickness_2_resolution_384.png",
+    "ground_truth": "0",
+    "raw_response": "{0} - The blue and red lines in the image never intersect or touch each other. The blue line remains above the red line throughout the graph.",
+    "parsed_answer": "0",
+    "correct": true,
+    "error": null,
+    "input_tokens": 236,
+    "output_tokens": 35,
+    "tokens_used": 271,
+    "latency_s": 2.11,
+    "metadata": {
+      "gt": 0,
+      "thickness": 2,
+      "resolution": 384
+    }
+  },
+  {
+    "task": "LineIntersection",
+    "prompt_key": "HowMany-prompt",
+    "model": "anthropic/claude-3.5-sonnet",
+    "image_path": "D:\\python\\vision-llms-are-blind\\src\\LineIntersection\\images\\HowMany-prompt\\gpt-4o\\correct\\gpt-how_gt_0_image_158_thickness_2_resolution_768.png",
+    "ground_truth": "0",
+    "raw_response": "{0} - The blue and red lines in this image never intersect or touch each other. The blue line remains above the red line throughout the graph.",
+    "parsed_answer": "0",
+    "correct": true,
+    "error": null,
+    "input_tokens": 824,
+    "output_tokens": 35,
+    "tokens_used": 859,
+    "latency_s": 4.04,
+    "metadata": {
+      "gt": 0,
+      "thickness": 2,
+      "resolution": 768
+    }
+  },
+  {
+    "task": "LineIntersection",
+    "prompt_key": "HowMany-prompt",
+    "model": "anthropic/claude-3.5-sonnet",
+    "image_path": "D:\\python\\vision-llms-are-blind\\src\\LineIntersection\\images\\HowMany-prompt\\gpt-4o\\correct\\gpt-how_gt_0_image_158_thickness_4_resolution_1152.png",
+    "ground_truth": "0",
+    "raw_response": "{0} - The blue and red lines in this image never intersect or touch each other. The blue lines appear in the upper portion of the image while the red lines are in the lower portion, and they maintain their separation throughout.",
+    "parsed_answer": "0",
+    "correct": true,
+    "error": null,
+    "input_tokens": 1561,
+    "output_tokens": 51,
+    "tokens_used": 1612,
+    "latency_s": 3.8,
+    "metadata": {
+      "gt": 0,
+      "thickness": 4,
+      "resolution": 1152
+    }
+  },
+  {
+    "task": "LineIntersection",
+    "prompt_key": "HowMany-prompt",
+    "model": "anthropic/claude-3.5-sonnet",
+    "image_path": "D:\\python\\vision-llms-are-blind\\src\\LineIntersection\\images\\HowMany-prompt\\gpt-4o\\correct\\gpt-how_gt_0_image_158_thickness_4_resolution_384.png",
+    "ground_truth": "0",
+    "raw_response": "{0} - The blue and red lines in the image do not intersect or touch each other at any point.",
+    "parsed_answer": "0",
+    "correct": true,
+    "error": null,
+    "input_tokens": 236,
+    "output_tokens": 27,
+    "tokens_used": 263,
+    "latency_s": 5.39,
+    "metadata": {
+      "gt": 0,
+      "thickness": 4,
+      "resolution": 384
+    }
+  },
+  {
+    "task": "LineIntersection",
+    "prompt_key": "HowMany-prompt",
+    "model": "anthropic/claude-3.5-sonnet",
+    "image_path": "D:\\python\\vision-llms-are-blind\\src\\LineIntersection\\images\\HowMany-prompt\\gpt-4o\\correct\\gpt-how_gt_0_image_158_thickness_4_resolution_768.png",
+    "ground_truth": "0",
+    "raw_response": "Looking at the image, the blue and red lines are separated and do not intersect or touch each other at any point. Therefore, the answer is {0}.",
+    "parsed_answer": "0",
+    "correct": true,
+    "error": null,
+    "input_tokens": 824,
+    "output_tokens": 36,
+    "tokens_used": 860,
+    "latency_s": 3.91,
+    "metadata": {
+      "gt": 0,
+      "thickness": 4,
+      "resolution": 768
+    }
+  },
+  {
+    "task": "LineIntersection",
+    "prompt_key": "HowMany-prompt",
+    "model": "anthropic/claude-3.5-sonnet",
+    "image_path": "D:\\python\\vision-llms-are-blind\\src\\LineIntersection\\images\\HowMany-prompt\\gpt-4o\\correct\\gpt-how_gt_0_image_163_thickness_2_resolution_1152.png",
+    "ground_truth": "0",
+    "raw_response": "{0} - The red and blue zigzag lines never actually intersect or touch each other in this image. They follow similar patterns but remain separate throughout.",
+    "parsed_answer": "0",
+    "correct": true,
+    "error": null,
+    "input_tokens": 1561,
+    "output_tokens": 36,
+    "tokens_used": 1597,
+    "latency_s": 6.25,
+    "metadata": {
+      "gt": 0,
+      "thickness": 2,
+      "resolution": 1152
+    }
+  },
+  {
+    "task": "LineIntersection",
+    "prompt_key": "HowMany-prompt",
+    "model": "anthropic/claude-3.5-sonnet",
+    "image_path": "D:\\python\\vision-llms-are-blind\\src\\LineIntersection\\images\\HowMany-prompt\\gpt-4o\\correct\\gpt-how_gt_0_image_163_thickness_2_resolution_384.png",
+    "ground_truth": "0",
+    "raw_response": "{0} - The blue and red lines form similar triangular shapes but never intersect with each other.",
+    "parsed_answer": "0",
+    "correct": true,
+    "error": null,
+    "input_tokens": 236,
+    "output_tokens": 25,
+    "tokens_used": 261,
+    "latency_s": 2.78,
+    "metadata": {
+      "gt": 0,
+      "thickness": 2,
+      "resolution": 384
+    }
+  },
+  {
+    "task": "LineIntersection",
+    "prompt_key": "HowMany-prompt",
+    "model": "anthropic/claude-3.5-sonnet",
+    "image_path": "D:\\python\\vision-llms-are-blind\\src\\LineIntersection\\images\\HowMany-prompt\\gpt-4o\\correct\\gpt-how_gt_0_image_163_thickness_2_resolution_768.png",
+    "ground_truth": "0",
+    "raw_response": "{0} - The blue and red lines in the image never intersect or touch each other. They form similar V-shapes with the red line being larger and positioned above the blue line, but they remain separate throughout their lengths.",
+    "parsed_answer": "0",
+    "correct": true,
+    "error": null,
+    "input_tokens": 824,
+    "output_tokens": 50,
+    "tokens_used": 874,
+    "latency_s": 6.07,
+    "metadata": {
+      "gt": 0,
+      "thickness": 2,
+      "resolution": 768
+    }
+  },
+  {
+    "task": "LineIntersection",
+    "prompt_key": "HowMany-prompt",
+    "model": "anthropic/claude-3.5-sonnet",
+    "image_path": "D:\\python\\vision-llms-are-blind\\src\\LineIntersection\\images\\HowMany-prompt\\gpt-4o\\correct\\gpt-how_gt_0_image_163_thickness_4_resolution_1152.png",
+    "ground_truth": "0",
+    "raw_response": "{0} - The blue and red lines form similar V-shapes but do not intersect or touch each other at any point.",
+    "parsed_answer": "0",
+    "correct": true,
+    "error": null,
+    "input_tokens": 1561,
+    "output_tokens": 30,
+    "tokens_used": 1591,
+    "latency_s": 6.66,
+    "metadata": {
+      "gt": 0,
+      "thickness": 4,
+      "resolution": 1152
+    }
+  },
+  {
+    "task": "LineIntersection",
+    "prompt_key": "HowMany-prompt",
+    "model": "anthropic/claude-3.5-sonnet",
+    "image_path": "D:\\python\\vision-llms-are-blind\\src\\LineIntersection\\images\\HowMany-prompt\\gpt-4o\\correct\\gpt-how_gt_0_image_163_thickness_4_resolution_384.png",
+    "ground_truth": "0",
+    "raw_response": "The blue and red lines appear to intersect {6} times across the image.",
+    "parsed_answer": "6",
+    "correct": false,
+    "error": null,
+    "input_tokens": 236,
+    "output_tokens": 20,
+    "tokens_used": 256,
+    "latency_s": 2.99,
+    "metadata": {
+      "gt": 0,
+      "thickness": 4,
+      "resolution": 384
+    }
+  },
+  {
+    "task": "LineIntersection",
+    "prompt_key": "HowMany-prompt",
+    "model": "anthropic/claude-3.5-sonnet",
+    "image_path": "D:\\python\\vision-llms-are-blind\\src\\LineIntersection\\images\\HowMany-prompt\\gpt-4o\\correct\\gpt-how_gt_0_image_163_thickness_4_resolution_768.png",
+    "ground_truth": "0",
+    "raw_response": "Looking at the image, the blue and red diamond-shaped lines intersect at {4} points.",
+    "parsed_answer": "4",
+    "correct": false,
+    "error": null,
+    "input_tokens": 824,
+    "output_tokens": 24,
+    "tokens_used": 848,
+    "latency_s": 2.01,
+    "metadata": {
+      "gt": 0,
+      "thickness": 4,
+      "resolution": 768
+    }
+  },
+  {
+    "task": "LineIntersection",
+    "prompt_key": "HowMany-prompt",
+    "model": "anthropic/claude-3.5-sonnet",
+    "image_path": "D:\\python\\vision-llms-are-blind\\src\\LineIntersection\\images\\HowMany-prompt\\gpt-4o\\correct\\gpt-how_gt_0_image_165_thickness_2_resolution_1152.png",
+    "ground_truth": "0",
+    "raw_response": "The blue and red lines in this image do not intersect or touch each other at any point. {0}",
+    "parsed_answer": "0",
+    "correct": true,
+    "error": null,
+    "input_tokens": 1561,
+    "output_tokens": 26,
+    "tokens_used": 1587,
+    "latency_s": 2.66,
+    "metadata": {
+      "gt": 0,
+      "thickness": 2,
+      "resolution": 1152
+    }
+  },
+  {
+    "task": "LineIntersection",
+    "prompt_key": "HowMany-prompt",
+    "model": "anthropic/claude-3.5-sonnet",
+    "image_path": "D:\\python\\vision-llms-are-blind\\src\\LineIntersection\\images\\HowMany-prompt\\gpt-4o\\correct\\gpt-how_gt_0_image_165_thickness_2_resolution_384.png",
+    "ground_truth": "0",
+    "raw_response": "{0} - The red and blue lines in this image never intersect or touch each other.",
+    "parsed_answer": "0",
+    "correct": true,
+    "error": null,
+    "input_tokens": 236,
+    "output_tokens": 23,
+    "tokens_used": 259,
+    "latency_s": 3.95,
+    "metadata": {
+      "gt": 0,
+      "thickness": 2,
+      "resolution": 384
+    }
+  },
+  {
+    "task": "LineIntersection",
+    "prompt_key": "HowMany-prompt",
+    "model": "anthropic/claude-3.5-sonnet",
+    "image_path": "D:\\python\\vision-llms-are-blind\\src\\LineIntersection\\images\\HowMany-prompt\\gpt-4o\\correct\\gpt-how_gt_0_image_165_thickness_2_resolution_768.png",
+    "ground_truth": "0",
+    "raw_response": "{0} - The red and blue lines in the image do not intersect or touch each other at any point.",
+    "parsed_answer": "0",
+    "correct": true,
+    "error": null,
+    "input_tokens": 824,
+    "output_tokens": 27,
+    "tokens_used": 851,
+    "latency_s": 6.56,
+    "metadata": {
+      "gt": 0,
+      "thickness": 2,
+      "resolution": 768
+    }
+  },
+  {
+    "task": "LineIntersection",
+    "prompt_key": "HowMany-prompt",
+    "model": "anthropic/claude-3.5-sonnet",
+    "image_path": "D:\\python\\vision-llms-are-blind\\src\\LineIntersection\\images\\HowMany-prompt\\gpt-4o\\correct\\gpt-how_gt_0_image_165_thickness_4_resolution_384.png",
+    "ground_truth": "0",
+    "raw_response": "{0} - The red and blue lines in the image never intersect or touch each other.",
+    "parsed_answer": "0",
+    "correct": true,
+    "error": null,
+    "input_tokens": 236,
+    "output_tokens": 23,
+    "tokens_used": 259,
+    "latency_s": 5.42,
+    "metadata": {
+      "gt": 0,
+      "thickness": 4,
+      "resolution": 384
+    }
+  },
+  {
+    "task": "LineIntersection",
+    "prompt_key": "HowMany-prompt",
+    "model": "anthropic/claude-3.5-sonnet",
+    "image_path": "D:\\python\\vision-llms-are-blind\\src\\LineIntersection\\images\\HowMany-prompt\\gpt-4o\\correct\\gpt-how_gt_0_image_165_thickness_4_resolution_768.png",
+    "ground_truth": "0",
+    "raw_response": "{0} - The red and blue lines in the image do not intersect or touch at any point.",
+    "parsed_answer": "0",
+    "correct": true,
+    "error": null,
+    "input_tokens": 824,
+    "output_tokens": 25,
+    "tokens_used": 849,
+    "latency_s": 9.5,
+    "metadata": {
+      "gt": 0,
+      "thickness": 4,
+      "resolution": 768
+    }
+  },
+  {
+    "task": "LineIntersection",
+    "prompt_key": "HowMany-prompt",
+    "model": "anthropic/claude-3.5-sonnet",
+    "image_path": "D:\\python\\vision-llms-are-blind\\src\\LineIntersection\\images\\HowMany-prompt\\gpt-4o\\correct\\gpt-how_gt_0_image_179_thickness_2_resolution_1152.png",
+    "ground_truth": "0",
+    "raw_response": "In this image, the red and blue lines are parallel to each other and never intersect or touch at any point. Therefore, {0}",
+    "parsed_answer": "0",
+    "correct": true,
+    "error": null,
+    "input_tokens": 1561,
+    "output_tokens": 32,
+    "tokens_used": 1593,
+    "latency_s": 10.78,
+    "metadata": {
+      "gt": 0,
+      "thickness": 2,
+      "resolution": 1152
+    }
+  },
+  {
+    "task": "LineIntersection",
+    "prompt_key": "HowMany-prompt",
+    "model": "anthropic/claude-3.5-sonnet",
+    "image_path": "D:\\python\\vision-llms-are-blind\\src\\LineIntersection\\images\\HowMany-prompt\\gpt-4o\\correct\\gpt-how_gt_0_image_179_thickness_2_resolution_384.png",
+    "ground_truth": "0",
+    "raw_response": "{0} - The red and blue lines in this image do not intersect or touch each other at any point. The red line curves upward while the blue line curves upward at a different position, and they maintain their separation throughout the visible portion of the graph.",
+    "parsed_answer": "0",
+    "correct": true,
+    "error": null,
+    "input_tokens": 236,
+    "output_tokens": 58,
+    "tokens_used": 294,
+    "latency_s": 3.87,
+    "metadata": {
+      "gt": 0,
+      "thickness": 2,
+      "resolution": 384
+    }
+  },
+  {
+    "task": "LineIntersection",
+    "prompt_key": "HowMany-prompt",
+    "model": "anthropic/claude-3.5-sonnet",
+    "image_path": "D:\\python\\vision-llms-are-blind\\src\\LineIntersection\\images\\HowMany-prompt\\gpt-4o\\correct\\gpt-how_gt_0_image_179_thickness_2_resolution_768.png",
+    "ground_truth": "0",
+    "raw_response": "In this image, the blue and red lines are parallel to each other and do not intersect at any point. Therefore, {0} is the number of times the lines touch each other.",
+    "parsed_answer": "0",
+    "correct": true,
+    "error": null,
+    "input_tokens": 824,
+    "output_tokens": 42,
+    "tokens_used": 866,
+    "latency_s": 3.02,
+    "metadata": {
+      "gt": 0,
+      "thickness": 2,
+      "resolution": 768
+    }
+  },
+  {
+    "task": "LineIntersection",
+    "prompt_key": "HowMany-prompt",
+    "model": "anthropic/claude-3.5-sonnet",
+    "image_path": "D:\\python\\vision-llms-are-blind\\src\\LineIntersection\\images\\HowMany-prompt\\gpt-4o\\correct\\gpt-how_gt_0_image_179_thickness_4_resolution_1152.png",
+    "ground_truth": "0",
+    "raw_response": "{0} - The red and blue lines in this image do not intersect or touch each other at any point. The red line curves upward while the blue line remains mostly straight with a slight bend, but they maintain separation throughout the visible portion of the image.",
+    "parsed_answer": "0",
+    "correct": true,
+    "error": null,
+    "input_tokens": 1561,
+    "output_tokens": 57,
+    "tokens_used": 1618,
+    "latency_s": 7.06,
+    "metadata": {
+      "gt": 0,
+      "thickness": 4,
+      "resolution": 1152
+    }
+  },
+  {
+    "task": "LineIntersection",
+    "prompt_key": "HowMany-prompt",
+    "model": "anthropic/claude-3.5-sonnet",
+    "image_path": "D:\\python\\vision-llms-are-blind\\src\\LineIntersection\\images\\HowMany-prompt\\gpt-4o\\correct\\gpt-how_gt_0_image_179_thickness_4_resolution_768.png",
+    "ground_truth": "0",
+    "raw_response": "{0} - The blue and red lines appear to be parallel or nearly parallel and do not intersect or touch each other at any point in the image.",
+    "parsed_answer": "0",
+    "correct": true,
+    "error": null,
+    "input_tokens": 824,
+    "output_tokens": 35,
+    "tokens_used": 859,
+    "latency_s": 4.83,
+    "metadata": {
+      "gt": 0,
+      "thickness": 4,
+      "resolution": 768
+    }
+  },
+  {
+    "task": "LineIntersection",
+    "prompt_key": "HowMany-prompt",
+    "model": "anthropic/claude-3.5-sonnet",
+    "image_path": "D:\\python\\vision-llms-are-blind\\src\\LineIntersection\\images\\HowMany-prompt\\gpt-4o\\correct\\gpt-how_gt_0_image_182_thickness_2_resolution_1152.png",
+    "ground_truth": "0",
+    "raw_response": "{0}\n\nThe blue and red lines in this image do not intersect or touch at any point. The blue lines appear to form a shape in the upper portion of the image, while the red lines form an angled pattern below, but they remain separate from each other.",
+    "parsed_answer": "0",
+    "correct": true,
+    "error": null,
+    "input_tokens": 1561,
+    "output_tokens": 60,
+    "tokens_used": 1621,
+    "latency_s": 3.59,
+    "metadata": {
+      "gt": 0,
+      "thickness": 2,
+      "resolution": 1152
+    }
+  },
+  {
+    "task": "LineIntersection",
+    "prompt_key": "HowMany-prompt",
+    "model": "anthropic/claude-3.5-sonnet",
+    "image_path": "D:\\python\\vision-llms-are-blind\\src\\LineIntersection\\images\\HowMany-prompt\\gpt-4o\\correct\\gpt-how_gt_0_image_182_thickness_2_resolution_384.png",
+    "ground_truth": "0",
+    "raw_response": "{1} - The blue and red lines intersect only once in this image.",
+    "parsed_answer": "1",
+    "correct": false,
+    "error": null,
+    "input_tokens": 236,
+    "output_tokens": 20,
+    "tokens_used": 256,
+    "latency_s": 2.59,
+    "metadata": {
+      "gt": 0,
+      "thickness": 2,
+      "resolution": 384
+    }
+  },
+  {
+    "task": "LineIntersection",
+    "prompt_key": "HowMany-prompt",
+    "model": "anthropic/claude-3.5-sonnet",
+    "image_path": "D:\\python\\vision-llms-are-blind\\src\\LineIntersection\\images\\HowMany-prompt\\gpt-4o\\correct\\gpt-how_gt_0_image_182_thickness_4_resolution_1152.png",
+    "ground_truth": "0",
+    "raw_response": "In this image, the blue and red lines do not intersect or touch each other at any point. Therefore, the answer is {0}.",
+    "parsed_answer": "0",
+    "correct": true,
+    "error": null,
+    "input_tokens": 1561,
+    "output_tokens": 32,
+    "tokens_used": 1593,
+    "latency_s": 4.62,
+    "metadata": {
+      "gt": 0,
+      "thickness": 4,
+      "resolution": 1152
+    }
+  },
+  {
+    "task": "LineIntersection",
+    "prompt_key": "HowMany-prompt",
+    "model": "anthropic/claude-3.5-sonnet",
+    "image_path": "D:\\python\\vision-llms-are-blind\\src\\LineIntersection\\images\\HowMany-prompt\\gpt-4o\\correct\\gpt-how_gt_0_image_182_thickness_4_resolution_768.png",
+    "ground_truth": "0",
+    "raw_response": "In this image, the blue line and the red line never intersect or touch each other. They remain separate throughout their paths. {0}",
+    "parsed_answer": "0",
+    "correct": true,
+    "error": null,
+    "input_tokens": 824,
+    "output_tokens": 32,
+    "tokens_used": 856,
+    "latency_s": 4.58,
+    "metadata": {
+      "gt": 0,
+      "thickness": 4,
+      "resolution": 768
+    }
+  },
+  {
+    "task": "LineIntersection",
+    "prompt_key": "HowMany-prompt",
+    "model": "anthropic/claude-3.5-sonnet",
+    "image_path": "D:\\python\\vision-llms-are-blind\\src\\LineIntersection\\images\\HowMany-prompt\\gpt-4o\\correct\\gpt-how_gt_0_image_186_thickness_2_resolution_1152.png",
+    "ground_truth": "0",
+    "raw_response": "Looking at the image, the blue and red lines never intersect or touch each other. Therefore, {0}.",
+    "parsed_answer": "0",
+    "correct": true,
+    "error": null,
+    "input_tokens": 1561,
+    "output_tokens": 26,
+    "tokens_used": 1587,
+    "latency_s": 6.13,
+    "metadata": {
+      "gt": 0,
+      "thickness": 2,
+      "resolution": 1152
+    }
+  },
+  {
+    "task": "LineIntersection",
+    "prompt_key": "HowMany-prompt",
+    "model": "anthropic/claude-3.5-sonnet",
+    "image_path": "D:\\python\\vision-llms-are-blind\\src\\LineIntersection\\images\\HowMany-prompt\\gpt-4o\\correct\\gpt-how_gt_0_image_186_thickness_2_resolution_384.png",
+    "ground_truth": "0",
+    "raw_response": "In this image, the blue and red line segments do not intersect or touch at any point. {0}",
+    "parsed_answer": "0",
+    "correct": true,
+    "error": null,
+    "input_tokens": 236,
+    "output_tokens": 26,
+    "tokens_used": 262,
+    "latency_s": 5.43,
+    "metadata": {
+      "gt": 0,
+      "thickness": 2,
+      "resolution": 384
+    }
+  },
+  {
+    "task": "LineIntersection",
+    "prompt_key": "HowMany-prompt",
+    "model": "anthropic/claude-3.5-sonnet",
+    "image_path": "D:\\python\\vision-llms-are-blind\\src\\LineIntersection\\images\\HowMany-prompt\\gpt-4o\\correct\\gpt-how_gt_0_image_186_thickness_2_resolution_768.png",
+    "ground_truth": "0",
+    "raw_response": "{0} - The blue and red lines in this image never intersect or touch each other. They follow similar angular patterns but remain separate throughout the graph.",
+    "parsed_answer": "0",
+    "correct": true,
+    "error": null,
+    "input_tokens": 824,
+    "output_tokens": 35,
+    "tokens_used": 859,
+    "latency_s": 2.95,
+    "metadata": {
+      "gt": 0,
+      "thickness": 2,
+      "resolution": 768
+    }
+  },
+  {
+    "task": "LineIntersection",
+    "prompt_key": "HowMany-prompt",
+    "model": "anthropic/claude-3.5-sonnet",
+    "image_path": "D:\\python\\vision-llms-are-blind\\src\\LineIntersection\\images\\HowMany-prompt\\gpt-4o\\correct\\gpt-how_gt_0_image_188_thickness_2_resolution_1152.png",
+    "ground_truth": "0",
+    "raw_response": "Looking at the image, there are no points where the blue and red zigzag lines actually intersect or touch each other. {0}",
+    "parsed_answer": "0",
+    "correct": true,
+    "error": null,
+    "input_tokens": 1561,
+    "output_tokens": 32,
+    "tokens_used": 1593,
+    "latency_s": 6.3,
+    "metadata": {
+      "gt": 0,
+      "thickness": 2,
+      "resolution": 1152
+    }
+  },
+  {
+    "task": "LineIntersection",
+    "prompt_key": "HowMany-prompt",
+    "model": "anthropic/claude-3.5-sonnet",
+    "image_path": "D:\\python\\vision-llms-are-blind\\src\\LineIntersection\\images\\HowMany-prompt\\gpt-4o\\correct\\gpt-how_gt_0_image_188_thickness_2_resolution_768.png",
+    "ground_truth": "0",
+    "raw_response": "{0} - The red and blue lines in the image are parallel and do not intersect or touch at any point.",
+    "parsed_answer": "0",
+    "correct": true,
+    "error": null,
+    "input_tokens": 824,
+    "output_tokens": 28,
+    "tokens_used": 852,
+    "latency_s": 2.56,
+    "metadata": {
+      "gt": 0,
+      "thickness": 2,
+      "resolution": 768
+    }
+  },
+  {
+    "task": "LineIntersection",
+    "prompt_key": "HowMany-prompt",
+    "model": "anthropic/claude-3.5-sonnet",
+    "image_path": "D:\\python\\vision-llms-are-blind\\src\\LineIntersection\\images\\HowMany-prompt\\gpt-4o\\correct\\gpt-how_gt_0_image_188_thickness_4_resolution_1152.png",
+    "ground_truth": "0",
+    "raw_response": "{0} - The blue and red lines never intersect or touch each other in this image. They form similar angular shapes but at different positions, with the red line positioned above the blue line.",
+    "parsed_answer": "0",
+    "correct": true,
+    "error": null,
+    "input_tokens": 1561,
+    "output_tokens": 43,
+    "tokens_used": 1604,
+    "latency_s": 3.71,
+    "metadata": {
+      "gt": 0,
+      "thickness": 4,
+      "resolution": 1152
+    }
+  },
+  {
+    "task": "LineIntersection",
+    "prompt_key": "HowMany-prompt",
+    "model": "anthropic/claude-3.5-sonnet",
+    "image_path": "D:\\python\\vision-llms-are-blind\\src\\LineIntersection\\images\\HowMany-prompt\\gpt-4o\\correct\\gpt-how_gt_0_image_188_thickness_4_resolution_768.png",
+    "ground_truth": "0",
+    "raw_response": "{0} - The blue and red lines form similar angular shapes but never actually intersect or touch each other in the image.",
+    "parsed_answer": "0",
+    "correct": true,
+    "error": null,
+    "input_tokens": 824,
+    "output_tokens": 29,
+    "tokens_used": 853,
+    "latency_s": 2.61,
+    "metadata": {
+      "gt": 0,
+      "thickness": 4,
+      "resolution": 768
+    }
+  },
+  {
+    "task": "LineIntersection",
+    "prompt_key": "HowMany-prompt",
+    "model": "anthropic/claude-3.5-sonnet",
+    "image_path": "D:\\python\\vision-llms-are-blind\\src\\LineIntersection\\images\\HowMany-prompt\\gpt-4o\\correct\\gpt-how_gt_0_image_18_thickness_2_resolution_1152.png",
+    "ground_truth": "0",
+    "raw_response": "{1}\n\nThe blue and red lines intersect exactly once in the middle of the image.",
+    "parsed_answer": "1",
+    "correct": false,
+    "error": null,
+    "input_tokens": 1561,
+    "output_tokens": 23,
+    "tokens_used": 1584,
+    "latency_s": 3.04,
+    "metadata": {
+      "gt": 0,
+      "thickness": 2,
+      "resolution": 1152
+    }
+  },
+  {
+    "task": "LineIntersection",
+    "prompt_key": "HowMany-prompt",
+    "model": "anthropic/claude-3.5-sonnet",
+    "image_path": "D:\\python\\vision-llms-are-blind\\src\\LineIntersection\\images\\HowMany-prompt\\gpt-4o\\correct\\gpt-how_gt_0_image_18_thickness_2_resolution_384.png",
+    "ground_truth": "0",
+    "raw_response": "Looking at the image, I can see two line patterns - one red and one blue - that appear to be roughly parallel and never intersect with each other. Therefore, the number of times these lines touch each other is {0}.",
+    "parsed_answer": "0",
+    "correct": true,
+    "error": null,
+    "input_tokens": 236,
+    "output_tokens": 50,
+    "tokens_used": 286,
+    "latency_s": 3.34,
+    "metadata": {
+      "gt": 0,
+      "thickness": 2,
+      "resolution": 384
+    }
+  },
+  {
+    "task": "LineIntersection",
+    "prompt_key": "HowMany-prompt",
+    "model": "anthropic/claude-3.5-sonnet",
+    "image_path": "D:\\python\\vision-llms-are-blind\\src\\LineIntersection\\images\\HowMany-prompt\\gpt-4o\\correct\\gpt-how_gt_0_image_18_thickness_2_resolution_768.png",
+    "ground_truth": "0",
+    "raw_response": "{0} - The blue and red lines in this image are parallel for most of their length and never intersect or touch each other.",
+    "parsed_answer": "0",
+    "correct": true,
+    "error": null,
+    "input_tokens": 824,
+    "output_tokens": 31,
+    "tokens_used": 855,
+    "latency_s": 2.43,
+    "metadata": {
+      "gt": 0,
+      "thickness": 2,
+      "resolution": 768
+    }
+  },
+  {
+    "task": "LineIntersection",
+    "prompt_key": "HowMany-prompt",
+    "model": "anthropic/claude-3.5-sonnet",
+    "image_path": "D:\\python\\vision-llms-are-blind\\src\\LineIntersection\\images\\HowMany-prompt\\gpt-4o\\correct\\gpt-how_gt_0_image_18_thickness_4_resolution_1152.png",
+    "ground_truth": "0",
+    "raw_response": "{0} - The blue and red lines in the image are parallel for most of their length and then diverge with a bend, but they never intersect or touch each other.",
+    "parsed_answer": "0",
+    "correct": true,
+    "error": null,
+    "input_tokens": 1561,
+    "output_tokens": 40,
+    "tokens_used": 1601,
+    "latency_s": 3.04,
+    "metadata": {
+      "gt": 0,
+      "thickness": 4,
+      "resolution": 1152
+    }
+  },
+  {
+    "task": "LineIntersection",
+    "prompt_key": "HowMany-prompt",
+    "model": "anthropic/claude-3.5-sonnet",
+    "image_path": "D:\\python\\vision-llms-are-blind\\src\\LineIntersection\\images\\HowMany-prompt\\gpt-4o\\correct\\gpt-how_gt_0_image_192_thickness_2_resolution_768.png",
+    "ground_truth": "0",
+    "raw_response": "Looking at the image, the blue and red lines intersect {4} times.",
+    "parsed_answer": "4",
+    "correct": false,
+    "error": null,
+    "input_tokens": 824,
+    "output_tokens": 20,
+    "tokens_used": 844,
+    "latency_s": 2.63,
+    "metadata": {
+      "gt": 0,
+      "thickness": 2,
+      "resolution": 768
+    }
+  },
+  {
+    "task": "LineIntersection",
+    "prompt_key": "HowMany-prompt",
+    "model": "anthropic/claude-3.5-sonnet",
+    "image_path": "D:\\python\\vision-llms-are-blind\\src\\LineIntersection\\images\\HowMany-prompt\\gpt-4o\\correct\\gpt-how_gt_0_image_19_thickness_2_resolution_1152.png",
+    "ground_truth": "0",
+    "raw_response": "Looking at the image, the diagonal blue line crosses all of the parallel red lines. Since there are 7 red parallel lines, and each one intersects with the blue diagonal line once, the answer is {7}",
+    "parsed_answer": "7",
+    "correct": false,
+    "error": null,
+    "input_tokens": 1561,
+    "output_tokens": 48,
+    "tokens_used": 1609,
+    "latency_s": 5.29,
+    "metadata": {
+      "gt": 0,
+      "thickness": 2,
+      "resolution": 1152
+    }
+  },
+  {
+    "task": "LineIntersection",
+    "prompt_key": "HowMany-prompt",
+    "model": "anthropic/claude-3.5-sonnet",
+    "image_path": "D:\\python\\vision-llms-are-blind\\src\\LineIntersection\\images\\HowMany-prompt\\gpt-4o\\correct\\gpt-how_gt_0_image_19_thickness_2_resolution_384.png",
+    "ground_truth": "0",
+    "raw_response": "{0} - The blue and red lines in this image appear to be separated and never intersect with each other.",
+    "parsed_answer": "0",
+    "correct": true,
+    "error": null,
+    "input_tokens": 236,
+    "output_tokens": 27,
+    "tokens_used": 263,
+    "latency_s": 4.82,
+    "metadata": {
+      "gt": 0,
+      "thickness": 2,
+      "resolution": 384
+    }
+  },
+  {
+    "task": "LineIntersection",
+    "prompt_key": "HowMany-prompt",
+    "model": "anthropic/claude-3.5-sonnet",
+    "image_path": "D:\\python\\vision-llms-are-blind\\src\\LineIntersection\\images\\HowMany-prompt\\gpt-4o\\correct\\gpt-how_gt_0_image_19_thickness_2_resolution_768.png",
+    "ground_truth": "0",
+    "raw_response": "{0} - The blue and red lines in this image do not intersect or touch at any point. The blue line starts higher and remains above the red line throughout the graph, with the blue line having a change in slope partway through while the red line maintains a constant positive slope.",
+    "parsed_answer": "0",
+    "correct": true,
+    "error": null,
+    "input_tokens": 824,
+    "output_tokens": 62,
+    "tokens_used": 886,
+    "latency_s": 3.41,
+    "metadata": {
+      "gt": 0,
+      "thickness": 2,
+      "resolution": 768
+    }
+  },
+  {
+    "task": "LineIntersection",
+    "prompt_key": "HowMany-prompt",
+    "model": "anthropic/claude-3.5-sonnet",
+    "image_path": "D:\\python\\vision-llms-are-blind\\src\\LineIntersection\\images\\HowMany-prompt\\gpt-4o\\correct\\gpt-how_gt_0_image_19_thickness_4_resolution_1152.png",
+    "ground_truth": "0",
+    "raw_response": "{0} - The blue and red lines in this image do not intersect or touch each other at any point.",
+    "parsed_answer": "0",
+    "correct": true,
+    "error": null,
+    "input_tokens": 1561,
+    "output_tokens": 27,
+    "tokens_used": 1588,
+    "latency_s": 6.43,
+    "metadata": {
+      "gt": 0,
+      "thickness": 4,
+      "resolution": 1152
+    }
+  },
+  {
+    "task": "LineIntersection",
+    "prompt_key": "HowMany-prompt",
+    "model": "anthropic/claude-3.5-sonnet",
+    "image_path": "D:\\python\\vision-llms-are-blind\\src\\LineIntersection\\images\\HowMany-prompt\\gpt-4o\\correct\\gpt-how_gt_0_image_19_thickness_4_resolution_384.png",
+    "ground_truth": "0",
+    "raw_response": "{0} - The blue and red lines are two separate lines that do not intersect or touch at any point in the image.",
+    "parsed_answer": "0",
+    "correct": true,
+    "error": null,
+    "input_tokens": 236,
+    "output_tokens": 30,
+    "tokens_used": 266,
+    "latency_s": 5.28,
+    "metadata": {
+      "gt": 0,
+      "thickness": 4,
+      "resolution": 384
+    }
+  },
+  {
+    "task": "LineIntersection",
+    "prompt_key": "HowMany-prompt",
+    "model": "anthropic/claude-3.5-sonnet",
+    "image_path": "D:\\python\\vision-llms-are-blind\\src\\LineIntersection\\images\\HowMany-prompt\\gpt-4o\\correct\\gpt-how_gt_0_image_19_thickness_4_resolution_768.png",
+    "ground_truth": "0",
+    "raw_response": "{0} - The blue and red lines in this image do not intersect or touch each other at any point. The blue line is positioned above the red line and has a different angle and shape, but they never make contact.",
+    "parsed_answer": "0",
+    "correct": true,
+    "error": null,
+    "input_tokens": 824,
+    "output_tokens": 50,
+    "tokens_used": 874,
+    "latency_s": 3.8,
+    "metadata": {
+      "gt": 0,
+      "thickness": 4,
+      "resolution": 768
+    }
+  },
+  {
+    "task": "LineIntersection",
+    "prompt_key": "HowMany-prompt",
+    "model": "anthropic/claude-3.5-sonnet",
+    "image_path": "D:\\python\\vision-llms-are-blind\\src\\LineIntersection\\images\\HowMany-prompt\\gpt-4o\\correct\\gpt-how_gt_0_image_200_thickness_2_resolution_1152.png",
+    "ground_truth": "0",
+    "raw_response": "The blue and red lines appear to be parallel and do not touch each other at any point in the image, so {0}.",
+    "parsed_answer": "0",
+    "correct": true,
+    "error": null,
+    "input_tokens": 1561,
+    "output_tokens": 29,
+    "tokens_used": 1590,
+    "latency_s": 5.1,
+    "metadata": {
+      "gt": 0,
+      "thickness": 2,
+      "resolution": 1152
+    }
+  },
+  {
+    "task": "LineIntersection",
+    "prompt_key": "HowMany-prompt",
+    "model": "anthropic/claude-3.5-sonnet",
+    "image_path": "D:\\python\\vision-llms-are-blind\\src\\LineIntersection\\images\\HowMany-prompt\\gpt-4o\\correct\\gpt-how_gt_0_image_200_thickness_2_resolution_384.png",
+    "ground_truth": "0",
+    "raw_response": "{0} - The blue and red lines in this image never intersect or touch each other.",
+    "parsed_answer": "0",
+    "correct": true,
+    "error": null,
+    "input_tokens": 236,
+    "output_tokens": 23,
+    "tokens_used": 259,
+    "latency_s": 5.44,
+    "metadata": {
+      "gt": 0,
+      "thickness": 2,
+      "resolution": 384
+    }
+  },
+  {
+    "task": "LineIntersection",
+    "prompt_key": "HowMany-prompt",
+    "model": "anthropic/claude-3.5-sonnet",
+    "image_path": "D:\\python\\vision-llms-are-blind\\src\\LineIntersection\\images\\HowMany-prompt\\gpt-4o\\correct\\gpt-how_gt_0_image_200_thickness_2_resolution_768.png",
+    "ground_truth": "0",
+    "raw_response": "{0} - The red and blue lines in this image never intersect or touch each other. The red line appears to form a zigzag pattern above the blue line segments, but they remain separate throughout the image.",
+    "parsed_answer": "0",
+    "correct": true,
+    "error": null,
+    "input_tokens": 824,
+    "output_tokens": 48,
+    "tokens_used": 872,
+    "latency_s": 2.79,
+    "metadata": {
+      "gt": 0,
+      "thickness": 2,
+      "resolution": 768
+    }
+  },
+  {
+    "task": "LineIntersection",
+    "prompt_key": "HowMany-prompt",
+    "model": "anthropic/claude-3.5-sonnet",
+    "image_path": "D:\\python\\vision-llms-are-blind\\src\\LineIntersection\\images\\HowMany-prompt\\gpt-4o\\correct\\gpt-how_gt_0_image_200_thickness_4_resolution_768.png",
+    "ground_truth": "0",
+    "raw_response": "{0} - The red and blue lines in the image do not intersect or touch at any point.",
+    "parsed_answer": "0",
+    "correct": true,
+    "error": null,
+    "input_tokens": 824,
+    "output_tokens": 25,
+    "tokens_used": 849,
+    "latency_s": 2.77,
+    "metadata": {
+      "gt": 0,
+      "thickness": 4,
+      "resolution": 768
+    }
+  },
+  {
+    "task": "LineIntersection",
+    "prompt_key": "HowMany-prompt",
+    "model": "anthropic/claude-3.5-sonnet",
+    "image_path": "D:\\python\\vision-llms-are-blind\\src\\LineIntersection\\images\\HowMany-prompt\\gpt-4o\\correct\\gpt-how_gt_0_image_202_thickness_2_resolution_384.png",
+    "ground_truth": "0",
+    "raw_response": "{0} - The blue and red lines in this image do not intersect or touch at any point.",
+    "parsed_answer": "0",
+    "correct": true,
+    "error": null,
+    "input_tokens": 236,
+    "output_tokens": 25,
+    "tokens_used": 261,
+    "latency_s": 2.19,
+    "metadata": {
+      "gt": 0,
+      "thickness": 2,
+      "resolution": 384
+    }
+  },
+  {
+    "task": "LineIntersection",
+    "prompt_key": "HowMany-prompt",
+    "model": "anthropic/claude-3.5-sonnet",
+    "image_path": "D:\\python\\vision-llms-are-blind\\src\\LineIntersection\\images\\HowMany-prompt\\gpt-4o\\correct\\gpt-how_gt_0_image_202_thickness_4_resolution_1152.png",
+    "ground_truth": "0",
+    "raw_response": "{0} - The blue and red lines in this image never intersect or touch each other. The blue line appears in the upper portion of the image with a slight angle and then levels off, while the red line appears below it, angling down more steeply before making a sharp turn upward at the bottom.",
+    "parsed_answer": "0",
+    "correct": true,
+    "error": null,
+    "input_tokens": 1561,
+    "output_tokens": 69,
+    "tokens_used": 1630,
+    "latency_s": 8.2,
+    "metadata": {
+      "gt": 0,
+      "thickness": 4,
+      "resolution": 1152
+    }
+  },
+  {
+    "task": "LineIntersection",
+    "prompt_key": "HowMany-prompt",
+    "model": "anthropic/claude-3.5-sonnet",
+    "image_path": "D:\\python\\vision-llms-are-blind\\src\\LineIntersection\\images\\HowMany-prompt\\gpt-4o\\correct\\gpt-how_gt_0_image_202_thickness_4_resolution_384.png",
+    "ground_truth": "0",
+    "raw_response": "{2}",
+    "parsed_answer": "2",
+    "correct": false,
+    "error": null,
+    "input_tokens": 236,
+    "output_tokens": 6,
+    "tokens_used": 242,
+    "latency_s": 1.97,
+    "metadata": {
+      "gt": 0,
+      "thickness": 4,
+      "resolution": 384
+    }
+  },
+  {
+    "task": "LineIntersection",
+    "prompt_key": "HowMany-prompt",
+    "model": "anthropic/claude-3.5-sonnet",
+    "image_path": "D:\\python\\vision-llms-are-blind\\src\\LineIntersection\\images\\HowMany-prompt\\gpt-4o\\correct\\gpt-how_gt_0_image_202_thickness_4_resolution_768.png",
+    "ground_truth": "0",
+    "raw_response": "{0} - The blue and red lines in this image never intersect or touch each other. The blue line appears at the top of the image with a slight downward angle, while the red line is positioned below it in a \"V\" shape, but they don't make contact at any point.",
+    "parsed_answer": "0",
+    "correct": true,
+    "error": null,
+    "input_tokens": 824,
+    "output_tokens": 65,
+    "tokens_used": 889,
+    "latency_s": 3.76,
+    "metadata": {
+      "gt": 0,
+      "thickness": 4,
+      "resolution": 768
+    }
+  },
+  {
+    "task": "LineIntersection",
+    "prompt_key": "HowMany-prompt",
+    "model": "anthropic/claude-3.5-sonnet",
+    "image_path": "D:\\python\\vision-llms-are-blind\\src\\LineIntersection\\images\\HowMany-prompt\\gpt-4o\\correct\\gpt-how_gt_0_image_203_thickness_2_resolution_1152.png",
+    "ground_truth": "0",
+    "raw_response": "{1} - The blue and red lines intersect only once near the bottom of the image.",
+    "parsed_answer": "1",
+    "correct": false,
+    "error": null,
+    "input_tokens": 1561,
+    "output_tokens": 23,
+    "tokens_used": 1584,
+    "latency_s": 2.31,
+    "metadata": {
+      "gt": 0,
+      "thickness": 2,
+      "resolution": 1152
+    }
+  },
+  {
+    "task": "LineIntersection",
+    "prompt_key": "HowMany-prompt",
+    "model": "anthropic/claude-3.5-sonnet",
+    "image_path": "D:\\python\\vision-llms-are-blind\\src\\LineIntersection\\images\\HowMany-prompt\\gpt-4o\\correct\\gpt-how_gt_0_image_203_thickness_2_resolution_384.png",
+    "ground_truth": "0",
+    "raw_response": "{4} - The red and blue zigzag lines intersect with each other 4 times across the image.",
+    "parsed_answer": "4",
+    "correct": false,
+    "error": null,
+    "input_tokens": 236,
+    "output_tokens": 28,
+    "tokens_used": 264,
+    "latency_s": 2.03,
+    "metadata": {
+      "gt": 0,
+      "thickness": 2,
+      "resolution": 384
+    }
+  },
+  {
+    "task": "LineIntersection",
+    "prompt_key": "HowMany-prompt",
+    "model": "anthropic/claude-3.5-sonnet",
+    "image_path": "D:\\python\\vision-llms-are-blind\\src\\LineIntersection\\images\\HowMany-prompt\\gpt-4o\\correct\\gpt-how_gt_0_image_203_thickness_2_resolution_768.png",
+    "ground_truth": "0",
+    "raw_response": "{0} - The red and blue lines in the image do not intersect or touch each other at any point. They both form V-shaped patterns but at different positions in the image.",
+    "parsed_answer": "0",
+    "correct": true,
+    "error": null,
+    "input_tokens": 824,
+    "output_tokens": 42,
+    "tokens_used": 866,
+    "latency_s": 9.93,
+    "metadata": {
+      "gt": 0,
+      "thickness": 2,
+      "resolution": 768
+    }
+  },
+  {
+    "task": "LineIntersection",
+    "prompt_key": "HowMany-prompt",
+    "model": "anthropic/claude-3.5-sonnet",
+    "image_path": "D:\\python\\vision-llms-are-blind\\src\\LineIntersection\\images\\HowMany-prompt\\gpt-4o\\correct\\gpt-how_gt_0_image_203_thickness_4_resolution_1152.png",
+    "ground_truth": "0",
+    "raw_response": "{0} - The blue and red lines do not intersect or touch each other at any point in the image. The red line forms a V shape in the upper portion, while the blue line appears below it with its own angle, but they never meet.",
+    "parsed_answer": "0",
+    "correct": true,
+    "error": null,
+    "input_tokens": 1561,
+    "output_tokens": 56,
+    "tokens_used": 1617,
+    "latency_s": 7.05,
+    "metadata": {
+      "gt": 0,
+      "thickness": 4,
+      "resolution": 1152
+    }
+  },
+  {
+    "task": "LineIntersection",
+    "prompt_key": "HowMany-prompt",
+    "model": "anthropic/claude-3.5-sonnet",
+    "image_path": "D:\\python\\vision-llms-are-blind\\src\\LineIntersection\\images\\HowMany-prompt\\gpt-4o\\correct\\gpt-how_gt_0_image_203_thickness_4_resolution_384.png",
+    "ground_truth": "0",
+    "raw_response": "{5}",
+    "parsed_answer": "5",
+    "correct": false,
+    "error": null,
+    "input_tokens": 236,
+    "output_tokens": 6,
+    "tokens_used": 242,
+    "latency_s": 8.23,
+    "metadata": {
+      "gt": 0,
+      "thickness": 4,
+      "resolution": 384
+    }
+  },
+  {
+    "task": "LineIntersection",
+    "prompt_key": "HowMany-prompt",
+    "model": "anthropic/claude-3.5-sonnet",
+    "image_path": "D:\\python\\vision-llms-are-blind\\src\\LineIntersection\\images\\HowMany-prompt\\gpt-4o\\correct\\gpt-how_gt_0_image_203_thickness_4_resolution_768.png",
+    "ground_truth": "0",
+    "raw_response": "{0} - The blue and red lines do not intersect or touch each other at any point in the image. They both form angular paths but remain separate.",
+    "parsed_answer": "0",
+    "correct": true,
+    "error": null,
+    "input_tokens": 824,
+    "output_tokens": 36,
+    "tokens_used": 860,
+    "latency_s": 65.12,
+    "metadata": {
+      "gt": 0,
+      "thickness": 4,
+      "resolution": 768
+    }
+  },
+  {
+    "task": "LineIntersection",
+    "prompt_key": "HowMany-prompt",
+    "model": "anthropic/claude-3.5-sonnet",
+    "image_path": "D:\\python\\vision-llms-are-blind\\src\\LineIntersection\\images\\HowMany-prompt\\gpt-4o\\correct\\gpt-how_gt_0_image_205_thickness_2_resolution_1152.png",
+    "ground_truth": "0",
+    "raw_response": "In this image, the blue and red lines do not intersect or touch each other at any point. {0}",
+    "parsed_answer": "0",
+    "correct": true,
+    "error": null,
+    "input_tokens": 1561,
+    "output_tokens": 27,
+    "tokens_used": 1588,
+    "latency_s": 5.05,
+    "metadata": {
+      "gt": 0,
+      "thickness": 2,
+      "resolution": 1152
+    }
+  },
+  {
+    "task": "LineIntersection",
+    "prompt_key": "HowMany-prompt",
+    "model": "anthropic/claude-3.5-sonnet",
+    "image_path": "D:\\python\\vision-llms-are-blind\\src\\LineIntersection\\images\\HowMany-prompt\\gpt-4o\\correct\\gpt-how_gt_0_image_205_thickness_2_resolution_384.png",
+    "ground_truth": "0",
+    "raw_response": "{0} - The blue and red lines in the image never intersect or touch each other.",
+    "parsed_answer": "0",
+    "correct": true,
+    "error": null,
+    "input_tokens": 236,
+    "output_tokens": 23,
+    "tokens_used": 259,
+    "latency_s": 5.6,
+    "metadata": {
+      "gt": 0,
+      "thickness": 2,
+      "resolution": 384
+    }
+  },
+  {
+    "task": "LineIntersection",
+    "prompt_key": "HowMany-prompt",
+    "model": "anthropic/claude-3.5-sonnet",
+    "image_path": "D:\\python\\vision-llms-are-blind\\src\\LineIntersection\\images\\HowMany-prompt\\gpt-4o\\correct\\gpt-how_gt_0_image_205_thickness_2_resolution_768.png",
+    "ground_truth": "0",
+    "raw_response": "{0} - The blue and red lines never intersect or touch each other in this image. The red line remains consistently above the blue line throughout the graph.",
+    "parsed_answer": "0",
+    "correct": true,
+    "error": null,
+    "input_tokens": 824,
+    "output_tokens": 36,
+    "tokens_used": 860,
+    "latency_s": 3.3,
+    "metadata": {
+      "gt": 0,
+      "thickness": 2,
+      "resolution": 768
+    }
+  },
+  {
+    "task": "LineIntersection",
+    "prompt_key": "HowMany-prompt",
+    "model": "anthropic/claude-3.5-sonnet",
+    "image_path": "D:\\python\\vision-llms-are-blind\\src\\LineIntersection\\images\\HowMany-prompt\\gpt-4o\\correct\\gpt-how_gt_0_image_205_thickness_4_resolution_1152.png",
+    "ground_truth": "0",
+    "raw_response": "In this image, the blue and red lines do not intersect or touch each other at any point. Therefore, {0}",
+    "parsed_answer": "0",
+    "correct": true,
+    "error": null,
+    "input_tokens": 1561,
+    "output_tokens": 29,
+    "tokens_used": 1590,
+    "latency_s": 3.14,
+    "metadata": {
+      "gt": 0,
+      "thickness": 4,
+      "resolution": 1152
+    }
+  }
+]

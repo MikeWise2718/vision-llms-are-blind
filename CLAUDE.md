@@ -50,6 +50,10 @@ Paper: https://arxiv.org/abs/2407.06581 | Site: https://vlmsareblind.github.io/
 - `openai/clip-vit-base-patch32`
 - `lmms-lab/llava-onevision-qwen2-0.5b-si`
 
+## Development Philosophy
+
+This is a fork of a published research paper's repository. The primary goal is reproducing and extending the original study's results. Avoid gratuitous changes to existing code, tooling, or project structure — don't adopt conventions (e.g., `uv`, `rich`, `rich-argparse`) that would diverge from the upstream repo. New code in `src/evaluation/` is ours; everything else should stay as-is unless there's a specific reason to change it.
+
 ## Notes
 
 - Benchmark evaluation uses model APIs at default settings (temperature=1)

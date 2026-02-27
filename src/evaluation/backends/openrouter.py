@@ -19,7 +19,8 @@ class OpenRouterClient:
                 "OPENROUTER_API_KEY not set. Set it as an environment variable."
             )
         self.base_url = base_url
-        self.total_tokens = 0
+        self.total_input_tokens = 0
+        self.total_output_tokens = 0
         self.total_requests = 0
 
     def query(
@@ -74,13 +75,19 @@ class OpenRouterClient:
                     result = json.loads(resp.read().decode("utf-8"))
 
                 response_text = result["choices"][0]["message"]["content"]
-                tokens = result.get("usage", {}).get("total_tokens", 0)
-                self.total_tokens += tokens
+                usage = result.get("usage", {})
+                input_tokens = usage.get("prompt_tokens", 0)
+                output_tokens = usage.get("completion_tokens", 0)
+                total_tokens = usage.get("total_tokens", 0) or (input_tokens + output_tokens)
+                self.total_input_tokens += input_tokens
+                self.total_output_tokens += output_tokens
                 self.total_requests += 1
 
                 return {
                     "response": response_text,
-                    "tokens_used": tokens,
+                    "input_tokens": input_tokens,
+                    "output_tokens": output_tokens,
+                    "tokens_used": total_tokens,
                     "model": model,
                     "error": None,
                 }
@@ -93,7 +100,7 @@ class OpenRouterClient:
                     continue
                 return {
                     "response": "",
-                    "tokens_used": 0,
+                    "input_tokens": 0, "output_tokens": 0, "tokens_used": 0,
                     "model": model,
                     "error": f"HTTP {e.code}: {body}",
                 }
@@ -103,12 +110,12 @@ class OpenRouterClient:
                     continue
                 return {
                     "response": "",
-                    "tokens_used": 0,
+                    "input_tokens": 0, "output_tokens": 0, "tokens_used": 0,
                     "model": model,
                     "error": str(e),
                 }
 
-        return {"response": "", "tokens_used": 0, "model": model, "error": "Max retries exceeded"}
+        return {"response": "", "input_tokens": 0, "output_tokens": 0, "tokens_used": 0, "model": model, "error": "Max retries exceeded"}
 
     def _encode_image(self, image_path: str) -> str:
         with open(image_path, "rb") as f:
