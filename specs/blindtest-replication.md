@@ -21,7 +21,7 @@ Replicate the BlindTest benchmark evaluation from the paper "Vision Language Mod
 | 11 | Add CountingCircles task (parser + config) | Done |
 | 12 | Add CountingPentagons task (parser + config) | Done |
 | 13 | Add SubwayMap task (generator + parser + config) | Done |
-| 14 | Add CircledWord task | Blocked (missing fonts/) |
+| 14 | Add CircledWord task | Done |
 
 ---
 

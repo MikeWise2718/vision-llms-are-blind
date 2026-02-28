@@ -19,4 +19,7 @@ def score(answer_type: str, parsed_answer: str | None, ground_truth: str) -> boo
         except ValueError:
             return False
 
+    if answer_type == "letter":
+        return parsed_answer.strip().lower() == ground_truth.strip().lower()
+
     return parsed_answer.strip() == ground_truth.strip()

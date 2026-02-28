@@ -1,0 +1,4 @@
+# Font files are downloaded by setup_fonts.py — don't track binaries in git
+# To download: python -m src.evaluation.setup_fonts
+*.ttf
+*.otf

@@ -80,6 +80,15 @@ TASKS = {
         "source_model": None,               # uses generated images, not original eval folders
         "image_dir": "generated_images/SubwayMap",  # relative to evaluation dir
     },
+    "CircledWord": {
+        "prompts": {
+            "circled-prompt": "Which letter is being circled?",
+            "highlighted-prompt": "Which character is being highlighted with a red oval?",
+        },
+        "answer_type": "letter",
+        "source_model": None,               # uses generated images
+        "image_dir": "generated_images/CircledWord",  # relative to evaluation dir
+    },
 }
 
 # Models to evaluate (Phase 1: OpenRouter)

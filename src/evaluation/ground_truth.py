@@ -111,6 +111,28 @@ def _parse_counting_shapes(filename: str) -> dict | None:
     }
 
 
+def _parse_circled_word(filename: str) -> dict | None:
+    """Parse: circled_{word}_idx{N}_char{C}_t{thickness}_p{padding}_f{font_id}.png
+
+    Ground truth is the single character C.
+    """
+    m = re.search(r"circled_(\w+)_idx(\d+)_char([A-Za-z])_t(\d+)_p(\d+)_f(\d+)", filename)
+    if not m:
+        return None
+    word, idx, char, thickness, padding, font_id = m.groups()
+    return {
+        "answer": char,
+        "metadata": {
+            "word": word,
+            "circle_index": int(idx),
+            "char": char,
+            "thickness": int(thickness),
+            "padding": int(padding),
+            "font_id": int(font_id),
+        },
+    }
+
+
 def _parse_subway_map(filename: str, station_pair: tuple[str, str]) -> dict | None:
     """Parse: subway_s{size}_lw{thickness}_{pair}{n}_..._seed{S}.png
 
@@ -147,7 +169,7 @@ PARSERS = {
     "CountingRowsAndColumns": lambda f, pk: _parse_counting_rows_cols(f),
     "CountingCircles": lambda f, pk: _parse_counting_shapes(f),
     "CountingPentagons": lambda f, pk: _parse_counting_shapes(f),
-    # SubwayMap uses a special path in build_index (no entry needed here)
+    # SubwayMap and CircledWord use special paths in build_index (no entry needed here)
 }
 
 
@@ -221,12 +243,36 @@ def _build_index_subway(task_cfg: dict, prompt_key: str) -> list[TestImage]:
     return images
 
 
+def _build_index_circledword(task_cfg: dict, prompt_key: str) -> list[TestImage]:
+    """Build index for CircledWord — generated images, flat folder."""
+    image_dir = os.path.join(EVAL_DIR, task_cfg["image_dir"])
+
+    if not os.path.isdir(image_dir):
+        return []
+
+    images = []
+    for fname in sorted(os.listdir(image_dir)):
+        if not fname.lower().endswith((".png", ".jpg", ".jpeg")):
+            continue
+        result = _parse_circled_word(fname)
+        if result is None:
+            continue
+        images.append(TestImage(
+            task="CircledWord",
+            prompt_key=prompt_key,
+            image_path=os.path.join(image_dir, fname),
+            ground_truth=result["answer"],
+            metadata=result["metadata"],
+        ))
+    return images
+
+
 def build_index(task_name: str, prompt_key: str, limit: int = 0) -> list[TestImage]:
     """Build a list of TestImage entries for a given task and prompt variant.
 
     Collects images from the source model's correct/ and incorrect/ folders
     (these contain the full test set that was evaluated).
-    For SubwayMap, uses generated images with station pair expansion.
+    For SubwayMap and CircledWord, uses generated images.
 
     Args:
         task_name: Name of the task (e.g. "LineIntersection")
@@ -237,6 +283,8 @@ def build_index(task_name: str, prompt_key: str, limit: int = 0) -> list[TestIma
 
     if task_name == "SubwayMap":
         images = _build_index_subway(task_cfg, prompt_key)
+    elif task_name == "CircledWord":
+        images = _build_index_circledword(task_cfg, prompt_key)
     else:
         images = _build_index_standard(task_name, task_cfg, prompt_key)
 

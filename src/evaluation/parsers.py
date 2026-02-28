@@ -58,10 +58,39 @@ def parse_rows_cols(response: str) -> str | None:
     return None
 
 
+def parse_letter(response: str) -> str | None:
+    """Extract a single letter answer from response.
+
+    Looks for a single letter in quotes, curly brackets, or as a standalone letter.
+    """
+    # Try quoted letter: "A" or 'A'
+    m = re.search(r"""['"]([A-Za-z])['"]""", response)
+    if m:
+        return m.group(1)
+    # Try curly bracket: {A}
+    m = re.search(r"\{([A-Za-z])\}", response)
+    if m:
+        return m.group(1)
+    # Try "letter X" or "is X" pattern
+    m = re.search(r"\b(?:letter|is|character)\s+[\"']?([A-Za-z])[\"']?\b", response, re.IGNORECASE)
+    if m:
+        return m.group(1)
+    # Try standalone single letter at start or end of response
+    text = response.strip()
+    if len(text) == 1 and text.isalpha():
+        return text
+    # Last resort: first single letter word
+    m = re.search(r"\b([A-Za-z])\b", text)
+    if m:
+        return m.group(1)
+    return None
+
+
 PARSERS = {
     "integer": parse_integer,
     "yes_no": parse_yes_no,
     "rows_cols": parse_rows_cols,
+    "letter": parse_letter,
 }
 
 
